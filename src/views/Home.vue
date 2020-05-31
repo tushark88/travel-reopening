@@ -1,13 +1,25 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+    <multiselect
+      v-model="country"
+      :options="countryOptions">
+    </multiselect>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import Multiselect from 'vue-multiselect';
 
 export default {
   name: 'Home',
+  components: { Multiselect },
+  data() {
+    return {
+      country: null,
+      countryOptions: ['Singapore', 'Japan', 'Ukraine', 'United State'],
+    };
+  },
+
 };
 </script>
