@@ -18,7 +18,10 @@ export default {
   components: { Multiselect },
   watch: {
     country(val) {
-      this.$router.push(`/${val.code}`);
+      const newPath = `/${val.code}`;
+      if (this.$route.path !== newPath) {
+        this.$router.push(newPath);
+      }
     },
   },
   computed: mapState({
