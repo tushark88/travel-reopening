@@ -1,16 +1,16 @@
 <template>
   <div class="country">
     <CountrySelect></CountrySelect>
-    <h1>What to know when traveling to {{currentCoutry.name}}</h1>
+    <h1>What to know when traveling to {{country.name}}</h1>
     <CountryBody :content="this.content"></CountryBody>
   </div>
 </template>
 
 <script>
-import CountryOptions from '@/constants/countries';
 import axios from 'axios';
 import CountryBody from '@/components/CountryBody.vue';
 import CountrySelect from '@/components/CountrySelect.vue';
+import { mapState } from 'vuex';
 
 export default {
   name: 'Country',
@@ -20,18 +20,15 @@ export default {
   },
   data() {
     return {
-      countryOptions: CountryOptions,
       content: null,
     };
   },
   computed: {
-    currentCoutry() {
-      return CountryOptions.find(({ code }) => code === this.$route.params.country);
-    },
+    ...mapState(['country']),
   },
   methods: {
     fetchData() {
-      return axios.get(`/data/${this.currentCoutry.code}.md`)
+      return axios.get(`/data/${this.country.code}.md`)
         .then((response) => { this.content = response.data; })
         .catch((error) => {
           if (error.response.status === 404) {
@@ -46,7 +43,7 @@ export default {
     this.fetchData();
   },
   watch: {
-    currentCoutry() { this.fetchData(); },
+    country() { this.fetchData(); },
   },
 };
 </script>
