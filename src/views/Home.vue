@@ -20,6 +20,8 @@ export default {
       countryOptions: ['Singapore', 'Japan', 'Ukraine', 'United State'],
     };
   },
-
+  watch: {
+    country(val) { this.$router.push(`/${val}`); },
+  },
 };
 </script>
