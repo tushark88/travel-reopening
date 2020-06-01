@@ -1,21 +1,25 @@
 <template>
   <div class="country">
     <h1>We list country-based details here about {{currentCoutry.name}}</h1>
-    <p>{{rawMarkdown}}</p>
+    <vue-markdown :source="content"></vue-markdown>
   </div>
 </template>
 
 <script>
 import CountryOptions from '@/constants/countries';
 import axios from 'axios';
+import VueMarkdown from 'vue-markdown';
 
 export default {
   name: 'Country',
+  components: {
+    'vue-markdown': VueMarkdown,
+  },
   data() {
     return {
       country: null,
       countryOptions: CountryOptions,
-      rawMarkdown: null,
+      content: null,
     };
   },
   computed: {
@@ -26,7 +30,7 @@ export default {
   methods: {
     fetchData() {
       return axios.get(`/data/${this.currentCoutry.code}.md`).then((response) => {
-        this.rawMarkdown = response.data;
+        this.content = response.data;
       });
     },
   },
