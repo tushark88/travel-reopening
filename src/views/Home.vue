@@ -2,6 +2,7 @@
   <div class="home">
     <multiselect
       v-model="country"
+      label="name"
       :options="countryOptions">
     </multiselect>
   </div>
@@ -10,6 +11,7 @@
 <script>
 // @ is an alias to /src
 import Multiselect from 'vue-multiselect';
+import CountryOptions from '@/constants/countries';
 
 export default {
   name: 'Home',
@@ -17,11 +19,11 @@ export default {
   data() {
     return {
       country: null,
-      countryOptions: ['Singapore', 'Japan', 'Ukraine', 'United State'],
+      countryOptions: CountryOptions,
     };
   },
   watch: {
-    country(val) { this.$router.push(`/${val}`); },
+    country(val) { this.$router.push(`/${val.code}`); },
   },
 };
 </script>

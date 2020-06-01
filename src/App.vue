@@ -3,8 +3,9 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/japan">Japan</router-link> |
-      <router-link to="/singapore">Singapore</router-link>
+      <router-link to="/JP">Japan</router-link> |
+      <router-link to="/SG">Singapore</router-link>
+      <router-link to="/UA">Ukraine</router-link>
     </div>
     <router-view/>
   </div>
