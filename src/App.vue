@@ -3,9 +3,9 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/JP">Japan</router-link> |
-      <router-link to="/SG">Singapore</router-link> |
-      <router-link to="/UA">Ukraine</router-link>
+      <router-link :to="{name: 'Country', params: { country: 'JP' }}">Japan</router-link> |
+      <router-link :to="{name: 'Country', params: { country: 'SG' }}">Singapore</router-link> |
+      <router-link :to="{name: 'Country', params: { country: 'UA' }}">Ukraine</router-link> |
     </div>
     <router-view/>
   </div>
