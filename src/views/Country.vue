@@ -1,5 +1,6 @@
 <template>
   <div class="country">
+    <CountrySelect></CountrySelect>
     <h1>What to know when traveling to {{currentCoutry.name}}</h1>
     <CountryBody :content="this.content"></CountryBody>
   </div>
@@ -9,11 +10,13 @@
 import CountryOptions from '@/constants/countries';
 import axios from 'axios';
 import CountryBody from '@/components/CountryBody.vue';
+import CountrySelect from '@/components/CountrySelect.vue';
 
 export default {
   name: 'Country',
   components: {
     CountryBody,
+    CountrySelect,
   },
   data() {
     return {
