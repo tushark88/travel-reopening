@@ -39,11 +39,8 @@ export default {
         });
     },
   },
-  mounted() {
-    this.fetchData();
-  },
   watch: {
-    country() { this.fetchData(); },
+    $route: 'fetchData',
   },
 };
 </script>
