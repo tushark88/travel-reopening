@@ -7,7 +7,8 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     country: null,
-    countryOptions: CountryOptions,
+    countryOptions: CountryOptions.sort((a, b) => a.name.localeCompare(b.name)),
+    travelContext: 'inbound',
   },
   mutations: {
     updateCountry(state, country) {
