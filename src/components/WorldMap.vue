@@ -5,8 +5,12 @@
 <script>
 import * as d3 from 'd3';
 import * as topojson from 'topojson';
+import { mapGetters } from 'vuex';
 
 export default {
+  computed: {
+    ...mapGetters(['getCountryById']),
+  },
   mounted() {
     const svg = d3.select(this.$el);
     // const width = +svg.attr('width');
@@ -22,6 +26,13 @@ export default {
         .append('path')
         .attr('class', 'state')
         .attr('d', path)
+        .on('click', (d) => {
+          const country = this.getCountryById(d.id);
+          const newPath = `/${country.code}`;
+          if (this.$route.path !== newPath) {
+            this.$router.push(newPath);
+          }
+        })
         .on('mouseover', (d) => {
           this.$emit('stateSelected', d.properties.STATE_ABBR);
         })
