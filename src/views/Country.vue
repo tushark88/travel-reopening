@@ -1,5 +1,6 @@
 <template>
   <div class="country">
+    <WorldMap></WorldMap>
     <CountrySelect></CountrySelect>
     <h1>What to know when traveling to {{country.name}}</h1>
     <CountryBody :content="this.content"></CountryBody>
@@ -11,12 +12,14 @@ import axios from 'axios';
 import CountryBody from '@/components/CountryBody.vue';
 import CountrySelect from '@/components/CountrySelect.vue';
 import { mapActions, mapGetters, mapState } from 'vuex';
+import WorldMap from '@/components/WorldMap.vue';
 
 export default {
   name: 'Country',
   components: {
     CountryBody,
     CountrySelect,
+    WorldMap,
   },
   data() {
     return {
