@@ -12,6 +12,13 @@ export default {
     ...mapGetters(['getCountryById']),
     ...mapState(['country']),
   },
+  methods: {
+    handleCountryChange(currentCountry) {
+      d3.select(this.$el)
+        .selectAll('.state')
+        .classed('current', (d) => +d.id === +currentCountry.id);
+    },
+  },
   mounted() {
     const svg = d3.select(this.$el);
     // const width = +svg.attr('width');
@@ -33,14 +40,11 @@ export default {
           if (this.$route.path !== newPath) this.$router.push(newPath);
         });
       g.attr('transform', 'scale(0.80)');
+      this.handleCountryChange(this.country);
     });
   },
   watch: {
-    country(currentCountry) {
-      d3.select(this.$el)
-        .selectAll('.state')
-        .classed('current', (d) => +d.id === +currentCountry.id);
-    },
+    country(currentCountry) { this.handleCountryChange(currentCountry); },
   },
 };
 </script>
@@ -55,7 +59,6 @@ export default {
     }
     &.current {
       fill: red;
-      stroke: red;
     }
   }
 </style>
