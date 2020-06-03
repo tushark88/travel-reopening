@@ -5,11 +5,12 @@
 <script>
 import * as d3 from 'd3';
 import * as topojson from 'topojson';
-import { mapGetters } from 'vuex';
+import { mapGetters, mapState } from 'vuex';
 
 export default {
   computed: {
     ...mapGetters(['getCountryById']),
+    ...mapState(['country']),
   },
   mounted() {
     const svg = d3.select(this.$el);
@@ -29,28 +30,32 @@ export default {
         .on('click', (d) => {
           const country = this.getCountryById(d.id);
           const newPath = `/${country.code}`;
-          if (this.$route.path !== newPath) {
-            this.$router.push(newPath);
-          }
-        })
-        .on('mouseover', (d) => {
-          this.$emit('stateSelected', d.properties.STATE_ABBR);
-        })
-        .on('mouseout', (d) => {
-          this.$emit('stateDeselected', d.properties.STATE_ABBR);
+          if (this.$route.path !== newPath) this.$router.push(newPath);
         });
-      g.attr('transform', 'scale(0.57)');
+      g.attr('transform', 'scale(0.80)');
     });
+  },
+  watch: {
+    country(currentCountry) {
+      d3.select(this.$el)
+        .selectAll('.state')
+        .classed('current', (d) => +d.id === +currentCountry.id);
+    },
   },
 };
 </script>
 
-<style>
+<style lang="scss">
   .state {
+    cursor: pointer;
     fill: #ccc;
     stroke: #fff;
-  }
-  .state:hover {
-    fill: steelblue;
+    &:hover {
+      fill: steelblue;
+    }
+    &.current {
+      fill: red;
+      stroke: red;
+    }
   }
 </style>
