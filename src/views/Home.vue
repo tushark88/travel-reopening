@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <WorldMap></WorldMap>
-    <CountrySelect></CountrySelect>
+    <WorldMap/>
+    <CountrySelect/>
   </div>
 </template>
 

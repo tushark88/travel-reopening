@@ -1,7 +1,7 @@
 <template>
   <div class="country">
-    <WorldMap></WorldMap>
-    <CountrySelect></CountrySelect>
+    <WorldMap/>
+    <CountrySelect/>
     <h1>What to know when traveling to {{country.name}}</h1>
     <CountryBody :content="this.content"></CountryBody>
   </div>
