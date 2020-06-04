@@ -4,6 +4,7 @@
       label="name"
       :value="country"
       :options="countryOptions"
+      open-direction="below"
       @input="updateCountryAction">
     </multiselect>
   </div>
