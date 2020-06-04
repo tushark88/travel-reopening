@@ -2,8 +2,8 @@
 <template>
   <nav class="bg-white shadow">
     <div class="flex items-center h-12 px-4 sm:px-6 lg:px-8">
-      <router-link class="inline-flex items-center px-2 text-sm font-medium hover:text-tertiary" :to="{ name: 'Home'}">Home</router-link>
-      <router-link class="inline-flex items-center px-2 text-sm font-medium hover:text-tertiary" :to="{ name: 'About'}">About</router-link>
+      <router-link class="inline-flex px-2 text-gray-900 font-medium no-underline hover:opacity-100" :to="{ name: 'Home'}">Home</router-link>
+      <router-link class="inline-flex px-2 text-gray-900 font-medium no-underline hover:opacity-100" :to="{ name: 'About'}">About</router-link>
     </div>
   </nav>
 </template>
