@@ -32,3 +32,17 @@ export default {
   },
 };
 </script>
+
+<style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
+
+<style>
+.multiselect__option--highlight,
+.multiselect__option--highlight:after {
+  background-color: #1c355e;
+}
+
+.multiselect__option--selected.multiselect__option--highlight,
+.multiselect__option--selected.multiselect__option--highlight:after {
+  background-color: #d50037;
+}
+</style>
