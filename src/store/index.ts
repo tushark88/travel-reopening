@@ -31,5 +31,12 @@ export default new Vuex.Store({
     getCountryById(state) {
       return (id: string) => state.countryOptions.find((country) => country.id === id);
     },
+    getCountryState(state) {
+      return (code: string, travel: string) => {
+        const country = state.Travel.countries[code];
+        if (country) return country?.travel[travel];
+        return undefined;
+      };
+    },
   },
 });
