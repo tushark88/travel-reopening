@@ -49,17 +49,18 @@ export default {
 };
 </script>
 
-<style lang="scss">
-  .state {
-    cursor: pointer;
-    fill: #edf9f8;
-    stroke: #dcebec;
-    &:hover {
-      fill: #dcebec;
-    }
-    &.current {
-      fill: #307582;
-      stroke: #307582;
-    }
-  }
+<style>
+.state {
+  cursor: pointer;
+  fill: #edf9f8;
+  stroke: #dcebec;
+}
+
+.state:hover {
+  fill: #dcebec;
+}
+
+.state:hover.current {
+  @apply fill-current stroke-current text-tertiary;
+}
 </style>

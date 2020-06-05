@@ -39,11 +39,11 @@ export default {
 <style>
 .multiselect__option--highlight,
 .multiselect__option--highlight:after {
-  background-color: #1c355e;
+  @apply bg-primary;
 }
 
 .multiselect__option--selected.multiselect__option--highlight,
 .multiselect__option--selected.multiselect__option--highlight:after {
-  background-color: #d50037;
+  @apply bg-secondary;
 }
 </style>
