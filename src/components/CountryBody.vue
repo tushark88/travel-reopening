@@ -4,7 +4,7 @@
       <vue-markdown :source="content"></vue-markdown>
     </div>
     <div v-else>
-      Sorry, we don't have any information about his region.
+      <p>Sorry, we don't have any information about his region.</p>
     </div>
   </div>
 </template>

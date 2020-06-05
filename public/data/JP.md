@@ -1,1 +1,3 @@
-It's fun to go to Japan to see cherry-blossoms!
+## Japan
+
+It's fun to go to Japan to see cherry blossom!

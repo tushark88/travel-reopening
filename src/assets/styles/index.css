@@ -9,6 +9,58 @@ https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
 @import "tailwindcss/base";
 
 /**
+* Injects our custom base styles.
+**/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @apply text-primary;
+}
+
+h1 {
+  @apply text-4xl font-bold my-3;
+}
+
+h2 {
+  @apply text-3xl font-bold my-3;
+}
+
+h3 {
+  @apply text-2xl font-bold my-3;
+}
+
+h4 {
+  @apply text-xl font-semibold my-4;
+}
+
+h5 {
+  @apply text-lg font-medium my-4;
+}
+
+p {
+  @apply mb-4;
+}
+
+a {
+  @apply text-tertiary underline;
+}
+
+a:hover {
+  @apply opacity-75;
+}
+
+ul {
+  @apply mb-4 pl-10 list-disc;
+}
+
+ol {
+  @apply mb-4 pl-10 list-decimal;
+}
+
+/**
 * This injects any component classes registered by plugins.
 **/
 @import "tailwindcss/components";

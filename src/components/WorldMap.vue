@@ -1,5 +1,5 @@
 <template>
-  <svg width='770' height='390'></svg>
+  <svg class="mx-auto" width='770' height='390'></svg>
 </template>
 
 <script>
@@ -52,13 +52,14 @@ export default {
 <style lang="scss">
   .state {
     cursor: pointer;
-    fill: #ccc;
-    stroke: #fff;
+    fill: #edf9f8;
+    stroke: #dcebec;
     &:hover {
-      fill: steelblue;
+      fill: #dcebec;
     }
     &.current {
-      fill: red;
+      fill: #307582;
+      stroke: #307582;
     }
   }
 </style>
