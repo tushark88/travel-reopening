@@ -9,8 +9,12 @@
       <div class="max-w-3xl mx-auto py-8">
         <CountrySelect/>
         <div class="py-8">
-          <h1>What to know when traveling to {{country.name}}</h1>
-          <CountryBody :content="this.content"></CountryBody>
+          <div class="bg-white overflow-hidden shadow rounded-lg">
+            <div class="px-4 py-5 sm:p-6">
+              <h1>What to know when traveling to {{country.name}}</h1>
+              <CountryBody :content="this.content"></CountryBody>
+            </div>
+          </div>
         </div>
       </div>
     </div>
