@@ -67,5 +67,9 @@ export default {
   created() {
     this.fetchData();
   },
+  beforeRouteLeave(to, from, next) {
+    this.updateCountryAction(null);
+    next();
+  },
 };
 </script>
