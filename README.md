@@ -1,3 +1,5 @@
+![Test](https://github.com/tourhero/travel-reopening/workflows/Test/badge.svg)
+
 # travel-reopening
 
 ## Project setup
