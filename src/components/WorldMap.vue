@@ -85,6 +85,7 @@ export default {
 
 <style lang="scss">
   .state {
+    transition: fill .1s ease;
     cursor: pointer;
     fill: #edf9f8;
     stroke: #dcebec;
