@@ -16,10 +16,17 @@ export default new Vuex.Store({
     updateCountry(state, country) {
       state.country = country;
     },
+    toggleContext(state) {
+      const context = state.travelContext === 'inbound' ? 'outbound' : 'inbound';
+      state.travelContext = context;
+    },
   },
   actions: {
     updateCountryAction({ commit }, country) {
       commit('updateCountry', country);
+    },
+    toggleContextAction({ commit }) {
+      commit('toggleContext');
     },
   },
   modules: {
