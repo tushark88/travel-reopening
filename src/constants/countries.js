@@ -1,10 +1,4 @@
-/**
- * The list of all countries with their 2 digit codes (ISO 3166-2)
- *
- * @see http://data.okfn.org/data/core/country-list
- */
-
-export default [
+module.exports = [
   {
     name: 'Taiwan',
     code: 'TW',

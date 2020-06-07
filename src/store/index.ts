@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import CountryOptions from '@/constants/countries';
+/* eslint-disable-next-line @typescript-eslint/ban-ts-ignore */
+// @ts-ignore
+import * as CountryOptions from '@/constants/countries';
 import Travel from '@/constants/travel';
 
 Vue.use(Vuex);
@@ -8,7 +10,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     country: null,
-    countryOptions: CountryOptions.sort((a, b) => a.name.localeCompare(b.name)),
+    countryOptions: CountryOptions.sort((a: any, b: any) => a.name.localeCompare(b.name)),
     travelContext: 'inbound',
     Travel,
   },
@@ -33,10 +35,10 @@ export default new Vuex.Store({
   },
   getters: {
     getCountryByCode(state) {
-      return (code: string) => state.countryOptions.find((country) => country.code === code);
+      return (code: string) => state.countryOptions.find((country: any) => country.code === code);
     },
     getCountryById(state) {
-      return (id: string) => state.countryOptions.find((country) => country.id === id);
+      return (id: string) => state.countryOptions.find((country: any) => country.id === id);
     },
     getCountryState(state) {
       return (code: string, direction: string, currentCountry: any) => {
