@@ -8,6 +8,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl mx-auto py-8">
         <CountrySelect/>
+        <TravelDirectionToggle/>
         <div class="py-8">
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
@@ -25,6 +26,7 @@
 import axios from 'axios';
 import CountryBody from '@/components/CountryBody.vue';
 import CountrySelect from '@/components/CountrySelect.vue';
+import TravelDirectionToggle from '@/components/TravelDirectionToggle.vue';
 import { mapActions, mapGetters, mapState } from 'vuex';
 import WorldMap from '@/components/WorldMap.vue';
 
@@ -33,6 +35,7 @@ export default {
   components: {
     CountryBody,
     CountrySelect,
+    TravelDirectionToggle,
     WorldMap,
   },
   data() {
@@ -66,6 +69,10 @@ export default {
   },
   created() {
     this.fetchData();
+  },
+  beforeRouteLeave(to, from, next) {
+    this.updateCountryAction(null);
+    next();
   },
 };
 </script>

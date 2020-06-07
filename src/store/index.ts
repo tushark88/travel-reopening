@@ -16,10 +16,17 @@ export default new Vuex.Store({
     updateCountry(state, country) {
       state.country = country;
     },
+    toggleContext(state) {
+      const context = state.travelContext === 'inbound' ? 'outbound' : 'inbound';
+      state.travelContext = context;
+    },
   },
   actions: {
     updateCountryAction({ commit }, country) {
       commit('updateCountry', country);
+    },
+    toggleContextAction({ commit }) {
+      commit('toggleContext');
     },
   },
   modules: {
@@ -30,6 +37,25 @@ export default new Vuex.Store({
     },
     getCountryById(state) {
       return (id: string) => state.countryOptions.find((country) => country.id === id);
+    },
+    getCountryState(state) {
+      return (code: string, direction: string, currentCountry: any) => {
+        if (currentCountry && direction === 'inbound') {
+          const currentCountryTravel = state.Travel.countries[currentCountry.code]?.travel;
+          if (currentCountryTravel && 'inbound_allowed' in currentCountryTravel) {
+            return currentCountryTravel.inbound_allowed.includes(code) ? 'open' : 'closed';
+          }
+          return currentCountryTravel?.inbound;
+        }
+        if (currentCountry && direction === 'outbound') {
+          const countryTravel = state.Travel.countries[code]?.travel;
+          if (countryTravel && 'inbound_allowed' in countryTravel) {
+            return countryTravel.inbound_allowed.includes(currentCountry.code) ? 'open' : 'closed';
+          }
+          return countryTravel?.outbound;
+        }
+        return state.Travel.countries[code]?.travel[direction];
+      };
     },
   },
 });

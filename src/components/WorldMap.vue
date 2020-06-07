@@ -9,14 +9,53 @@ import { mapGetters, mapState } from 'vuex';
 
 export default {
   computed: {
-    ...mapGetters(['getCountryById']),
-    ...mapState(['country']),
+    ...mapGetters(['getCountryById', 'getCountryState']),
+    ...mapState(['country', 'travelContext']),
   },
   methods: {
-    handleCountryChange(currentCountry) {
+    handleCountryChange(country) {
+      this.drawCurrentCountry(country);
+      this.drawOpenRegions(this.travelContext);
+    },
+    handleContextChange(context) {
+      this.drawOpenRegions(context);
+    },
+    drawCurrentCountry(currentCountry) {
       d3.select(this.$el)
         .selectAll('.state')
-        .classed('current', (d) => +d.id === +currentCountry.id);
+        .classed('current', (d) => !!currentCountry && +d.id === +currentCountry.id);
+    },
+    drawOpenRegions(context) {
+      d3.select(this.$el)
+        .selectAll('.state')
+        .classed('open', (d) => {
+          if (d.id) {
+            const country = this.getCountryById(d.id);
+            return this.getCountryState(country.code, context, this.country) === 'open';
+          }
+          return false;
+        })
+        .classed('closed', (d) => {
+          if (d.id) {
+            const country = this.getCountryById(d.id);
+            return this.getCountryState(country.code, context, this.country) === 'closed';
+          }
+          return false;
+        })
+        .classed('partial', (d) => {
+          if (d.id) {
+            const country = this.getCountryById(d.id);
+            return this.getCountryState(country.code, context, this.country) === 'partial';
+          }
+          return false;
+        })
+        .classed('undefined', (d) => {
+          if (d.id) {
+            const country = this.getCountryById(d.id);
+            return this.getCountryState(country.code, context, this.country) === undefined;
+          }
+          return true;
+        });
     },
   },
   mounted() {
@@ -40,27 +79,31 @@ export default {
           if (this.$route.path !== newPath) this.$router.push(newPath);
         });
       g.attr('transform', 'scale(0.80)');
-      this.handleCountryChange(this.country);
+      if (this.country) this.handleCountryChange(this.country);
+      if (this.travelContext) this.handleContextChange(this.travelContext);
     });
   },
   watch: {
     country(currentCountry) { this.handleCountryChange(currentCountry); },
+    travelContext(context) { this.handleContextChange(context); },
   },
 };
 </script>
 
-<style>
-.state {
-  cursor: pointer;
-  fill: #edf9f8;
-  stroke: #dcebec;
-}
-
-.state:hover {
-  fill: #dcebec;
-}
-
-.state:hover.current {
-  @apply fill-current stroke-current text-tertiary;
-}
+<style lang="scss">
+  .state {
+    transition: fill .1s ease;
+    cursor: pointer;
+    fill: #edf9f8;
+    stroke: #dcebec;
+    &.undefined { fill: #edf9f8; }
+    &.closed { fill: pink; }
+    &.open { fill: green; }
+    &.partial { fill: orange; }
+    &.current { fill: #307582; }
+    &:hover {
+      fill: #dcebec;
+      &.current { @apply fill-current text-tertiary; }
+    }
+  }
 </style>
