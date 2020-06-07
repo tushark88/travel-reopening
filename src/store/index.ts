@@ -39,13 +39,22 @@ export default new Vuex.Store({
       return (id: string) => state.countryOptions.find((country) => country.id === id);
     },
     getCountryState(state) {
-      return (code: string, travel: string, currentCountry: any) => {
-        const country = state.Travel.countries[code];
-        if (currentCountry && travel === 'inbound') {
-          return country?.travel['inbound_allowed'].includes(currentCountry.code) ? 'open' : 'closed';
+      return (code: string, direction: string, currentCountry: any) => {
+        if (currentCountry && direction === 'inbound') {
+          const currentCountryTravel = state.Travel.countries[currentCountry.code]?.travel;
+          if (currentCountryTravel && 'inbound_allowed' in currentCountryTravel) {
+            return currentCountryTravel.inbound_allowed.includes(code) ? 'open' : 'closed';
+          }
+          return currentCountryTravel?.inbound;
         }
-        if (country) return country?.travel[travel];
-        return undefined;
+        if (currentCountry && direction === 'outbound') {
+          const countryTravel = state.Travel.countries[code]?.travel;
+          if (countryTravel && 'inbound_allowed' in countryTravel) {
+            return countryTravel.inbound_allowed.includes(currentCountry.code) ? 'open' : 'closed';
+          }
+          return countryTravel?.outbound;
+        }
+        return state.Travel.countries[code]?.travel[direction];
       };
     },
   },
