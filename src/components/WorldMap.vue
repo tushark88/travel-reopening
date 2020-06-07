@@ -75,8 +75,8 @@ export default {
         .attr('d', path)
         .on('click', (d) => {
           const country = this.getCountryById(d.id);
-          const newPath = `/${country.code}`;
-          if (this.$route.path !== newPath) this.$router.push(newPath);
+          if (this.$route.params.country === country.code) return;
+          this.$router.push({ name: 'Country', params: { country: country.code } });
         });
       g.attr('transform', 'scale(0.80)');
       if (this.country) this.handleCountryChange(this.country);

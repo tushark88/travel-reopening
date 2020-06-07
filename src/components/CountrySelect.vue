@@ -19,10 +19,8 @@ export default {
   components: { Multiselect },
   watch: {
     country(val) {
-      const newPath = `/${val.code}`;
-      if (this.$route.path !== newPath) {
-        this.$router.push(newPath);
-      }
+      if (this.$route.params.country === val.code) return;
+      this.$router.push({ name: 'Country', params: { country: val.code } });
     },
   },
   computed: mapState({
