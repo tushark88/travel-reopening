@@ -13,39 +13,46 @@ export default {
     ...mapState(['country', 'travelContext']),
   },
   methods: {
-    handleCountryChange(currentCountry) {
+    handleCountryChange(country) {
+      this.drawCurrentCountry(country);
+      this.drawOpenRegions(this.travelContext);
+    },
+    handleContextChange(context) {
+      this.drawOpenRegions(context);
+    },
+    drawCurrentCountry(currentCountry) {
       d3.select(this.$el)
         .selectAll('.state')
         .classed('current', (d) => !!currentCountry && +d.id === +currentCountry.id);
     },
-    handleContextChange(context) {
+    drawOpenRegions(context) {
       d3.select(this.$el)
         .selectAll('.state')
         .classed('open', (d) => {
           if (d.id) {
             const country = this.getCountryById(d.id);
-            return this.getCountryState(country.code, context) === 'open';
+            return this.getCountryState(country.code, context, this.country) === 'open';
           }
           return false;
         })
         .classed('closed', (d) => {
           if (d.id) {
             const country = this.getCountryById(d.id);
-            return this.getCountryState(country.code, context) === 'closed';
+            return this.getCountryState(country.code, context, this.country) === 'closed';
           }
           return false;
         })
         .classed('partial', (d) => {
           if (d.id) {
             const country = this.getCountryById(d.id);
-            return this.getCountryState(country.code, context) === 'partial';
+            return this.getCountryState(country.code, context, this.country) === 'partial';
           }
           return false;
         })
         .classed('undefined', (d) => {
           if (d.id) {
             const country = this.getCountryById(d.id);
-            return this.getCountryState(country.code, context) === undefined;
+            return this.getCountryState(country.code, context, this.country) === undefined;
           }
           return true;
         });

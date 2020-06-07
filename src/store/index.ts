@@ -39,8 +39,11 @@ export default new Vuex.Store({
       return (id: string) => state.countryOptions.find((country) => country.id === id);
     },
     getCountryState(state) {
-      return (code: string, travel: string) => {
+      return (code: string, travel: string, currentCountry: any) => {
         const country = state.Travel.countries[code];
+        if (currentCountry && travel === 'inbound') {
+          return country?.travel['inbound_allowed'].includes(currentCountry.code) ? 'open' : 'closed';
+        }
         if (country) return country?.travel[travel];
         return undefined;
       };
