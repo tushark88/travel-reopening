@@ -3,14 +3,51 @@
 </template>
 
 <script>
-import { select, json } from 'd3';
+import { select, json, mouse } from 'd3';
 import { geoEquirectangular, geoPath } from 'd3-geo';
 import { feature } from 'topojson';
 import { mapGetters, mapState } from 'vuex';
 
+const renderTooltip = (accessor) => (selection) => {
+  let tooltipDiv;
+  const bodyNode = select('body').node();
+  selection.on('mouseover', () => {
+    // Clean up lost tooltips
+    select('body').selectAll('div.tooltip').remove();
+    // Append tooltip
+    tooltipDiv = select('body').append('div').attr('class', 'tooltip');
+    const absoluteMousePos = mouse(bodyNode);
+    tooltipDiv.style('left', `${absoluteMousePos[0] + 10}px`)
+      .style('top', `${absoluteMousePos[1] - 15}px`)
+      .style('position', 'absolute')
+      .style('z-index', 1001);
+  })
+    .on('mousemove', (d, i) => {
+      const absoluteMousePos = mouse(bodyNode);
+      tooltipDiv.style('left', `${absoluteMousePos[0] + 20}px`)
+        .style('top', `${absoluteMousePos[1] - 15}px`);
+      const tooltipText = accessor(d, i) || '';
+      tooltipDiv.html(tooltipText);
+    })
+    .on('mouseout', () => {
+      tooltipDiv.remove();
+    });
+};
+
+const tooltipBody = function (d) {
+  const country = this.getCountryById(d.id);
+  const state = this.getCountryGlobalState(country.code);
+  return `<b>${d.properties.name}</b>
+    <ul>
+      <li>Domestic: ${state.domestic || 'Unknown'}</li>
+      <li>Inbound: ${state.inbound || 'Unknown'}</li>
+      <li>Outbound: ${state.outbound || 'Unknown'}</li>
+    </ul>`;
+};
+
 export default {
   computed: {
-    ...mapGetters(['getCountryById', 'getCountryState']),
+    ...mapGetters(['getCountryById', 'getCountryState', 'getCountryGlobalState']),
     ...mapState(['country', 'travelContext']),
   },
   methods: {
@@ -79,7 +116,8 @@ export default {
           const country = this.getCountryById(d.id);
           if (this.$route.params.country === country.code) return;
           this.$router.push({ name: 'Country', params: { country: country.code } });
-        });
+        })
+        .call(renderTooltip(tooltipBody.bind(this)));
       g.attr('transform', 'scale(0.80)');
       if (this.country) this.handleCountryChange(this.country);
       if (this.travelContext) this.handleContextChange(this.travelContext);
