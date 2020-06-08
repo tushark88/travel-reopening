@@ -3,8 +3,9 @@
 </template>
 
 <script>
-import * as d3 from 'd3';
-import * as topojson from 'topojson';
+import { select, json } from 'd3';
+import { geoEquirectangular, geoPath } from 'd3-geo';
+import { feature } from 'topojson';
 import { mapGetters, mapState } from 'vuex';
 
 export default {
@@ -21,12 +22,12 @@ export default {
       this.drawOpenRegions(context);
     },
     drawCurrentCountry(currentCountry) {
-      d3.select(this.$el)
+      select(this.$el)
         .selectAll('.state')
         .classed('current', (d) => !!currentCountry && +d.id === +currentCountry.id);
     },
     drawOpenRegions(context) {
-      d3.select(this.$el)
+      select(this.$el)
         .selectAll('.state')
         .classed('open', (d) => {
           if (d.id) {
@@ -59,16 +60,17 @@ export default {
     },
   },
   mounted() {
-    const svg = d3.select(this.$el);
+    const svg = select(this.$el);
     // const width = +svg.attr('width');
     // const height = +svg.attr('height');
-    const projection = d3.geoEquirectangular();
-    const path = d3.geoPath().projection(projection);
-    d3.json('/data/countries-110m.json').then((data) => {
+    const projection = geoEquirectangular();
+    const path = geoPath().projection(projection);
+
+    json('/data/countries-110m.json').then((data) => {
       const g = svg.append('g');
       g
         .selectAll('.state')
-        .data(topojson.feature(data, data.objects.countries).features)
+        .data(feature(data, data.objects.countries).features)
         .enter()
         .append('path')
         .attr('class', 'state')
