@@ -1,5 +1,5 @@
 countries:
-  SG: # country code follows ISO 3166-2
+  AU: # country code follows ISO 3166-2
     travel:
       domestic: yes # accepts `yes`, `no`, or `partial`
       inbound: no # accepts `yes`, `no`, or `partial`

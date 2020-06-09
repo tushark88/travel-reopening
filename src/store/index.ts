@@ -40,6 +40,12 @@ export default new Vuex.Store({
     getCountryById(state) {
       return (id: string) => state.countryOptions.find((country: any) => country.id === id);
     },
+    getCountryGlobalState(state) {
+      return (code: string) => {
+        const t = state.Travel.countries[code]?.travel || {};
+        return { inbound: t.inbound, outbound: t.outbound, domestic: t.domestic };
+      };
+    },
     getCountryState(state) {
       return (code: string, direction: string, currentCountry: any) => {
         if (currentCountry && direction === 'inbound') {
