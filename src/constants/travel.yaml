@@ -1,22 +1,1126 @@
 countries:
-  AU: # country code follows ISO 3166-2
+  AD:
     travel:
-      domestic: yes # accepts `yes`, `no`, or `partial`
-      inbound: no # accepts `yes`, `no`, or `partial`
-      outbound: partial # accepts `yes`, `no`, or `partial`
-      inbound_allowed: [JP, UA, US] # list of countries using ISO 3166-2
-      inbound_restricted: [JP, UA, US] # list of countries using ISO 3166-2
-    reopening:
-      "2021-01-01": "[Link to source](https://www.example.com/index.html) More explanation using markdown" # date is in `YYYY-MM-DD` format, followed by markdown text
-      "2021-01-02": "[Link to source](https://www.example.com/index.html) More explanation using markdown"
-      "2021-01-03": "[Link to source](https://www.example.com/index.html) More explanation using markdown"
+      inbound: yes
+    sources:
+      inbound:
+      - "[Since 1 June, Andorra has lifted the restrictions on entering the country via the borders with France and Spain. This applies to all visitors, including tourists and hikers.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/)"
+  AF:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: partial
     sources:
       domestic:
-      - "[title](https://www.example.com/index.html)" # freeform markdown
-      - "[title](https://www.example.com/index.html)"
+      - "[Domestic flights currently operating on a very limited basis](https://www.gov.uk/foreign-travel-advice/afghanistan/staying-during-coronavirus)" # freeform markdown
       inbound:
-      - "[title](https://www.example.com/index.html)"
-      - "[title](https://www.example.com/index.html)"
+      - "[All inbound flights are suspended except for repatriation](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
       outbound:
-      - "[title](https://www.example.com/index.html)"
-      - "[title](https://www.example.com/index.html)"
+      - "[International flights suspended except for those to Dubai and Pakistan by Ariana Afghan Airlines and Kam Air](https://www.kayak.com/travel-restrictions/)"
+  AG:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Algeria has closed all land borders and suspended all non-cargo international air and maritime travel.](https://dz.usembassy.gov/covid-19-information/)"
+      - "[Several airlines are running exceptional flights for citizens](https://dz.usembassy.gov/covid-19-information/)"
+  AL:
+    travel:
+      domestic: yes
+      inbound: partial
+      outbound: partial
+    reopening:
+      "2020-06-01": "[Albania to reopen land borders on June 1](https://seenews.com/news/albania-to-reopen-land-borders-on-june-1-report-700190)"
+    sources:
+      domestic:
+      - "[Albania has opened their land borders but flights remain suspended](https://seenews.com/news/albania-to-reopen-land-borders-on-june-1-report-700190)"
+      inbound:
+      - "[All passenger flights and ferries are suspended between Albania and Italy indefinitely](https://al.usembassy.gov/updates_covid19/)"
+      outbound:
+      - "[All flights in and out of Albania are currently suspended](https://al.usembassy.gov/updates_covid19/)"
+  AM:
+    travel:
+      domestic: yes
+      inbound: partial
+      outbound: partial
+    sources:
+      domestic:
+      - "[Ban on public transport has been lifted.](https://www.gov.am/en/covid-travel-restrictions/)"
+      inbound:
+      outbound:
+      - "[Land borders are closed. Citizens of Armenia or Georgia are permitted to return to their respective countries](https://am.usembassy.gov/u-s-citizen-services/covid-19-information/)"
+  AO:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Angola remains closed to passenger flights, the borders remain closed for all but commercial transport, and Luanda Province remains closed to overland personal travel or domestic passenger flights.](https://ao.usembassy.gov/health-alert-u-s-embassy-luanda-june-1-2020/)"
+  AR:
+    travel:
+      domestic: no
+      inbound: no
+      outbound: partial
+    sources:
+      domestic:
+      - "[Domestic flights, long–haul buses and trains remain suspended](https://www.worldnomads.com/travel-safety/south-america/argentina/travel-alert)"
+      inbound:
+      - "[Argentina's borders are closed to all incoming foreigners till 24 May. All commercial flights have been suspended until 1 September.](https://www.worldnomads.com/travel-safety/south-america/argentina/travel-alert)"
+      outbound:
+      - "[Commercial flight ticket sales otherwise banned till September](https://www.voanews.com/covid-19-pandemic/argentina-imposes-toughest-travel-ban-americas-sparking-outcry)"
+  AT:
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: partial
+      inbound_allowed: [AT,BE,BG,HR,CY,CZ,DK,EE,FI,FR,DE,GR,HU,IS,GB,IT,LV,LI,LT,LU,MT,NL,NO,PL,PT,RO,SK,SI,ES,SE,CH]
+    sources:
+      domestic:
+  AU:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: no
+    sources:
+      domestic:
+      - "[Domestic travel varies from state to state. Refer to indvidual goverment websites.](https://www.interstatequarantine.org.au/state-and-territory-border-closures/)"
+      inbound:
+      - "[Only residents of Australia and New Zealand are allowed](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+      - "[Selected countries are allowed to enter](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+      outbound:
+      - "[There is a ban on Australians traveling overseas.](https://www.smartraveller.gov.au/COVID-19-australian-travellers#departing)"
+      - "[Cross–border travel will be permitted for tourists from neighboring countries that have a comparable decline in the virus](https://www.austria.info/en/service-and-facts/coronavirus-information)"
+      - "[Road:Certain borders are closed, see domestic cross–border travel section.](https://www.austria.info/en/service-and-facts/coronavirus-information)"
+      - "[Airports:Limited exit. Vienna, Salzburg, and Innsbruck airports operate with limited flight plans.](https://www.austria.info/en/service-and-facts/coronavirus-information)"
+  AZ:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Only residents and nationals of Azerbaijian allowed](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  BA:
+    travel:
+      inbound: partial
+      inbound_allowed: [HR,RS,ME]
+    sources:
+      inbound:
+      - "[The BiH Council of Ministers has announced that it will allow entry to the citizens of Croatia, Serbia, and Montenegro as of June 1. There is still a ban to entry for non-resident foreign nationals.](https://ba.usembassy.gov/covid-19-information/)"
+  BB:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Suspension of commercial international flights, with negotiations for some airlines to provide limited service](https://www.universalweather.com/blog/caribbean-coronavirus-covid-19-impact-on-business-aviation/)"
+      - "[The Grantley Adams International Airport is closed to commercial flights until June 30, 2020](https://www.universalweather.com/blog/caribbean-coronavirus-covid-19-impact-on-business-aviation/)"
+  BE:
+    travel:
+      domestic: no
+      inbound: partial
+      outbound: no
+    sources:
+      domestic:
+      - "[Only essential journeys are permitted.](https://www.info-coronavirus.be/en/faq/)"
+      inbound:
+      - "[The Government of Belgium has imposed entry and exit controls on non–essential travel to and from the country.](https://dofi.ibz.be/sites/dvzoe/EN/Pages/Travel-to-Belgium.aspx)"
+      - "[Nationals of EU Member States and Schengen Member States, for the purposes of returning to their homes;Third-country nationals who are in possession a residence card (or D-visa) delivered by a Schengen Member State, for the purpose of returning to their homes](https://dofi.ibz.be/sites/dvzoe/EN/Pages/Travel-to-Belgium.aspx)"
+      outbound:
+      - "[The Government of Belgium has imposed entry and exit controls on non–essential travel to and from the country.](https://dofi.ibz.be/sites/dvzoe/EN/Pages/Travel-to-Belgium.aspx)"
+  BD:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Civil Aviation Authority of Bangladesh has announced that until June 15, several countries will be banned from landing at any airport in Bangladesh](https://bd.usembassy.gov/covid-19-information/)"
+  BF:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[The Government of Burkina Faso has maintained a state of emergency in the entire East and Sahel regions, the provinces of Kossi and Sourou in the Boucle de Mouhoun region, the province of Kenedougou in the Hauts Bassins region, the province of Loroum in the North region, and the province of Koulpelogo in the Center-East region.](https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/burkina-faso-travel-advisory.html)"
+  BG:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[From 14 May to 14 June 2020 entry to Bulgaria for all passengers (including EU and Schengen nationals) and by any means of transport, including aircraft, maritime transport and rail is temporarily prohibited. Exceptions include Bulgarian nationals and families.](https://www.mondaq.com/operational-impacts-and-strategy/948802/updates-to-coronavirus-travel-restrictions-introduced-in-bulgaria)"
+  BH:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[All visas upon arrival have been suspended](https://bh.usembassy.gov/covid-19-information/)"
+  BI:
+    travel:
+      inbound: yes
+    sources:
+      inbound:
+      - "[Health experts have warned that Burundi remains the only country in Africa which has not enacted any policy to curb the spread of COVID-19.](https://www.aa.com.tr/en/africa/burundi-first-lady-in-kenya-for-covid-19-treatment/1858977)"
+  BJ:
+    travel:
+      inbound: open
+    sources:
+      inbound:
+      - "[The Government of Benin has announced mandatory COVID-19 testing of all airline passengers arriving in Benin.](https://bj.usembassy.gov/health-alert-u-s-embassy-cotonou-benin-16/)"
+  BN:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[The Bruneian government has imposed an entry ban on all foreign travellers, including transit passengers, from 24 March 2020 until further notice.](https://www.mfa.gov.sg/countries-regions/b/brunei-darussalam/travel-page)"
+  BO:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Returning Bolivian citizens and residents, diplomats, members of special missions and international organizations, technical specialists, and drivers of international goods and cargo are exempt from the border closure.](https://bo.usembassy.gov/covid-19-information/)"
+  BR:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Brazil extended the current ban on foreigners entering the country by air for an additional 30 days (through June 21). ](https://br.usembassy.gov/covid-19-information/)"
+  BS:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[All visas upon arrival have been suspended](https://bh.usembassy.gov/covid-19-information/)"
+  BT:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[All inbound tourists will be denied entry into Bhutan, till further notice.](https://www.mfa.gov.sg/countries-regions/b/bhutan/travel-page)"
+  BW:
+    travel:
+      inbound: yes
+    sources:
+      inbound:
+      - "[With Ethiopia as the final destination, individuals must quarantine at their own expense at selected hotels. ](https://bw.usembassy.gov/health-alert-u-s-embassy-gaborone-botswana-05292020/)"
+  BY:
+    travel:
+      inbound: partial
+    sources:
+      inbound:
+      - "[Belavia is resuming flights to Rome.](https://by.usembassy.gov/health-alert-u-s-embassy-minsk-belarus-june-8-2020/)"
+  BZ:
+    travel:
+      inbound: partial
+    sources:
+      inbound:
+      - "[Belizean nationals, diplomats residing in Belize, and foreigners with legal residency may enter Belize.](http://health.gov.bz/www/component/content/article/177-general-health/1027--covid-19-alert-regarding-border-closures)"
+      - "[No restrictions have been placed on incoming or outgoing freight and cargo at the borders or at the Belize Seaports.](http://health.gov.bz/www/component/content/article/177-general-health/1027--covid-19-alert-regarding-border-closures)"
+      - "[All cruise lines have paused operations.](http://health.gov.bz/www/component/content/article/177-general-health/1027--covid-19-alert-regarding-border-closures)"
+  CA:
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: yes
+    sources:
+      domestic:
+      - "[Canada–US Border Restrictions:Avoid all non–essential travel for Canadians and U.S. Nationals are not allowed to enter.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic)"
+      - "[All passengers flying in Canada will be subject to health screenings.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic)"
+      inbound:
+      - "[Travelers arriving in Canada with symptoms consistent with COVID-19 may still enter Canada by land, rail or sea but not air. ](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#f)"
+      outbound:
+      - "[Avoid all essential travel.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#_Travellers_departing_Canada)"
+  CF:
+    travel:
+      inbound: no
+    sources:
+      domestic:
+      inbound:
+      - "[Bangui-M'Poko International Airport (BGF) has been closed since April 1. Persons entering CAR from locations with local-transmission of COVID-19 are required to self-isolate for 21 days.](https://www.worldaware.com/covid-19-alert-countries-across-africa-enforcing-various-travel-restrictions-preventative-measures)"
+  CL:
+    travel:
+      inbound: no
+    sources:
+      domestic:
+      inbound:
+      - "[Chile’s borders have been closed to foreigners since March 18.](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions)"
+  CM:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Cameroon’s land, air and sea borders are closed till further notice.](https://www.spm.gov.cm/site/?q=en/content/government-response-strategy-coronavirus-pandemic-covid-19)"
+  CN:
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: partial
+    sources:
+      domestic:
+      - "[Hong Kong: - People coming from Mainland China, Macau, and Taiwan will be put under 14 day home based quarantine.](https://www.china-briefing.com/news/wp-content/uploads/2020/05/Travel-_-Entry-Policy-By-Province-As-of-May-24.jpg)"
+      - "[Refer to cities which have no quarantine requirement if travelers can provide a green health code.](https://www.europeanchamber.com.cn/en/national-news/3188/travel_policies_to_and_from_cities_in_china)"
+      inbound:
+      - "[In Beijing, all international flights are currently being redirected to one of 12 other cities.](https://www.china-briefing.com/news/chinas-travel-restrictions-due-to-covid-19-an-explainer/)"
+      outbound:
+      - "[US bans all commercial passenger flights by Chinese carriers.](https://www.washingtonpost.com/local/trafficandcommuting/trump-administration-bans-flights-by-chinese-airlines/2020/06/03/d5eb7136-a5a5-11ea-b619-3f9133bbb482_story.html)"
+      - "[Land border crossings in the northeast and surveilling the flights from Moscow are restricted.](https://www.china-briefing.com/news/chinas-travel-restrictions-due-to-covid-19-an-explainer/)"
+      - "[China has signed fast track agreements with Germany, France, South Korea, UK, and Japan.](https://www.china-briefing.com/news/chinas-travel-restrictions-due-to-covid-19-an-explainer/)"
+  CO:
+    travel:
+      inbound: No
+    sources:
+      inbound:
+      - "[All overland, water and air borders are closed.](https://thecitypaperbogota.com/news/colombia-on-course-for-worlds-longest-lockdown-after-extension-to-july-1/2523)"
+  CR:
+    travel:
+      inbound: No
+    sources:
+      inbound:
+      - "[Costa Rica has closed its borders (land, sea, and air) to foreign travelers. Only Costa Rican citizens and residents will be permitted to enter the country.](https://www.twoweeksincostarica.com/costa-rica-coronavirus/)"
+  CV:
+    travel:
+      inbound: partial
+    sources:
+      inbound:
+      - "[As of June 1, maritime passenger transportation resumed for Boa Vista.  Inter-island maritime transportation and flights are anticipated to resume for all islands on June 30.](https://cv.usembassy.gov/health-alert-u-s-embassy-praia-cabo-verde-june-4-2020/)"
+  DE:
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: partial
+      inbound_allowed: [BE, BG, CZ, DK, DE, EE, IE, EL, ES, FR, HR, IT, CY, LV, LT, LU, HU, MT, NL, AT, PL, PT, RO, SI, SK, FI, SE, IS, LI, MC, NO, CH]
+    sources:
+      domestic:
+       - "[From the German point of view, crossing the land borders to Austria, France, Denmark and Switzerland is possible at any point](https://www.munich-airport.com/travelling-in-times-of-the-coronavirus-pandemic-8395611)"
+       - "[The German government and the Foreign Office are currently warning against unnecessary tourist travel.](https://www.munich-airport.com/travelling-in-times-of-the-coronavirus-pandemic-8395611)"
+      inbound:
+      - "[EU Citizens, Liechtenstein, Switzerland, Norway and Iceland and all family members of these citizens are permitted to return to their home country or to their place of normal residence in Germany or another country.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)"
+      outbound:
+      - "[Avoid all non–essential travel.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)"
+      - "[Checks at the borders with Austria, Switzerland, France and Denmark and for passengers arriving by air from Italy and Spain remain in effect until 15 June 2020.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)"
+  DK:
+    travel:
+      domestic: yes
+      inbound: partial
+      outbound: yes
+    sources:
+      domestic:
+      - "[Social distancing measures in place.](https://politi.dk/en/coronavirus-in-denmark/controlled-reopening-of-denmark)"
+      inbound:
+      - "[14 days quarantine required for all inbound travelers with the exception of travelers coming from: Norway, Germany and Iceland after 15 June.](https://politi.dk/en/-/media/mediefiler/corona/fact-sheet-regarding-borders.pdf?la=en&hash=D87B1914C4F2700A007F9471BDA92C75CFA3AE99)"
+      outbound:
+      - "[Avoid all non–essential travel. Green light is given to travel to Norway, Germany and Iceland after 15 June.](https://politi.dk/en/-/media/mediefiler/corona/fact-sheet-regarding-borders.pdf?la=en&hash=D87B1914C4F2700A007F9471BDA92C75CFA3AE99)"
+  DZ:
+    travel:
+      inbound: yes
+    sources:
+      inbound:
+      - "[VC Bird International Airport will accept international and regional traffic as of June 1st 2020](https://ab.gov.ag/pdf/covid_news/Travel_Advisory_Protocols.pdf)"
+  EE:
+    travel:
+      domestic: no
+      inbound: partial
+      outbound: yes
+    sources:
+      domestic:
+      - "[Border control personnel have legal rights to deny entering for persons who show symptoms of COVID-19, i.e. to deport them back to the country of arrival.](https://www.visitestonia.com/en/why-estonia/coronavirus-and-travelling-to-estonia)"
+      inbound:
+      - "[From 1 June, Estonia admits people with no Covid-19 symptoms arriving from the European Union, the members of the Schengen area or the United Kingdom of Great Britain and Northern Ireland - but quarantine requirements may apply.](https://vm.ee/en/information-countries-and-quarantine-requirements-passengers)"
+      outbound:
+      - "[No restrictions for exiting the country.](https://www.visitestonia.com/en/why-estonia/coronavirus-and-travelling-to-estonia)"
+  FI:
+    travel:
+      domestic: yes
+      inbound: partial
+      outbound: yes
+    sources:
+      domestic:
+      - "[Domestic travel allowed as long as health and safety guidelines are observed.](https://valtioneuvosto.fi/en/article/-/asset_publisher/10616/muutoksia-koronavirusepidemian-vuoksi-asetettuihin-rajoituksiin-1-kesakuuta)"
+      inbound:
+      - "[International travelers from the EU Schengen Area may enter Finland from 14 May onwards if they have a permanent work contract in Finland or essential reason to do so.](https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions)"
+      outbound:
+      - "[No restrictions for exiting the country. Avoid all non–essential travel.](https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions)"
+  FR:
+    travel:
+      domestic: yes
+      inbound: partial
+      outbound: yes
+      inbound_allowed: [BE, BG, CZ, DK, DE, EE, IE, EL, ES, FR, HR, IT, CY, LV, LT, LU, HU, MT, NL, AT, PL, PT, RO, SI, SK, FI, SE, GB, AD, IS, LI, MC, NO, CH, SM, VA]
+    sources:
+      domestic:
+       - "[Declaration required for access to Mainland France and to French Overseas territories.](https://www.interieur.gouv.fr/Actualites/L-actu-du-Ministere/Attestation-de-deplacement-et-de-voyage)"
+      inbound:
+      - "[Border closure with exceptions from selected countries.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)"
+      outbound:
+      - "[Avoid all non–essential travel.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)"
+  GR:
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: partial
+      inbound_allowed: [BE, BG, CZ, DK, DE, EE, IE, EL, ES, FR, HR, IT, CY, LV, LT, LU, HU, MT, NL, AT, PL, PT, RO, SI, SK, FI, SE]
+    sources:
+      domestic:
+       - "[Land border arrivals from Albania, North Macedonia and Bulgaria will be allowed as of 15 June. Visitors will be subject to random tests upon arrival. Arrivals by sea will be allowed as of 1 July. Visitors will be subject to random tests upon arrival.](https://www.mfa.gr/en/current-affairs/statements-speeches/greece-welcomes-the-world.html)"
+       - "[Travel by ferry to and from islands is permitted.](https://gr.usembassy.gov/covid-19-information/)"
+       - "[Some flights to islands are operational.](https://gr.usembassy.gov/covid-19-information/)"
+      inbound:
+      - "[Non-EU citizens are banned from entering Greece for non-essential travel, which includes tourism.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)"
+      outbound:
+      - "[Greece suspends flights to and from Qatar. ](https://www.thejakartapost.com/travel/2020/06/03/greece-suspends-qatar-flights-till-mid-june-after-12-test-positive.html)"
+      - "[No flights between Greece and Albania Italy, North Macedonia, Spain, the United Kingdom, the Netherlands, and Turkey through June 14.](https://gr.usembassy.gov/covid-19-information/)"
+  ID:
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: partial
+    sources:
+      domestic:
+       - "[Some exceptions made for inter–city travelers.](https://www.channelnewsasia.com/news/asia/covid-19-indonesia-mudik-ban-idul-fitri-exceptions-12707348)"
+       - "[Tourism spots differ in openings.](https://www.indonesia.travel/gb/en/news/list-of-closed-tourism-spots-in-regards-to-covid-19-outbreak)"
+      inbound:
+      - "[No entry restrictions for Indonesian Citizens. Only selected foreign nationals can enter. ](https://www.imigrasi.go.id/berita/detail/informasi-terkini-kebijakan-imigrasi-terkait-covid-19)"
+      outbound:
+      - "[Immigration control at borders remains open for Indonesian citizens leaving the Indonesian Territory for international essential travels only unless required otherwise.](https://www.imigrasi.go.id/berita/detail/informasi-terkini-kebijakan-imigrasi-terkait-covid-19#_Toc36915641)"
+  IE:
+    travel:
+      domestic: partial
+      inbound: yes
+      outbound: partial
+    sources:
+      domestic:
+       - "[There is a nationwide restriction on travel outside of your county or 20 kilometres from your home if crossing county boundaries](https://www.gov.ie/en/publication/cf9b0d-new-public-health-measures-effective-now-to-prevent-further-spread-o/#transport-and-travel)"
+      inbound:
+       - "[Passengers arriving to Ireland from overseas are required to complete a health declaration and will be subject to self–isolation for 14 days.](https://www.dfa.ie/travel/travel-advice/coronavirus/)"
+      outbound:
+       - "[Do not travel – Note: Afghanistan, Burundi, Central African Republic, Democratic Republic of Congo, Iraq, Libya, Mali, Somalia, South Sudan, Syria, and Yemen have pre-existing ‘Do Not Travel’ designations which remain in place.](https://www.dfa.ie/travel/travel-advice/coronavirus/)"
+       - "[Avoid non-essential travel – All other countries including Great Britain but excluding Northern Ireland](https://www.dfa.ie/travel/travel-advice/coronavirus/)"
+  IL:
+    travel:
+      domestic: yes
+      inbound: partial
+      outbound: partial
+    sources:
+      domestic:
+       - "[Tourism attractions open with safety distancing measures.](https://govextra.gov.il/ministry-of-health/corona/corona-virus-en/guidelines/)"
+       - "[Cable cars and public service cruise ships will be allowed operations.](https://govextra.gov.il/ministry-of-health/corona/corona-virus-en/guidelines/)"
+      inbound:
+       - "[International travelers must be permitted to 14–day isolation with strict guidelines.](https://govforms.gov.il/mw/forms/HouseIsolation%40health.gov.il?displang=en)"
+      outbound:
+       - "[Avoid non-essential travel](https://govextra.gov.il/ministry-of-health/corona/corona-virus-en/faq-corona-en/)"
+  IN:
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: no
+      inbound_restricted: [AF, PH, MY]
+    sources:
+      domestic:
+       - "[Domestic flights have resumed with strict restrictions.](https://www.freepressjournal.in/india/ready-to-take-that-domestic-flight-here-is-the-list-of-guidelines-issued-by-dgca-for-airlines)"
+       - "[Lockdown restrictions in different cities differ.](https://www.bbc.com/news/world-asia-india-52707371)"
+      inbound:
+      - "[Travel of passengers from Afghanistan, Philippines, Malaysia to India is prohibited with immediate effect.](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-0#:~:text=15%2C%202020%20shall%20be%20quarantined,minimum%20period%20of%2014%20days.&text=Incoming%20travellers%20including%20Indian%20nationals,on%20their%20arrival%20in%20India)"
+      - "[Passengers travelling from / having visited Italy or Republic of Korea and desirous of entering India will need certificate of having tested negative from COVID-19 from the designated laboratories authorized by Health Authority of these countries.](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-0#:~:text=15%2C%202020%20shall%20be%20quarantined,minimum%20period%20of%2014%20days.&text=Incoming%20travellers%20including%20Indian%20nationals,on%20their%20arrival%20in%20India)"
+      - "[All incoming travellers, including Indian nationals, arriving from or having visited China, Italy, Iran, Republic of Korea, France, Spain, UAE, Qatar, Oman, Kuwait and Germany after Feb. 15, 2020 shall be quarantined for a minimum period of 14 days](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-0#:~:text=15%2C%202020%20shall%20be%20quarantined,minimum%20period%20of%2014%20days.&text=Incoming%20travellers%20including%20Indian%20nationals,on%20their%20arrival%20in%20India)"
+      outbound:
+      - "[All scheduled international commercial passenger services shall remain closed till prohibition on international travel of passengers from/to India is lifted by the Government of India. However, this restriction will not apply to international cargo operations and flights especially approved by DGCA.](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-0#:~:text=15%2C%202020%20shall%20be%20quarantined,minimum%20period%20of%2014%20days.&text=Incoming%20travellers%20including%20Indian%20nationals,on%20their%20arrival%20in%20India)"
+  IQ:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+       - "[Domestic flights remain suspended, as are flights to and from Iraq.](https://gds.gov.iq/covid-19-iraq-extends-nationwide-curfew/)"
+  IS:
+    travel:
+      domestic: yes
+      inbound: yes
+      outbound: partial
+    sources:
+      domestic:
+       - "[Reduced restrictions on social gatherings.](https://www.government.is/news/article/2020/05/25/Easing-of-restrictions-on-gatherings/)"
+      inbound:
+       - "[All passengers arriving in Iceland from 15 June can choose to be tested for COVID–19 (for a fee) or quaratine for two weeks.](https://www.government.is/news/article/2020/06/05/Information-for-travellers-arriving-in-Iceland-from-15-June-2020/)"
+      outbound:
+       - "[Avoid all non–essential travel.](https://www.government.is/news/article/2020/03/14/-Icelanders-advised-not-to-travel-abroad/)"
+  IT:
+    travel:
+      domestic: yes
+      inbound: partial
+      outbound: partial
+      inbound_allowed: [AD, AT, BE, BG, CH, CY, CZ, DE, DK, EE, EL, ES, FI, FR, FR, HR, HU, IE, IS, IT, LI, LT, LU, LV, MA, MT, NL, NO, PL, PT, PO, SE, SI, SK, UK]
+    sources:
+      domestic:
+       - "[From the 3rd of June it is possible to travel from one region to the other.](http://www.italia.it/en/useful-info/covid-19-information-and-updates-for-tourists.html)"
+      inbound:
+       - "[From the 3rd of June 2020 travelling to and from the following States is allowed: Member States of the European Union, States parties to the Schengen Agreement, the United Kingdom of Great Britain and Northern Ireland, Andorra, Monaco.](http://www.italia.it/en/useful-info/covid-19-information-and-updates-for-tourists.html)"
+      outbound:
+      - "[The Italian government has decided to permit unrestricted travel between Italy and other Schengen countries and within Italy itself starting June 3.](https://www.schengenvisainfo.com/news/italy-to-permit-unrestricted-travel-starting-june-3/)"
+  JP:
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: yes
+      inbound_allowed: [BD, BN, CN, HK, IN, ID, MO, MY, MV, PK, PH, KR, SG, TW, TH, VN, AU, NZ, CA, US, AG, AR, BB, BS, BO, BR, CL, CO, DM, DO, EC, SV, HN, MX, PA, PE, KN, UY, AL, AD, AM, AT, AZ, BY, BE, BA, BG, HR, CY, CZ, DK, EE, FI, FR, DE, GR, HU, IS, IE, IT, KZ, XK, KG, LV, LI, LT, LU, MT, MD, MC, ME, NL, MK, NO, PL, PT, RO, RU, SM, RS, SK, SI, ES, SE, CH, TJ, UA, UK, VA, AF, BH, IR, IL, KW, OM, QA, SA, TR, AE, CV, CI, CD, DJ, EG, GQ, GA, GH, GN, GW, MU, MA, ZA, ST]
+    sources:
+      domestic:
+       - "[Refrain from non-essential travel in and out of Tokyo, Kanagawa, Chiba, Saitama and Hokkaido, through June 18.](https://www.japan-guide.com/news/alerts.html)"
+       - "[Restrictions on inter-prefectural travel in the rest of the country were lifted on June 1.](https://www.japan-guide.com/news/alerts.html)"
+       - "[The remaining restrictions on domestic travel are scheduled to be lifted from June 19, and a campaign to promote domestic tourism is slated to start in late July.](https://www.japan-guide.com/news/alerts.html)"
+      inbound:
+       - "[Foreign nationals who have stayed in the listed areas are denied permission to enter Japan.](https://www.japan.travel/en/coronavirus/)"
+       - "[Foreign nationals who have Chinese passports issued in Hubei Province or Zhejiang Province of China.](https://www.japan.travel/en/coronavirus/)"
+      outbound:
+       - "[No current restrictions on outbound travel. Airports remain operational.](https://www.japan.travel/en/coronavirus/)"
+  KH:
+    travel:
+      inbound: partial
+    sources:
+      inbound:
+       - "[Cambodia has imposed suspension of visa exemption policy for ASEAN nationals, tourist visas, and e-visas.Tourists will no longer be issued visas.](https://www.mfa.gov.sg/countries-regions/c/cambodia/travel-page)"
+  MY:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: partial
+    sources:
+      domestic:
+       - "[Inter-state travel will be allowed, with the exception of areas under local lockdowns, which are to be designated as being under 'enhanced movement control orders' (MCO).](https://www.garda.com/crisis24/news-alerts/348781/malaysia-authorities-announce-easing-of-covid-19-measures-from-june-10-update-22)"
+      inbound:
+       - "[International borders are to remain closed indefinitely, with some exceptions, and Malaysian immigration services have resumed operations by appointment only.](https://www.garda.com/crisis24/news-alerts/348781/malaysia-authorities-announce-easing-of-covid-19-measures-from-june-10-update-22)"
+      outbound:
+       - "[Malaysian citizens and PRs are not allowed to travel abroad for holidays during this period.](http://www.klia.com.my/passenger-guide/faq-covid-19-conditional-movement-control-order-cmco)"
+  NP:
+    travel:
+      domestic: no
+      inbound: no
+      outbound: no
+    sources:
+      domestic:
+       - "[As per the decision of Government of Nepal (Concil of Ministers), the suspension period of all domestic and international commercial passenger flights has extended till 14 June 2020 (23:59 NST). Special permission from CAAN is required for Rescue flights, freighter flights and flights related to the medical and other essential supplies.](http://caanepal.gov.np/news-detail/post/urgent-notice-about-extension-suspension-period-domestic-and-international-commercial-flights-june-12)"
+       - "[The Nepal government has extended the nationwide lockdown until June 14 amid a surge in the number of Covid-19 cases.](https://www.hindustantimes.com/world-news/nepal-extends-coronavirus-lockdown-till-june-14/story-tOXYRIIjs5nxYgyioSwmOL.html)"
+      inbound:
+       - "[The Government of Nepal of Nepal (GoN) has decided on 30th May 2020 to extend the ongoing lockdown period till 14th June 2020 and shut down the entire international border and flight till 30th June 2020. All visa services suspended till 14th June.](http://www.nepalimmigration.gov.np/post/notice-regarding-temporary-shutdown-of-visa-services-sunday-31st-may-2020)"
+      outbound:
+       - "[The Government of Nepal of Nepal (GoN) has decided on 30th May 2020 to extend the ongoing lockdown period till 14th June 2020 and shut down the entire international border and flight till 30th June 2020. All visa services suspended till 14th June.](http://www.nepalimmigration.gov.np/post/notice-regarding-temporary-shutdown-of-visa-services-sunday-31st-may-2020)"
+  NL:
+    travel:
+      domestic: yes
+      inbound: partial
+      outbound: yes
+      inbound_allowed: [AT, BE, BG, CH, CY, CZ, DE, DK, EE, EL, ES, FI, FR, FR, HR, HU, IE, IS, IT, LI, LT, LU, LV, MA, MT, NL, NO, PL, PT, PO, SE, SI, SK, UK]
+    sources:
+      domestic:
+       - "[Consider holidaying in the Netherlands. Avoid busy places and consider visiting regions or cities that are not part of the regular tourist hotspots.](https://www.government.nl/topics/coronavirus-covid-19/news/2020/06/03/if-you%E2%80%99re-going-on-holiday-make-sure-you-travel-smart)"
+       - "[The Nepal government has extended the nationwide lockdown until June 14 amid a surge in the number of Covid-19 cases.](https://www.hindustantimes.com/world-news/nepal-extends-coronavirus-lockdown-till-june-14/story-tOXYRIIjs5nxYgyioSwmOL.html)"
+      inbound:
+       - "[Tourists from EU or Schengen area countries can holiday in the Netherlands. But they must follow Dutch advice and rules to combat COVID-19.](https://www.netherlandsandyou.nl/documents/frequently-asked-questions/qa-holidays-to-the-netherlands)"
+      outbound:
+       - "[Air travel remains open. However, limited outbound flights available](https://news.schiphol.com/schiphol-to-remain-open-at-a-heavily-reduced-capacity/)"
+  NO:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: yes
+    sources:
+      domestic:
+       - "[Travel between Norway and Denmark is possible from June 15.](https://www.regjeringen.no/en/topics/foreign-affairs/reiseinformasjon/travel_coronavirus/id2691821/?expand=factbox2704235)"
+      inbound:
+       - "[Passengers are not allowed to enter Norway. This does not apply to nationals and residents of Norway.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+      outbound:
+       - "[The Ministry of Foreign Affairs states that there is no ban on travel. It is up to each individual to decide whether or not a trip is essential.](https://www.regjeringen.no/en/topics/foreign-affairs/reiseinformasjon/travel_coronavirus/id2691821/)"
+  NZ:
+    travel:
+      domestic: yes
+      inbound: no
+      outbound: no
+    sources:
+      domestic:
+       - "[Travelers can travel around the country, if they follow good personal health measures.](https://covid19.govt.nz/alert-system/alert-level-2/#travel-and-transport)"
+       - "[The Nepal government has extended the nationwide lockdown until June 14 amid a surge in the number of Covid-19 cases.](https://www.hindustantimes.com/world-news/nepal-extends-coronavirus-lockdown-till-june-14/story-tOXYRIIjs5nxYgyioSwmOL.html)"
+      inbound:
+       - "[The New Zealand border has been closed to almost all travellers from 23:59 New Zealand Time on Thursday 19 March 2020.](https://www.immigration.govt.nz/about-us/covid-19/coronavirus-update-inz-response)"
+      outbound:
+       - "[The New Zealand border is currently closed to almost all travellers to help stop the spread of COVID-19.](https://www.immigration.govt.nz/about-us/covid-19/coronavirus-update-inz-response)"
+  TD:
+    travel:
+      inbound: partial
+    sources:
+      inbound:
+       - "[Land borders remain closed officially, but some border crossings with Sudan, Libya, and Niger are open to both passenger and cargo traffic.](https://td.usembassy.gov/health-alert-update-on-country-conditions/)"
+  AE:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: partial
+    sources:
+      domestic:
+      - "[Residents of Abu Dhabi city, Al Ain and Al Dhafra can travel within their cities but not enter or leave them – and cannot go to other emirates.](https://www.thenational.ae/uae/health/coronavirus-everything-you-need-to-know-about-covid-19-in-the-uae-1.990131)"
+      inbound:
+      - "[Repatriation entry only. Entry permit needed for expatriate residents to return to the UAE.](https://u.ae/en/information-and-services/justice-safety-and-the-law/handling-the-covid-19-outbreak/entry-permit-needed-for-expatriate-residents-to-return-to-the-uae)"
+      outbound:
+      - "[Limited outbound flights. On May 13, Emirates Airline announced its plans to operate scheduled flights starting from May 21 from Dubai to London Heathrow, Frankfurt, Paris, Milan, Madrid, Chicago, Toronto, Sydney and Melbourne.](https://www.aljazeera.com/news/2020/03/coronavirus-travel-restrictions-border-shutdowns-country-200318091505922.html)"
+  CH:
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: yes
+    sources:
+        domestic:
+        - "[Rules on hygiene and social distancing apply on all trips and excursions within Switzerland.](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende.html#1707070180)"
+        - "[Since June 6, further businesses and institutions have been able to reopen and events for up to 300 people have been allowed to take place.](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/massnahmen-des-bundes.html)"
+        inbound:
+        - "[Any foreign nationals who wish to enter Switzerland and do not hold a valid residence or work permit will be refused entry.](https://www.example.com/index.html)"
+        - "[This does not apply to passengers who are already legally residing within the EU/EFTA area who are travelling for tourist purposes, provided that they can credibly demonstrate that they actually want to/can enter the destination country, e.g. by presenting a hotel booking, holiday apartment, etc.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+        - "[Permitted from June 15: Border crossings to and from Germany, France and Austria](https://www.sem.admin.ch/sem/en/home/aktuell/aktuell/faq-einreiseverweigerung.html)"
+        outbound:
+        - "[Switzerland will not stop anyone from leaving the country.](https://www.sem.admin.ch/sem/en/home/aktuell/aktuell/faq-einreiseverweigerung.html)"
+  ES:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: yes
+    reopening:
+      "2020-07-01": "[Foreign visitors should look to book vacations in Spain from July as the 14-day quarantine restriction is due to be lifted on 1 July.](https://newseu.cgtn.com/news/2020-05-25/Spain-s-lockdown-eased-UK-schools-to-reopen-COVID-19-daily-bulletin-QMAjS8xApG/index.html)"
+    sources:
+      domestic:
+      - "[Spain has eased some lockdown restrictions.](https://newseu.cgtn.com/news/2020-05-25/Spain-s-lockdown-eased-UK-schools-to-reopen-COVID-19-daily-bulletin-QMAjS8xApG/index.html)"
+      inbound:
+      - "[Passengers are not allowed to enter Spain unless they are returning nationals or residents of the country.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+      - "[Limited transit: Passengers with a long-term visa issued by a Schengen Member State may return via Spain to their country of residence.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+      outbound:
+      - "[Spain’s major airports have reopened for international flights – with Ibiza, Tenerife, Malaga and Palma all welcoming planes](https://www.thesun.co.uk/travel/11647411/spains-airports-open-flights/)"
+  GB:
+    travel:
+      domestic: partial
+      inbound: yes
+      outbound: yes
+      inbound_allowed: [AD, AE, AF, AG, AI, AL, AM, AO, AQ, AR, AS, AT, AU, AW, AX, AZ, BA, BB, BD, BE, BF, BG, BH, BI, BJ, BL, BM, BN, BO, BQ, BR, BS, BT, BV, BW, BY, BZ, CA, CC, CD, CF, CG, CH, CI, CK, CL, CM, CN, CO, CR, CU, CV, CW, CX, CY, CZ, DE, DJ, DK, DM, DO, DZ, EC, EE, EG, EH, ER, ES, ET, FI, FJ, FK, FM, FO, FR, GA, GB, GD, GE, GF, GG, GH, GI, GL, GM, GN, GP, GQ, GR, GS, GT, GU, GW, GY, HK, HM, HN, HR, HT, HU, ID, IE, IL, IM, IN, IO, IQ, IR, IS, IT, JE, JM, JO, JP, KE, KG, KH, KI, KM, KN, KP, KR, KW, KY, KZ, LA, LB, LC, LI, LK, LR, LS, LT, LU, LV, LY, MA, MC, MD, ME, MF, MG, MH, MK, ML, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MX, MY, MZ, NA, NC, NE, NF, NG, NI, NL, NO, NP, NR, NU, NZ, OM, PA, PE, PF, PG, PH, PK, PL, PM, PN, PR, PS, PT, PW, PY, QA, RE, RO, RS, RU, RW, SA, SB, SC, SD, SE, SG, SH, SI, SJ, SK, SL, SM, SN, SO, SR, SS, ST, SV, SX, SY, SZ, TC, TD, TF, TG, TH, TJ, TK, TL, TM, TN, TO, TR, TT, TV, TW, TZ, UA, UG, UM, US, UY, UZ, VA, VC, VE, VG, VI, VN, VU, WF, WS, YE, YT, ZA, ZM, ZW]
+    sources:
+      domestic:
+      - "[Social distancing measures are in place. Rules can differ across parts of the UK. Refer to updated guidelines.](https://www.gov.uk/government/publications/staying-alert-and-safe-social-distancing/staying-alert-and-safe-social-distancing)"
+      inbound:
+      - "[No entry restrictions. However, from June 8, mandatory 14-day quarantine for all travelers will be in effect.](https://www.gov.uk/uk-border-control)"
+      outbound:
+      - "[No exit restrictions. Air travel is possible with flights operating at a limited capacity. Precautions should be taken.](https://www.smartraveller.gov.au/destinations/europe/united-kingdom)"
+  KR:
+    travel:
+      domestic: yes
+      inbound: partial
+      outbound: partial
+      inbound_restricted: [CN, JP, MN, TW, KH, IN, ID, MY, MV, MM, NP, PH, SG, LK, TH, VN, AU, CA, IL, NZ, RU, TR, AE, GB, US, UZ, AT, BE, BG, HR, CY, CZ, DK, EE, FI, FR, DE, GR, HU, IE, IT, LV, LT, LU, MT, NL, PL, PT, RO, SK, SI, ES, SE]
+    sources:
+      domestic:
+      - "[Domestic air carriers have resumed routes.](https://newsinfo.inquirer.net/1259719/south-koreas-air-carriers-resume-domestic-routes-for-spring-travel-season)"
+      inbound:
+      - "[South Korea has restricted entry for certain foreign nationals as well as the transit of certain foreign nationals. Refer to this list for more information.](https://www.koreanair.com/global/en/2020_02_TSA_detail.html?fbclid=IwAR0JnLH-Ldp2UOzSLXX0cq65rtfLnVPYeRdpPXWMNhtpouIJiD7V5olpBK8)"
+      outbound:
+      - "[Foreigners who are long term residents of the Republic of Korea (ROK) will be required to obtain a re-entry permit prior to departing for international travel.](https://kr.usembassy.gov/022420-covid-19-information/)"
+  KN:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[As of May 18, borders remain closed.](https://www.stkittstourism.kn/travel-advisory-update)"
+  LC:
+    travel:
+      inbound: yes
+      outbound: yes
+      inbound_allowed: [AD, AE, AF, AG, AI, AL, AM, AO, AQ, AR, AS, AT, AU, AW, AX, AZ, BA, BB, BD, BE, BF, BG, BH, BI, BJ, BL, BM, BN, BO, BQ, BR, BS, BT, BV, BW, BY, BZ, CA, CC, CD, CF, CG, CH, CI, CK, CL, CM, CN, CO, CR, CU, CV, CW, CX, CY, CZ, DE, DJ, DK, DM, DO, DZ, EC, EE, EG, EH, ER, ES, ET, FI, FJ, FK, FM, FO, FR, GA, GB, GD, GE, GF, GG, GH, GI, GL, GM, GN, GP, GQ, GR, GS, GT, GU, GW, GY, HK, HM, HN, HR, HT, HU, ID, IE, IL, IM, IN, IO, IQ, IR, IS, IT, JE, JM, JO, JP, KE, KG, KH, KI, KM, KN, KP, KR, KW, KY, KZ, LA, LB, LC, LI, LK, LR, LS, LT, LU, LV, LY, MA, MC, MD, ME, MF, MG, MH, MK, ML, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MX, MY, MZ, NA, NC, NE, NF, NG, NI, NL, NO, NP, NR, NU, NZ, OM, PA, PE, PF, PG, PH, PK, PL, PM, PN, PR, PS, PT, PW, PY, QA, RE, RO, RS, RU, RW, SA, SB, SC, SD, SE, SG, SH, SI, SJ, SK, SL, SM, SN, SO, SR, SS, ST, SV, SX, SY, SZ, TC, TD, TF, TG, TH, TJ, TK, TL, TM, TN, TO, TR, TT, TV, TW, TZ, UA, UG, UM, US, UY, UZ, VA, VC, VE, VG, VI, VN, VU, WF, WS, YE, YT, ZA, ZM, ZW]
+    reopening:
+      "2020-06-04": "[The borders of Saint Lucia officially opened to international travelers on June 4.](https://34a1ju2gva4u3yrm051vedfb-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/Final-June-4-Website-Update-2-1.pdf)"
+    sources:
+      inbound:
+      - "[Saint Lucia borders are open to all regional and international flights, and for travelers who meet the entry requirements.](https://34a1ju2gva4u3yrm051vedfb-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/Final-June-4-Website-Update-2-1.pdf)"
+      - "[Travel safety protocols are in place. Visitors must present proof of a negative COVID-19 PCR test within 48-hours of boarding their flight and must be confirmed at COVID-19 certified accommodation properties.](https://34a1ju2gva4u3yrm051vedfb-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/Final-June-4-Website-Update-2-1.pdf)"
+      outbound:
+      - "[Airports have resumed operation on June 4.](https://www.stlucia.org/en/covid-19/)"
+  LK:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: yes
+    reopening:
+      "2020-08-01": "[Sri Lanka plans to reopen its tourism sector on August 1 by allowing small groups of visitors into the country.](https://www.reuters.com/article/us-health-coronavirus-sri-lanka-tourism/sri-lanka-to-reopen-some-tourism-in-august-with-restrictions-official-idUSKBN2370KT)"
+    sources:
+      domestic:
+      - "[From May 26, a curfew will be in place between 22:00 and 04:00 (local time) until further notice.](https://www.garda.com/crisis24/news-alerts/345906/sri-lanka-authorities-ease-curfew-measures-and-domestic-travel-restrictions-from-may-26-update-17)"
+      - "[Inter-provincial and inter-district travel permitted, except in Colombo and Gampaha, where travel will still be restricted.](https://www.garda.com/crisis24/news-alerts/345906/sri-lanka-authorities-ease-curfew-measures-and-domestic-travel-restrictions-from-may-26-update-17)"
+      - "[Individuals must continue to socially distance and wear face masks in public. Those who violate the guidelines will face fines or arrest.](https://www.garda.com/crisis24/news-alerts/345906/sri-lanka-authorities-ease-curfew-measures-and-domestic-travel-restrictions-from-may-26-update-17)"
+      inbound:
+      - "[Passengers holding any visa type are not permitted for inbound travel to Sri Lanka unless they have specific approval from the Government of Sri Lanka.](https://www.srilankan.com/en_uk/coporate/emergency-news-detail/517)"
+      outbound:
+      - "[Sri Lankan Airlines announced an extension to the suspension of passenger flights through Friday, May 15, due to COVID-19 restrictions and the indefinite closure of all international airports nationwide.](https://www.garda.com/crisis24/news-alerts/340666/sri-lanka-lockdown-restrictions-to-be-eased-may-11-update-15 )"
+  PA:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[International passenger flights will remain suspended until June 22.](https://www.garda.com/crisis24/news-alerts/345786/panama-government-announces-second-stage-of-reopening-as-of-june-1-update-13)"
+  PE:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Peru's borders have been closed indefinitely.](https://www.garda.com/crisis24/news-alerts/348596/peru-government-extends-state-of-emergency-until-september-7-update-17)"
+  PG:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[All international flights remain banned, following an extension of the government's State of Emergency.](https://www.papuanewguinea.travel/coronavirus-information-travel-advice)"
+  PH:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: partial
+    sources:
+      domestic:
+      - "[Restrictions slowly easing, but high-risk districts deemed as 'critical zones' will remain under lockdown. Districts that report two or more cases of COVID-19 per week, will also remain under strict shelter-at-home restrictions.](https://www.garda.com/crisis24/news-alerts/346436/philippines-authorities-ease-lockdown-in-metro-manila-from-june-1-update-22)"
+      - "[For domestic travellers, quarantine and testing policies of local government units may be applicable. Guests travelling on domestic routes are advised to check local travel guidelines.](https://newsroom.airasia.com/news/2020/5/31/frequently-asked-questions-precautionary-measures-before-you-fly-with-airasia)"
+      inbound:
+      - "[As a precautionary measure, all foreign nationals have been banned from entering the country since March 22.](https://www.garda.com/crisis24/news-alerts/344006/philippines-philippine-airlines-to-resume-flights-from-june-1-with-restrictions-update-21)"
+      outbound:
+      - "[All foreign nationals may now fly out of the country at any time, subject to availability of flights. No Filipino tourists shall be allowed to fly out of the country at any time.](https://www.philippineairlines.com/en/ph/home/covid-19/travelrules)"
+  PL:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[As of June 8, external borders remain closed for most non-essential, international travel, and the 14-day quarantine remains in effect with few exceptions.](https://www.poland.travel/en/travel-inspirations/safety-advice-for-travellers-concerning-the-covid-19-epidemic)"
+  PS:
+    travel:
+      inbound: no
+      outbound: no
+    sources:
+      inbound:
+      - "[State of emergency lockdown. Border crossings with Israel and Jordan are closed.](https://www.channelnewsasia.com/news/world/palestinians-extend-covid-19-state-of-emergency-to-jun-5-12704002)"
+      outbound:
+      - "[State of emergency lockdown. Border crossings with Israel and Jordan are closed.](https://www.channelnewsasia.com/news/world/palestinians-extend-covid-19-state-of-emergency-to-jun-5-12704002)"
+  PT:
+    travel:
+      inbound: partial
+      inbound_allowed: [AO, AT, BE, BR, BG, CA, CV, HR, CY, CZ, DK, EE, FI, FR, DE, GR, GW, HU, IS, IE, LV, LT, LU, MT, MZ, NL, NO, PL, PT, RO, ST, SK, SI, ZA, SE, CH, US, UK, VE]
+    sources:
+      inbound:
+      - "[Flights arriving from certain countries may enter Portugal. Refer to IATA website for more information.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  PW:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[All commercial passenger flights to and from Palau have been suspended until further notice.](https://www.smartraveller.gov.au/destinations/pacific/palau)"
+  PY:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Borders will remain closed for non-resident foreigners until further notice.](https://www.gov.uk/foreign-travel-advice/paraguay)"
+  QA:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Entry to the State of Qatar will only be allowed for Qatari nationals, who will be required to enter quarantine for a period of 14 days.](https://www.qatarairways.com/en-sg/travel-alerts.html)"
+  RO:
+    travel:
+      inbound: partial
+      inbound_allowed: [AT, BE, BG, HR, CY, CZ, DK, EE, FI, FR, DE, GR, HU, IS, IE, IT, LV, LI, LT, LU, MT, NL, NO, PL, PT, RO, SK, SI, ES, SE, CH, GB]
+    sources:
+      inbound:
+      - "[Certain passengers are permitted to enter Romania. Refer to IATA website for more information.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  RS:
+    travel:
+      inbound: yes
+      inbound_allowed: [AD, AE, AF, AG, AI, AL, AM, AO, AQ, AR, AS, AT, AU, AW, AX, AZ, BA, BB, BD, BE, BF, BG, BH, BI, BJ, BL, BM, BN, BO, BQ, BR, BS, BT, BV, BW, BY, BZ, CA, CC, CD, CF, CG, CH, CI, CK, CL, CM, CN, CO, CR, CU, CV, CW, CX, CY, CZ, DE, DJ, DK, DM, DO, DZ, EC, EE, EG, EH, ER, ES, ET, FI, FJ, FK, FM, FO, FR, GA, GB, GD, GE, GF, GG, GH, GI, GL, GM, GN, GP, GQ, GR, GS, GT, GU, GW, GY, HK, HM, HN, HR, HT, HU, ID, IE, IL, IM, IN, IO, IQ, IR, IS, IT, JE, JM, JO, JP, KE, KG, KH, KI, KM, KN, KP, KR, KW, KY, KZ, LA, LB, LC, LI, LK, LR, LS, LT, LU, LV, LY, MA, MC, MD, ME, MF, MG, MH, MK, ML, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MX, MY, MZ, NA, NC, NE, NF, NG, NI, NL, NO, NP, NR, NU, NZ, OM, PA, PE, PF, PG, PH, PK, PL, PM, PN, PR, PS, PT, PW, PY, QA, RE, RO, RS, RU, RW, SA, SB, SC, SD, SE, SG, SH, SI, SJ, SK, SL, SM, SN, SO, SR, SS, ST, SV, SX, SY, SZ, TC, TD, TF, TG, TH, TJ, TK, TL, TM, TN, TO, TR, TT, TV, TW, TZ, UA, UG, UM, US, UY, UZ, VA, VC, VE, VG, VI, VN, VU, WF, WS, YE, YT, ZA, ZM, ZW]
+    sources:
+      inbound:
+      - "[All COVID-19 related entry restrictions are currently lifted for both Serbian and foreign citizens. However, travelers should be prepared for sudden changes in restrictions.](https://rs.usembassy.gov/serbia-covid-19-information/)"
+  RU:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[A ban on the entry of foreign nationals has been extended indefinitely.](https://www.garda.com/crisis24/news-alerts/347091/russia-over-400000-covid-19-cases-confirmed-in-country-as-of-may-31-update-39)"
+  RW:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Flights to Kigali International Airport (KGL) are suspended.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  SA:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Flights into Saudi Arabia are suspended. Some exceptions, such as repatriation flights, are permitted.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  SB:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[From March 21, only Solomon Islands citizens and residents will be permitted to enter the Solomon Islands.](https://www.flysolomons.com/plan/travel-advice)"
+  SC:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Seychelles International Airport remains closed to all flights.](https://seychellesairports.sc/flights/)"
+  SD:
+    travel:
+      inbound: no
+      outbound: no
+    sources:
+      inbound:
+      - "[All borders are closed. There are currently no international commercial passenger flights operating into or out of Sudan or internal flights.](https://www.gov.uk/foreign-travel-advice/sudan)"
+      outbound:
+      - "[All borders are closed. There are currently no international commercial passenger flights operating into or out of Sudan or internal flights.](https://www.gov.uk/foreign-travel-advice/sudan)"
+  SE:
+    travel:
+      domestic: yes
+      inbound: partial
+      outbound: yes
+      inbound_allowed: [AT, BE, BG, HR, CY, CZ, DK, EE, FI, FR, DE, GR, HU, IS, IE, IT, LV, LI, LT, LU, MT, NL, NO, PL, PT, RO, SK, SI, ES, CH, BG]
+    sources:
+      domestic:
+      - "[Business as usual, with some crowd and distancing regulations implemented.](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/covid-19-new-legislation-for-restaurants-bars-etc/)"
+      inbound:
+      - "[Passengers arriving from certain countries are allowed entry. Refer to IATA website for more information.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+      outbound:
+      - "[While there are no legal prohibitions, the Ministry for Foreign Affairs currently advises against non-essential travel to all countries. This is valid from 14 March 2020 through to 15 July 2020.](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/covid-19/)"
+  SG:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: no
+    sources:
+      domestic:
+      - "[Circuit Breaker measures will be gradually eased from 2 June 2020, and businesses will be allowed to resume activities in a phased manner.](https://www.stb.gov.sg/content/stb/en/home-pages/advisory-on-covid-19.html)"
+      inbound:
+      - "[Short-term visitors are not allowed entry into Singapore. Singapore has also ceased port calls for all cruise vessels.](https://www.example.com/index.html)"
+      - "[Travelers may transit through Changi Airport.](https://www.caas.gov.sg/who-we-are/newsroom/Detail/travelers-to-be-allowed-to-transit-through-changi-airport/)"
+      outbound:
+      - "[Singapore residents have been advised to defer all non-essential travel abroad.](https://www.straitstimes.com/singapore/travel-firm-continues-to-engage-customers-with-eye-on-recovery)"
+  SI:
+    travel:
+      inbound: partial
+      inbound_allowed: [HR, HU, AT]
+    sources:
+      inbound:
+      - "[Slovenia has opened its borders without restrictions to travelers from Croatia, Hungary, and Austria.](https://www.gov.si/en/news/2020-06-05-slovenia-reopens-borders-with-its-neighbours/)"
+  SK:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Only nationals and residents of Slovakia may enter the country.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  SL:
+    travel:
+      inbound: partial
+    sources:
+      inbound:
+      - "[Mandatory quarantine measures for all travelers coming into Sierra Leone from countries with local transmission of more than 50 COVID-19 cases.](http://dhse.gov.sl/sierra-leone-institutes-additional-measures-in-preparedness-to-prevent-and-respond-to-covid-19/)"
+  SM:
+    travel:
+      inbound: no
+      outbound: no
+    sources:
+      inbound:
+      - "[Entry and exit into San Marino is currently prohibited except for reasons of healthcare, cross-border working or essential need.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements)"
+      outbound:
+      - "[Entry and exit into San Marino is currently prohibited except for reasons of healthcare, cross-border working or essential need.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements)"
+  SN:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[The country's borders remain closed until Tuesday, June 30, although cargo transportation is allowed.](https://www.garda.com/crisis24/news-alerts/347411/senegal-authorities-extend-state-of-emergency-until-july-2-update-9)"
+  SO:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[International flights suspended from March 18. Suspension extended on April 6 for an additional 30 days. Check for updated restrictions.](https://so.usembassy.gov/covid-19-information/)"
+  SR:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[April 9: Airports in Suriname are closed.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  SS:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Flights to South Sudan are suspended. Exceptions include humanitarian and evacuation flights with approval.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  ST:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Entry to all foreigners remains banned until at least June 15 and charter flights and cruise ships are also prohibited.](https://www.garda.com/crisis24/news-alerts/347546/sao-tome-and-principe-authorities-extend-nationwide-state-of-emergency-until-june-15-update-3)"
+  SY:
+    travel:
+      inbound: no
+      outbound: no
+    sources:
+      inbound:
+      - "[May 25: No passenger flights into and out of the country. Repatriation flights into Syria have also been halted.](https://covid19.mohw.gov.tw/en/cp-4784-53773-206.html)"
+      outbound:
+      - "[Passenger flights into and out of the country have been halted.](https://covid19.mohw.gov.tw/en/cp-4784-53773-206.html)"
+  TG:
+    travel:
+      inbound: no
+      outbound: no
+    sources:
+      inbound:
+      - "[As of March 20, all non-essential inbound and outbound traffic and travel is prohibited.](https://www.garda.com/crisis24/news-alerts/328466/togo-president-declares-three-month-health-emergency-and-nationwide-curfew-from-2-april-update-3)"
+      outbound:
+      - "[As of March 20, all non-essential inbound and outbound traffic and travel is prohibited.](https://www.garda.com/crisis24/news-alerts/328466/togo-president-declares-three-month-health-emergency-and-nationwide-curfew-from-2-april-update-3)"
+  TH:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: partial
+    reopening:
+      "2020-07-01": "[The government has set July 1 for the lifting of all business and activity lockdowns ordered earlier to cope with Covid-19, said the National Security Council chief. These include interprovincial and international travel, as well as the end of emergency decree and curfew.](https://www.bangkokpost.com/learning/easy/1925844/)"
+    sources:
+      domestic:
+      - "[Domestic flights resume with extra safety protocols: Nok Air, AirAsia, Thai Lion Air and Thai Vietjet Air were allowed to reinstate flights between 14 provinces after a month-long suspension now that the number of Covid-19 infections was falling.](https://www.bangkokpost.com/business/1911300/domestic-flights-resume-with-extra-safety-protocols)"
+      - "[For the period of 1-30 June, 2020, Bangkok has allowed several types of businesses and activities to reopen.](https://www.tatnews.org/2020/06/bangkoks-third-phase-of-easing-lockdown-what-reopens-what-remains-closed/)"
+      inbound:
+      - "[The ban on international passenger flights to Thailand will be extended from 1 June 2020 at 17.00 UTC to 30 June 2020 at 17.00 UTC.](https://www.caat.or.th/en/archives/50437)"
+      outbound:
+      - "[Certain airports are still operating, inlcuding Suvarnabhumi Airport in Bangkok. Limited outbound flights available.](https://www.bangkokairportonline.com/flight-status-arrivals-departures/)"
+  TJ:
+    travel:
+      inbound: no
+      outbound: no
+    sources:
+      inbound:
+      - "[The entry and exit of all foreign nationals is prohibited. Land borders remain closed; flights to and from the country are suspended.](https://www.garda.com/crisis24/news-alerts/337866/tajikistan-health-authorities-confirm-first-covid-19-cases-april-30-update-5)"
+      outbound:
+      - "[The entry and exit of all foreign nationals is prohibited. Land borders remain closed; flights to and from the country are suspended.](https://www.garda.com/crisis24/news-alerts/337866/tajikistan-health-authorities-confirm-first-covid-19-cases-april-30-update-5)"
+  TL:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Passengers who are not nationals and residents of Timor-Leste are not allowed to enter. Certain other exceptions apply.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  TM:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Flights to Turkmenistan are suspended. This does not apply to repatriation flights of nationals and residents of Turkmenistan.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  TN:
+    travel:
+      inbound: no
+    reopening:
+      "2020-06-27": "[The Tunisian government announced on June 1 that it will reopen its land, sea, and air borders on June 27, amid the ongoing coronavirus disease (COVID-19) pandemic.](https://www.garda.com/crisis24/news-alerts/347441/tunisia-authorities-reopen-land-sea-and-air-borders-june-27-update-11)"
+    sources:
+      inbound:
+      - "[All flights to Tunisia are suspended. This does not apply to repatriation flights for nationals and permanent residents, as well as other emergency flights.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  TO:
+    travel:
+      inbound: no
+      outbound: no
+    sources:
+      inbound:
+      - "[Updated April 22: Only Tongan citizens and permanent residents can enter Tonga at this time.](https://www.smartraveller.gov.au/destinations/pacific/tonga)"
+      outbound:
+      - "[Most international flights have been cancelled, and options to leave are extremely limited.](https://www.smartraveller.gov.au/destinations/pacific/tonga)"
+  TR:
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: partial
+      inbound_restricted: [DZ, AO, AT, AZ, BD, BE, BG, CM, CA, CN, TD, CO, CI, CZ, CY, DK, DJ, DO, EC, EG, GQ, FI, FR, GE, DE, GR, GT, HU, IN, IR, IQ, IE, IT, JO, KZ, KE, KW, LV, LB, MR, MD, MN, ME, MA, NP, NL, NE, MK, NO, OM, PA, PE, PH, PL, PT, SA, SI, KR, ES, LK, SD, SE, CH, TW, TN, UA, AE, GB, UZ]
+    sources:
+      domestic:
+      - "[Turkish Airlines has resumed domestic flights. Effective June 6, all travelers must have a HES code (Hayat Eve Sığar) for domestic and international flights, train and ferry travel.](https://tr.usembassy.gov/covid-19-information-2/)"
+      - "[Hair salons, shopping malls, and some stores have reopened, but require social distancing and restrict the number of people who can enter.](https://tr.usembassy.gov/covid-19-information-2/)"
+      inbound:
+      - "[Inbound passengers from certain countries are not permitted to enter Turkey.](https://tr.usembassy.gov/covid-19-information-2/)"
+      outbound:
+      - "[Limited international commercial flight options exist in Turkey.](https://tr.usembassy.gov/covid-19-information-2/)"
+  TT:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[As of April 3, borders remain closed until further notice. All airports and seaports are currently closed to inbound traffic — entry ban applies to all travelers, including Trinidad and Tobago citizens.](https://www.garda.com/crisis24/news-alerts/329131/trinidad-and-tobago-travel-restrictions-continue-amid-covid-19-pandemic-april-3-update-2)"
+  TV:
+    travel:
+      inbound: no
+      outbound: no
+    sources:
+      inbound:
+      - "[March 20, Tuvalu passed emergency regulations which saw borders closed to all flights and vessels, except where exempted for essential supplies of food, medicine, fuel, cargo, or humanitarian assistance.](https://tr.usembassy.gov/covid-19-information-2/)"
+      outbound:
+      - "[March 20, Tuvalu passed emergency regulations which saw borders closed to all flights and vessels, except where exempted for essential supplies of food, medicine, fuel, cargo, or humanitarian assistance.](https://tr.usembassy.gov/covid-19-information-2/)"
+  TW:
+    travel:
+      inbound: no
+    reopening:
+      "2020-10-01": "[Projected reopening timeline: Foreign tourists may be allowed to visit the country in October, according to the Ministry of Transportation and Communications (MOTC).](https://www.taiwannews.com.tw/en/news/3937453)"
+    sources:
+      inbound:
+      - "[Foreign travelers are prohibited from entering or transiting through Taiwan.](https://covid19.mohw.gov.tw/en/cp-4784-53773-206.html)"
+  TZ:
+    travel:
+      domestic: partial
+      inbound: yes
+      outbound: yes
+    sources:
+      domestic:
+      - "[Social distancing measures remain in place. Majority of businesses have closed voluntarily.](https://www.garda.com/crisis24/news-alerts/348886/tanzania-zanzibar-eases-travel-restrictions-june-7-update-6)"
+      inbound:
+      - "[As of May 18, Tanzania has lifted its suspension of international travelers. All scheduled and unscheduled flights are free to arrive and depart. Quarantine measures have also been lifted.](https://www.garda.com/crisis24/news-alerts/348886/tanzania-zanzibar-eases-travel-restrictions-june-7-update-6)"
+      outbound:
+      - "[Tanzania has lifted its suspension of international passenger flights.](https://www.smartraveller.gov.au/destinations/africa/tanzania)"
+  UA:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: partial
+    sources:
+      domestic:
+      - "[Several services and institutions have reopened.](https://ua.usembassy.gov/covid-19-information/)"
+      inbound:
+      - "[All scheduled commercial international passenger services, including flights, trains and passenger buses to and from Ukraine are currently suspended.](https://ua.usembassy.gov/covid-19-information/)"
+      outbound:
+      - "[Several land border checkpoints with neighboring countries have reopened.](https://dpsu.gov.ua/ua/De-mozhna-peretnuti-kordon-avtotransportom/)"
+      - "[All scheduled commercial international passenger services, including flights, trains and passenger buses to and from Ukraine are currently suspended.](https://ua.usembassy.gov/covid-19-information/)"
+  UG:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[Flights to Uganda are suspended.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)"
+  US:
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: yes
+      inbound_restricted: [CN, IR, AT, BE, CZ, DK, EE, FI, FR, DE, GR, HU, IS, IT, LV, LI, LT, LU, MT, NL, NO, PL, PT, SK, SI, ES, SE, CH, MC, SM, VA, GB, IE, BR]
+    sources:
+      domestic:
+      - "[Majority of states are easing restrictions. Regulations differ from state to state. Refer to updated guidelines.](https://www.usatoday.com/storytelling/coronavirus-reopening-america-map/)"
+      inbound:
+      - "[There are restrictions on the entry of certain travelers into the United States. Refer to the CDC website for full details.](https://www.cdc.gov/coronavirus/2019-ncov/travelers/from-other-countries.html)"
+      outbound:
+      - "[The U.S. Department of State has issued a Global Level 4 Health Advisory advising U.S. citizens to avoid all international travel.](https://travel.state.gov/content/travel/en/traveladvisories/ea/travel-advisory-alert-global-level-4-health-advisory-issue.html)"
+      - "[Air travel is possible with flights operating at a limited capacity. Precautions should be taken.](https://www.flylax.com/travelsafely)"
+  UY:
+    travel:
+      domestic: no
+      inbound: no
+      outbound: no
+    sources:
+      domestic:
+      - "[The Ministries of Health and Interior are encouraging the public to self-quarantine. Those age 65 and older must observe mandatory self-quarantine.](https://uy.usembassy.gov/covid-19-information/)"
+      inbound:
+      - "[Uruguay has closed its borders until an undetermined date.](https://uy.usembassy.gov/covid-19-information/)"
+      outbound:
+      - "[Uruguay has closed its borders until an undetermined date.](https://uy.usembassy.gov/covid-19-information/)"
+  UZ:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: partial
+    sources:
+      domestic:
+      - "[Resumption of domestic tourism and sporting events has been permitted. Bus tours between provinces will be allowed, with the exception of entering red zones. Many businesses will be permitted to reopen from Monday, June 1, under the new measures.](https://www.garda.com/crisis24/news-alerts/346901/uzbekistan-authorities-announce-changes-in-covid-19-related-restrictions-may-30-update-12)"
+      inbound:
+      - "[Land and air borders remain closed to non-Uzbek nationals.](https://www.garda.com/crisis24/news-alerts/346901/uzbekistan-authorities-announce-changes-in-covid-19-related-restrictions-may-30-update-12)"
+      outbound:
+      - "[Rail and air links between Tashkent and remote regions have been allowed to partially resume.](https://www.garda.com/crisis24/news-alerts/346901/uzbekistan-authorities-announce-changes-in-covid-19-related-restrictions-may-30-update-12)"
+  VC:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[As of April 2, Saint Vincent and the Grenadines suspends all international passenger flights, partially closes sea ports.](https://www.worldaware.com/covid-19-alert-st-vincent-and-grenadines-suspends-all-international-passenger-flights-april-2)"
+  VE:
+    travel:
+      domestic: no
+      inbound: no
+      outbound: no
+    sources:
+      domestic:
+      - "[On April 12, the Maduro regime announced a 30-day extension of the nationwide quarantine, which bars movement between states with the exception of people that work in the transportation industry, security, healthcare, and food delivery.](https://ve.usembassy.gov/u-s-citizen-services/security-and-travel-information/covid-19-information/)"
+      inbound:
+      - "[On March 17, the Maduro regime suspended all international travel. Land borders with Brazil and Colombia are closed. These restrictions were extended on April 12, 2020 for an additional 30 days.](https://ve.usembassy.gov/u-s-citizen-services/security-and-travel-information/covid-19-information/)"
+      outbound:
+      - "[On March 17, the Maduro regime suspended all international travel. Land borders with Brazil and Colombia are closed. These restrictions were extended on April 12, 2020 for an additional 30 days.](https://ve.usembassy.gov/u-s-citizen-services/security-and-travel-information/covid-19-information/)"
+  VN:
+    travel:
+      domestic: yes
+      inbound: no
+      outbound: partial
+    reopening:
+      "2020-04-29": "[Domestic flights resumed on several routes amid the easing of lockdown measures nationwide.](https://www.garda.com/crisis24/news-alerts/341166/vietnam-hanoi-authorities-ease-covid-19-restrictions-may-11-update-27)"
+    sources:
+      domestic:
+      - "[Domestic flights have resumed on several routes amid the easing of lockdown measures nationwide.](https://www.garda.com/crisis24/news-alerts/341166/vietnam-hanoi-authorities-ease-covid-19-restrictions-may-11-update-27)"
+      - "[As of April 23, tourism attractions in the country are allowed to reopen but must ensure safety measures are in place for all visitors.](https://www.garda.com/crisis24/news-alerts/341166/vietnam-hanoi-authorities-ease-covid-19-restrictions-may-11-update-27"
+      inbound:
+      - "[All visa issuances are suspended.](https://vietnam.travel/things-to-do/covid-19-travel-policies-vietnam)"
+      - "[From March 22 until further notice, Vietnam has temporarily suspended entry for all foreign nationals. Only Vietnamese nationals, foreigners on diplomatic or official business, and highly skilled workers allowed to enter the country at this time.](https://www.garda.com/crisis24/news-alerts/341166/vietnam-hanoi-authorities-ease-covid-19-restrictions-may-11-update-27)"
+      outbound:
+      - "[Limited international flights out. Check Vietnam Airlines schedule here.](https://www.vietnamairlines.com/sg/en/travel-alerts/2020/~/media/2C52390659B14A27BDE026D2B430AB6C.ashx)"
+  VU:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: no
+    sources:
+      domestic:
+      - "[Inter-island travel by air is possible, but may be changed or suspended at short notice.](https://www.smartraveller.gov.au/destinations/pacific/vanuatu)"
+      inbound:
+      - "[In response to the COVID-19 pandemic, all Vanuatu's ports of entry are currently closed.](https://www.smartraveller.gov.au/destinations/pacific/vanuatu)"
+      - "[May 26: NDMO Director Abraham Nasak announces repatriation flights will begin this week.](https://www.facebook.com/watch/?v=542187003131314)"
+      outbound:
+      - "[In response to the COVID-19 pandemic, all Vanuatu's ports of entry are currently closed.](https://www.smartraveller.gov.au/destinations/pacific/vanuatu)"
+  WS:
+    travel:
+      inbound: no
+      outbound: no
+    sources:
+      inbound:
+      - "[Updated June 3: All international travel to and from Samoa by plane has ceased, with exceptions approved by the Cabinet.](https://www.samoagovt.ws/2020/06/amended-state-of-emergency-orders-for-coronavirs-covid-19-03rd-june-2020/)"
+      outbound:
+      - "[Updated June 3: All international travel to and from Samoa by plane has ceased, with exceptions approved by the Cabinet.](https://www.samoagovt.ws/2020/06/amended-state-of-emergency-orders-for-coronavirs-covid-19-03rd-june-2020/)"
+  YE:
+    travel:
+      inbound: no
+      outbound: no
+    sources:
+      inbound:
+      - "[Yemen has banned flights in and out of the country.](https://www.thenewhumanitarian.org/news/2020/06/04/coronavirus-humanitarian-aid-response)"
+      outbound:
+      - "[Yemen has banned flights in and out of the country.](https://www.thenewhumanitarian.org/news/2020/06/04/coronavirus-humanitarian-aid-response)"
+  ZA:
+    travel:
+      inbound: no
+    sources:
+      inbound:
+      - "[As of May 24, national borders will remain closed except for the transport of goods and repatriation of nationals.](https://www.gov.za/speeches/president-cyril-ramaphosa-developments-south-africa%E2%80%99s-risk-adjusted-strategy-manage-spread)"
+  ZM:
+    travel:
+      domestic: partial
+      inbound: no
+      outbound: partial
+    sources:
+      domestic:
+      - "[Gatherings of 50 people of more are restricted. Following the President’s announcement on 8 May, restaurants, gyms and casinos are allowed to re-open, but bars and taverns remain closed. The Zambian authorities have asked people to avoid all non-essential travel.](https://www.gov.uk/foreign-travel-advice/zambia/staying-during-coronavirus)"
+      inbound:
+      - "[Zambia’s borders are open, but under tight screening. The border crossing at Nakonde with Tanzania reopened on 18 May.](https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements)"
+      - "[All tourist visas to Zambia have been cancelled.](https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements)"
+      outbound:
+      - "[Kenneth Kaunda International Airport (KKIA) in Lusaka remains open to international flights, but international flights are suspended from all provincial airports. International train and bus services are also suspended.](https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements)"
+  ZW:
+    travel:
+      domestic: no
+      inbound: no
+      outbound: no
+    sources:
+      domestic:
+      - "[Zimbabwe is currently in lockdown. Non-essential travel within Zimbabwe, and recreational activities, are banned.](https://www.smartraveller.gov.au/destinations/africa/zimbabwe)"
+      inbound:
+      - "[Zimbabwe’s borders are closed to all human traffic except for returning Zimbabwean nationals and permit holders.](https://zw.usembassy.gov/covid-19-information-2/)"
+      outbound:
+      - "[Zimbabwe’s borders are closed to all human traffic except for returning Zimbabwean nationals and permit holders.](https://zw.usembassy.gov/covid-19-information-2/)"
