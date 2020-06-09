@@ -1,13 +1,11 @@
 <template>
-  <div class="country-select">
-    <multiselect
-      label="name"
-      :value="country"
-      :options="countryOptions"
-      open-direction="below"
-      @input="updateCountryAction">
-    </multiselect>
-  </div>
+  <multiselect
+    label="name"
+    :value="country"
+    :options="countryOptions"
+    open-direction="below"
+    @input="updateCountryAction">
+  </multiselect>
 </template>
 
 <script>
