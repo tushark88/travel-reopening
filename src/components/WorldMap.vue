@@ -141,14 +141,16 @@ export default {
     cursor: pointer;
     transition: fill 100ms ease;
     &.undefined { fill: theme("colors.gray.400"); }
-    &.current   { fill: theme("colors.primary"); }
     &.closed    { fill: theme("colors.secondary"); }
     &.open      { fill: #00916e; }
     &.partial   { fill: #ffc857; }
     &:hover { opacity: 0.85; }
-    &.current:hover {
-      cursor: unset;
-      opacity: 1;
+    &.current   {
+      fill: theme("colors.primary");
+      &:hover {
+        cursor: unset;
+        opacity: 1;
+      }
     }
   };
 </style>
