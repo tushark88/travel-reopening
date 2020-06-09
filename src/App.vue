@@ -1,7 +1,9 @@
 <template>
-  <div id="app" class="font-body text-gray-800">
+  <div id="app" class="flex flex-col h-screen font-body text-gray-800">
     <SiteNav/>
-    <router-view/>
+    <div class="flex-grow">
+      <router-view/>
+    </div>
     <SiteFooter/>
   </div>
 </template>
