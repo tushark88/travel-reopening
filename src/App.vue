@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="font-body text-gray-800">
     <SiteNav/>
     <router-view/>
     <SiteFooter/>
