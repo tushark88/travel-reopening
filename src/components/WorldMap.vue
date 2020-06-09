@@ -34,6 +34,10 @@ const renderTooltip = (accessor) => (selection) => {
     });
 };
 
+const capitalise = function (string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+};
+
 const tooltipBody = function (d) {
   const country = this.getCountryById(d.id);
   const state = this.getCountryGlobalState(country.code);
@@ -41,9 +45,9 @@ const tooltipBody = function (d) {
     <div class="bg-primary bg-opacity-50 text-white rounded-md p-2">
       <b>${d.properties.name}</b>
       <ul>
-        <li>Domestic: ${state.domestic || 'Unknown'}</li>
-        <li>Inbound: ${state.inbound || 'Unknown'}</li>
-        <li>Outbound: ${state.outbound || 'Unknown'}</li>
+        <li>Domestic: ${capitalise(state.domestic || 'Unknown')}</li>
+        <li>Inbound: ${capitalise(state.inbound || 'Unknown')}</li>
+        <li>Outbound: ${capitalise(state.outbound || 'Unknown')}</li>
       </ul>
     </div>`;
 };
