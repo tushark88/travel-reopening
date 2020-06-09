@@ -37,12 +37,15 @@ const renderTooltip = (accessor) => (selection) => {
 const tooltipBody = function (d) {
   const country = this.getCountryById(d.id);
   const state = this.getCountryGlobalState(country.code);
-  return `<b>${d.properties.name}</b>
-    <ul>
-      <li>Domestic: ${state.domestic || 'Unknown'}</li>
-      <li>Inbound: ${state.inbound || 'Unknown'}</li>
-      <li>Outbound: ${state.outbound || 'Unknown'}</li>
-    </ul>`;
+  return `
+    <div class="bg-primary bg-opacity-50 text-white rounded-md p-2">
+      <b>${d.properties.name}</b>
+      <ul>
+        <li>Domestic: ${state.domestic || 'Unknown'}</li>
+        <li>Inbound: ${state.inbound || 'Unknown'}</li>
+        <li>Outbound: ${state.outbound || 'Unknown'}</li>
+      </ul>
+    </div>`;
 };
 
 export default {
