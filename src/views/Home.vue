@@ -1,13 +1,14 @@
+<!-- eslint-disable max-len -->
 <template>
-  <div class="home">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-3xl mx-auto">
-        <div class="pb-8">
-          <WorldMap/>
-        </div>
-        <CountrySelect/>
-        <TravelDirectionToggle/>
+  <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto">
+      <h1>The Ultimate Guide to COVID–19 Travel Restriction</h1>
+      <p class="w-8/12 m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deleniti ab cupiditate necessitatibus autem, error obcaecati possimus.</p>
+      <div class="py-4">
+        <WorldMap/>
       </div>
+      <CountrySelect/>
+      <TravelDirectionToggle/>
     </div>
   </div>
 </template>

@@ -1,11 +1,9 @@
 <template>
-  <div class="country-body">
-    <div v-if="!!this.content">
-      <vue-markdown :source="content"></vue-markdown>
-    </div>
-    <div v-else>
-      <p>Sorry, we don't have any information about his region.</p>
-    </div>
+  <div v-if="!!this.content">
+    <vue-markdown :source="content"></vue-markdown>
+  </div>
+  <div v-else>
+    <p>Sorry, we don't have any information about his region.</p>
   </div>
 </template>
 

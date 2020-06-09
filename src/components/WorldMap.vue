@@ -1,5 +1,5 @@
 <template>
-  <svg width='770' height='390'></svg>
+  <svg class="mx-auto" width='770' height='390'></svg>
 </template>
 
 <script>
