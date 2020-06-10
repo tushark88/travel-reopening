@@ -4,7 +4,9 @@ module.exports = {
     fontFamily: {
       body: ['Gilroy', 'sans-serif'],
     },
-
+    inset: {
+      '1/2': '50%',
+    },
     extend: {
       colors: {
         primary: '#1c355e',
