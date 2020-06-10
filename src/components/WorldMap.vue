@@ -42,14 +42,26 @@ const tooltipBody = function (d) {
   const country = this.getCountryById(d.id);
   const state = this.getCountryGlobalState(country.code);
   return `
-    <div class="bg-primary bg-opacity-50 text-white rounded-md p-2">
-      <b>${d.properties.name}</b>
-      <ul>
-        <li>Domestic: ${capitalise(state.domestic || 'Unknown')}</li>
-        <li>Inbound: ${capitalise(state.inbound || 'Unknown')}</li>
-        <li>Outbound: ${capitalise(state.outbound || 'Unknown')}</li>
-      </ul>
-    </div>`;
+    <div class="w-48 text-gray-900 bg-white rounded-lg shadow">
+      <div class="px-4 py-3">
+        <p class="mt-0 mb-1 text-sm font-semibold uppercase">${d.properties.name}</p>
+        <div class="flex flex-col flex-no-wrap">
+          <div class="flex">
+            <span class="flex-1 text-sm">Domestic:</span>
+            <span class="flex-1 text-sm">${capitalise(state.domestic || 'Unknown')}</span>
+          </div>
+          <div class="flex">
+            <span class="flex-1 text-sm">Travel to:</span>
+            <span class="flex-1 text-sm">${capitalise(state.inbound || 'Unknown')}</span>
+          </div>
+          <div class="flex">
+            <span class="flex-1 text-sm">Travel from:</span>
+            <span class="flex-1 text-sm">${capitalise(state.outbound || 'Unknown')}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
 };
 
 export default {
