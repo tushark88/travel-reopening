@@ -91,14 +91,14 @@ export default {
         .classed('open', (d) => {
           if (d.id) {
             const country = this.getCountryById(d.id);
-            return this.getCountryState(country.code, context, this.country) === 'open';
+            return this.getCountryState(country.code, context, this.country) === 'yes';
           }
           return false;
         })
         .classed('closed', (d) => {
           if (d.id) {
             const country = this.getCountryById(d.id);
-            return this.getCountryState(country.code, context, this.country) === 'closed';
+            return this.getCountryState(country.code, context, this.country) === 'no';
           }
           return false;
         })
