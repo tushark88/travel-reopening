@@ -40,11 +40,6 @@ module.exports = [
     id: '660',
   },
   {
-    name: 'Antarctica',
-    code: 'AQ',
-    id: '010',
-  },
-  {
     name: 'Antigua & Barbuda',
     code: 'AG',
     id: '028',

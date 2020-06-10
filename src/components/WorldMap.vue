@@ -8,6 +8,8 @@ import { geoEquirectangular, geoPath } from 'd3-geo';
 import { feature } from 'topojson';
 import { mapGetters, mapState } from 'vuex';
 
+const EXCLUDE_COUNTRIES = ['Antarctica']; // Antarctica
+
 const renderTooltip = (accessor) => (selection) => {
   let tooltipDiv;
   const bodyNode = select('body').node();
@@ -123,10 +125,13 @@ export default {
     const path = geoPath().projection(projection);
 
     json('/data/countries-110m.json').then((data) => {
+      const countries = feature(data, data.objects.countries)
+        .features
+        .filter(({ properties: { name } }) => !EXCLUDE_COUNTRIES.includes(name));
       const g = svg.append('g');
       g
         .selectAll('.state')
-        .data(feature(data, data.objects.countries).features)
+        .data(countries)
         .enter()
         .append('path')
         .attr('class', 'state')
