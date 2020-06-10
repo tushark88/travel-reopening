@@ -51,14 +51,14 @@ export default new Vuex.Store({
         if (currentCountry && direction === 'inbound') {
           const currentCountryTravel = state.Travel.countries[currentCountry.code]?.travel;
           if (currentCountryTravel && 'inbound_allowed' in currentCountryTravel) {
-            return currentCountryTravel.inbound_allowed.includes(code) ? 'open' : 'closed';
+            return currentCountryTravel.inbound_allowed.includes(code) ? 'yes' : 'no';
           }
           return currentCountryTravel?.inbound;
         }
         if (currentCountry && direction === 'outbound') {
           const countryTravel = state.Travel.countries[code]?.travel;
           if (countryTravel && 'inbound_allowed' in countryTravel) {
-            return countryTravel.inbound_allowed.includes(currentCountry.code) ? 'open' : 'closed';
+            return countryTravel.inbound_allowed.includes(currentCountry.code) ? 'yes' : 'no';
           }
           return countryTravel?.outbound;
         }
