@@ -5,6 +5,7 @@
 <script>
 import { select, json, mouse } from 'd3';
 import { geoEquirectangular, geoPath } from 'd3-geo';
+import { geoVanDerGrinten3 } from 'd3-geo-projection';
 import { feature } from 'topojson';
 import { mapGetters, mapState } from 'vuex';
 
@@ -121,7 +122,7 @@ export default {
     const svg = select(this.$el);
     // const width = +svg.attr('width');
     // const height = +svg.attr('height');
-    const projection = geoEquirectangular();
+    const projection = geoVanDerGrinten3();
     const path = geoPath().projection(projection);
 
     json('/data/countries-110m.json').then((data) => {
