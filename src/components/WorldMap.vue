@@ -1,12 +1,15 @@
 <template>
-  <svg class="mx-auto" width='770' height='390'></svg>
+  <svg class="mx-auto" width='770' height='390' viewBox="410 120 700 400"></svg>
 </template>
 
 <script>
 import { select, json, mouse } from 'd3';
 import { geoEquirectangular, geoPath } from 'd3-geo';
+import { geoVanDerGrinten3 } from 'd3-geo-projection';
 import { feature } from 'topojson';
 import { mapGetters, mapState } from 'vuex';
+
+const EXCLUDE_COUNTRIES = ['Antarctica']; // Antarctica
 
 const renderTooltip = (accessor) => (selection) => {
   let tooltipDiv;
@@ -119,14 +122,17 @@ export default {
     const svg = select(this.$el);
     // const width = +svg.attr('width');
     // const height = +svg.attr('height');
-    const projection = geoEquirectangular();
+    const projection = geoVanDerGrinten3();
     const path = geoPath().projection(projection);
 
     json('/data/countries-110m.json').then((data) => {
+      const countries = feature(data, data.objects.countries)
+        .features
+        .filter(({ properties: { name } }) => !EXCLUDE_COUNTRIES.includes(name));
       const g = svg.append('g');
       g
         .selectAll('.state')
-        .data(feature(data, data.objects.countries).features)
+        .data(countries)
         .enter()
         .append('path')
         .attr('class', 'state')
@@ -136,8 +142,9 @@ export default {
           if (this.$route.params.country === country.code) return;
           this.$router.push({ name: 'Country', params: { country: country.code } });
         })
-        .call(renderTooltip(tooltipBody.bind(this)));
-      g.attr('transform', 'scale(0.80)');
+        .call(renderTooltip(tooltipBody.bind(this)))
+        .attr('transform', 'scale(1.55)');
+
       if (this.country) this.handleCountryChange(this.country);
       if (this.travelContext) this.handleContextChange(this.travelContext);
     });
