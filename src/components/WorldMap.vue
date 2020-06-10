@@ -1,5 +1,5 @@
 <template>
-  <svg class="mx-auto" width='770' height='390'></svg>
+  <svg class="mx-auto" width='770' height='390' viewBox="410 120 700 400"></svg>
 </template>
 
 <script>
@@ -142,8 +142,9 @@ export default {
           if (this.$route.params.country === country.code) return;
           this.$router.push({ name: 'Country', params: { country: country.code } });
         })
-        .call(renderTooltip(tooltipBody.bind(this)));
-      g.attr('transform', 'scale(0.80)');
+        .call(renderTooltip(tooltipBody.bind(this)))
+        .attr('transform', 'scale(1.55)');
+
       if (this.country) this.handleCountryChange(this.country);
       if (this.travelContext) this.handleContextChange(this.travelContext);
     });
