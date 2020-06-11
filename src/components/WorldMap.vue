@@ -1,5 +1,5 @@
 <template>
-  <svg class="mx-auto" width='770' height='390' viewBox="410 120 700 400"></svg>
+  <svg width='770' height='390' viewBox="410 120 700 400"></svg>
 </template>
 
 <script>
