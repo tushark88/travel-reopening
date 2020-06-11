@@ -44,22 +44,29 @@ const capitalise = function (string) {
 const tooltipBody = function (d) {
   const country = this.getCountryById(d.id);
   const state = this.getCountryGlobalState(country.code);
+
   return `
-    <div class="w-48 text-gray-900 bg-white rounded-md shadow">
-      <div class="px-4 py-3">
-        <p class="mt-0 mb-1 text-sm font-semibold uppercase">${d.properties.name}</p>
-        <div class="flex flex-col flex-no-wrap">
-          <div class="flex">
-            <span class="flex-1 text-sm">Domestic:</span>
-            <span class="flex-1 text-sm">${capitalise(state.domestic || 'Unknown')}</span>
+    <div class="text-gray-900 bg-white rounded-md shadow">
+      <div class="px-4 py-3 w-48">
+        <div class="flex flex-col">
+          <p class="mt-0 mb-2 text-xs font-semibold">${d.properties.name}</p>
+          <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline pb-1">
+            <span class="text-xs">Domestic</span>
+            <span class="badge-${state.domestic || 'unknown'} px-2.5 py-0.5 rounded-md text-xs text-center">
+              ${capitalise(state.domestic || 'Unknown')}
+            </span>
           </div>
-          <div class="flex">
-            <span class="flex-1 text-sm">Travel to:</span>
-            <span class="flex-1 text-sm">${capitalise(state.inbound || 'Unknown')}</span>
+          <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline pb-1">
+            <span class="text-xs">Travel to</span>
+            <span class="badge-${state.inbound || 'unknown'} px-2.5 py-0.5 rounded-md text-xs text-center">
+              ${capitalise(state.inbound || 'Unknown')}
+            </span>
           </div>
-          <div class="flex">
-            <span class="flex-1 text-sm">Travel from:</span>
-            <span class="flex-1 text-sm">${capitalise(state.outbound || 'Unknown')}</span>
+          <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline ">
+            <span class="text-xs">Travel from</span>
+            <span class="badge-${state.outbound || 'unknown'} px-2.5 py-0.5 rounded-md text-xs text-center">
+              ${capitalise(state.outbound || 'Unknown')}
+            </span>
           </div>
         </div>
       </div>
@@ -157,6 +164,9 @@ export default {
 </script>
 
 <style lang="scss">
+  $green: #00916e;
+  $yellow: #ffc857;
+
   .state {
     fill: theme("colors.gray.400");
     stroke: theme("colors.gray.200");
@@ -165,8 +175,8 @@ export default {
     transition: fill 100ms ease;
     &.undefined { fill: theme("colors.gray.400"); }
     &.closed    { fill: theme("colors.secondary"); }
-    &.open      { fill: #00916e; }
-    &.partial   { fill: #ffc857; }
+    &.open      { fill: $green; }
+    &.partial   { fill: $yellow; }
     &:hover { opacity: 0.85; }
     &.current   {
       fill: theme("colors.primary");
@@ -174,6 +184,25 @@ export default {
         cursor: unset;
         opacity: 1;
       }
+    }
+  };
+
+  .badge {
+    &-yes {
+      background-color: $green;
+      color: theme("colors.white");
+    }
+    &-no {
+      background-color: theme("colors.secondary");
+      color: theme("colors.white");
+    }
+    &-partial {
+      background-color: $yellow;
+      color: theme("colors.gray.800");
+    }
+    &-unknown {
+      background-color: theme("colors.gray.400");
+      color: theme("colors.gray.800");
     }
   };
 </style>
