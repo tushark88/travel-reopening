@@ -1,14 +1,10 @@
 <!-- eslint-disable max-len -->
 <template>
-  <div @click="toggleContextAction"
-    :class="isOn ? 'slider-left' : 'slider-right'"
-    class="relative border rounded-full">
-    <div class="slider absolute z-10 w-2/4 overflow-hidden bg-gray-100 border border-primary rounded-full transition-all duration-300 ease-linear"></div>
+  <div @click="toggleContextAction" :class="{ active }" class="relative border rounded-full">
+    <div class="slider absolute left-0 h-full w-2/4 bg-gray-100 border border-primary rounded-full duration-300 ease-linear"></div>
     <div class="relative z-20 flex">
-      <div class="w-20 px-3 py-2 text-sm text-center uppercase tracking-wide focus:outline-none">To
-      </div>
-      <div class="w-20 px-3 py-2 text-sm text-center uppercase tracking-wide focus:outline-none">From
-      </div>
+      <div class="label w-20 px-3 py-2 text-sm text-center uppercase ease-linear text-primary">To</div>
+      <div class="label w-20 px-3 py-2 text-sm text-center uppercase ease-linear text-gray-600">From</div>
     </div>
   </div>
 </template>
@@ -20,9 +16,7 @@ export default {
   name: 'CountrySelect',
   computed: mapState({
     ...mapState(['travelContext']),
-    isOn() {
-      return this.travelContext === 'inbound';
-    },
+    active() { return this.travelContext !== 'inbound'; },
   }),
   methods: {
     ...mapActions(['toggleContextAction']),
@@ -31,28 +25,9 @@ export default {
 </script>
 
 <style lang="scss">
-.slider {
-  top: -1px;
-  bottom: -1px;
-}
-
-.slider-left {
-  .slider { left: 0; }
-  div:nth-of-type(2) div:first-child {
-    @apply text-primary;
-  }
-  div:nth-of-type(2) div:last-child {
-    @apply text-gray-600;
-  }
-}
-
-.slider-right {
+.active {
   .slider { left: 50%; }
-  div:nth-of-type(2) div:first-child {
-    @apply text-gray-600;
-  }
-  div:nth-of-type(2) div:last-child {
-    @apply text-primary;
-  }
+  .label:first-child { @apply text-gray-600; }
+  .label:last-child { @apply text-primary; }
 }
 </style>
