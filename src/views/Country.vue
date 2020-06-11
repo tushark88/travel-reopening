@@ -14,7 +14,7 @@
         <CountrySelect/>
       </div>
       <div class="py-8">
-        <div class="bg-white overflow-hidden shadow rounded-lg">
+        <div class="bg-white overflow-hidden shadow rounded-md">
           <div class="px-4 py-5 sm:p-6">
             <CountryBody :content="this.content"></CountryBody>
           </div>

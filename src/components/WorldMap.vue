@@ -45,7 +45,7 @@ const tooltipBody = function (d) {
   const country = this.getCountryById(d.id);
   const state = this.getCountryGlobalState(country.code);
   return `
-    <div class="w-48 text-gray-900 bg-white rounded-lg shadow">
+    <div class="w-48 text-gray-900 bg-white rounded-md shadow">
       <div class="px-4 py-3">
         <p class="mt-0 mb-1 text-sm font-semibold uppercase">${d.properties.name}</p>
         <div class="flex flex-col flex-no-wrap">
