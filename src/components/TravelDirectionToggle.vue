@@ -1,17 +1,13 @@
 <!-- eslint-disable max-len -->
 <template>
-  <div @click="toggleContextAction" class="relative border rounded-full">
-    <div
-      :class="isOn ? 'slider--right' : 'slider--left'"
-      class="slider absolute z-10 w-2/4 overflow-hidden bg-tertiary rounded-full transition-all duration-300 ease-linear"></div>
+  <div @click="toggleContextAction"
+    :class="isOn ? 'slider-left' : 'slider-right'"
+    class="relative border rounded-full">
+    <div class="slider absolute z-10 w-2/4 overflow-hidden bg-gray-100 border border-primary rounded-full transition-all duration-300 ease-linear"></div>
     <div class="relative z-20 flex">
-      <div
-        :class="isOn ? 'text-gray-900' : 'text-white'"
-        class="w-20 px-3 py-2 text-sm text-center uppercase tracking-wide focus:outline-none">To
+      <div class="w-20 px-3 py-2 text-sm text-center uppercase tracking-wide focus:outline-none">To
       </div>
-      <div
-        :class="isOn ? 'text-white' : 'text-gray-900'"
-        class="w-20 px-3 py-2 text-sm text-center uppercase tracking-wide focus:outline-none">From
+      <div class="w-20 px-3 py-2 text-sm text-center uppercase tracking-wide focus:outline-none">From
       </div>
     </div>
   </div>
@@ -34,11 +30,29 @@ export default {
 };
 </script>
 
-<style>
-  .slider {
-    top: 0;
-    bottom: 0;
+<style lang="scss">
+.slider {
+  top: -1px;
+  bottom: -1px;
+}
+
+.slider-left {
+  .slider { left: 0; }
+  div:nth-of-type(2) div:first-child {
+    @apply text-primary;
   }
-  .slider--left { left: 0; }
-  .slider--right { left: 50%; }
+  div:nth-of-type(2) div:last-child {
+    @apply text-gray-600;
+  }
+}
+
+.slider-right {
+  .slider { left: 50%; }
+  div:nth-of-type(2) div:first-child {
+    @apply text-gray-600;
+  }
+  div:nth-of-type(2) div:last-child {
+    @apply text-primary;
+  }
+}
 </style>
