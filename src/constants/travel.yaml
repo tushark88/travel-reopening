@@ -596,16 +596,16 @@ countries:
       outbound:
       - "[No exit restrictions. Air travel is possible with flights operating at a limited capacity. Precautions should be taken.](https://www.smartraveller.gov.au/destinations/europe/united-kingdom)"
   KR:
+    updated_on: 2020-06-09
     travel:
       domestic: yes
-      inbound: partial
+      inbound: no
       outbound: partial
-      inbound_restricted: [CN, JP, MN, TW, KH, IN, ID, MY, MV, MM, NP, PH, SG, LK, TH, VN, AU, CA, IL, NZ, RU, TR, AE, GB, US, UZ, AT, BE, BG, HR, CY, CZ, DK, EE, FI, FR, DE, GR, HU, IE, IT, LV, LT, LU, MT, NL, PL, PT, RO, SK, SI, ES, SE]
     sources:
       domestic:
       - "[Domestic air carriers have resumed routes.](https://newsinfo.inquirer.net/1259719/south-koreas-air-carriers-resume-domestic-routes-for-spring-travel-season)"
       inbound:
-      - "[South Korea has restricted entry for certain foreign nationals as well as the transit of certain foreign nationals. Refer to this list for more information.](https://www.koreanair.com/global/en/2020_02_TSA_detail.html?fbclid=IwAR0JnLH-Ldp2UOzSLXX0cq65rtfLnVPYeRdpPXWMNhtpouIJiD7V5olpBK8)"
+      - "[South Korea has implemented a temporary suspension on short-term visas. Visa-free entry and visa waiver programs for normal passports are also suspended for countries with entry bans on South Koreans.](https://www.garda.com/crisis24/news-alerts/330281/south-korea-visa-waivers-suspended-for-countries-with-entry-ban-on-south-koreans-april-8-update-16)"
       outbound:
       - "[Foreigners who are long term residents of the Republic of Korea (ROK) will be required to obtain a re-entry permit prior to departing for international travel.](https://kr.usembassy.gov/022420-covid-19-information/)"
   KN:
