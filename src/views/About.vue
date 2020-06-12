@@ -23,7 +23,8 @@
         code and the data is open-sourced on Github:
         <a href="https://github.com/tourhero/travel-reopening">
           https://github.com/tourhero/travel-reopening
-        </a>. Alternatively, you can submit data or situation reports from your region to <a mailto="travel-map@tourhero.com">travel-map@tourhero.com</a>.
+        </a>. Alternatively, you can submit data or situation reports from your
+        region to <a href="mailto:travel-map@tourhero.com">travel-map@tourhero.com</a>.
       </p>
 
       <h2>Disclaimer</h2>
