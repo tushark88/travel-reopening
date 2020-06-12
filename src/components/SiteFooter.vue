@@ -1,6 +1,6 @@
 <!-- eslint-disable max-len -->
 <template>
-  <div class="flex justify-between p-4 sm:px-6 lg:px-8 border-t border-gray-200">
+  <div class="flex justify-between p-4 sm:px-6 lg:px-8 mt-6 md:mt-8 border-t border-gray-200">
     <p class="flex-shrink-0 mr-2 mb-0 text-gray-700 text-sm">
       Notice a mistake? <a class="inline-flex no-underline" href="mailto:reopen@tourhero.com">Let us know</a>
     </p>
