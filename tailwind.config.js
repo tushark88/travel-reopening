@@ -12,6 +12,7 @@ module.exports = {
         tertiary: '#307582',
         'tertiary-lighter': '#d2e8eb',
         'tertiary-light': '#bae2df',
+        'warm-gray-50': '#f9fafb',
       },
     },
   },

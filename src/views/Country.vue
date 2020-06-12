@@ -1,21 +1,31 @@
 <!-- eslint-disable max-len -->
 <template>
-  <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8">
-    <div class="max-w-3xl mx-auto">
-      <h1>{{country.name}} Travel - COVID19 Update</h1>
-      <p class="w-8/12 m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deleniti ab cupiditate necessitatibus autem, error obcaecati possimus.</p>
-      <div class="py-4">
-        <WorldMap/>
+  <div>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto pt-6 pb-4 md:py-6">
+        <h1>The Ultimate Guide to COVID–19 Travel Restrictions</h1>
+        <p class="w-full md:w-8/12 m-0">Borders are slowly reopening as we battle COVID–19. Here you will find the latest information for travel restrictions and guidelines. Travel safe!</p>
       </div>
-      <div class="flex items-center">
-        <div class="mr-2">
-          <TravelDirectionToggle/>
+    </div>
+    <div class="bg-warm-gray-50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto py-4 md:py-6">
+          <WorldMap/>
         </div>
-        <CountrySelect/>
       </div>
-      <div class="py-8">
-        <div class="bg-white overflow-hidden shadow rounded-lg">
+    </div>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto py-6">
+        <div class="flex items-center py-4 md:py-6">
+          <div class="mr-2">
+            <TravelDirectionToggle/>
+          </div>
+          <CountrySelect/>
+        </div>
+        <div class="bg-white overflow-hidden shadow rounded-md">
           <div class="px-4 py-5 sm:p-6">
+            <h2>{{country.name}} COVID-19 Travel Update</h2>
+            <p>Follow news and updates of current travel restrictions and reopening timelines for {{country.name}}.</p>
             <CountryBody :content="this.content"></CountryBody>
           </div>
         </div>
