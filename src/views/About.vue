@@ -1,19 +1,16 @@
 <template>
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-4xl mx-auto py-6">
-      <h1>About</h1>
-
-      <h2>About this project</h2>
+      <h1>About Project Travel Reopening</h1>
       <p>
-        [Project Name] provides an up–to–date view of travel restrictions around
+        Project Travel Reopening provides an up–to–date view of travel restrictions around
         the world due to the COVID–19 pandemic. We hope this information will be
         useful to businesses and individuals who require insights into the global
         situation in planning their travel.
       </p>
       <p>
         Our data is pulled from multiple sources including official government
-        websites, news outlets, and the International Air Transport Association
-        (IATA). Selecting a country will display detailed information on domestic
+        websites and news outlets. Selecting a country will display detailed information on domestic
         travel, international travel, and visa and quarantine regulations current
         to the destination, as well as relevant links to sources.
       </p>
@@ -26,7 +23,7 @@
         code and the data is open-sourced on Github:
         <a href="https://github.com/tourhero/travel-reopening">
           https://github.com/tourhero/travel-reopening
-        </a>.
+        </a>. Alternatively, you can submit data or situation reports from your region to <a mailto="travel-map@tourhero.com">travel-map@tourhero.com</a>.
       </p>
 
       <h2>Disclaimer</h2>
