@@ -7,8 +7,12 @@
       <div class="py-4">
         <WorldMap/>
       </div>
-      <CountrySelect/>
-      <TravelDirectionToggle/>
+      <div class="flex items-center">
+        <div class="mr-2">
+          <TravelDirectionToggle/>
+        </div>
+        <CountrySelect/>
+      </div>
       <div class="py-8">
         <div class="bg-white overflow-hidden shadow rounded-lg">
           <div class="px-4 py-5 sm:p-6">

@@ -42,4 +42,9 @@ export default {
 .multiselect__option--selected.multiselect__option--highlight:after {
   @apply bg-secondary;
 }
+
+.multiselect__placeholder {
+  @apply text-base;
+}
+
 </style>
