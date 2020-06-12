@@ -1,4 +1,3 @@
-
 Individual states and territories implement their own measures that may impact interstate travel.
 
 #### Queensland
