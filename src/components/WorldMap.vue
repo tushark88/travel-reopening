@@ -1,5 +1,5 @@
 <template>
-  <svg width='770' height='390' viewBox="410 120 700 400"></svg>
+  <svg :width='svgWidth' :height='svgHeight' viewBox="410 120 700 400"></svg>
 </template>
 
 <script>
@@ -68,11 +68,23 @@ const tooltipBody = function (d) {
 };
 
 export default {
+  data() {
+    return {
+      svgMaxWidth: 900,
+      svgWidth: undefined,
+      svgHeight: undefined,
+    };
+  },
   computed: {
     ...mapGetters(['getCountryById', 'getCountryState', 'getCountryGlobalState']),
     ...mapState(['country', 'travelContext']),
   },
   methods: {
+    handleSizeChange() {
+      const padding = 12 * 2; // 2 rem
+      this.svgWidth = Math.min(+select('body').style('width').slice(0, -2) - padding, this.svgMaxWidth) - padding;
+      this.svgHeight = Math.round(this.svgWidth / 2);
+    },
     handleCountryChange(country) {
       this.drawCurrentCountry(country);
       this.drawOpenRegions(this.travelContext);
@@ -118,6 +130,8 @@ export default {
         });
     },
   },
+  created() { window.addEventListener('resize', this.handleSizeChange); },
+  destroyed() { window.removeEventListener('resize', this.handleSizeChange); },
   mounted() {
     const svg = select(this.$el);
     // const width = +svg.attr('width');
@@ -147,6 +161,7 @@ export default {
 
       if (this.country) this.handleCountryChange(this.country);
       if (this.travelContext) this.handleContextChange(this.travelContext);
+      this.handleSizeChange();
     });
   },
   watch: {
