@@ -6,7 +6,15 @@
       <div class="bg-white overflow-hidden shadow rounded-md max-w-4xl mx-auto px-4 py-5 pt-6 pb-4 md:py-6">
         <h2>{{country.name}} COVID-19 Travel Update</h2>
         <p>Follow news and updates of current travel restrictions and reopening timelines for {{country.name}}.</p>
-        <CountryBody :content="this.content"></CountryBody>
+        <CountryBody :content="this.domesticContent">
+          <h2>Domestic Travel</h2>
+        </CountryBody>
+        <CountryBody :content="this.internationalContent">
+          <h2>International Travel</h2>
+        </CountryBody>
+        <CountryBody :content="this.visaQuarantineContent">
+          <h2>Visa &amp; Quarantine Measures</h2>
+        </CountryBody>
       </div>
     </div>
   </div>
@@ -18,6 +26,10 @@ import CountryBody from '@/components/CountryBody.vue';
 import TitleMapSelect from '@/components/TitleMapSelect.vue';
 import { mapActions, mapGetters, mapState } from 'vuex';
 
+const errorHandler = function (error) {
+  if (error.response.status !== 404) { throw error; }
+};
+
 export default {
   name: 'Country',
   components: {
@@ -26,28 +38,36 @@ export default {
   },
   data() {
     return {
-      content: null,
+      domesticContent: null,
+      internationalContent: null,
+      visaQuarantineContent: null,
     };
   },
   computed: {
-    ...mapState(['country', 'countryOptions']),
+    ...mapState(['country']),
     ...mapGetters(['getCountryByCode']),
   },
   methods: {
     ...mapActions(['updateCountryAction']),
     fetchData() {
+      this.domesticContent = null;
+      this.internationalContent = null;
+      this.visaQuarantineContent = null;
+
       const country = this.getCountryByCode(this.$route.params.country);
       this.updateCountryAction(country);
 
-      return axios.get(`/data/${this.country.code}.md`)
-        .then((response) => { this.content = response.data; })
-        .catch((error) => {
-          if (error.response.status === 404) {
-            this.content = null;
-          } else {
-            throw error;
-          }
-        });
+      axios.get(`/data/${this.country.code}_domestic.md`)
+        .then((response) => { this.domesticContent = response.data; })
+        .catch(errorHandler);
+
+      axios.get(`/data/${this.country.code}_international.md`)
+        .then((response) => { this.internationalContent = response.data; })
+        .catch(errorHandler);
+
+      axios.get(`/data/${this.country.code}_visa_quarantine.md`)
+        .then((response) => { this.visaQuarantineContent = response.data; })
+        .catch(errorHandler);
     },
   },
   watch: {
