@@ -15,6 +15,15 @@ import SiteFooter from '@/components/SiteFooter.vue';
 export default {
   name: 'App',
   components: { SiteNav, SiteFooter },
+  metaInfo: {
+    title: 'The Ultimate Guide to COVID–19 Travel Restrictions',
+    titleTemplate: '%s | Project Travel Reopening',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'description', content: 'Borders are slowly reopening as we battle COVID–19. Here you will find the latest information for travel restrictions and guidelines. Travel safe!' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    ],
+  },
 };
 </script>
 
