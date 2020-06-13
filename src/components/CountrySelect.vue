@@ -4,6 +4,7 @@
     :value="country"
     :options="countryOptions"
     open-direction="below"
+    placeholder="Select your country"
     @input="updateCountryAction">
   </multiselect>
 </template>
@@ -43,8 +44,10 @@ export default {
   @apply bg-secondary;
 }
 
-.multiselect__placeholder {
+.multiselect__placeholder, .multiselect__input {
   @apply text-base;
+  line-height: 1rem;
+  padding-left: 5px;
 }
 
 </style>
