@@ -26,10 +26,6 @@ import CountryBody from '@/components/CountryBody.vue';
 import TitleMapSelect from '@/components/TitleMapSelect.vue';
 import { mapActions, mapGetters, mapState } from 'vuex';
 
-const errorHandler = function (error) {
-  if (error.response.status !== 404) { throw error; }
-};
-
 export default {
   name: 'Country',
   components: {
@@ -63,13 +59,12 @@ export default {
         axios(`/data/${this.country.code}_visa_quarantine.md`),
       ];
 
-      axios.all(promises).then(axios.spread((...responses) => {
-        this.domesticContent = responses[0].data;
-        this.internationalContent = responses[1].data;
-        this.visaQuarantineContent = responses[2].data;
-      })).then(() => {
+      Promise.allSettled(promises).then(axios.spread((...r) => {
+        if (r[0].status === 'fulfilled') { this.domesticContent = r[0].value.data; }
+        if (r[1].status === 'fulfilled') { this.internationalContent = r[1].value.data; }
+        if (r[2].status === 'fulfilled') { this.visaQuarantineContent = r[2].value.data; }
         this.$nextTick(() => document.dispatchEvent(new Event('render-completed')));
-      });
+      }));
     },
   },
   watch: {
