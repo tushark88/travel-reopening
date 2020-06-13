@@ -138,7 +138,10 @@ export default {
     },
   },
   created() { window.addEventListener('resize', this.handleSizeChange); },
-  destroyed() { window.removeEventListener('resize', this.handleSizeChange); },
+  destroyed() {
+    select('body').selectAll('div.tooltip').remove();
+    window.removeEventListener('resize', this.handleSizeChange);
+  },
   mounted() {
     const svg = select(this.$el);
     // const width = +svg.attr('width');
