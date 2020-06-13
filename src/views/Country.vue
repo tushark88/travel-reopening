@@ -6,6 +6,7 @@
       <div class="bg-white overflow-hidden shadow rounded-md max-w-4xl mx-auto px-4 py-5 pt-6 pb-4 md:py-6">
         <h2>{{country.name}} COVID-19 Travel Update</h2>
         <p>Follow news and updates of current travel restrictions and reopening timelines for {{country.name}}.</p>
+        <p v-if='updatedOn'>Last updated on {{updatedOn}}</p>
         <CountryBody :content="this.domesticContent">
           <h2>Domestic Travel</h2>
         </CountryBody>
@@ -41,7 +42,10 @@ export default {
   },
   computed: {
     ...mapState(['country']),
-    ...mapGetters(['getCountryByCode']),
+    ...mapGetters(['getCountryByCode', 'getCountryGlobalState']),
+    updatedOn() {
+      return this.getCountryGlobalState(this.$route.params.country)?.updatedOn;
+    },
   },
   methods: {
     ...mapActions(['updateCountryAction']),
