@@ -9,20 +9,20 @@
         </p>
       </div>
     </div>
-    <div class="bg-warm-gray-50">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-4xl mx-auto py-4 md:py-6">
-          <WorldMap/>
-        </div>
-      </div>
-    </div>
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto py-6">
+      <div class="max-w-4xl mx-auto">
         <div class="flex items-center py-4 md:py-6">
           <div class="mr-2">
             <TravelDirectionToggle/>
           </div>
           <CountrySelect/>
+        </div>
+      </div>
+    </div>
+    <div class="bg-warm-gray-50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto py-4 md:py-6">
+          <WorldMap/>
         </div>
       </div>
     </div>
