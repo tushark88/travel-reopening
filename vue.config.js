@@ -1,5 +1,6 @@
 const path = require('path');
 const PrerenderSPAPlugin = require('prerender-spa-plugin');
+const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 
 const countries = require('./src/constants/countries.js');
 const routes = countries.map((c) => `/${c.code}.html`);
@@ -29,6 +30,9 @@ module.exports = {
             keepClosingSlash: true,
             sortAttributes: true
           },
+          renderer: new Renderer({
+            maxConcurrentRoutes: 50,
+          }),
       })
     ]
   },
