@@ -17,3 +17,10 @@ export default {
   components: { SiteNav, SiteFooter },
 };
 </script>
+
+<style>
+.flex-grow {
+  margin-left: calc(100vw - 100%);
+  margin-right: 0;
+}
+</style>
