@@ -57,17 +57,17 @@ export default {
       const country = this.getCountryByCode(this.$route.params.country);
       this.updateCountryAction(country);
 
-      axios.get(`/data/${this.country.code}_domestic.md`)
-        .then((response) => { this.domesticContent = response.data; })
-        .catch(errorHandler);
+      const promises = [
+        axios(`/data/${this.country.code}_domestic.md`),
+        axios(`/data/${this.country.code}_international.md`),
+        axios(`/data/${this.country.code}_visa_quarantine.md`),
+      ];
 
-      axios.get(`/data/${this.country.code}_international.md`)
-        .then((response) => { this.internationalContent = response.data; })
-        .catch(errorHandler);
-
-      axios.get(`/data/${this.country.code}_visa_quarantine.md`)
-        .then((response) => { this.visaQuarantineContent = response.data; })
-        .catch(errorHandler);
+      axios.all(promises).then(axios.spread((...responses) => {
+        this.domesticContent = responses[0].data;
+        this.internationalContent = responses[1].data;
+        this.visaQuarantineContent = responses[2].data;
+      }));
     },
   },
   watch: {
