@@ -12,6 +12,7 @@ import { mapGetters, mapState } from 'vuex';
 const EXCLUDE_COUNTRIES = ['Antarctica']; // Antarctica
 
 const renderTooltip = (accessor) => (selection) => {
+  if ('ontouchstart' in document) { return; }
   let tooltipDiv;
   const bodyNode = select('body').node();
   selection.on('mouseover', () => {
