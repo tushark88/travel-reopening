@@ -60,6 +60,11 @@ export default {
   mounted() {
     this.$nextTick(() => document.dispatchEvent(new Event('render-completed')));
   },
+  metaInfo() {
+    return {
+      title: 'About',
+    };
+  },
 };
 </script>
 
