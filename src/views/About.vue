@@ -54,6 +54,15 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'About',
+  mounted() {
+    this.$nextTick(() => document.dispatchEvent(new Event('render-completed')));
+  },
+};
+</script>
+
 <style lang="scss">
   $column_width: 100px;
   dl {

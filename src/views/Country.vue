@@ -67,7 +67,9 @@ export default {
         this.domesticContent = responses[0].data;
         this.internationalContent = responses[1].data;
         this.visaQuarantineContent = responses[2].data;
-      }));
+      })).then(() => {
+        this.$nextTick(() => document.dispatchEvent(new Event('render-completed')));
+      });
     },
   },
   watch: {
