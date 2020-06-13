@@ -4,6 +4,7 @@
     :value="country"
     :options="countryOptions"
     open-direction="below"
+    placeholder="Select your country"
     @input="updateCountryAction">
   </multiselect>
 </template>
