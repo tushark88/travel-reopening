@@ -26,10 +26,6 @@ import CountryBody from '@/components/CountryBody.vue';
 import TitleMapSelect from '@/components/TitleMapSelect.vue';
 import { mapActions, mapGetters, mapState } from 'vuex';
 
-const errorHandler = function (error) {
-  if (error.response.status !== 404) { throw error; }
-};
-
 export default {
   name: 'Country',
   components: {
@@ -57,17 +53,18 @@ export default {
       const country = this.getCountryByCode(this.$route.params.country);
       this.updateCountryAction(country);
 
-      axios.get(`/data/${this.country.code}_domestic.md`)
-        .then((response) => { this.domesticContent = response.data; })
-        .catch(errorHandler);
+      const promises = [
+        axios(`/data/${this.country.code}_domestic.md`),
+        axios(`/data/${this.country.code}_international.md`),
+        axios(`/data/${this.country.code}_visa_quarantine.md`),
+      ];
 
-      axios.get(`/data/${this.country.code}_international.md`)
-        .then((response) => { this.internationalContent = response.data; })
-        .catch(errorHandler);
-
-      axios.get(`/data/${this.country.code}_visa_quarantine.md`)
-        .then((response) => { this.visaQuarantineContent = response.data; })
-        .catch(errorHandler);
+      Promise.allSettled(promises).then(axios.spread((...r) => {
+        if (r[0].status === 'fulfilled') { this.domesticContent = r[0].value.data; }
+        if (r[1].status === 'fulfilled') { this.internationalContent = r[1].value.data; }
+        if (r[2].status === 'fulfilled') { this.visaQuarantineContent = r[2].value.data; }
+        this.$nextTick(() => document.dispatchEvent(new Event('render-completed')));
+      }));
     },
   },
   watch: {
