@@ -44,8 +44,10 @@ export default {
   @apply bg-secondary;
 }
 
-.multiselect__placeholder {
+.multiselect__placeholder, .multiselect__input {
   @apply text-base;
+  line-height: 1rem;
+  padding-left: 5px;
 }
 
 </style>
