@@ -10,6 +10,7 @@
       <div class="flex">
         <router-link class="ml-3 sm:ml-4 inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 no-underline hover:text-gray-900" :to="{ name: 'About'}">About</router-link>
         <a class="ml-3 sm:ml-4 inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 no-underline hover:text-gray-900" href="https://github.com/tourhero/travel-reopening">Contribute</a>
+        <router-link class="ml-3 sm:ml-4 inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-700 no-underline hover:text-gray-900" to="#subscription">Subscribe</router-link>
       </div>
     </div>
   </nav>

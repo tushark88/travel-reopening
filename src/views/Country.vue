@@ -18,12 +18,18 @@
         </CountryBody>
       </div>
     </div>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 my-8">
+      <div class="bg-white overflow-hidden shadow rounded-md max-w-4xl mx-auto px-4 py-5 pt-6 pb-4 md:py-6">
+        <Subscription/>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import axios from 'axios';
 import CountryBody from '@/components/CountryBody.vue';
+import Subscription from '@/components/Subscription.vue';
 import TitleMapSelect from '@/components/TitleMapSelect.vue';
 import { mapActions, mapGetters, mapState } from 'vuex';
 
@@ -31,6 +37,7 @@ export default {
   name: 'Country',
   components: {
     CountryBody,
+    Subscription,
     TitleMapSelect,
   },
   data() {
@@ -78,7 +85,7 @@ export default {
     };
   },
   watch: {
-    $route: 'fetchData',
+    '$route.path': 'fetchData',
   },
   created() {
     this.fetchData();
