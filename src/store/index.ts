@@ -43,8 +43,6 @@ export default new Vuex.Store({
     getCountryGlobalState(state) {
       return (code: string) => {
         const c = state.Travel.countries[code] || {};
-        console.log(c);
-
         return {
           domestic: c?.travel?.domestic,
           inbound: c?.travel?.inbound,
