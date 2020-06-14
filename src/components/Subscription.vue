@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-8 pt-6 pb-8 mb-4">
+  <div class="w-full px-8 pt-6 pb-8 mb-4" id="subscription">
     <div v-if='status === "new"'>
       <p>Get the latest COVID–19 travel news in your inbox</p>
       <form ref="formElement" @submit.prevent="response" autocomplete="off">
@@ -46,7 +46,7 @@ export default {
       const { formElement } = this.$refs;
       const formData = new FormData(formElement);
       const url = 'https://docs.google.com/forms/d/10vtoUergPwRBk1usUwpZaEhlqEGWrD8OlOyqq5urfWw/formResponse';
-      axios.post(url, formData).then((r) => { this.status = 'submitted'; });
+      axios.post(url, formData).then(() => { this.status = 'submitted'; });
     },
   },
 };

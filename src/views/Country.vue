@@ -85,7 +85,7 @@ export default {
     };
   },
   watch: {
-    $route: 'fetchData',
+    '$route.path': 'fetchData',
   },
   created() {
     this.fetchData();
