@@ -48,7 +48,8 @@ export default {
       const { formElement } = this.$refs;
       const formData = new FormData(formElement);
       const url = 'https://docs.google.com/forms/d/10vtoUergPwRBk1usUwpZaEhlqEGWrD8OlOyqq5urfWw/formResponse';
-      axios.post(url, formData).then(() => { this.status = 'submitted'; });
+      // Google Forms fails due to CORS so assume data is accepted
+      axios.post(url, formData).finally(() => { this.status = 'submitted'; });
     },
   },
 };
