@@ -2,7 +2,7 @@
   <div>
     <h4>Countries Reopening</h4>
     <ul>
-      <li v-for="reopening in reopenings" :key="reopening.content">
+      <li v-for="reopening in futureReopenings" :key="reopening.content">
         <span>{{reopening.date}}:</span>
         <vue-markdown
           :source="reopening.content"
@@ -24,7 +24,7 @@ export default {
   data() {
     return {
       anchorAttributes: { target: '_blank', rel: 'nofollow' },
-      reopenings: futureReopenings,
+      futureReopenings,
     };
   },
 };
