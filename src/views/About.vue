@@ -3,9 +3,10 @@
     <div class="container__inner">
       <h1>About Project Travel Reopening</h1>
       <p>
-        Project Travel Reopening is a free and open source project by TourHero. It provides an up–to–date view of travel restrictions around
-        the world due to the COVID–19 pandemic. We hope this information will be useful to businesses and individuals who require insights into the global
-        situation in planning their travel.
+        Project Travel Reopening is a free and open source project by TourHero. It provides an 
+        up–to–date view of travel restrictions around the world due to the COVID–19 pandemic. We 
+        hope this information will be useful to businesses and individuals who require insights 
+        into the global situation in planning their travel.
       </p>
       <p>
         Our data is pulled from multiple sources including official government
@@ -19,7 +20,7 @@
         As the situation changes rapidly around the world, keeping information
         up–to–date can be challenging. If you spot any incorrect or outdated
         information, we encourage you to contribute to the project. The source
-        code and the data is open-sourced on  <a href="https://github.com/tourhero/travel-reopening">Github
+        code and the data is open-sourced on Github:
         <a href="https://github.com/tourhero/travel-reopening">
           https://github.com/tourhero/travel-reopening
         </a>. Alternatively, you can submit data or situation reports from your
