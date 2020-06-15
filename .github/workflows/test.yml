@@ -35,6 +35,7 @@ jobs:
         run: yarn build
         env:
           VUE_APP_SUBSCRIPTION_FORM_URL: ${{ secrets.VUE_APP_SUBSCRIPTION_FORM_URL }}
+          VUE_APP_GTM_ID: ${{ secrets.VUE_APP_GTM_ID }}
       - uses: jakejarvis/s3-sync-action@master
         if: ${{ github.ref == 'refs/heads/master' }}
         with:

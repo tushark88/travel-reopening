@@ -1,4 +1,5 @@
 import Vue from 'vue';
+import VueGtm from 'vue-gtm';
 import VueRouter, { RouteConfig } from 'vue-router';
 import VueMeta from 'vue-meta';
 import Home from '../views/Home.vue';
@@ -39,6 +40,12 @@ const router = new VueRouter({
     }
     return { x: 0, y: 0 };
   },
+});
+
+Vue.use(VueGtm, {
+  id: process.env.VUE_APP_GTM_ID,
+  enabled: process.env.NODE_ENV === 'production',
+  vueRouter: router,
 });
 
 export default router;
