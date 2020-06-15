@@ -2,24 +2,24 @@
 <template>
   <div>
     <TitleMapSelect/>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 my-8">
-      <div class="bg-white overflow-hidden shadow rounded-md max-w-4xl mx-auto px-4 py-5 pt-6 pb-4 md:py-6">
-        <h2>{{title}}</h2>
-        <p>Follow news and updates of current travel restrictions and reopening timelines for {{country.name}}.</p>
-        <p v-if='updatedOn'>Last updated on {{updatedOn}}</p>
-        <CountryBody :content="this.domesticContent">
-          <h2>Domestic Travel</h2>
-        </CountryBody>
-        <CountryBody :content="this.internationalContent">
-          <h2>International Travel</h2>
-        </CountryBody>
-        <CountryBody :content="this.visaQuarantineContent">
-          <h2>Visa &amp; Quarantine Measures</h2>
-        </CountryBody>
-      </div>
-    </div>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 my-8">
-      <div class="bg-white overflow-hidden shadow rounded-md max-w-4xl mx-auto px-4 py-5 pt-6 pb-4 md:py-6">
+    <div class="container">
+      <div class="container__inner">
+        <div class="panel">
+          <div class="panel__inner">
+            <h2 class="country-header">{{title}}</h2>
+            <p>Follow news and updates of current travel restrictions and reopening timelines for {{country.name}}.</p>
+            <p v-if='updatedOn'>Last updated on {{updatedOn}}</p>
+            <CountryBody :content="this.domesticContent">
+              <h3>Domestic Travel</h3>
+            </CountryBody>
+            <CountryBody :content="this.internationalContent">
+              <h3>International Travel</h3>
+            </CountryBody>
+            <CountryBody :content="this.visaQuarantineContent">
+              <h3>Visa &amp; Quarantine Measures</h3>
+            </CountryBody>
+          </div>
+        </div>
         <Subscription/>
       </div>
     </div>
