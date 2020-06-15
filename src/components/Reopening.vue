@@ -4,7 +4,7 @@
       <h2>Countries Reopening</h2>
       <ul>
         <li v-for="reopening in reopeningsList" :key="reopening.content">
-          <span>{{reopening.date}}:</span>
+          <span>{{toDate(reopening.date)}}:</span>
           <vue-markdown
             :source="'**' + reopening.name + ' Update** &ndash; ' + reopening.content"
             :anchorAttributes='anchorAttributes'></vue-markdown>
@@ -18,6 +18,7 @@
 import { futureReopenings } from '@/constants/travel';
 import VueMarkdown from 'vue-markdown';
 import { mapGetters } from 'vuex';
+import moment from 'moment';
 
 export default {
   name: 'Reopening',
@@ -39,6 +40,11 @@ export default {
     return {
       anchorAttributes: { target: '_blank', rel: 'nofollow' },
     };
+  },
+  methods: {
+    toDate(string) {
+      return moment(string).format('MMMM Do, YYYY');
+    },
   },
 };
 </script>
