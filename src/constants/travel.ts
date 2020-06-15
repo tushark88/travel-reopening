@@ -20,3 +20,7 @@ export const reopenings = Object.keys(countries)
   .sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
 
 export const futureReopenings = reopenings.filter(({ date }) => Date.parse(date) > Date.now());
+
+export function findSourcesForCountry(countryCode: any) {
+  return Object.values(countries[countryCode]?.sources || {}).flat();
+}
