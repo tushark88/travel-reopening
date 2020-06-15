@@ -1,10 +1,9 @@
 <template>
   <div>
     <TitleMapSelect/>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 my-8">
-      <div class="bg-white overflow-hidden shadow
-        rounded-md max-w-4xl mx-auto px-4 py-5 pt-6 pb-4 md:py-6">
-        <Reopening/>
+    <div class="container">
+      <div class="container__inner">
+          <Reopening/>
       </div>
     </div>
   </div>

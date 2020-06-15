@@ -1,6 +1,6 @@
 <template>
-  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="max-w-4xl mx-auto py-6">
+  <div class="container">
+    <div class="container__inner">
       <h1>About Project Travel Reopening</h1>
       <p>
         Project Travel Reopening provides an up–to–date view of travel restrictions around
