@@ -38,8 +38,13 @@ const renderTooltip = (accessor) => (selection) => {
     });
 };
 
-const capitalise = function (string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
+const travelStateLabel = (state) => {
+  switch (state) {
+    case 'yes': return 'Open';
+    case 'no': return 'Closed';
+    case 'partial': return 'Partial';
+    default: return 'Unknown';
+  }
 };
 
 const tooltipBody = function (d) {
@@ -54,19 +59,19 @@ const tooltipBody = function (d) {
           <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline pb-1">
             <span class="text-xs">Domestic</span>
             <span class="badge-${state.domestic || 'unknown'} px-2.5 py-0.5 rounded-md text-xs text-center">
-              ${capitalise(state.domestic || 'Unknown')}
+              ${travelStateLabel(state.domestic)}
             </span>
           </div>
           <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline pb-1">
             <span class="text-xs">Travel to</span>
             <span class="badge-${state.inbound || 'unknown'} px-2.5 py-0.5 rounded-md text-xs text-center">
-              ${capitalise(state.inbound || 'Unknown')}
+              ${travelStateLabel(state.inbound)}
             </span>
           </div>
           <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline ">
             <span class="text-xs">Travel from</span>
             <span class="badge-${state.outbound || 'unknown'} px-2.5 py-0.5 rounded-md text-xs text-center">
-              ${capitalise(state.outbound || 'Unknown')}
+              ${travelStateLabel(state.outbound)}
             </span>
           </div>
         </div>
