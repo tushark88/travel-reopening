@@ -1,14 +1,16 @@
 <template>
-  <div>
-    <h4>Countries Reopening</h4>
-    <ul>
-      <li v-for="reopening in reopenings" :key="reopening.content">
-        <span>{{reopening.date}}:</span>
-        <vue-markdown
-          :source="reopening.content"
-          :anchorAttributes='anchorAttributes'></vue-markdown>
-      </li>
-    </ul>
+  <div class="panel">
+    <div class="panel__inner">
+      <h2>Countries Reopening</h2>
+      <ul>
+        <li v-for="reopening in futureReopenings" :key="reopening.content">
+          <span>{{reopening.date}}:</span>
+          <vue-markdown
+            :source="reopening.content"
+            :anchorAttributes='anchorAttributes'></vue-markdown>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -24,7 +26,7 @@ export default {
   data() {
     return {
       anchorAttributes: { target: '_blank', rel: 'nofollow' },
-      reopenings: futureReopenings,
+      futureReopenings,
     };
   },
 };
