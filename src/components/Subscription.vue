@@ -2,8 +2,7 @@
   <div class="panel" id="subscription">
     <div class="panel__inner">
       <div v-if='status === "new"'>
-        <h2>Subscribe to Updates</h2>
-        <p>Get the latest COVID–19 travel news in your inbox</p>
+        <h2>Get the latest COVID–19 travel news in your inbox</h2>
         <form ref="formElement" @submit.prevent="response" autocomplete="off">
           <fieldset class="mb-4">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
