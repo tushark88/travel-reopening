@@ -7,11 +7,11 @@
           Borders are slowly reopening as we battle COVID–19. Here you will find
           the latest information for travel restrictions and guidelines. Travel safe!
         </p>
-        <div class="flex items-center my-4 sm:my-6 md:md-8">
-          <div class="mr-2">
+        <div class="flex flex-col sm:flex-row mt-8 mb-8">
+          <div class="mr-0 sm:mr-2">
             <TravelDirectionToggle/>
           </div>
-          <CountrySelect/>
+          <CountrySelect class="mt-4 sm:mt-0"/>
         </div>
       </div>
     </div>
