@@ -86,6 +86,7 @@ export default {
       svgMaxWidth: 900,
       svgWidth: undefined,
       svgHeight: undefined,
+      baseUrl: process.env.BASE_URL,
     };
   },
   computed: {
@@ -153,7 +154,7 @@ export default {
     const projection = geoVanDerGrinten3();
     const path = geoPath().projection(projection);
 
-    json('/data/countries-110m.json').then((data) => {
+    json(`${this.baseUrl}data/countries-110m.json`).then((data) => {
       const countries = feature(data, data.objects.countries)
         .features
         .filter(({ properties: { name } }) => !EXCLUDE_COUNTRIES.includes(name));

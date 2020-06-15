@@ -50,6 +50,7 @@ export default {
       domesticContent: null,
       internationalContent: null,
       visaQuarantineContent: null,
+      baseUrl: process.env.BASE_URL,
     };
   },
   computed: {
@@ -71,9 +72,9 @@ export default {
       this.updateCountryAction(country);
 
       const promises = [
-        axios(`/data/${this.country.code}_domestic.md`),
-        axios(`/data/${this.country.code}_international.md`),
-        axios(`/data/${this.country.code}_visa_quarantine.md`),
+        axios(`${this.baseUrl}data/${this.country.code}_domestic.md`),
+        axios(`${this.baseUrl}data/${this.country.code}_international.md`),
+        axios(`${this.baseUrl}data/${this.country.code}_visa_quarantine.md`),
       ];
 
       Promise.allSettled(promises).then(axios.spread((...r) => {
