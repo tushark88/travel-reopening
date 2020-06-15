@@ -1,4 +1,3 @@
-<!-- eslint-disable max-len -->
 <template>
   <div>
     <TitleMapSelect/>
@@ -7,7 +6,10 @@
         <div class="panel">
           <div class="panel__inner">
             <h2 class="country-header">{{title}}</h2>
-            <p>Follow news and updates of current travel restrictions and reopening timelines for {{country.name}}.</p>
+            <p>
+              Follow news and updates of current travel restrictions and reopening timelines for
+              {{country.name}}.
+            </p>
             <p v-if='updatedOn'>Last updated on {{updatedOn}}</p>
             <CountryBody :content="this.domesticContent">
               <h3>Domestic Travel</h3>
@@ -20,6 +22,7 @@
             </CountryBody>
           </div>
         </div>
+        <CountrySources :countryCode="country.code"></CountrySources>
         <Subscription/>
       </div>
     </div>
@@ -29,6 +32,7 @@
 <script>
 import axios from 'axios';
 import CountryBody from '@/components/CountryBody.vue';
+import CountrySources from '@/components/CountrySources.vue';
 import Subscription from '@/components/Subscription.vue';
 import TitleMapSelect from '@/components/TitleMapSelect.vue';
 import { mapActions, mapGetters, mapState } from 'vuex';
@@ -38,6 +42,7 @@ export default {
   components: {
     CountryBody,
     Subscription,
+    CountrySources,
     TitleMapSelect,
   },
   data() {
