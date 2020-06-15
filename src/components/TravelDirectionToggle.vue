@@ -1,10 +1,10 @@
 <!-- eslint-disable max-len -->
 <template>
-  <div @click="toggleContextAction" :class="{ active }" class="relative border rounded-full cursor-pointer">
-    <div class="slider absolute left-0 h-full w-2/4 bg-gray-100 border border-primary rounded-full duration-300 ease-linear"></div>
+  <div @click="toggleContextAction" :class="{ active }" class="relative border rounded-full cursor-pointer w-auto sm:w-64">
+    <div class="slider absolute left-0 h-full w-2/4 bg-gray-100 border border-primary rounded-full duration-150 ease-linear"></div>
     <div class="relative z-20 flex">
-      <div class="label w-20 px-3 py-2 text-sm text-center uppercase ease-linear text-primary">To</div>
-      <div class="label w-20 px-3 py-2 text-sm text-center uppercase ease-linear text-gray-600">From</div>
+      <div class="label w-2/4 px-3 py-2 text-sm text-center uppercase ease-linear text-primary">To</div>
+      <div class="label w-2/4 px-3 py-2 text-sm text-center uppercase ease-linear text-gray-600">From</div>
     </div>
   </div>
 </template>
