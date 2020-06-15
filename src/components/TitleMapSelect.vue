@@ -4,7 +4,7 @@
       <div class="container__inner">
         <h1>The Ultimate Guide to COVID–19 Travel Restrictions</h1>
         <p class="w-full md:w-8/12 m-0">
-          This guide is a free and open source project by TourHero. Click around on our 
+          This guide is a free and open source project by TourHero. Click around on our
           interactive map to find out more about travel restrictions and guidelines. Travel safe!
         </p>
         <div class="flex items-center my-4 sm:my-6 md:md-8">
