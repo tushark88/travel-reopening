@@ -3,10 +3,10 @@
     <div class="panel__inner">
       <h2>Countries Reopening</h2>
       <ul>
-        <li v-for="reopening in futureReopenings" :key="reopening.content">
+        <li v-for="reopening in reopeningsList" :key="reopening.content">
           <span>{{reopening.date}}:</span>
           <vue-markdown
-            :source="reopening.content"
+            :source="'**' + reopening.name + ' Update** &ndash; ' + reopening.content"
             :anchorAttributes='anchorAttributes'></vue-markdown>
         </li>
       </ul>
@@ -17,16 +17,27 @@
 <script>
 import { futureReopenings } from '@/constants/travel';
 import VueMarkdown from 'vue-markdown';
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'Reopening',
   components: {
     'vue-markdown': VueMarkdown,
   },
+  computed: {
+    ...mapGetters(['getCountryByCode']),
+    reopeningsList() {
+      return futureReopenings.map((c) => {
+        const countryHash = c;
+        const country = this.getCountryByCode(countryHash.country);
+        countryHash.name = country.name;
+        return countryHash;
+      });
+    },
+  },
   data() {
     return {
       anchorAttributes: { target: '_blank', rel: 'nofollow' },
-      futureReopenings,
     };
   },
 };
