@@ -4,7 +4,7 @@
     :value="country"
     :options="countryOptions"
     open-direction="below"
-    placeholder="Select your country"
+    :placeholder="placeholder"
     :hideSelected="true"
     @input="updateCountryAction">
   </multiselect>
@@ -24,7 +24,12 @@ export default {
     },
   },
   computed: mapState({
-    ...mapState(['country', 'countryOptions']),
+    ...mapState(['country', 'countryOptions', 'travelContext']),
+    placeholder() {
+      return this.travelContext === 'inbound'
+        ? 'Where are you traveling to?'
+        : 'Where are you traveling from?';
+    },
   }),
   methods: {
     ...mapActions(['updateCountryAction']),
