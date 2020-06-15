@@ -34,7 +34,7 @@ const productionPlugins = [
       sortAttributes: true
     },
     renderer: new Renderer({
-      maxConcurrentRoutes: 50,
+      maxConcurrentRoutes: 30,
       renderAfterDocumentEvent: 'render-completed',
     }),
   })
