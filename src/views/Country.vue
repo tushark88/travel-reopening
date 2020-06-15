@@ -23,7 +23,6 @@
           </div>
         </div>
         <CountrySources :countryCode="country.code"></CountrySources>
-        <Subscription/>
       </div>
     </div>
   </div>
@@ -33,7 +32,6 @@
 import axios from 'axios';
 import CountryBody from '@/components/CountryBody.vue';
 import CountrySources from '@/components/CountrySources.vue';
-import Subscription from '@/components/Subscription.vue';
 import TitleMapSelect from '@/components/TitleMapSelect.vue';
 import { mapActions, mapGetters, mapState } from 'vuex';
 
@@ -41,7 +39,6 @@ export default {
   name: 'Country',
   components: {
     CountryBody,
-    Subscription,
     CountrySources,
     TitleMapSelect,
   },

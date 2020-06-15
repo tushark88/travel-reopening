@@ -4,6 +4,11 @@
     <div class="flex-grow">
       <router-view/>
     </div>
+    <div class="container">
+      <div class="container__inner">
+        <Subscription/>
+      </div>
+    </div>
     <SiteFooter/>
   </div>
 </template>
@@ -11,10 +16,11 @@
 <script>
 import SiteNav from '@/components/SiteNav.vue';
 import SiteFooter from '@/components/SiteFooter.vue';
+import Subscription from '@/components/Subscription.vue';
 
 export default {
   name: 'App',
-  components: { SiteNav, SiteFooter },
+  components: { SiteNav, SiteFooter, Subscription },
   metaInfo: {
     title: 'The Ultimate Guide to COVID–19 Travel Restrictions',
     titleTemplate: '%s | Project Travel Reopening',
