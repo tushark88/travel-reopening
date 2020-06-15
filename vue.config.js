@@ -48,4 +48,10 @@ module.exports = {
       config.plugins.push(...productionPlugins);
     }
   },
+  pwa: {
+    iconPaths: {
+      favicon32: 'img/favicon.png',
+      favicon16: 'img/favicon.png',
+    },
+  },
 };
