@@ -38,16 +38,16 @@ const renderTooltip = (accessor) => (selection) => {
     });
 };
 
-const travelStateLabel = (state) => {
+function travelStateLabel(state) {
   switch (state) {
     case 'yes': return 'Open';
     case 'no': return 'Closed';
     case 'partial': return 'Partial';
     default: return 'Unknown';
   }
-};
+}
 
-const tooltipBody = function (d) {
+function tooltipBody(d) {
   const country = this.getCountryById(d.id);
   const state = this.getCountryGlobalState(country.code);
 
@@ -78,7 +78,7 @@ const tooltipBody = function (d) {
       </div>
     </div>
   `;
-};
+}
 
 export default {
   data() {
