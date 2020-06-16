@@ -47,7 +47,7 @@ export default {
     response() {
       const { formElement } = this.$refs;
       const formData = new FormData(formElement);
-      const url = 'https://docs.google.com/forms/d/10vtoUergPwRBk1usUwpZaEhlqEGWrD8OlOyqq5urfWw/formResponse';
+      const url = process.env.VUE_APP_SUBSCRIPTION_FORM_URL;
       // Google Forms fails due to CORS so assume data is accepted
       axios.post(url, formData).finally(() => { this.status = 'submitted'; });
     },
