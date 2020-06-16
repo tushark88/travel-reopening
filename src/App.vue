@@ -4,9 +4,9 @@
     <div class="flex-grow">
       <router-view/>
     </div>
-    <div class="container">
-      <div class="container__inner">
+    <div class="main-container">
         <Subscription/>
+      <div class="main-container__inner">
       </div>
     </div>
     <SiteFooter/>
