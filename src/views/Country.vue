@@ -24,6 +24,7 @@
           </div>
         </div>
         <CountrySources :countryCode="country.code"></CountrySources>
+        <Disclaimer />
       </div>
     </div>
   </div>
@@ -33,6 +34,7 @@
 import axios from 'axios';
 import CountryBody from '@/components/CountryBody.vue';
 import CountrySources from '@/components/CountrySources.vue';
+import Disclaimer from '@/components/Disclaimer.vue';
 import TitleMapSelect from '@/components/TitleMapSelect.vue';
 import TravelState from '@/components/TravelState.vue';
 import { mapActions, mapGetters, mapState } from 'vuex';
@@ -42,6 +44,7 @@ export default {
   components: {
     CountryBody,
     CountrySources,
+    Disclaimer,
     TitleMapSelect,
     TravelState,
   },
