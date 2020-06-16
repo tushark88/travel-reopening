@@ -1,12 +1,13 @@
 <template>
   <multiselect
+    id="country-select"
     label="name"
-    :value="country"
-    :options="countryOptions"
     open-direction="below"
-    :placeholder="placeholder"
     :hideSelected="true"
+    :options="countryOptions"
+    :placeholder="placeholder"
     :selectLabel="selectLabel"
+    :value="country"
     @input="updateCountryAction">
   </multiselect>
 </template>
