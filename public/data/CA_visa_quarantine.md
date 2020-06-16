@@ -4,4 +4,4 @@ If you have symptoms, you must isolate for 14 days. This is mandatory.
 
 If you have recently returned to Canada and you have no symptoms, you must quarantine (self-isolate) for 14 days. 
 
-For the most up–to–date travel information, refer to the [Government of Canada](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).
+For the most up–to–date travel information, refer to the [Government of Canada](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#f1).
