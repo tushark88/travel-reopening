@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="container">
-      <div class="container__inner">
+    <div class="main-container">
+      <div class="main-container__inner">
         <div class="mb-4 sm:mb-6 lg:mb-8">
           <h1>The Ultimate Guide to COVID–19 Travel Restrictions</h1>
           <p class="w-full md:w-9/12">
@@ -25,8 +25,8 @@
       </div>
     </div>
     <div class="bg-warm-gray-50 py-1 mb-4 sm:mb-6 lg:mb-8">
-      <div class="container">
-        <div class="container__inner">
+      <div class="main-container">
+        <div class="main-container__inner">
           <WorldMap/>
         </div>
       </div>
