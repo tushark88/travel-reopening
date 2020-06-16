@@ -2,32 +2,23 @@
   <div class="panel" id="subscription">
     <div class="panel__inner">
       <div v-if='status === "new"'>
-        <h2>Get the latest COVID–19 travel news in your inbox</h2>
+        <h2>Subscribe</h2>
+        <p>Get the latest COVID–19 travel news in your inbox</p>
         <form ref="formElement" @submit.prevent="response" autocomplete="off">
-          <fieldset class="mb-4">
-            <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
-              Name
-            </label>
-            <input class="shadow appearance-none border rounded w-full max-w-xs py-2 px-3
-              text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              name="entry.1302821693" id="name" required placeholder="e.g. John Appleseed">
-          </fieldset>
-          <fieldset class="mb-4">
-            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
-              Email
-            </label>
-            <input class="shadow appearance-none border rounded w-full max-w-xs py-2 px-3
-              text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              name="entry.1349569946" id="email" required placeholder="e.g. hello@example.com">
-          </fieldset>
-          <button class="bg-primary hover:bg-primary-light text-white font-bold py-2
-            px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+          <input class="appearance-none block w-full sm:max-w-xs
+            py-2 px-3 mb-2 border rounded-md text-gray-700 focus:outline-none focus:shadow-outline"
+            name="entry.1302821693" id="name" required placeholder="Enter your name">
+          <input class="appearance-none block w-full sm:max-w-xs
+            py-2 px-3 mb-2 border rounded-md text-gray-700 focus:outline-none focus:shadow-outline"
+            name="entry.1349569946" id="email" required placeholder="Enter your email">
+          <button class="w-full sm:max-w-xs bg-primary text-white py-2
+            px-4 rounded-md focus:outline-none focus:shadow-outline" type="submit">
             Sign up
           </button>
         </form>
       </div>
       <div v-if='status === "submitted"'>
-        Thank you!
+        <p class="mb-0">Awesome! You’ll get the latest updates in your inbox.</p>
       </div>
     </div>
   </div>
