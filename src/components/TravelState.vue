@@ -1,33 +1,25 @@
 <template>
   <div v-if="state" class="my-4 sm:my-6 md:md-8">
     <h3>Travel Status</h3>
-    <div class="w-48">
-      <div class="flex flex-col">
-        <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline pb-1">
-          <span>Domestic</span>
-          <span
-            :class="travelStateLabelColor(state.domestic)"
-            class="px-2.5 py-0.5 rounded-md text-center">
-            {{ travelStateLabel(state.domestic) }}
-          </span>
-        </div>
-        <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline pb-1">
-          <span>Travel to</span>
-          <span
-            :class="travelStateLabelColor(state.inbound)"
-            class="px-2.5 py-0.5 rounded-md text-center">
-            {{ travelStateLabel(state.inbound) }}
-          </span>
-        </div>
-        <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline">
-          <span>Travel from</span>
-          <span
-            :class="travelStateLabelColor(state.outbound)"
-            class="px-2.5 py-0.5 rounded-md text-center">
-            {{ travelStateLabel(state.outbound) }}
-          </span>
-        </div>
-      </div>
+    <div class="inline-grid grid-flow-row grid-cols-2 row-gap-2 col-gap-4">
+      <span>Travel within {{country.name}}</span>
+      <span
+        :class="travelStateLabelColor(state.domestic)"
+        class="w-20 py-0.5 rounded-md text-center">
+        {{ travelStateLabel(state.domestic) }}
+      </span>
+      <span>Travel to {{country.name}}</span>
+      <span
+        :class="travelStateLabelColor(state.inbound)"
+        class="w-20 py-0.5 rounded-md text-center">
+        {{ travelStateLabel(state.inbound) }}
+      </span>
+      <span>Travel from {{country.name}}</span>
+      <span
+        :class="travelStateLabelColor(state.outbound)"
+        class="w-20 py-0.5 rounded-md text-center">
+        {{ travelStateLabel(state.outbound) }}
+      </span>
     </div>
   </div>
 </template>
@@ -40,7 +32,7 @@ export default {
   computed: {
     ...mapGetters(['getCountryGlobalState']),
     state() {
-      return this.getCountryGlobalState(this.countryCode);
+      return this.getCountryGlobalState(this.country.code);
     },
   },
   methods: {
@@ -58,7 +50,7 @@ export default {
     },
   },
   props: {
-    countryCode: String,
+    country: Object,
   },
 };
 </script>

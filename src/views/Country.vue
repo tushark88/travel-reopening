@@ -11,7 +11,7 @@
               {{country.name}}.
             </p>
             <p v-if='updatedOn'>Last updated on {{updatedOn}}</p>
-            <TravelState :countryCode="country.code"></TravelState>
+            <TravelState :country="country"></TravelState>
             <CountryBody :content="this.domesticContent">
               <h3>Domestic Travel</h3>
             </CountryBody>
