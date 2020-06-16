@@ -1,8 +1,8 @@
 <template>
   <div>
     <TitleMapSelect/>
-    <div class="main-container">
-      <div class="main-container__inner">
+    <div class="container">
+      <div class="container__inner">
           <Reopening/>
       </div>
     </div>

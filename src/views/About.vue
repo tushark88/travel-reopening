@@ -1,6 +1,6 @@
 <template>
-  <div class="main-container">
-    <div class="main-container__inner">
+  <div class="container">
+    <div class="container__inner">
       <h1>About Project Travel Reopening</h1>
       <p>
         Project Travel Reopening is a free and open source project by TourHero. It provides an

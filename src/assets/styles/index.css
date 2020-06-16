@@ -45,13 +45,13 @@ ol { @apply mb-4 pl-10 list-decimal; }
 * Injects our custom classes.
 **/
 
-.main-container { @apply max-w-6xl mx-auto px-4 mb-4; }
-.main-container__inner { @apply max-w-4xl mx-auto; }
+.container { @apply max-w-6xl mx-auto px-4 mb-4; }
+.container__inner { @apply max-w-4xl mx-auto; }
 @screen sm {
-  .main-container { @apply px-6; }
+  .container { @apply px-6; }
 }
 @screen md {
-  .main-container { @apply px-8; }
+  .container { @apply px-8; }
 }
 
 .panel { @apply mb-4 bg-white overflow-hidden shadow rounded-md; }
