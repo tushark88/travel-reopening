@@ -1,8 +1,8 @@
 <template>
   <div>
     <TitleMapSelect/>
-    <div class="container">
-      <div class="container__inner">
+    <div class="main-container">
+      <div class="main-container__inner">
         <div class="panel">
           <div class="panel__inner">
             <h2 class="country-header">{{title}}</h2>
