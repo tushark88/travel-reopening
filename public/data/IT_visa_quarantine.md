@@ -1,0 +1,5 @@
+- From June 3, if you are traveling to Italy from any of the above–mentioned countries you will no longer be required to self-isolate for 14 days, under supervision by the competent health authorities, unless you stayed in another country prior to traveling to Italy.
+
+- If you are traveling from or to any country other than those listed above, the travel restrictions previously in force shall continue to apply. Only essential travel from or to these countries, in fact, is allowed, for proven work, urgent or health needs, although you are still allowed to return home if you live in Italy. 
+
+  For the most up–to–date travel information, refer to the [Italian Government](https://www.esteri.it/mae/en/ministero/normativaonline/decreto-iorestoacasa-domande-frequenti/focus-cittadini-italiani-in-rientro-dall-estero-e-cittadini-stranieri-in-italia.html).

@@ -1,0 +1,3 @@
+As of March 30, 2020, all passengers flying in Canada will be subject to a health check prior to boarding. Travelers may be subject to additional provincial or territorial public health measures at their final destination.
+
+For the most up–to–date travel information, refer to the [Canada Border Services Agency](https://www.cbsa-asfc.gc.ca/services/covid/non-canadians-canadiens-eng.html).
