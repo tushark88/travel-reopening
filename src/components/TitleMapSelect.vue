@@ -5,11 +5,15 @@
         <div class="mb-4 sm:mb-6 lg:mb-8">
           <h1>The Ultimate Guide to COVID–19 Travel Restrictions</h1>
           <p class="w-full md:w-9/12">
-            This guide is a free and open source project by TourHero.
+            A free and open-source project by
+            <a class="inline-flex no-underline" href="https://www.tourhero.com/">TourHero</a>
           </p>
-          <p class="w-full md:w-9/12">Select the country you want to
-            travel to, and see its travel restriction. Alternatively, toggle to the country you’re
-            traveling from to see which countries you’re allowed to enter. Travel safe!
+          <p class="w-full md:w-9/12">
+            <span class="font-semibold">How it works:</span>
+            Select the country you want to visit and view the travel restrictions.
+            Or, switch to the country you’re traveling from to see which countries
+            you’re allowed to enter.
+            Travel safe!
           </p>
         </div>
         <div class="flex flex-col sm:flex-row mb-4 sm:mb-6 lg:mb-8">
