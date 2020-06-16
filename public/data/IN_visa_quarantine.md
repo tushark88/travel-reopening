@@ -1,0 +1,4 @@
+- All scheduled international commercial passenger services shall remain closed till prohibition on international travel of passengers from/to India is lifted by the Government of India. However, this restriction will not apply to international cargo operations and flights especially approved by DGCA.
+- Refer to the FAQ on New Visa Restrictions for COVID–19 [here](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf). 
+
+For the most up–to–date travel information, refer to the [Bureau of Immigration, Ministry of Home Affairs, Government of India.](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-1) 
