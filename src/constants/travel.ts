@@ -21,6 +21,6 @@ export const reopenings = Object.keys(countries)
 
 export const futureReopenings = reopenings.filter(({ date }) => Date.parse(date) > Date.now());
 
-export function findSourcesForCountry(countryCode: any) {
+export function findSourcesForCountry(countryCode: string) {
   return Object.values(countries[countryCode]?.sources || {}).flat();
 }

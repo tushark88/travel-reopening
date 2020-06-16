@@ -10,7 +10,8 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     country: null,
-    countryOptions: CountryOptions.sort((a: any, b: any) => a.name.localeCompare(b.name)),
+    countryOptions: CountryOptions
+      .sort((a: {name: string}, b: {name: string}) => a.name.localeCompare(b.name)),
     travelContext: 'inbound',
     Travel,
   },
@@ -35,10 +36,12 @@ export default new Vuex.Store({
   },
   getters: {
     getCountryByCode(state) {
-      return (code: string) => state.countryOptions.find((country: any) => country.code === code);
+      return (code: string) => state.countryOptions
+        .find((country: {code: string}) => country.code === code);
     },
     getCountryById(state) {
-      return (id: string) => state.countryOptions.find((country: any) => country.id === id);
+      return (id: string) => state.countryOptions
+        .find((country: {id: string}) => country.id === id);
     },
     getCountryGlobalState(state) {
       return (code: string) => {
@@ -52,7 +55,7 @@ export default new Vuex.Store({
       };
     },
     getCountryState(state) {
-      return (code: string, direction: string, currentCountry: any) => {
+      return (code: string, direction: string, currentCountry: {code: string}) => {
         if (currentCountry && direction === 'inbound') {
           const currentCountryTravel = state.Travel.countries[currentCountry.code]?.travel;
           if (currentCountryTravel && 'inbound_allowed' in currentCountryTravel) {
