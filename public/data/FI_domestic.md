@@ -1,5 +1,3 @@
-## Domestic Travel
-
 Travel within Finland is allowed as long as health and safety guidelines relating to coronavirus are observed. All travel must be avoided when ill. 
 
 Internal border control will be abolished from 15 June. This includes: 
