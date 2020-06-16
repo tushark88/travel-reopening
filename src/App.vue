@@ -3,10 +3,10 @@
     <SiteNav/>
     <div class="flex-grow">
       <router-view/>
-    </div>
-    <div class="main-container">
-      <div class="main-container__inner">
-        <Subscription/>
+      <div class="main-container">
+        <div class="main-container__inner">
+          <Subscription/>
+        </div>
       </div>
     </div>
     <SiteFooter/>
