@@ -17,8 +17,8 @@ module.exports = {
         'warm-gray-50': '#f9fafb',
       },
       spacing: {
-        '0.5': '.125rem',
-        '2.5': '.625rem',
+        0.5: '.125rem',
+        2.5: '.625rem',
       },
     },
   },
