@@ -1,0 +1,3 @@
+- For French nationals and foreign nationals living in France with a national permit: if you travel to a French Overseas Territory, or if you present symptoms of COVID-19 when you arrive in French territory, you will be required to quarantine.
+- Travelers arriving from outside the European space are given, upon arrival, information on the conditions for a voluntary quarantine in the residence of their choice, or where appropriate, in an appropriate accommodation structure.
+- There will be no quarantine requirements for travelers arriving from inside the European space (European Union Member States, the United Kingdom, Andorra, Iceland, Liechtenstein, Monaco, Norway, San Marino, Switzerland, Holy See).
