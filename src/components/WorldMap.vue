@@ -187,9 +187,6 @@ export default {
 </script>
 
 <style lang="scss">
-  $green: #00916e;
-  $yellow: #ffc857;
-
   .state {
     fill: theme("colors.gray.400");
     stroke: theme("colors.gray.200");
@@ -198,8 +195,8 @@ export default {
     transition: fill 100ms ease;
     &.undefined { fill: theme("colors.gray.400"); }
     &.closed    { fill: theme("colors.secondary"); }
-    &.open      { fill: $green; }
-    &.partial   { fill: $yellow; }
+    &.open      { fill: theme("colors.state-open") }
+    &.partial   { fill: theme("colors.state-partial") }
     &:hover { opacity: 0.85; }
     &.current   {
       fill: theme("colors.primary");
@@ -207,25 +204,6 @@ export default {
         cursor: unset;
         opacity: 1;
       }
-    }
-  };
-
-  .badge {
-    &-yes {
-      background-color: $green;
-      color: theme("colors.white");
-    }
-    &-no {
-      background-color: theme("colors.secondary");
-      color: theme("colors.white");
-    }
-    &-partial {
-      background-color: $yellow;
-      color: theme("colors.gray.800");
-    }
-    &-unknown {
-      background-color: theme("colors.gray.400");
-      color: theme("colors.gray.800");
     }
   };
 </style>

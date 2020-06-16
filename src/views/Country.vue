@@ -11,6 +11,7 @@
               {{country.name}}.
             </p>
             <p v-if='updatedOn'>Last updated on {{updatedOn}}</p>
+            <TravelState :countryCode="country.code"></TravelState>
             <CountryBody :content="this.domesticContent">
               <h3>Domestic Travel</h3>
             </CountryBody>
@@ -33,6 +34,7 @@ import axios from 'axios';
 import CountryBody from '@/components/CountryBody.vue';
 import CountrySources from '@/components/CountrySources.vue';
 import TitleMapSelect from '@/components/TitleMapSelect.vue';
+import TravelState from '@/components/TravelState.vue';
 import { mapActions, mapGetters, mapState } from 'vuex';
 
 export default {
@@ -41,6 +43,7 @@ export default {
     CountryBody,
     CountrySources,
     TitleMapSelect,
+    TravelState,
   },
   data() {
     return {
