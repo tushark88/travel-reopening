@@ -12,15 +12,23 @@
             </p>
             <p v-if='updatedOn'>Last updated on {{updatedOn}}</p>
             <TravelState :country="country"></TravelState>
-            <CountryBody :content="this.domesticContent">
-              <h3>Domestic Travel</h3>
-            </CountryBody>
-            <CountryBody :content="this.internationalContent">
-              <h3>International Travel</h3>
-            </CountryBody>
-            <CountryBody :content="this.visaQuarantineContent">
-              <h3>Visa &amp; Quarantine Measures</h3>
-            </CountryBody>
+            <div v-if='domesticContent || internationalContent || visaQuarantineContent'>
+              <CountryBody :content="this.domesticContent">
+                <h3>Domestic Travel</h3>
+              </CountryBody>
+              <CountryBody :content="this.internationalContent">
+                <h3>International Travel</h3>
+              </CountryBody>
+              <CountryBody :content="this.visaQuarantineContent">
+                <h3>Visa &amp; Quarantine Measures</h3>
+              </CountryBody>
+            </div>
+            <div v-else>
+              Oops...sorry, we don't have information about {{country.name}} at the moment.
+              Help us improve this data by dropping us
+              <a href="mailto:travel-map@tourhero.com?subject=Travel+Map+Update">an email</a>.
+              Thank you very much for your help!
+            </div>
           </div>
         </div>
         <CountrySources :countryCode="country.code"></CountrySources>
