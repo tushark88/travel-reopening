@@ -41,6 +41,8 @@ a:hover { @apply opacity-75; }
 ul { @apply mb-4 pl-10 list-disc; }
 ol { @apply mb-4 pl-10 list-decimal; }
 
+ul > li:not(:last-child),
+ol > li:not(:last-child) { @apply mb-2; }
 /**
 * Injects our custom classes.
 **/
