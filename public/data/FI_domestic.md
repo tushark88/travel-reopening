@@ -8,4 +8,4 @@ Internal border control will be abolished from 15 June. This includes:
 
 Finland’s borders to Sweden and Russia, though, remain closed at least until July 14.
 
-For the most up–to–date travel information, refer to the [Finnish Government.](
+For the most up–to–date travel information, refer to the [Finnish Government.](https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions)
