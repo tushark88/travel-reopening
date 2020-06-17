@@ -1,5 +1,8 @@
 <template>
-  <svg :width='svgWidth' :height='svgHeight' viewBox="410 120 700 400"></svg>
+  <div>
+    <h1 class='text-center mt-4'>{{mapTitle}}</h1>
+    <svg :width='svgWidth' :height='svgHeight' viewBox="410 120 700 400"></svg>
+  </div>
 </template>
 
 <script>
@@ -92,6 +95,11 @@ export default {
   computed: {
     ...mapGetters(['getCountryById', 'getCountryState', 'getCountryGlobalState']),
     ...mapState(['country', 'travelContext']),
+    mapTitle() {
+      return this.travelContext === 'inbound'
+        ? 'Arrivals country status'
+        : `Countries you can enter from ${this.country.name}`;
+    },
   },
   methods: {
     handleSizeChange() {
@@ -150,7 +158,7 @@ export default {
     window.removeEventListener('resize', this.handleSizeChange);
   },
   mounted() {
-    const svg = select(this.$el);
+    const svg = select(this.$el).select('svg');
     const projection = geoVanDerGrinten3();
     const path = geoPath().projection(projection);
 
