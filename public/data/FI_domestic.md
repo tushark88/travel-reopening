@@ -6,4 +6,4 @@ These internal borders have been abolished:
 - Air traffic and regular ferry services between Finland and Norway, Denmark, Iceland, Estonia, Latvia, and Lithuania 
 - Pleasure craft, i.e. tourism by private persons on their own boat 
 
-For the most up–to–date travel information, refer to the [Finnish Government].(https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions)
+For the most up–to–date travel information, refer to the [Finnish Government](https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions).
