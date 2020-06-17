@@ -26,7 +26,7 @@ export default {
     titleTemplate: '%s | Project Travel Reopening',
     meta: [
       { charset: 'utf-8' },
-      { name: 'description', content: 'Borders are slowly reopening as we battle COVID–19. Here you will find the latest information for travel restrictions and guidelines. Travel safe!' },
+      { name: 'description', content: 'A free and open-source project by TourHero. Find the latest information for travel restrictions around the world during this COVID–19 pandemic. Travel safe!' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:image', content: `https://www.tourhero.com${process.env.BASE_URL}img/travel-reopening-cover.jpg` },
