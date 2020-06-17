@@ -32,6 +32,7 @@
 
 <script>
 import axios from 'axios';
+import moment from 'moment';
 import CountryBody from '@/components/CountryBody.vue';
 import CountrySources from '@/components/CountrySources.vue';
 import Disclaimer from '@/components/Disclaimer.vue';
@@ -61,7 +62,8 @@ export default {
     ...mapGetters(['getCountryByCode', 'getCountryGlobalState']),
     title() { return `${this.country.name} COVID-19 Travel Update`; },
     updatedOn() {
-      return this.getCountryGlobalState(this.$route.params.country)?.updatedOn;
+      const date = this.getCountryGlobalState(this.$route.params.country)?.updatedOn;
+      return date ? moment(date).format('MMMM Do, YYYY') : date;
     },
   },
   methods: {
