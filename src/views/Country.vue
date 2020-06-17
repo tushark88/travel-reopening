@@ -91,6 +91,10 @@ export default {
   metaInfo() {
     return {
       title: this.title,
+      meta: [{
+        name: 'description',
+        content: `Find the latest updates on travel restrictions and reopening timelines for ${this.country.name}.`,
+      }],
     };
   },
   watch: {
