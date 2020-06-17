@@ -27,7 +27,8 @@ export default {
   },
   computed: {
     sourcesList() {
-      return findSourcesForCountry(this.countryCode);
+      return findSourcesForCountry(this.countryCode)
+        .filter((v, i, a) => a.indexOf(v) === i);
     },
   },
   data() {
