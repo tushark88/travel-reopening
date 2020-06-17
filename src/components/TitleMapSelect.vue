@@ -28,20 +28,28 @@
       <div class="main-container">
         <div class="main-container__inner">
           <WorldMap/>
+          <div class="mt-8 md:-mt-24 md:pl-6">
+            <TravelStateLegend/>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 
-
 <script>
 import CountrySelect from '@/components/CountrySelect.vue';
 import TravelDirectionToggle from '@/components/TravelDirectionToggle.vue';
+import TravelStateLegend from '@/components/TravelStateLegend.vue';
 import WorldMap from '@/components/WorldMap.vue';
 
 export default {
   name: 'TitleMapSelect',
-  components: { CountrySelect, TravelDirectionToggle, WorldMap },
+  components: {
+    CountrySelect,
+    TravelDirectionToggle,
+    TravelStateLegend,
+    WorldMap,
+  },
 };
 </script>
