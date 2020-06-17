@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class='text-center mt-4'>{{mapTitle}}</h1>
+    <h2 class='mt-4'>{{mapTitle}}</h2>
     <svg :width='svgWidth' :height='svgHeight' viewBox="410 120 700 400"></svg>
   </div>
 </template>
