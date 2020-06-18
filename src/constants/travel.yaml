@@ -6,7 +6,7 @@ countries:
         - '[Since 1 June, 2020, Andorra has lifted the restrictions on entering the country via the borders with France and Spain. This applies to all visitors, including tourists and hikers.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/)'
     travel:
       inbound: 'yes'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   AE:
     sources:
       domestic:
@@ -19,7 +19,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   AF:
     sources:
       domestic:
@@ -35,7 +35,7 @@ countries:
       inbound_allowed:
         - IR
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   AG:
     sources:
       inbound:
@@ -45,7 +45,7 @@ countries:
     travel:
       inbound: 'yes'
       outbound: 'yes'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   AL:
     reopening:
       '2020-06-01': '[Albania to reopen land borders on June 1.](https://seenews.com/news/albania-to-reopen-land-borders-on-june-1-report-700190)'
@@ -58,7 +58,7 @@ countries:
     travel:
       inbound: partial
       outbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   AM:
     sources:
       domestic:
@@ -71,14 +71,14 @@ countries:
       domestic: 'yes'
       inbound: partial
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   AO:
     sources:
       inbound:
         - '[Angola remains closed to passenger flights, the borders remain closed for all but commercial transport, and Luanda Province remains closed to overland personal travel or domestic passenger flights.](https://ao.usembassy.gov/health-alert-u-s-embassy-luanda-june-1-2020/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   AR:
     sources:
       domestic:
@@ -91,7 +91,7 @@ countries:
       domestic: 'no'
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   AT:
     sources:
       domestic:
@@ -141,7 +141,7 @@ countries:
         - SE
         - CH
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   AU:
     sources:
       domestic:
@@ -157,7 +157,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   AZ:
     sources:
       inbound:
@@ -167,7 +167,7 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BA:
     sources:
       inbound:
@@ -178,7 +178,7 @@ countries:
         - HR
         - RS
         - ME
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BB:
     sources:
       inbound:
@@ -186,7 +186,7 @@ countries:
         - '[The Grantley Adams International Airport is closed to commercial flights until 30 June, 2020.](https://www.universalweather.com/blog/caribbean-coronavirus-covid-19-impact-on-business-aviation/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BD:
     sources:
       domestic:
@@ -196,7 +196,7 @@ countries:
     travel:
       domestic: 'yes'
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BE:
     sources:
       domestic:
@@ -214,28 +214,28 @@ countries:
       domestic: 'yes'
       inbound: partial
       outbound: 'yes'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BF:
     sources:
       inbound:
         - '[Burkina Faso''s borders are closed to foreigners and international flights are cancelled.](https://www.smartraveller.gov.au/destinations/africa/burkina-faso)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BG:
     sources:
       inbound:
         - '[From 14 May, 2020, to 14 June, 2020 entry to Bulgaria for all passengers (including EU and Schengen nationals) and by any means of transport, including aircraft, maritime transport and rail is temporarily prohibited. Exceptions include Bulgarian nationals and families.](https://www.mondaq.com/operational-impacts-and-strategy/948802/updates-to-coronavirus-travel-restrictions-introduced-in-bulgaria)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BH:
     sources:
       inbound:
         - '[All visas upon arrival have been suspended, anyone attempting to enter Bahrain must have a Bahrain residence permit or secure a visa in advance.](https://bh.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   BI:
     sources:
       inbound:
@@ -246,14 +246,14 @@ countries:
     travel:
       inbound: partial
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BJ:
     sources:
       inbound:
         - '[The Government of Benin has announced mandatory COVID-19 testing of all airline passengers arriving in Benin.](https://bj.usembassy.gov/health-alert-u-s-embassy-cotonou-benin-16/)'
     travel:
       inbound: yes
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BN:
     sources:
       inbound:
@@ -263,7 +263,7 @@ countries:
     travel:
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BO:
     sources:
       domestic:
@@ -276,7 +276,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BR:
     sources:
       domestic:
@@ -289,7 +289,7 @@ countries:
       domestic: 'no'
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BS:
     sources:
       domestic:
@@ -302,7 +302,7 @@ countries:
       domestic: 'yes'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BT:
     sources:
       domestic:
@@ -315,7 +315,7 @@ countries:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BW:
     sources:
       domestic:
@@ -325,14 +325,14 @@ countries:
     travel:
       domestic: 'no'
       inbound: 'yes'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BY:
     sources:
       inbound:
         - '[Belavia is resuming flights to Rome.](https://by.usembassy.gov/health-alert-u-s-embassy-minsk-belarus-june-8-2020/)'
     travel:
       inbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   BZ:
     sources:
       domestic:
@@ -347,7 +347,7 @@ countries:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CA:
     sources:
       domestic:
@@ -365,14 +365,14 @@ countries:
       domestic: partial
       inbound: partial
       outbound: 'yes'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CD:
     sources:
       inbound:
         - '[DRC has suspended all international passenger flights until further notice. All domestic passenger flights between Kinshasa and the provinces are suspended. All road and river transport between Kinshasa and the provinces are suspended for passenger traffic.](https://cd.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CF:
     sources:
       domestic: null
@@ -381,14 +381,14 @@ countries:
         - '[Anyone coming from a country with local-transmission of COVID-19 is banned from entering, airport is also closed.](https://cf.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CG:
     sources:
       inbound:
         - '[Domestic and international flights remain suspended.](https://www.garda.com/crisis24/news-alerts/348541/congo-authorities-extend-nationwide-curfew-orders-until-june-20-update-6)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CH:
     sources:
       domestic:
@@ -431,14 +431,14 @@ countries:
         - ES
         - SE
       outbound: 'yes'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   CI:
     sources:
       inbound:
         - '[Cote d’Ivoire’s border closure and suspension on commercial flight operations was extended through 30 June, 2020.](https://ci.usembassy.gov/health-alert-u-s-embassy-abidjan-cote-divoire-2/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-16T00:00:00.000Z
+    updated_on: 2020-06-16
   CL:
     sources:
       domestic: null
@@ -446,14 +446,14 @@ countries:
         - '[Chile’s borders have been closed to foreigners since 18 March, 2020.](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CM:
     sources:
       inbound:
         - '[Cameroon’s land, air and sea borders are closed till further notice.](https://www.spm.gov.cm/site/?q=en/content/government-response-strategy-coronavirus-pandemic-covid-19)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CN:
     sources:
       domestic:
@@ -472,14 +472,14 @@ countries:
       domestic: partial
       inbound: partial
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CO:
     sources:
       inbound:
         - '[All overland, water and air borders are closed.](https://thecitypaperbogota.com/news/colombia-on-course-for-worlds-longest-lockdown-after-extension-to-july-1/2523)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CR:
     sources:
       inbound:
@@ -487,7 +487,7 @@ countries:
         - '[No international arrivals until 30 June, 2020.](https://cr.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CU:
     reopening:
       '2020-08-01': '[The suspension has been extended until 1 August, 2020.](https://cu.usembassy.gov/covid-19-information/)'
@@ -496,14 +496,14 @@ countries:
         - '[On 2 April, 2020 the Cuban government suspended the arrival and departure of all international flights.](https://cu.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CV:
     sources:
       inbound:
         - '[As of 1 June, 2020, maritime passenger transportation resumed for Boa Vista.  Inter-island maritime transportation and flights are anticipated to resume for all islands on 30 June, 2020. Media reports have indicated commercial international flights will resume sometime in July](https://cv.usembassy.gov/health-alert-u-s-embassy-praia-cabo-verde-june-4-2020/)'
     travel:
       inbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   CY:
     sources:
       inbound:
@@ -531,7 +531,7 @@ countries:
         - IL
         - PL
         - RO
-    updated_on: 2020-06-16T00:00:00.000Z
+    updated_on: 2020-06-16
   CZ:
     sources:
       inbound:
@@ -565,7 +565,7 @@ countries:
         - SI
         - ES
         - CH
-    updated_on: 2020-06-16T00:00:00.000Z
+    updated_on: 2020-06-16
   DE:
     sources:
       inbound:
@@ -614,14 +614,14 @@ countries:
         - 'NO'
         - CH
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   DJ:
     sources:
       inbound:
         - '[Regular passenger flights in to and out of Djibouti remain suspended. All land and sea borders remained closed to passenger travel as well](https://dj.usembassy.gov/covid-19-information-28-may-2020/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   DK:
     sources:
       inbound:
@@ -637,21 +637,21 @@ countries:
     travel:
       inbound: partial
       outbound: 'yes'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   DM:
     sources:
       inbound:
         - '[Dominica has closed its airports (Douglas Charles and Canefield) and its seaports to arriving and departing passengers](https://www.gov.uk/foreign-travel-advice/dominica)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   DO:
     sources:
       inbound:
         - '[Authorities from the Dominican Republic have announced the suspension of all commercial flights in and out of the country and the closure of land and sea borders, starting on 19 March, 2020, until further notice.](https://travel.gc.ca/destinations/dominican-republic?wbdisable=true)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   DZ:
     sources:
       domestic:
@@ -664,14 +664,14 @@ countries:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   EC:
     sources:
       inbound:
         - '[Ecuador approved resumption of commercial flight operations beginning 1 June, 2020, with limited flight capacity.](https://ec.usembassy.gov/covid-19-information-ecu-2/)'
     travel:
       inbound: 'yes'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   EE:
     sources:
       domestic:
@@ -684,21 +684,21 @@ countries:
       domestic: 'no'
       inbound: partial
       outbound: 'yes'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   EG:
     sources:
       inbound:
         - '[Flights to Egypt are suspended.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   ER:
     sources:
       inbound:
         - '[Asmara International Airport is currently closed.](https://www.gov.uk/foreign-travel-advice/eritrea/entry-requirements)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   ES:
     reopening:
       '2020-06-21': '[The Spanish authorities have decided to reopen country’s borders on 21 June, 2020, for all EU and Schengen countries, except for Portugal with which the borders will reopen in July, 2020.](https://newseu.cgtn.com/news/2020-05-25/Spain-s-lockdown-eased-UK-schools-to-reopen-COVID-19-daily-bulletin-QMAjS8xApG/index.html)'
@@ -747,7 +747,7 @@ countries:
         - CH
         - LI
       outbound: 'yes'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   ET:
     sources:
       inbound:
@@ -760,7 +760,7 @@ countries:
         - SD
         - ER
         - KE
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   FI:
     sources:
       domestic:
@@ -775,7 +775,7 @@ countries:
       domestic: 'yes'
       inbound: partial
       outbound: 'yes'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   FJ:
     sources:
       inbound:
@@ -838,7 +838,7 @@ countries:
         - UA
         - GB
         - VA
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   FM:
     sources:
       inbound:
@@ -848,7 +848,7 @@ countries:
     travel:
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   FR:
     sources:
       domestic:
@@ -904,14 +904,14 @@ countries:
         - SM
         - VA
       outbound: 'yes'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   GA:
     sources:
       inbound:
         - '[As of 21 March, 2020, all land, sea, and air borders are closed, with the exception of freight shipments, which are still permitted.](https://ga.usembassy.gov/u-s-citizen-services/coronavirus-update/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   GB:
     sources:
       domestic:
@@ -1176,7 +1176,7 @@ countries:
         - ZM
         - ZW
       outbound: 'yes'
-    updated_on: 2020-06-16T00:00:00.000Z
+    updated_on: 2020-06-16
   GD:
     reopening:
       '2020-06-30': '[The government of Grenada has announced that it expects its borders to re-open at the end of June.](https://www.gov.uk/foreign-travel-advice/grenada/entry-requirements)'
@@ -1185,7 +1185,7 @@ countries:
         - '[With the announcement of the airport closure from 23 March, 2020, incoming passengers are not currently allowed to enter Grenada.](https://www.gov.uk/foreign-travel-advice/grenada/entry-requirements)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-13T00:00:00.000Z
+    updated_on: 2020-06-13
   GE:
     reopening:
       '2020-07-01': '[Commercial air travel to Georgia is scheduled to resume 1 July, 2020.](https://ge.usembassy.gov/covid-19-information-on-georgia/)'
@@ -1194,28 +1194,28 @@ countries:
         - '[Commercial air travel to Georgia is scheduled to resume 1 July, 2020.](https://ge.usembassy.gov/covid-19-information-on-georgia/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   GH:
     sources:
       inbound:
         - '[Ghana closed its borders to all incoming human traffic effective 31 May, 2020, until further notice.](https://gh.usembassy.gov/ghana-covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   GM:
     sources:
       inbound:
         - '[Gambian airspace and land borders remain closed, as of 23 March, 2020.](https://gm.usembassy.gov/u-s-citizen-services/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   GN:
     sources:
       inbound:
         - '[Air travel to or from Guinea was suspended effective 11:59 p.m. on 21 March, 2020.](https://gn.usembassy.gov/u-s-citizen-services/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-13T00:00:00.000Z
+    updated_on: 2020-06-13
   GR:
     sources:
       domestic:
@@ -1258,35 +1258,35 @@ countries:
         - SK
         - FI
         - SE
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   GT:
     sources:
       inbound:
         - '[Land, air and maritime borders are closed. Only Guatemalan nationals, resident foreigners and diplomats are allowed to enter Guatemala.](https://www.gov.uk/foreign-travel-advice/guatemala/entry-requirements)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-16T00:00:00.000Z
+    updated_on: 2020-06-16
   GW:
     sources:
       inbound:
         - '[On 17 March, 2020, authorities in Guinea-Bissau announced the closure of land borders and a ban on all flights landing at Osvaldo Viera International Airport beginning on 18 March, 2020.](https://gw.usmission.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-13T00:00:00.000Z
+    updated_on: 2020-06-13
   GY:
     sources:
       inbound:
         - '[The Guyana Civil Aviation Authority (GCAA) has extended the closure of Guyanese airspace to all international arrivals from 3 May to 17 June, 2020.](https://gy.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-13T00:00:00.000Z
+    updated_on: 2020-06-13
   HN:
     sources:
       inbound:
         - '[The Honduran government announced all borders (air, land, and sea) would be closed as of 15 March, 2020, until further notice.](https://hn.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-13T00:00:00.000Z
+    updated_on: 2020-06-13
   HR:
     sources:
       inbound:
@@ -1305,14 +1305,14 @@ countries:
         - SI
         - DE
         - SK
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   HT:
     sources:
       inbound:
         - '[Borders, ports, and airports will be closed and commercial flights will be suspended with the exception of transportation of merchandise, and the captains and the pilots of cargo vessels/planes.](https://ht.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-13T00:00:00.000Z
+    updated_on: 2020-06-13
   HU:
     sources:
       inbound:
@@ -1332,7 +1332,7 @@ countries:
         - KR
         - JP
         - PL
-    updated_on: 2020-06-13T00:00:00.000Z
+    updated_on: 2020-06-13
   ID:
     sources:
       domestic:
@@ -1348,7 +1348,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   IE:
     sources:
       inbound:
@@ -1362,7 +1362,7 @@ countries:
     travel:
       inbound: 'yes'
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   IL:
     sources:
       inbound:
@@ -1372,7 +1372,7 @@ countries:
     travel:
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   IN:
     sources:
       domestic:
@@ -1399,7 +1399,7 @@ countries:
         - PH
         - MY
       outbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   IQ:
     sources:
       domestic:
@@ -1412,7 +1412,7 @@ countries:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   IS:
     sources:
       inbound:
@@ -1451,7 +1451,7 @@ countries:
         - GR
         - NL
       outbound: 'yes'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   IT:
     sources:
       domestic:
@@ -1505,14 +1505,14 @@ countries:
         - SK
         - UK
       outbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   JM:
     sources:
       inbound:
         - '[After 12 long weeks of closed borders due to the COVID-19 pandemic, Jamaica began welcoming back tourists](https://www.japan.travel/en/coronavirus/)'
     travel:
       inbound: 'yes'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   JO:
     reopening:
       '2020-07-01': '[On 29 May, 2020, the Government of Jordan announced that airports in Jordan will remain closed through 1 July, 2020. There has been no announcement from the Government of Jordan about the opening of the land borders with Israel and the West Bank.](https://jo.usembassy.gov/covid-19-information/)'
@@ -1521,7 +1521,7 @@ countries:
         - '[On 29 May, 2020, the Government of Jordan announced that airports in Jordan will remain closed through 1 July, 2020. There has been no announcement from the Government of Jordan about the opening of the land borders with Israel and the West Bank.](https://jo.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   JP:
     sources:
       domestic:
@@ -1652,28 +1652,28 @@ countries:
         - ZA
         - ST
       outbound: 'yes'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   KE:
     sources:
       inbound:
         - '[All scheduled and non-scheduled international Pax flights are suspended.](https://www.universalweather.com/blog/coronavirus-covid-19-impact-on-business-aviation-in-the-middle-east-and-africa/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   KG:
     sources:
       inbound:
         - '[Foreign nationals are banned from entering the country, including permanent residence holders. Foreign nationals with a close family member who is a Kyrgz national (spouse, parent, child) will be allowed to enter with documentary proof of the relationship.](https://www.gov.uk/foreign-travel-advice/kyrgyzstan/entry-requirements)'
     travel:
       inbound: partial
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   KH:
     sources:
       inbound:
         - '[Cambodia has imposed suspension of visa exemption policy for ASEAN nationals, tourist visas, and e-visas.Tourists will no longer be issued visas.](https://www.mfa.gov.sg/countries-regions/c/cambodia/travel-page)'
     travel:
       inbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   KI:
     sources:
       inbound:
@@ -1930,28 +1930,28 @@ countries:
         - ZA
         - ZM
         - ZW
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   KM:
     sources:
       inbound:
         - '[Comorian authorities have announced the suspension of all commercial flights in and out of the country and the closure of borders until further notice.](https://travel.gc.ca/destinations/comoros)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   KN:
     sources:
       inbound:
         - '[As of 18 May, 2020, borders remain closed.](https://www.stkittstourism.kn/travel-advisory-update)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   KP:
     sources:
       inbound:
         - '[A ban on inbound tourist travel remains in place.](https://www.worldaware.com/covid-19-alert-north-korea-continues-enforcing-measures-may-15)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   KR:
     sources:
       domestic:
@@ -1968,14 +1968,14 @@ countries:
       domestic: 'yes'
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   KW:
     sources:
       inbound:
         - '[Kuwait has closed its airport and land border with Iraq.](https://kw.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   KZ:
     sources:
       domestic:
@@ -1985,7 +1985,7 @@ countries:
     travel:
       domestic: partial
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   LA:
     reopening:
       '2020-06-30': '[All land border crossings and airports will remain closed, entry into Laos is granted only in very limited circumstances and will last until 30 June, 2020.](https://la.usembassy.gov/covid-19-information/)'
@@ -1994,14 +1994,14 @@ countries:
         - '[All land border crossings and airports will remain closed, entry into Laos is granted only in very limited circumstances and will last until June 30, 2020.](https://la.usembassy.gov/covid-19-information/)'
     travel:
       inbound: partial
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   LB:
     sources:
       inbound:
         - '[Rafic Hariri International Airport is closed as of midnight, 19 March, 2020. Commercial flight service from Rafic Hariri International Airport will be suspended until the airport reopens. All land border crossings into Syria have been closed indefinitely as of 12 March, 2020.](https://www.gov.uk/foreign-travel-advice/lesotho)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   LC:
     reopening:
       '2020-06-04': '[The borders of Saint Lucia officially opened to international travelers on 4 June, 2020.](https://34a1ju2gva4u3yrm051vedfb-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/Final-June-4-Website-Update-2-1.pdf)'
@@ -2264,7 +2264,7 @@ countries:
         - ZM
         - ZW
       outbound: 'yes'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   LK:
     reopening:
       '2020-08-01': '[Sri Lanka plans to reopen its tourism sector on 1 August, 2020, by allowing small groups of visitors into the country.](https://www.reuters.com/article/us-health-coronavirus-sri-lanka-tourism/sri-lanka-to-reopen-some-tourism-in-august-with-restrictions-official-idUSKBN2370KT)'
@@ -2284,21 +2284,21 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: 'yes'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   LR:
     sources:
       inbound:
         - '[In view of the ongoing COVID-19 situation, all commercial flights are suspended from 24 March, 2020.](https://www.mfa.gov.sg/countries-regions/l/liberia/travel-page)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   LS:
     sources:
       inbound:
         - '[Lesotho’s borders remain closed and movement of persons in or out of Lesotho is prohibited.](https://www.gov.uk/foreign-travel-advice/lesotho)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   LT:
     sources:
       inbound:
@@ -2309,7 +2309,7 @@ countries:
         - EE
         - LV
         - PL
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   LV:
     sources:
       inbound:
@@ -2348,14 +2348,14 @@ countries:
         - IS
         - LI
         - 'NO'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   LY:
     sources:
       inbound:
         - '[Libyan authorities initiated public health measures in March 2020 aimed at curbing the spread of COVID-19. These measures include travel and mobility restrictions due to the closure of airports, points of entry (POE) along land borders and maritime boundaries, as well as domestic movement restrictions.](https://reliefweb.int/report/libya/covid-19-movement-restrictions-libya-mobility-restriction-dashboard-3-7-may-2020)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   MA:
     sources:
       inbound:
@@ -2366,7 +2366,7 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   MD:
     sources:
       inbound:
@@ -2378,7 +2378,7 @@ countries:
         - '[Moldova requires a 14 day home stay (quarantine) for new arrivals, with certain exceptions including asymptomatic individuals delivering goods, crew members, students, people traveling for health care, work related travelers with visas, diplomatic corps accredited in Moldova, and passengers in transit.](https://md.usembassy.gov/u-s-citizen-services/covid-19-information/)'
     travel:
       inbound: partial
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   ME:
     reopening:
       '2020-06-15': '[Montenegrin Airlines has announced that commercial flights will resume with limited destinations on or about 15 June, 2020.](https://me.usembassy.gov/covid-19-information/)'
@@ -2502,7 +2502,7 @@ countries:
         - SY
         - CI
       outbound: 'yes'
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   MK:
     sources:
       domestic:
@@ -2513,21 +2513,21 @@ countries:
     travel:
       domestic: 'no'
       inbound: 'no'
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   ML:
     sources:
       inbound:
         - '[On March 20, the Government of Mali prohibited flights coming from countries with confirmed cases of COVID-19. Additionally, the Malian government has closed all land borders to passenger vehicle traffic while allowing cargo and freight.](https://ml.usembassy.gov/covid-19-information/)'
     travel:
       inbound: partial
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   MM:
     sources:
       inbound:
         - '[Effective 30 March, 2020, the Burmese government will no longer allow international commercial passenger flights to land at any airport in Burma. This suspension will last until at least 15 June, 2020.](https://mm.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   MN:
     sources:
       inbound:
@@ -2536,7 +2536,7 @@ countries:
         - '[All travelers to Mongolia are subject to quarantine for 21 days upon arrival. Mongolian public-health authorities request that individuals arriving in Mongolia from any foreign country, i.e., every traveler arriving in Mongolia from overseas, will be quarantined under observation at NCCD for 21 days then self-quarantine at home for another 14 days after dismissed from hospital.](https://mn.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   MR:
     sources:
       inbound:
@@ -2545,7 +2545,7 @@ countries:
         - '[Due to the constantly evolving situation, we cannot confirm the quarantine procedures upon entry into neighboring countries or upon entry into Mauritania.](https://mr.usembassy.gov/covid-19-information-2/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   MT:
     reopening:
       '2020-07-01': '[Malta International Airport will reopen as from July 1st 2020.](https://www.visitmalta.com/en/covid-19)'
@@ -2576,7 +2576,7 @@ countries:
         - LU
         - CZ
       outbound: partial
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   MU:
     sources:
       inbound:
@@ -2588,7 +2588,7 @@ countries:
           lapses.](https://mu.usembassy.gov/covid-19-information/)
     travel:
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   MV:
     sources:
       inbound:
@@ -2612,7 +2612,7 @@ countries:
         - FR
         - MY
         - LK
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   MW:
     sources:
       inbound:
@@ -2871,7 +2871,7 @@ countries:
         - ZA
         - ZM
         - ZW
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   MX:
     sources:
       inbound:
@@ -2882,7 +2882,7 @@ countries:
         - '[There is a questionnaire form to be completed and signed by each crew member and passenger arriving at any airport, on a domestic or international flight. Temperature checks are conducted. If someone is at 38 degrees C or above, they will be quarantined and the rest of the Pax and Crew may not be able to enter the country.](https://www.universalweather.com/blog/mexico-coronavirus-covid-19-impact-on-business-aviation/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-12T00:00:00.000Z
+    updated_on: 2020-06-12
   MY:
     sources:
       domestic:
@@ -2895,7 +2895,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   MZ:
     sources:
       inbound:
@@ -3155,7 +3155,7 @@ countries:
         - ZA
         - ZM
         - ZW
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   NA:
     sources:
       domestic:
@@ -3165,14 +3165,14 @@ countries:
     travel:
       domestic: 'yes'
       inbound: 'no'
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   NE:
     sources:
       inbound:
         - '[Commercial international flights into Niger’s international airports have been cancelled until further notice. Land borders have been closed since March 19, except for merchandise.](https://ne.usembassy.gov/u-s-citizen-services/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   NG:
     sources:
       inbound:
@@ -3193,14 +3193,14 @@ countries:
         - FR
         - NL
         - CH
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   NI:
     sources:
       inbound:
         - '[While the Nicaraguan government has not officially imposed any restrictions as a result of the worldwide outbreak, borders and airports are effectively closed. Officially, travelers do not need any particular documentation to enter/exit Nicaragua. Unless arriving from a country with known yellow fever risk, then one must demonstrate vaccination against yellow fever at least 10 days prior to entering zone of risk.](https://ni.usembassy.gov/covid-19-information-2-2/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   NL:
     sources:
       inbound:
@@ -3247,7 +3247,7 @@ countries:
         - SK
         - UK
       outbound: 'yes'
-    updated_on: 2020-06-16T00:00:00.000Z
+    updated_on: 2020-06-16
   'NO':
     sources:
       domestic:
@@ -3262,7 +3262,7 @@ countries:
       domestic: 'yes'
       inbound: 'yes'
       outbound: 'yes'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   NP:
     sources:
       domestic:
@@ -3277,7 +3277,7 @@ countries:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-16T00:00:00.000Z
+    updated_on: 2020-06-16
   NR:
     sources:
       inbound:
@@ -3293,7 +3293,7 @@ countries:
         - KR
         - IT
         - IR
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   NZ:
     sources:
       domestic:
@@ -3309,7 +3309,7 @@ countries:
       domestic: 'yes'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   OM:
     sources:
       inbound:
@@ -3319,28 +3319,28 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   PA:
     sources:
       inbound:
         - '[International passenger flights will remain suspended until 22 June, 2020.](https://www.garda.com/crisis24/news-alerts/345786/panama-government-announces-second-stage-of-reopening-as-of-june-1-update-13)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   PE:
     sources:
       inbound:
         - '[Peru''s borders have been closed indefinitely.](https://www.garda.com/crisis24/news-alerts/348596/peru-government-extends-state-of-emergency-until-september-7-update-17)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   PG:
     sources:
       inbound:
         - '[All international flights remain banned, following an extension of the government''s State of Emergency.](https://www.papuanewguinea.travel/coronavirus-information-travel-advice)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   PH:
     sources:
       domestic:
@@ -3359,7 +3359,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   PK:
     sources:
       inbound:
@@ -3621,14 +3621,14 @@ countries:
         - ZM
         - ZW
       outbound: partial
-    updated_on: 2020-06-11T00:00:00.000Z
+    updated_on: 2020-06-11
   PL:
     sources:
       inbound:
         - '[As of 8 June, 2020, external borders remain closed for most non-essential, international travel, and the 14-day quarantine remains in effect with few exceptions.](https://www.poland.travel/en/travel-inspirations/safety-advice-for-travellers-concerning-the-covid-19-epidemic)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   PS:
     sources:
       inbound:
@@ -3638,7 +3638,7 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   PT:
     sources:
       inbound:
@@ -3685,28 +3685,28 @@ countries:
         - US
         - UK
         - VE
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   PW:
     sources:
       inbound:
         - '[All commercial passenger flights to and from Palau have been suspended until further notice.](https://www.smartraveller.gov.au/destinations/pacific/palau)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   PY:
     sources:
       inbound:
         - '[Borders will remain closed for non-resident foreigners until further notice.](https://www.gov.uk/foreign-travel-advice/paraguay)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   QA:
     sources:
       inbound:
         - '[Entry to the State of Qatar will only be allowed for Qatari nationals, who will be required to enter quarantine for a period of 14 days.](https://www.qatarairways.com/en-sg/travel-alerts.html)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   RO:
     sources:
       inbound:
@@ -3746,7 +3746,7 @@ countries:
         - SE
         - CH
         - GB
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   RS:
     sources:
       inbound:
@@ -4003,42 +4003,42 @@ countries:
         - ZA
         - ZM
         - ZW
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   RU:
     sources:
       inbound:
         - '[A ban on the entry of foreign nationals has been extended indefinitely.](https://www.garda.com/crisis24/news-alerts/347091/russia-over-400000-covid-19-cases-confirmed-in-country-as-of-may-31-update-39)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   RW:
     sources:
       inbound:
         - '[Flights to Kigali International Airport (KGL) are suspended.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SA:
     sources:
       inbound:
         - '[Flights into Saudi Arabia are suspended. Some exceptions, such as repatriation flights, are permitted.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SB:
     sources:
       inbound:
         - '[From 21 March, 2020, only Solomon Islands citizens and residents will be permitted to enter the Solomon Islands.](https://www.flysolomons.com/plan/travel-advice)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SC:
     sources:
       inbound:
         - '[Seychelles International Airport remains closed to all flights.](https://seychellesairports.sc/flights/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SD:
     sources:
       inbound:
@@ -4048,7 +4048,7 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SE:
     sources:
       domestic:
@@ -4098,7 +4098,7 @@ countries:
         - CH
         - BG
       outbound: 'yes'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SG:
     sources:
       domestic:
@@ -4116,7 +4116,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SI:
     sources:
       inbound:
@@ -4127,21 +4127,21 @@ countries:
         - HR
         - HU
         - AT
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SK:
     sources:
       inbound:
         - '[Only nationals and residents of Slovakia may enter the country.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SL:
     sources:
       inbound:
         - '[Mandatory quarantine measures for all travelers coming into Sierra Leone from countries with local transmission of more than 50 COVID-19 cases.](http://dhse.gov.sl/sierra-leone-institutes-additional-measures-in-preparedness-to-prevent-and-respond-to-covid-19/)'
     travel:
       inbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SM:
     sources:
       inbound:
@@ -4151,49 +4151,49 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SN:
     sources:
       inbound:
         - '[The country''s borders remain closed until 30 June, 2020, although cargo transportation is allowed.](https://www.garda.com/crisis24/news-alerts/347411/senegal-authorities-extend-state-of-emergency-until-july-2-update-9)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SO:
     sources:
       inbound:
         - '[International flights suspended from 18 March, 2020. Suspension extended on 6 April, 2020 for an additional 30 days. Check for updated restrictions.](https://so.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SR:
     sources:
       inbound:
         - '[9 April, 2020: Airports in Suriname are closed.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SS:
     sources:
       inbound:
         - '[Flights to South Sudan are suspended. Exceptions include humanitarian and evacuation flights with approval.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   ST:
     sources:
       inbound:
         - '[Entry to all foreigners remains banned until at least 15 June, 2020, and charter flights and cruise ships are also prohibited.](https://www.garda.com/crisis24/news-alerts/347546/sao-tome-and-principe-authorities-extend-nationwide-state-of-emergency-until-june-15-update-3)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   SV:
     sources:
       inbound:
         - '[There are no commercial flights entering or departing El Salvador at this time.](https://sv.usembassy.gov/covid-19-information/)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15T00:00:00.000Z
+    updated_on: 2020-06-15
   SY:
     sources:
       inbound:
@@ -4203,14 +4203,14 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TD:
     sources:
       inbound:
         - '[Land borders remain closed officially, but some border crossings with Sudan, Libya, and Niger are open to both passenger and cargo traffic.](https://td.usembassy.gov/health-alert-update-on-country-conditions/)'
     travel:
       inbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TG:
     sources:
       inbound:
@@ -4220,7 +4220,7 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TH:
     reopening:
       '2020-07-01': '[The government has set 1 July, 2020, for the lifting of all business and activity lockdowns ordered earlier to cope with Covid-19, said the National Security Council chief. These include interprovincial and international travel, as well as the end of emergency decree and curfew.](https://www.bangkokpost.com/learning/easy/1925844/)'
@@ -4238,7 +4238,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TJ:
     sources:
       inbound:
@@ -4248,21 +4248,21 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TL:
     sources:
       inbound:
         - '[Passengers who are not nationals and residents of Timor-Leste are not allowed to enter. Certain other exceptions apply.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TM:
     sources:
       inbound:
         - '[Flights to Turkmenistan are suspended. This does not apply to repatriation flights of nationals and residents of Turkmenistan.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TN:
     reopening:
       '2020-06-27': '[The Tunisian government announced on 1 June, 2020, that it will reopen its land, sea, and air borders on 27 June, 2020, amid the ongoing coronavirus disease (COVID-19) pandemic.](https://www.garda.com/crisis24/news-alerts/347441/tunisia-authorities-reopen-land-sea-and-air-borders-june-27-update-11)'
@@ -4271,7 +4271,7 @@ countries:
         - '[All flights to Tunisia are suspended. This does not apply to repatriation flights for nationals and permanent residents, as well as other emergency flights.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TO:
     sources:
       inbound:
@@ -4281,7 +4281,7 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TR:
     sources:
       domestic:
@@ -4297,14 +4297,14 @@ countries:
       inbound_restricted:
         - IR
       outbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TT:
     sources:
       inbound:
         - '[As of 3 April, 2020, borders remain closed until further notice. All airports and seaports are currently closed to inbound traffic. Entry ban applies to all travelers, including Trinidad and Tobago citizens.](https://www.garda.com/crisis24/news-alerts/329131/trinidad-and-tobago-travel-restrictions-continue-amid-covid-19-pandemic-april-3-update-2)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TV:
     sources:
       inbound:
@@ -4314,7 +4314,7 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TW:
     reopening:
       '2020-10-01': '[Projected reopening timeline: Foreign tourists may be allowed to visit the country in October, according to the Ministry of Transportation and Communications (MOTC).](https://www.taiwannews.com.tw/en/news/3937453)'
@@ -4323,7 +4323,7 @@ countries:
         - '[Foreign travelers are prohibited from entering or transiting through Taiwan.](https://covid19.mohw.gov.tw/en/cp-4784-53773-206.html)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   TZ:
     sources:
       domestic:
@@ -4336,7 +4336,7 @@ countries:
       domestic: partial
       inbound: 'yes'
       outbound: 'yes'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   UA:
     sources:
       domestic:
@@ -4350,14 +4350,14 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   UG:
     sources:
       inbound:
         - '[Flights to Uganda are suspended.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   US:
     sources:
       domestic:
@@ -4408,7 +4408,7 @@ countries:
         - IE
         - BR
       outbound: 'yes'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   UY:
     sources:
       domestic:
@@ -4421,7 +4421,7 @@ countries:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   UZ:
     sources:
       domestic:
@@ -4434,14 +4434,14 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   VC:
     sources:
       inbound:
         - '[As of 2 April, 2020, Saint Vincent and the Grenadines suspends all international passenger flights, partially closes sea ports.](https://www.worldaware.com/covid-19-alert-st-vincent-and-grenadines-suspends-all-international-passenger-flights-april-2)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   VE:
     sources:
       domestic:
@@ -4454,7 +4454,7 @@ countries:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   VN:
     reopening:
       '2020-04-29': '[Domestic flights resumed on several routes amid the easing of lockdown measures nationwide.](https://www.garda.com/crisis24/news-alerts/341166/vietnam-hanoi-authorities-ease-covid-19-restrictions-may-11-update-27)'
@@ -4474,7 +4474,7 @@ countries:
       domestic: 'yes'
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   VU:
     sources:
       domestic:
@@ -4488,7 +4488,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   WS:
     sources:
       inbound:
@@ -4498,7 +4498,7 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   YE:
     sources:
       inbound:
@@ -4508,14 +4508,14 @@ countries:
     travel:
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   ZA:
     sources:
       inbound:
         - '[As of 24 May, 2020, national borders will remain closed except for the transport of goods and repatriation of nationals.](https://www.gov.za/speeches/president-cyril-ramaphosa-developments-south-africa%E2%80%99s-risk-adjusted-strategy-manage-spread)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   ZM:
     sources:
       domestic:
@@ -4529,7 +4529,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
   ZW:
     sources:
       domestic:
@@ -4542,4 +4542,4 @@ countries:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09T00:00:00.000Z
+    updated_on: 2020-06-09
