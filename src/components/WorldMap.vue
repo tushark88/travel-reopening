@@ -96,9 +96,14 @@ export default {
     ...mapGetters(['getCountryById', 'getCountryState', 'getCountryGlobalState']),
     ...mapState(['country', 'travelContext']),
     mapTitle() {
+      if (this.country) {
+        return this.travelContext === 'inbound'
+          ? `Countries allowed entry when traveling to ${this.country.name}`
+          : `Countries allowed entry when traveling from ${this.country.name}`;
+      }
       return this.travelContext === 'inbound'
-        ? 'Arrivals country status'
-        : `Countries you can enter from ${this.country.name}`;
+        ? 'Countries you can travel to'
+        : 'Countries you can travel from';
     },
   },
   methods: {
