@@ -1,3 +1,4 @@
+
 - Public transport is operational. Those traveling within Singapore are to exercise mandatory safe distancing measures. Individuals are required to maintain a distance of at least one meter at all times. 
 - It is mandatory to wear a mask in public.
 - From **June 19, 2020**, Singapore will move into [Phase Two](https://www.moh.gov.sg/news-highlights/details/moving-into-phase-two-of-re-opening) of reopening. The following will come into effect:
