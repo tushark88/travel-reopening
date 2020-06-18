@@ -252,7 +252,7 @@ countries:
       inbound:
         - '[The Government of Benin has announced mandatory COVID-19 testing of all airline passengers arriving in Benin.](https://bj.usembassy.gov/health-alert-u-s-embassy-cotonou-benin-16/)'
     travel:
-      inbound: open
+      inbound: yes
     updated_on: 2020-06-15T00:00:00.000Z
   BN:
     sources:
@@ -478,7 +478,7 @@ countries:
       inbound:
         - '[All overland, water and air borders are closed.](https://thecitypaperbogota.com/news/colombia-on-course-for-worlds-longest-lockdown-after-extension-to-july-1/2523)'
     travel:
-      inbound: 'No'
+      inbound: 'no'
     updated_on: 2020-06-15T00:00:00.000Z
   CR:
     sources:
@@ -486,7 +486,7 @@ countries:
         - '[Costa Rica has closed its borders (land, sea, and air) to foreign travelers. Only Costa Rican citizens and residents will be permitted to enter the country.](https://www.twoweeksincostarica.com/costa-rica-coronavirus/)'
         - '[No international arrivals until 30 June, 2020.](https://cr.usembassy.gov/covid-19-information/)'
     travel:
-      inbound: 'No'
+      inbound: 'no'
     updated_on: 2020-06-15T00:00:00.000Z
   CU:
     reopening:
