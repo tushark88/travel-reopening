@@ -25,6 +25,7 @@
 </template>
 
 <script>
+import { OpenStatus } from '@/constants/travel';
 import { mapGetters } from 'vuex';
 
 export default {
@@ -42,9 +43,9 @@ export default {
     },
     travelStateLabel(state) {
       switch (state) {
-        case 'yes': return 'Open';
-        case 'no': return 'Closed';
-        case 'partial': return 'Partial';
+        case OpenStatus.Open: return 'Open';
+        case OpenStatus.Closed: return 'Closed';
+        case OpenStatus.Partial: return 'Partial';
         default: return 'Unknown';
       }
     },

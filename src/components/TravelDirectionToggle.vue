@@ -15,12 +15,13 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
+import { TravelDirection } from '@/constants/travel';
 
 export default {
   name: 'CountrySelect',
   computed: mapState({
     ...mapState(['travelContext']),
-    active() { return this.travelContext !== 'inbound'; },
+    active() { return this.travelContext !== TravelDirection.Inbound; },
   }),
   methods: {
     ...mapActions(['toggleContextAction']),

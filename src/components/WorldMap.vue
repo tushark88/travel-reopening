@@ -11,6 +11,7 @@ import { geoPath } from 'd3-geo';
 import { geoVanDerGrinten3 } from 'd3-geo-projection';
 import { feature } from 'topojson';
 import { mapGetters, mapState } from 'vuex';
+import { OpenStatus, TravelDirection } from '@/constants/travel';
 
 const EXCLUDE_COUNTRIES = ['Antarctica']; // Antarctica
 
@@ -43,9 +44,9 @@ const renderTooltip = (accessor) => (selection) => {
 
 function travelStateLabel(state) {
   switch (state) {
-    case 'yes': return 'Open';
-    case 'no': return 'Closed';
-    case 'partial': return 'Partial';
+    case OpenStatus.Open: return 'Open';
+    case OpenStatus.Closed: return 'Closed';
+    case OpenStatus.Partial: return 'Partial';
     default: return 'Unknown';
   }
 }
@@ -97,11 +98,11 @@ export default {
     ...mapState(['country', 'travelContext']),
     mapTitle() {
       if (this.country) {
-        return this.travelContext === 'inbound'
+        return this.travelContext === TravelDirection.Inbound
           ? `Countries allowed entry when traveling to ${this.country.name}`
           : `Countries allowed entry when traveling from ${this.country.name}`;
       }
-      return this.travelContext === 'inbound'
+      return this.travelContext === TravelDirection.Inbound
         ? 'Countries you can travel to'
         : 'Countries you can travel from';
     },
@@ -130,21 +131,21 @@ export default {
         .classed('open', (d) => {
           if (d.id) {
             const country = this.getCountryById(d.id);
-            return this.getCountryState(country.code, context, this.country) === 'yes';
+            return this.getCountryState(country.code, context, this.country) === OpenStatus.Open;
           }
           return false;
         })
         .classed('closed', (d) => {
           if (d.id) {
             const country = this.getCountryById(d.id);
-            return this.getCountryState(country.code, context, this.country) === 'no';
+            return this.getCountryState(country.code, context, this.country) === OpenStatus.Closed;
           }
           return false;
         })
         .classed('partial', (d) => {
           if (d.id) {
             const country = this.getCountryById(d.id);
-            return this.getCountryState(country.code, context, this.country) === 'partial';
+            return this.getCountryState(country.code, context, this.country) === OpenStatus.Partial;
           }
           return false;
         })

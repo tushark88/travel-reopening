@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/ban-ts-ignore */
 // @ts-ignore
 
-import Travel from '@/constants/travel.yaml';
+import TravelDefaults from '@/constants/travel.yaml';
 
-export default Travel;
+export const Travel = TravelDefaults;
 
 const { countries } = Travel;
 
@@ -20,6 +20,17 @@ export const reopenings = Object.keys(countries)
   .sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
 
 export const futureReopenings = reopenings.filter(({ date }) => Date.parse(date) > Date.now());
+
+export enum OpenStatus {
+  Open = 'yes',
+  Closed = 'no',
+  Partial = 'partial',
+}
+
+export enum TravelDirection {
+  Inbound = 'inbound',
+  Outbound = 'outbound',
+}
 
 export function findSourcesForCountry(countryCode: string) {
   return Object.values(countries[countryCode]?.sources || {}).flat();

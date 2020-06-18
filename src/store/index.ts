@@ -3,7 +3,8 @@ import Vuex from 'vuex';
 /* eslint-disable-next-line @typescript-eslint/ban-ts-ignore */
 // @ts-ignore
 import * as CountryOptions from '@/constants/countries';
-import Travel from '@/constants/travel';
+// import Travel from '@/constants/travel';
+import { Travel, OpenStatus, TravelDirection } from '@/constants/travel';
 
 Vue.use(Vuex);
 
@@ -12,7 +13,7 @@ export default new Vuex.Store({
     country: null,
     countryOptions: CountryOptions
       .sort((a: {name: string}, b: {name: string}) => a.name.localeCompare(b.name)),
-    travelContext: 'inbound',
+    travelContext: TravelDirection.Inbound,
     Travel,
   },
   mutations: {
@@ -20,7 +21,8 @@ export default new Vuex.Store({
       state.country = country;
     },
     toggleContext(state) {
-      const context = state.travelContext === 'inbound' ? 'outbound' : 'inbound';
+      const context = state.travelContext === TravelDirection.Inbound
+        ? TravelDirection.Outbound : TravelDirection.Inbound;
       state.travelContext = context;
     },
   },
@@ -56,23 +58,27 @@ export default new Vuex.Store({
     },
     getCountryState(state) {
       return (code: string, direction: string, currentCountry: {code: string}) => {
-        if (currentCountry && direction === 'inbound') {
+        if (currentCountry && direction === TravelDirection.Inbound) {
           const currentCountryTravel = state.Travel.countries[currentCountry.code]?.travel;
           if (currentCountryTravel && 'inbound_allowed' in currentCountryTravel) {
-            return currentCountryTravel.inbound_allowed.includes(code) ? 'yes' : 'no';
+            return currentCountryTravel.inbound_allowed.includes(code)
+              ? OpenStatus.Open : OpenStatus.Closed;
           }
           if (currentCountryTravel && 'inbound_restricted' in currentCountryTravel) {
-            return currentCountryTravel.inbound_restricted.includes(code) ? 'no' : 'yes';
+            return currentCountryTravel.inbound_restricted.includes(code)
+              ? OpenStatus.Closed : OpenStatus.Open;
           }
           return currentCountryTravel?.inbound;
         }
-        if (currentCountry && direction === 'outbound') {
+        if (currentCountry && direction === TravelDirection.Outbound) {
           const countryTravel = state.Travel.countries[code]?.travel;
           if (countryTravel && 'inbound_allowed' in countryTravel) {
-            return countryTravel.inbound_allowed.includes(currentCountry.code) ? 'yes' : 'no';
+            return countryTravel.inbound_allowed.includes(currentCountry.code)
+              ? OpenStatus.Open : OpenStatus.Closed;
           }
           if (countryTravel && 'inbound_restricted' in countryTravel) {
-            return countryTravel.inbound_restricted.includes(currentCountry.code) ? 'no' : 'yes';
+            return countryTravel.inbound_restricted.includes(currentCountry.code)
+              ? OpenStatus.Closed : OpenStatus.Open;
           }
           return countryTravel?.outbound;
         }

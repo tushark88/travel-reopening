@@ -14,6 +14,7 @@
 
 <script>
 import Multiselect from 'vue-multiselect';
+import { TravelDirection } from '@/constants/travel';
 import { mapState, mapActions } from 'vuex';
 
 export default {
@@ -28,7 +29,7 @@ export default {
   computed: mapState({
     ...mapState(['country', 'countryOptions', 'travelContext']),
     placeholder() {
-      return this.travelContext === 'inbound'
+      return this.travelContext === TravelDirection.Inbound
         ? 'Where are you traveling to?'
         : 'Where are you traveling from?';
     },
