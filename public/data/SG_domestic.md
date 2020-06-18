@@ -5,3 +5,4 @@
   - Social gatherings of up to five persons are allowed, with the one–meter social distancing rule waived for persons within this group.
 
 For more information regarding the reopening status of Singapore, refer to the [Ministry of Health (MOH) of Singapore](https://www.moh.gov.sg/news-highlights/details/moving-into-phase-two-of-re-opening).
+
