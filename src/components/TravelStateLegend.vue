@@ -1,10 +1,10 @@
 <template>
   <div class="inline-flex md:flex-col flex-wrap">
-    <div class="badge badge-yes">Open</div>
-    <div class="badge badge-no">Closed</div>
-    <div class="badge badge-partial">Partially open</div>
-    <div class="badge badge-unknown">Unknown</div>
     <div class="badge badge-selected">Selected</div>
+    <div class="badge badge-yes">Open</div>
+    <div class="badge badge-partial">Partially open</div>
+    <div class="badge badge-no">Closed</div>
+    <div class="badge badge-unknown">Unknown</div>
   </div>
 </template>
 
