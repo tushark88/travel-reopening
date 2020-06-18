@@ -1,4 +1,3 @@
-
 All travelers entering Singapore may be subjected to temperature screening upon arrival. Masks must be worn at all times.
 
 As of **June 17, 2020**, all travelers who enter Singapore will undergo new testing measures, at the traveler's own cost of **SGD 200**. This will occur before the end of the mandatory 14–day Stay–Home Notice (SHN) period and will take place at a designated community testing facility. 
