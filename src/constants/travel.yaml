@@ -579,6 +579,7 @@ countries:
           countries.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)
         - '[The quarantine requirement does not apply to persons entering from a third country if it is determined that the infection rate in that country is low. The names of these countries will be published on the website of the Robert-Koch-Institut.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
     travel:
+      domestic: open
       inbound: partial
       inbound_allowed:
         - BE
