@@ -6,10 +6,6 @@
         <div class="panel">
           <div class="panel__inner">
             <h2 class="country-header">{{title}}</h2>
-            <p>
-              Follow news and updates of current travel restrictions and reopening timelines for
-              {{country.name}}.
-            </p>
             <p v-if='updatedOn'>Last updated on {{updatedOn}}</p>
             <TravelState :country="country"></TravelState>
             <div v-if='domesticContent || internationalContent || visaQuarantineContent'>
