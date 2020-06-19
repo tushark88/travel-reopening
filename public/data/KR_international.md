@@ -7,7 +7,7 @@ Holders of special documentation such as diplomatic passports and APEC Business 
 The following entry restrictions apply:
 
 - All short–term visas issued on or before **April 5, 2020** are temporarily suspended. An exception applies  for short–term employment visa type C–4.
-- Visa-free entry and visa waiver measures are [suspended for 90 countries](http://overseas.mofa.go.kr/hk-en/brd/m_1495/view.do?seq=761299). Visa exemption entry for foreigners traveling from China [is also suspended](https://kr.usembassy.gov/022420-covid-19-information/). These travelers are required to obtain visas from the embassies and consulates of South Korea to enter the country. 
+- Visa–free entry and visa waiver measures are [suspended for 90 countries](http://overseas.mofa.go.kr/hk-en/brd/m_1495/view.do?seq=761299). Visa exemption entry for foreigners traveling from China [is also suspended](https://kr.usembassy.gov/022420-covid-19-information/). These travelers are required to obtain visas from the embassies and consulates of South Korea to enter the country. 
 - Entry is restricted for foreign travelers who have visited Hubei Province in the past 14 days.
 - Entry is restricted for travelers who hold a passport issued in Hubei Province.
 - Transit is restricted for nationals of Thailand, Mongolia, and Russia, with some exceptions to the rule. Visit [Korean Air](https://www.koreanair.com/global/en/2020_02_TSA_detail.html) for more information.
