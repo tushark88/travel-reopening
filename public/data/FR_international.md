@@ -13,7 +13,7 @@ Individuals below can enter France and are exempt from the 14–day quarantine u
 
 Exceptions apply for the borders with **Spain** and the **United Kingdom**:
 
-- Spain: Air travelers coming from Spain will be subject to a 14–day quarantine upon their arrival in France until June 21, 2020
+- [Spain](https://www.boe.es/index.php?lang=en): Air travelers coming from Spain will be subject to a 14–day quarantine upon their arrival in France until June 21, 2020
 - United Kingdom: Travelers arriving from the United Kingdom will no longer be subject to COVID–19 related restrictions for entering national territory. However, travelers will be requested to observe a 14–day quarantine upon arrival. 
 
 From July 1, 2020, France will progressively start to open its Schengen Area external borders. 
@@ -22,7 +22,7 @@ From July 1, 2020, France will progressively start to open its Schengen Area ext
 
 Avoid non–essential travel, especially beyond EU member states and Schengen Associated States.
 
-Traveling to Spain: Spain has maintained its COVID–19 related travel restrictions. A mandatory 14–day quarantine is required for air travelers arriving from European countries (including France) until June 21, 2020.
+Traveling to [Spain](https://www.boe.es/index.php?lang=en): Spain has maintained its COVID–19 related travel restrictions. A mandatory 14–day quarantine is required for air travelers arriving from European countries (including France) until June 21, 2020.
 
 Traveling to the United Kingdom: From June 8, 2020, the United Kingdom has made a 14–day quarantine a requirement for travelers arriving from France. 
 
