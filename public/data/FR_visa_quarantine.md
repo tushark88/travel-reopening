@@ -1,4 +1,3 @@
-- For French nationals and foreign nationals living in France with a national permit: if you travel to a French Overseas Territory, or if you present symptoms of COVID-19 when you arrive in French territory, you will be required to quarantine.
-- Travelers arriving from outside the European space are given, upon arrival, information on the conditions for a voluntary quarantine in the residence of their choice, or where appropriate, in an appropriate accommodation structure.
-- There will be no quarantine requirements for travelers arriving from inside the European space (European Union Member States, the United Kingdom, Andorra, Iceland, Liechtenstein, Monaco, Norway, San Marino, Switzerland, Holy See).
-For the most up–to–date travel information, refer to the [France Diplomacy](https://www.gouvernement.fr/en/coronavirus-covid-19). 
+For those arriving in Finland from countries subject to internal or external border control, self–isolation is recommenced. Self–isolation is not required if the traveler arrives from Estonia, Latvia, Lithuania, Norway, Denmark, or Iceland. 
+
+Guidelines on self–isolation can be found on the [Finnish Institute for Health and Welfare](https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/matkustaminen-ja-koronaviruspandemia). 
