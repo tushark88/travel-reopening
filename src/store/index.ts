@@ -4,8 +4,8 @@ import Vuex from 'vuex';
 /* eslint-disable-next-line @typescript-eslint/ban-ts-ignore */
 // @ts-ignore
 import * as CountryOptions from '@/constants/countries';
-// import Travel from '@/constants/travel';
-import { Travel, OpenStatus, TravelDirection } from '@/constants/travel';
+import { countries } from '@/constants/travel.yaml';
+import { OpenStatus, TravelDirection } from '@/constants/travel';
 
 Vue.use(Vuex);
 
@@ -15,7 +15,7 @@ export default new Vuex.Store({
     countryOptions: CountryOptions
       .sort((a: {name: string}, b: {name: string}) => a.name.localeCompare(b.name)),
     travelContext: TravelDirection.Inbound,
-    Travel,
+    countries,
   },
   mutations: {
     updateCountry(state, country) {
@@ -48,7 +48,7 @@ export default new Vuex.Store({
     },
     getCountryGlobalState(state) {
       return (code: string) => {
-        const c = state.Travel.countries[code] || {};
+        const c = state.countries[code] || {};
         return {
           domestic: c?.travel?.domestic,
           inbound: c?.travel?.inbound,
@@ -59,21 +59,20 @@ export default new Vuex.Store({
     },
     getCountryState(state) {
       return (code: string, direction: string, currentCountry: {code: string}) => {
-        if (currentCountry && direction === TravelDirection.Inbound) {
-          const currentCountryTravel = state.Travel.countries[currentCountry.code]?.travel;
-          if (currentCountryTravel?.inbound_allowed) { return currentCountryTravel.inbound_allowed.includes(code) ? OpenStatus.Open : OpenStatus.Closed; }
-          if (currentCountryTravel?.inbound_restricted) { return currentCountryTravel.inbound_restricted.includes(code) ? OpenStatus.Closed : OpenStatus.Open; }
-          return currentCountryTravel?.inbound;
+        if (!currentCountry) { return state.countries[code]?.travel[direction]; }
+
+        const fromCountryCode = direction === TravelDirection.Inbound ? code : currentCountry.code;
+        const toCountryCode = direction === TravelDirection.Inbound ? currentCountry.code : code;
+        const fromCountry = state.countries[fromCountryCode]?.travel || {};
+        const toCountry = state.countries[toCountryCode]?.travel || {};
+
+        if (fromCountry.outbound === OpenStatus.Closed) { return OpenStatus.Closed; }
+        if ([OpenStatus.Open, OpenStatus.Partial, undefined].includes(fromCountry.outbound)) {
+          if (toCountry?.inbound_allowed) { return toCountry.inbound_allowed.includes(fromCountryCode) ? OpenStatus.Open : OpenStatus.Closed; }
+          if (toCountry?.inbound_restricted) { return toCountry.inbound_restricted.includes(fromCountryCode) ? OpenStatus.Closed : OpenStatus.Open; }
+          return toCountry.inbound;
         }
-        if (currentCountry && direction === TravelDirection.Outbound) {
-          const currentCountryTravel = state.Travel.countries[currentCountry.code]?.travel;
-          if (currentCountryTravel?.outbound === OpenStatus.Closed) { return OpenStatus.Closed; }
-          const countryTravel = state.Travel.countries[code]?.travel;
-          if (countryTravel?.inbound_allowed) { return countryTravel.inbound_allowed.includes(currentCountry.code) ? OpenStatus.Open : OpenStatus.Closed; }
-          if (countryTravel?.inbound_restricted) { return countryTravel.inbound_restricted.includes(currentCountry.code) ? OpenStatus.Closed : OpenStatus.Open; }
-          return countryTravel?.inbound;
-        }
-        return state.Travel.countries[code]?.travel[direction];
+        return undefined;
       };
     },
   },
