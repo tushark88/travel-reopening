@@ -1,5 +1,7 @@
-- Mandatory 14–day quarantine for all inbound passengers.
-- South Korea has imposed a temporary suspension on short-term visas.
-- Visa-free entry and visa waiver programs for countries with entry bans on South Koreans [have been suspended](https://www.garda.com/crisis24/news-alerts/330281/south-korea-visa-waivers-suspended-for-countries-with-entry-ban-on-south-koreans-april-8-update-16) until further notice.
+- Certain visa types and visa exemption measures are currently suspended. Refer to "Inbound Travel" section above.
+- Travelers must undergo mandatory 14–day quarantine.
+- Travelers must submit a health declaration form upon entry.
+- Travelers may be subject to COVID–19 testing depending on their point of origin and/or symptoms displayed upon arrival.
 
-For the most up–to–date travel information, refer to the [Ministry of Foreign Affairs website](http://www.mofa.go.kr/eng/brd/m_22742/list.do).
+For more information regarding entry requirements, refer to the [Korea Tourism Organization](http://english.visitkorea.or.kr/enu/AKR/FU_EN_15.jsp?cid=2645060) and the [Ministry of Foreign Affairs](http://www.mofa.go.kr/eng/brd/m_22742/list.do).
+
