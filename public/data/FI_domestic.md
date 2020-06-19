@@ -1,6 +1,6 @@
 Domestic travel is possible with observed COVID–19 health and safety guidelines. All travel must be avoided when ill. 
 
-Selected internal border controls have been abolished. These include: 
+Selected internal border controls have been removed. These include: 
 
 - The land border between Finland and Norway 
 - Air traffic and regular ferry services between Finland and Norway, Denmark, Iceland, Estonia, Latvia, and Lithuania 
