@@ -1,6 +1,3 @@
-- Travelers arriving from the European Space, European Union Members States, and Andorra, Iceland, Liechtenstein, Monaco, Norway, San Marino, Switzerland, and the Vatican will be exempt from the 14–day quarantine requirement upon arrival in France. 
-- Travelers arriving from outside the European Space, European Union Members States, and Andorra, Iceland, Liechtenstein, Monaco, Norway, San Marino, Switzerland, and the Vatican, will be required to undergo a voluntary quarantine in the residence of their choice.
-- Quarantine restrictions apply for traveling to and from Spain and the United Kingdom. Please refer to the inbound and outbound travel restrictions. 
-- If you travel to a French Overseas Territory, or if you present symptoms of COVID-19 when you arrive in French territory, you will be required to quarantine.
+For those arriving in Finland from countries subject to internal or external border control, self–isolation is recommenced. Self–isolation is not required if the traveler arrives from Estonia, Latvia, Lithuania, Norway, Denmark, or Iceland. 
 
-For the most up–to–date visa and quarantine information, refer to the [France Diplomacy](https://www.gouvernement.fr/en/coronavirus-covid-19). 
+Guidelines on self–isolation can be found on the [Finnish Institute for Health and Welfare](https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/matkustaminen-ja-koronaviruspandemia). 
