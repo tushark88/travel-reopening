@@ -1,7 +1,7 @@
 Individual states and territories implement their own measures that may impact interstate travel.
 
-From June 3 it will be possible to travel freely from one region to another of the country. However, travel between the regions may be restricted, by the Government alone (by order of the President of the Council of Ministers or the Health Minister), in relation to specific areas and to any relevant epidemiological risks.
+From June 3, 2020, domestic travel within regions is possible. However, this may be subject to change by the Government concerning specific areas and to any relevant epidemiological risks.
 
-To mitigate and slow the spread of COVID-19 across the country, all scheduled land, sea, rail, air lake and inland waterway transport services are being provided in accordance with the "Common protocol regulating the measures to counter and contain the spread of the COVID-19 virus in the transport and logistics sector" signed on March 20, 2020, in Annex 14 of the May 17 Decree, and the "Guidelines for information to users and procedures for the containment of the spread of Covid-19" referred to in Annex 15 of the said Decree.
+All scheduled land, sea, rail, air, lake, and inland waterway transport services have been provided with regulations and guidelines to slow down the spread of COVID–19.
 
-For the most up–to–date travel information, refer to the [Italian Government](https://www.esteri.it/mae/en/ministero/normativaonline/decreto-iorestoacasa-domande-frequenti/focus-cittadini-italiani-in-rientro-dall-estero-e-cittadini-stranieri-in-italia.html).
+For the most up–to–date domestic travel information, refer to the [Italian Government](https://www.esteri.it/mae/en/ministero/normativaonline/decreto-iorestoacasa-domande-frequenti/focus-cittadini-italiani-in-rientro-dall-estero-e-cittadini-stranieri-in-italia.html).
