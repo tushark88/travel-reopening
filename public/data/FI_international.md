@@ -6,13 +6,15 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 Exceptions include:
 
+- Travelers from Norway, Denmark, Iceland, Estonia, Latvia, and Lithuania
+
 - If travelers have a residence permit issued by Finland.
-- If the traveler is a family member of a Finnish citizen arriving in Finland must be a family member of a Finnish citizen currently living in Finland. 
+- If the traveler is a family member of a Finnish citizen currently living in Finland.
 
 #### Outbound Travel: Who can travel out of Finland?
 
-Under section 9 of the Constitution of Finland, Finnish citizens always have the right to return to Finland, and everyone has the right to leave Finland if they so wish, provided that there is no legal impediment to this. 
+The Government does not restrict traveling out of Finland.
 
 However, the Government still recommends avoiding unnecessary travel to other countries except for Norway, Denmark, Iceland, Estonia, Latvia, and Lithuania.
 
-For the most up–to–date travel information, refer to the [Finnish Government.](https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions)
+For the most up–to–date international travel information, refer to the [Finnish Government](https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions).
