@@ -42,6 +42,10 @@ export default new Vuex.Store({
       return (code: string) => state.countryOptions
         .find((country: {code: string}) => country.code === code);
     },
+    getCountryBySlug(state) {
+      return (slug: string) => state.countryOptions
+        .find((country: {slug: string}) => country.slug === slug);
+    },
     getCountryById(state) {
       return (id: string) => state.countryOptions
         .find((country: {id: string}) => country.id === id);
