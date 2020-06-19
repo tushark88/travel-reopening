@@ -2,14 +2,13 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into Sweden?
 
-**Travel restrictions apply.**
+Sweden's borders remain open for passengers who arrive from Austria, Belgium, Bulgaria, Estonia, Finland, France, Germany, Greece, Hungary, Croatia, Cyprus, Czechia, Denmark, Iceland, Ireland, Italy, Luxembourg, Latvia, Liechtenstein, Lithuania, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Switzerland and the United Kingdom. Visit the [IATA Travel Centre](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm) for more information on exceptions.
 
-Non–essential travel to Sweden from countries outside the EU is suspended. This ban will apply until **15 June**.
-
-Sweden's borders remain open for passengers who arrive from Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland (Rep.), Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Switzerland and the United Kingdom. Visit the [IATA website](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm) for more information on exceptions.
+Until **June 30, 2020**, non–essential travel to Sweden from countries outside the EU is suspended.
 
 #### Outbound Travel: Who can travel out of Sweden?
 
-The Ministry for Foreign Affairs currently advises against non–essential travel to all countries. This advisory is valid until **July 15**.
+Until **June 30, 2020**, The Ministry for Foreign Affairs advises against non–essential travel to all countries. Thereafter, travel to the following countries can occur: Belgium, Croatia, France, Greece, Iceland, Italy, Luxembourg, Portugal, Spain, Switzerland.
 
-For the most up–to–date travel information, refer to [krisinformation.se](https://www.krisinformation.se/en/hazards-and-risks/disasters-and-incidents/2020/official-information-on-the-new-coronavirus/visiting-sweden-during-the-covid-19-pandemic) and the [Public Health Agency of Sweden website](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/covid-19/).
+For the most up–to–date information on international travel to and from Sweden, refer to [Krisinformation](https://www.krisinformation.se/en/hazards-and-risks/disasters-and-incidents/2020/official-information-on-the-new-coronavirus/visiting-sweden-during-the-covid-19-pandemic) and the [Public Health Agency of Sweden](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/covid-19/travel-to-and-from-sweden/).
+
