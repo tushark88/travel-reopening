@@ -18,5 +18,3 @@ UK citizens can enter Austria for essential purposes like medical reasons or for
 
 - You will need to provide a **health certificate in German or English**. The health certificate must not be **older than four days**, and it must confirm that the molecular biological test for SARS–CoV–2 is negative
 - A **self-monitored 14–day quarantine** will be required immediately upon arrival.
-
-For the most up–to–date travel information, refer to the [Austria Government Website for Coronavirus Information](https://www.austria.info/en/service-and-facts/coronavirus-information). 
