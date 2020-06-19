@@ -12,6 +12,6 @@ Refer to the [Faroe Islands Government Website](https://corona.fo/?_l=en) for mo
 
 #### Greenland
 
-From 15 June 2020, traveling to and from Greenland will not require a travel permit. Ordinary commercial tickets will be available. However, all passengers are required to follow restrictions related to testing and quarantine and to fill out a [“Sumut” form](https://www.nun.gl/).
+From June 15, 2020, traveling to and from Greenland will not require a travel permit. Ordinary commercial tickets will be available. However, all passengers are required to follow restrictions related to testing and quarantine and to fill out a [“Sumut” form](https://www.nun.gl/).
 
 Refer to the [Greenland Government Website](https://www.nun.gl/) for more information.
