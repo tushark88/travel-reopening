@@ -18,8 +18,6 @@ Exceptions apply for the borders with **Spain** and the **United Kingdom**:
 
 From July 1, 2020, France will progressively start to open its Schengen Area external borders. 
 
-International students will be allowed to travel to France, regardless of their countries of origin. These visa procedures and resident permit applications will be processed as a priority.
-
 #### Outbound Travel: Who can travel out of France?
 
 Avoid non–essential travel, especially beyond EU member states and Schengen Associated States.
