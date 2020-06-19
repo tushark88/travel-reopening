@@ -1,9 +1,9 @@
-/* eslint-disable max-len */
+/* eslint-disable max-len, @typescript-eslint/ban-ts-ignore */
 import Vue from 'vue';
 import Vuex from 'vuex';
-/* eslint-disable-next-line @typescript-eslint/ban-ts-ignore */
 // @ts-ignore
 import * as CountryOptions from '@/constants/countries';
+// @ts-ignore
 import { countries } from '@/constants/travel.yaml';
 import { OpenStatus, TravelDirection } from '@/constants/travel';
 
