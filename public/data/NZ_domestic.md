@@ -12,5 +12,4 @@ For the most up–to–date travel information, refer to [New Zealand Immigratio
 
 - Citizens of Samoa and Tonga can submit a request for an exception if they are making essential travel to New Zealand and only if their government has received agreement from the New Zealand Ministry of Foreign Affairs and Trade to allow their travel. Any family member applying for an exception must have their own critical purpose for travelling to New Zealand.
 
-For the most up–to–date travel information, refer to [the New Zealand Immigration](https://www.immigration.govt.nz/about-us/covid-19/border-closures-and-exceptions). 
-
+For the most up–to–date travel information, refer to [the New Zealand Immigration](https://www.immigration.govt.nz/about-us/covid-19/border-closures-and-exceptions).

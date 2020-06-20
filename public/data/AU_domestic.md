@@ -3,23 +3,23 @@ Individual states and territories implement their own measures that may impact i
 #### Queensland
 
 - **Border restrictions apply**
-- Checkpoints established at airports and major highways 
-- Only **Queensland residents, residents undertaking essential services and activities in border communities**, and those granted with exemptions are allowed to enter Queensland 
+- Checkpoints established at airports and major highways
+- Only **Queensland residents, residents undertaking essential services and activities in border communities**, and those granted with exemptions are allowed to enter Queensland
 
 Refer to the [Queensland Government website](https://www.covid19.qld.gov.au/government-actions/border-closing) for more information.
 
 #### New South Wales
 
-- There are **no current border restrictions** 
-- As of **June 1**, intrastate travel restrictions have been lifted; holiday travel within regional NSW is permitted 
+- There are **no current border restrictions**
+- As of **June 1**, intrastate travel restrictions have been lifted; holiday travel within regional NSW is permitted
 - While restrictions have eased, social distancing measures still apply
 
 Refer to the [New South Wales Government website](https://www.nsw.gov.au/covid-19/what-you-can-and-cant-do-under-rules/changes) for more information.
 
 #### Australian Capital Territory (ACT)
 
-- There are **no current border restrictions** 
-- While restrictions have eased, social distancing measures still apply 
+- There are **no current border restrictions**
+- While restrictions have eased, social distancing measures still apply
 
 Refer to the [ACT Government website](https://www.covid19.act.gov.au/help-and-advice/travellers) for more information.
 
@@ -33,8 +33,8 @@ Refer to the [South Australia Government website](https://www.covid-19.sa.gov.au
 
 #### Victoria
 
-- There are **no current border restrictions** 
-- As of **June 1**, certain restrictions have eased, including intrastate travel and the statewide reopening of tourist accommodation sites 
+- There are **no current border restrictions**
+- As of **June 1**, certain restrictions have eased, including intrastate travel and the statewide reopening of tourist accommodation sites
 
 Refer to the Victorian [Department of Health and Human Services website](https://www.dhhs.vic.gov.au/victorias-restriction-levels-covid-19) for more information on travel restrictions.
 
