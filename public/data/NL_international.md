@@ -2,7 +2,7 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into the Netherlands?
 
-**Travel restrictions apply.** 
+**Travel restrictions apply.**
 
 Prior to **June 16**:
 

@@ -16,4 +16,3 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 As of **May 18, 2020**, Spain’s major airports [have reopened for international flights](https://www.thesun.co.uk/travel/11647411/spains-airports-open-flights/). Non–essential travel should still be avoided until further notice.
 
 For the most up–to–date COVID–19 travel regulations implemented by the country, refer to the [State Agency Official State Gazette of Spain](https://www.boe.es/biblioteca_juridica/codigos/codigo.php?id=355&modo=2&nota=0&tab=2).
-

@@ -2,7 +2,7 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into Norway?
 
-**Travel restrictions apply.** 
+**Travel restrictions apply.**
 
 A travel ban is currently in effect. Only citizens and residents of Norway, as well as certain EU/EEA citizens with the appropriate permits, are allowed to enter Norway. For a full list of exceptions, [visit the UDI website](https://www.udi.no/en/about-the-corona-situation/eueaa-national-or-family-member/).
 

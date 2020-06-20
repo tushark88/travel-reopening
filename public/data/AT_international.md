@@ -6,13 +6,13 @@ As of June 16, 2020, Austria allows tourists from European countries except for 
 
 As of June 4, 2020, Austrian borders have been open to Germany, Liechtenstein, Switzerland, Slovakia, Slovenia, Czech Republic, and Hungary.
 
-Third–country nationals from states outside the Schengen area is prohibited entry by air. 
+Third–country nationals from states outside the Schengen area is prohibited entry by air.
 
-Third–country nationals traveling from inside the Schengen area by air have to carry a medical certificate proving a negative COVID–19 test result. If not, they will obligated to commit to a 14–day quarantine. Refer below for more details. 
+Third–country nationals traveling from inside the Schengen area by air have to carry a medical certificate proving a negative COVID–19 test result. If not, they will obligated to commit to a 14–day quarantine. Refer below for more details.
 
 #### Outbound Travel: Who can travel out of Austria?
 
-Following advice from the Austrian and the UK governemnt, non–essential travel between the UK and Austria is currently strongly discouraged. 
+Following advice from the Austrian and the UK governemnt, non–essential travel between the UK and Austria is currently strongly discouraged.
 
 UK citizens can enter Austria for essential purposes like medical reasons or for work:
 

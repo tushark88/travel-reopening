@@ -1,4 +1,4 @@
-- By law, if a traveler arrives in Ireland from any other country the traveler will need to fill in a form called the Covid-19 Passenger Locator Form. This includes Irish citizens coming home, people with no symptoms, and people who have tested negative for the virus in another country. 
+- By law, if a traveler arrives in Ireland from any other country the traveler will need to fill in a form called the Covid-19 Passenger Locator Form. This includes Irish citizens coming home, people with no symptoms, and people who have tested negative for the virus in another country.
 
 - The traveler will also be asked to [self-isolate for 14 days](https://www2.hse.ie/conditions/coronavirus/travel.html#self-isolation-after-travel).
 

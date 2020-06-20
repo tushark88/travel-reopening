@@ -2,14 +2,14 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into Indonesia?
 
-**Travel restrictions apply. **There are no entry restrictions for Indonesian Citizens. 
+**Travel restrictions apply.**There are no entry restrictions for Indonesian Citizens.
 
 Foreign nationals who can enter include:
 
-- Temporary or Permanent Stay Permit (KITAS/KITAP) holders 
-- Diplomats 
-- Medical services and humanitarian services 
-- Airline or maritime crews 
+- Temporary or Permanent Stay Permit (KITAS/KITAP) holders
+- Diplomats
+- Medical services and humanitarian services
+- Airline or maritime crews
 - National Strategic Projects workers
 
 #### Outbound Travel: Who can travel out of Indonesia?
