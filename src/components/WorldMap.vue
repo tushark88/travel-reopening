@@ -182,8 +182,8 @@ export default {
         .attr('d', path)
         .on('click', (d) => {
           const country = this.getCountryById(d.id);
-          if (this.$route.params.country === country.code) return;
-          this.$router.push({ name: 'Country', params: { country: country.code } });
+          if (this.$route.params.country === country.slug) return;
+          this.$router.push({ name: 'Country', params: { country: country.slug } });
         })
         .call(renderTooltip(tooltipBody.bind(this)))
         .attr('transform', 'scale(1.55)');
