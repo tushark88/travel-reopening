@@ -16,4 +16,4 @@ Foreign nationals who can enter include:
 
 Due to safety reasons, Indonesia’s borders are currently closed and limited access is allowed for specific travel purposes to authorized personnel only.
 
-For the most up–to–date travel information, refer to [Wonderful Indonesia: Covid–19 Travelers FAQ](https://www.indonesia.travel/gb/en/coronavirus).
+For the most up–to–date travel information, refer to [Wonderful Indonesia: COVID–19 Travelers FAQ](https://www.indonesia.travel/gb/en/coronavirus).

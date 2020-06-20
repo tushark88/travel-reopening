@@ -12,7 +12,7 @@ Third–country nationals traveling from inside the Schengen area by air have to
 
 #### Outbound Travel: Who can travel out of Austria?
 
-Following advice from the Austrian and the UK governemnt, non–essential travel between the UK and Austria is currently strongly discouraged.
+Following advice from the Austrian and the UK government, non–essential travel between the UK and Austria is currently strongly discouraged.
 
 UK citizens can enter Austria for essential purposes like medical reasons or for work:
 
