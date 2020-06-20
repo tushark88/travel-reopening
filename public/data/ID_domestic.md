@@ -4,4 +4,4 @@ Travelers, both Indonesian Citizens or Foreigners, are allowed to travel domesti
 
 Refer to the list of reopened tourism spots in regards to COVID–19 Outbreak Prevention Measures [here](https://www.indonesia.travel/gb/en/news/list-of-open-tourism-spots-in-regards-to-covid-19-outbreak).
 
-For the most up–to–date travel information, refer to [Wonderful Indonesia: Covid–19 Travelers FAQ](https://www.indonesia.travel/gb/en/coronavirus).
+For the most up–to–date travel information, refer to [Wonderful Indonesia: COVID–19 Travelers FAQ](https://www.indonesia.travel/gb/en/coronavirus).

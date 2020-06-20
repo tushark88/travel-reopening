@@ -8,7 +8,7 @@ As of June 15, 2020, restrictions will be lifted for travelers from Norway, Germ
 
 Travelers who do not need to commit to a minimum of six nights outside Copenhagen include residents of Schleswig-Holstein in Germany, or Skåne, Halland or Blekinge in Sweden.
 
-With the exception of travelers coming from the abovementioned countries, all inbound travelers are required to undergo a 14–day quarantine.
+With the exception of travelers coming from the above-mentioned countries, all inbound travelers are required to undergo a 14–day quarantine.
 
 For the most up–to–date travel information for who can travel into Denmark, refer to the [Ministry of Foreign Affairs of Denmark](https://um.dk/en/).
 
