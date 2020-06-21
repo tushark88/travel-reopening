@@ -2,4 +2,3 @@
 - Certain visa types and visa exemption measures are currently suspended. Refer to "Inbound Travel" section above for more information.
 
 To check for more advisories related to travel and COVID–19, refer to the [Japan National Tourism Organization](https://www.japan.travel/en/coronavirus/).
-
