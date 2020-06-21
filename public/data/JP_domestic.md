@@ -1,7 +1,6 @@
-Regulations may vary across different prefectures. Before traveling, check with the local authorities for region–specific rules.
+Domestic travel is allowed. Safety measures such as social distancing and hygiene practices still apply.
 
-- As of **May 25**, the country's state of emergency is fully lifted. However, the government advises individuals to exercise [social distancing and to avoid crowded and poorly ventilated places](https://www.japan-guide.com/news/alerts.html).
-- Until **June 19**, [residents of Tokyo, Chiba, Kanagawa, Saitama, and Hokkaido are advised not to travel out of their respective prefectures](https://www.jrailpass.com/blog/coronavirus-covid-19-advisory-info).
-- Certain establishments and businesses in some prefectures remain closed or have shortened business hours.
+The public may now attend indoor/outdoor events and gatherings of up to 1000 people.
 
-For the most up–to–date travel information, the [Japan National Tourism Organization](https://www.japan.travel/en/coronavirus/) operates a [24/7 hotline for tourist information and assistance](24/7 hotline for tourist information and assistance), available in English, Chinese, Japanese and Korean: +81 50 3816 2787.
+For inquiries about domestic travel within Japan, the [Japan National Tourism Organization](https://www.japan.travel/en/coronavirus/) operates a 24/7 hotline that provides COVID–19 information and assistance in English, Chinese, and Korean. Call +81 50 3816 2787.
+
