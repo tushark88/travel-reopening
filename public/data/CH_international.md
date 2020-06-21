@@ -2,14 +2,18 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into Switzerland?
 
-**Travel restrictions apply.**
+As of **June 15, 2020**, entry is **allowed** for all citizens of Switzerland and citizens of [Schengen states](https://www.sem.admin.ch/sem/en/home/themen/einreise/einreise-ch-schengen.html).
 
-- Entry is currently only possible for Swiss citizens, travelers with a residence permit, and EU/EFTA citizens who are visiting for professional reasons. Other exceptions may be included, check the [Federal Office of Public Health (FOPH) website](https://www.sem.admin.ch/sem/en/home/aktuell/aktuell/faq-einreiseverweigerung.html) for a full list of inbound exceptions and regulations.
-- Transit is currently only allowed for travelers in the EU/EFTA area at present, provided they can credibly show that they intend to and can enter their destination country by producing, for example, confirmation of a hotel or holiday apartment booking, etc.
-- Switzerland plans to [lift existing entry restrictions with all EU and EFTA nations and the UK](https://lenews.ch/2020/06/08/coronavirus-switzerland-to-reopen-borders-with-eu-efta-and-uk-on-15-june/) on **June 15**.
+Entry is also allowed for:
+
+- All persons with rights of free movement from non–Schengen states, such as Bulgaria, Croatia, Cyprus, the United Kingdom, Ireland, and Romania.
+- Third–country travelers who do not require a visa and are already a legal resident in the Schengen area.
+- Third-country travelers who require a visa but who hold a residence document issued by a Schengen state and who are therefore already a legal resident in the Schengen area.
+
+Entry is **not allowed** for those arriving from high–risk countries unless they meet certain requirements and are able to produce specific documents at the border. High–risk countries are all countries outside the Schengen states. [Click here](https://www.sem.admin.ch/sem/en/home/aktuell/aktuell/faq-einreiseverweigerung.html) for more information on entry restrictions and exceptions.
 
 #### Outbound Travel: Who can travel out of Switzerland?
 
-The Federal Office of Public Health (FOPH) recommends **avoiding non-essential international travel**.
+The Federal Office of Public Health (FOPH) recommends **avoiding non–essential international travel**.
 
-For the most up–to–date travel information, refer to the [State Secretariat for Migration website](https://www.sem.admin.ch/sem/en/home/aktuell/aktuell/faq-einreiseverweigerung.html) or the [Federal Office of Public Health (FOPH) website](https://www.sem.admin.ch/sem/en/home/aktuell/aktuell/faq-einreiseverweigerung.html).
+For the latest news on Switzerland's border control situation, refer to the [State Secretariat for Migration](https://www.sem.admin.ch/sem/en/home/aktuell/aktuell.html).
