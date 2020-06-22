@@ -1,5 +1,9 @@
-- Social distancing and hygiene measures should be practiced. Keep at least 1 meter from  individuals you do not live with.
-- Avoid public transport and crowded areas if possible.
-- Tourists may travel from mainland Norway to Svalbard with no quarantine restrictions.
+Domestic travel is allowed. Tourists may also freely travel from mainland Norway to Svalbard with no quarantine restrictions.
 
-For the most up–to–date travel information, refer to the [Norwegian Government website](https://www.regjeringen.no/en/topics/koronavirus-covid-19/id2692388/).
+Keep the following guidelines in mind:
+
+- Practice social distancing and hygiene measures while in public.
+- Keep at least one meter from individuals you do not live with.
+- Avoid public transport and crowded areas if possible.
+
+For the most up-to-date domestic travel advice, refer to the [Norwegian Directorate of Health](https://helsenorge.no/koronavirus/travel-advice).
