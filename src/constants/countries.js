@@ -1,4 +1,4 @@
-module.exports = [
+const countries = [
   {
     name: 'Taiwan',
     code: 'TW',
@@ -1239,3 +1239,20 @@ module.exports = [
     code: 'AX',
     id: '248',
   }];
+
+/* eslint-disable-next-line func-names */
+const withSlug = function (country) {
+  if (country.slug) { return country; }
+  const myCountry = country;
+
+  myCountry.slug = country.name
+    .replace(/(\.|\(|\)|-|&)+/, '')
+    .replace(/\W+/g, ' ')
+    .split(/ /)
+    .map((w) => w.toLowerCase())
+    .join('_');
+
+  return myCountry;
+};
+
+module.exports = countries.map((c) => withSlug(c));

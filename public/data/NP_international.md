@@ -2,7 +2,7 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into Nepal?
 
-- International borders **remain shut** [until at least June 30](http://www.nepalimmigration.gov.np/post/notice-regarding-temporary-shutdown-of-visa-services-sunday-31st-may-2020). 
+- International borders **remain shut** [until at least June 30](http://www.nepalimmigration.gov.np/post/notice-regarding-temporary-shutdown-of-visa-services-sunday-31st-may-2020).
 - International flights into Nepal are suspended.
 
 #### Outbound Travel: Who can travel out of Nepal?

@@ -2,9 +2,9 @@
 
 Individual states and territories implement their own measures that may impact interstate travel.
 
-Refer to the travel/entry policy by province [here](https://www.china-briefing.com/news/wp-content/uploads/2020/05/Travel-_-Entry-Policy-By-Province-As-of-May-24.jpg). 
+Refer to the travel/entry policy by province [here](https://www.china-briefing.com/news/wp-content/uploads/2020/05/Travel-_-Entry-Policy-By-Province-As-of-May-24.jpg).
 
-For the most up–to–date daily briefing of novel coronavirus cases in China, refer to the [National Health Commission of the People's Republic of China](http://en.nhc.gov.cn/2020-06/16/c_80776.htm). 
+For the most up–to–date daily briefing of novel coronavirus cases in China, refer to the [National Health Commission of the People's Republic of China](http://en.nhc.gov.cn/2020-06/16/c_80776.htm).
 
 #### Hong Kong
 
@@ -15,6 +15,6 @@ For the most up–to–date daily information, refer to [The Government of Hong 
 
 #### Macau
 
-- The Macau government announced that effective March 25, non-Macau residents who have been to an overseas territory in the past 14 days will be denied entry and all travelers who have been to an overseas territory, Hong Kong or Taiwan in the past 14 days will be subject to a 14-day compulsory quarantine. 
+- The Macau government announced that effective March 25, non-Macau residents who have been to an overseas territory in the past 14 days will be denied entry and all travelers who have been to an overseas territory, Hong Kong or Taiwan in the past 14 days will be subject to a 14-day compulsory quarantine.
 
 For the most up–to–date daily information, refer to [Macau's government website](https://www.ssm.gov.mo/apps1/PreventCOVID-19/en.aspx#clg17048).

@@ -14,4 +14,3 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 Singapore residents have been advised to defer all non–essential travel abroad until further notice.
 
 For the most up–to–date information on international travel to and from Singapore, refer to advisories from the [Ministry of Health (MOH) of Singapore](https://www.moh.gov.sg/news-highlights/details/gradual-re-opening-of-travel-and-changes-to-border-measures), the [Civil Aviation Authority of Singapore](https://www.mfa.gov.sg/Newsroom/Press-Statements-Transcripts-and-Photos/2020/06/20200603-SG-CHINA-Fast-Lane-Essential-Travel), and the [Ministry of Foreign Affairs of Singapore](https://www.mfa.gov.sg/Newsroom/Press-Statements-Transcripts-and-Photos/2020/06/20200603-SG-CHINA-Fast-Lane-Essential-Travel).
-

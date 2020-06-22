@@ -11,4 +11,3 @@ Until **June 30, 2020**, non–essential travel to Sweden from countries outside
 Until **June 30, 2020**, The Ministry for Foreign Affairs advises against non–essential travel to all countries. Thereafter, travel to the following countries can occur: Belgium, Croatia, France, Greece, Iceland, Italy, Luxembourg, Portugal, Spain, Switzerland.
 
 For the most up–to–date information on international travel to and from Sweden, refer to [Krisinformation](https://www.krisinformation.se/en/hazards-and-risks/disasters-and-incidents/2020/official-information-on-the-new-coronavirus/visiting-sweden-during-the-covid-19-pandemic) and the [Public Health Agency of Sweden](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/covid-19/travel-to-and-from-sweden/).
-

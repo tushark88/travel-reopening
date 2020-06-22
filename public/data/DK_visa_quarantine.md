@@ -1,4 +1,4 @@
-- At the moment, It is not possible to apply for a visa to Denmark. 
+- At the moment, It is not possible to apply for a visa to Denmark.
 
 - Applications for business visas can be submitted six months prior to the planned trip.
 
