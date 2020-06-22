@@ -9,6 +9,7 @@
     :selectLabel="selectLabel"
     :value="country"
     @input="updateCountryAction">
+    <template v-slot:noResult>No country found. Check the spelling and try again.</template>
   </multiselect>
 </template>
 
