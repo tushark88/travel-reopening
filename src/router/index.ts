@@ -3,6 +3,7 @@ import VueGtm from 'vue-gtm';
 import VueRouter, { RouteConfig } from 'vue-router';
 import VueMeta from 'vue-meta';
 import Home from '../views/Home.vue';
+import Subscribe from '../views/Subscribe.vue';
 
 Vue.use(VueRouter);
 Vue.use(VueMeta);
@@ -20,6 +21,11 @@ const routes: Array<RouteConfig> = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+  },
+  {
+    path: '/subscribe',
+    name: 'Subscribe',
+    component: Subscribe,
   },
   {
     path: '/:country.html',
