@@ -6,7 +6,7 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 Foreign nationals who can enter include:
 
-- Temporary or Permanent Stay Permit (KITAS/KITAP) holders 
+- Temporary or Permanent Stay Permit (KITAS/KITAP) holders
 - Diplomats
 - Medical services and humanitarian services
 - Airline or maritime crews
