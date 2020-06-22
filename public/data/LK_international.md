@@ -2,13 +2,17 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into Sri Lanka?
 
-- As of March 17, all international airports in Sri Lanka are [closed to international commercial passenger flights](https://lk.usembassy.gov/covid-19-information/) entering the country.
-- Passengers holding any type of visa are [not permitted to enter Sri Lanka](https://www.srilankan.com/en_uk/coporate/emergency-news-detail/517) unless they have approval from the Government of Sri Lanka.
-- This rule does not apply to passengers who intend to [transit via Colombo (CMB) – Bandaranaike International Airport (BIA) with immediate connections within 12 hours](https://www.srilankan.com/en_uk/coporate/emergency-news-detail/517).
-- From **August 1**, Sri Lanka plans to open its borders to tourists. Conditions apply. For more information on Sri Lanka reopening for travel, visit the [Sri Lanka Tourism Development Authority website](https://srilanka.travel/covid19/).
+Only travelers who intend to [transit via Bandaranaike International Airport (also known as Colombo Airport) with an immediate connection within 12 hours](https://www.srilankan.com/en_uk/coporate/emergency-news-detail/517) may be allowed to enter Sri Lanka.
+
+The following regulations apply:
+
+- Until further notice, all international airports in Sri Lanka are [closed to international commercial passenger flights](https://www.srilankan.com/en_uk/coporate/emergency-news-detail/513) entering the country.
+- The issuance of visas for all foreign travelers is temporarily suspended.
+- Visas already granted to foreign travelers who have not yet arrived in Sri Lanka will also be temporarily suspended. These visa types include Electronic Travel Authorizations (ETA), Residence Visas, Entry Visas, Landing Endorsements, and Multiple Entry Visas.
+- From **August 1, 2020**, Sri Lanka plans to open its borders to tourists. Conditions apply. For more information on Sri Lanka reopening for travel, [click here](https://srilanka.travel/covid19/faq.php).
 
 #### Outbound Travel: Who can travel out of Sri Lanka?
 
-Flights arriving without passengers for the purpose of picking up departing passengers [may be possible](https://lk.usembassy.gov/covid-19-information/), subject to reduced capacity and cancellations. Check with your airline for more information.
+Flights leaving from Sri Lanka with the purpose of carrying departing travelers [may be possible](https://www.srilankan.com/en_uk/coporate/emergency-news-detail/513), subject to reduced capacity and cancellations. Check with your airline for more information.
 
-For the most up–to–date information on COVID–19 regulations and travel restrictions, refer to the [Ministry of Health website](http://www.health.gov.lk/moh_final/english/) and the [Sri Lanka Tourism Development Authority website](https://srilanka.travel/covid19/).
+For the most up-to-date information on international travel restrictions, refer to the [Sri Lanka Tourism Development Authority](https://srilanka.travel/covid19/).
