@@ -109,3 +109,5 @@ Pudong
 PVG
 Hongqiao
 PEK
+Daqing
+Ha'erbin
