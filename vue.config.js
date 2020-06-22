@@ -1,14 +1,14 @@
 const path = require('path');
+const SitemapPlugin = require('sitemap-webpack-plugin').default;
 const PrerenderSPAPlugin = require('prerender-spa-plugin');
-
 const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 
 const basePath = process.env.NODE_ENV === 'production'
   ? '/en/ultimate-guide-covid19-travel-restrictions-reopening/' : '';
 const buildDir = 'dist';
 
+const sitemapPaths = require('./src/utils/sitemapPaths');
 const countries = require('./src/constants/countries.js');
-
 const routes = countries.map((c) => `${basePath}${c.slug}.html`);
 routes.push(`${basePath}about.html`, basePath);
 
@@ -40,6 +40,12 @@ const productionPlugins = [
       renderAfterDocumentEvent: 'render-completed',
     }),
   }),
+  new SitemapPlugin(`https://www.tourhero.com${basePath}`, sitemapPaths.entriesFromRoutes(routes), {
+      filename: 'sitemap.xml',
+      lastmod: true,
+      changefreq: 'daily',
+      priority: '0.8'
+  })
 ];
 
 module.exports = {
