@@ -8,5 +8,5 @@ Currently, New Zealand is at [Alert Level 1](https://uniteforrecovery.govt.nz/co
 
 #### Samoa and Tonga
 
-- Citizens of Samoa and Tonga can submit a request if they are making essential travel to New Zealand. They will be required to obtain a received agreement from their government and the New Zealand Ministry of Foreign Affairs and Trade to allow their travel. 
+- Citizens of Samoa and Tonga can submit a request if they are making essential travel to New Zealand. They will be required to obtain a received agreement from their government and the New Zealand Ministry of Foreign Affairs and Trade to allow their travel.
 - Any family member of the applicant applying for an exception must have their own critical purpose for traveling to New Zealand.
