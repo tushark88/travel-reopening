@@ -4,6 +4,7 @@ import VueRouter, { RouteConfig } from 'vue-router';
 import VueMeta from 'vue-meta';
 import Home from '../views/Home.vue';
 import Subscribe from '../views/Subscribe.vue';
+import NotFound from '../views/NotFound.vue';
 
 Vue.use(VueRouter);
 Vue.use(VueMeta);
@@ -26,6 +27,11 @@ const routes: Array<RouteConfig> = [
     path: '/subscribe',
     name: 'Subscribe',
     component: Subscribe,
+  },
+  {
+    path: '/404',
+    name: 'NotFound',
+    component: NotFound,
   },
   {
     path: '/:country.html',
