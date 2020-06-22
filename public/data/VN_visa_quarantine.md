@@ -1,4 +1,4 @@
-- Anyone entering Vietnam will be subjected to medical checks and 14–day quarantine upon arrival.
-- Travelers are to submit **mandatory health declarations** on arrival. This form can be filled out electronically at airports and border crossings, or submitted online [here](https://tokhaiyte.vn/) on the day of entry into Vietnam.
+- Anyone entering Vietnam will undergo medical checks and 14–day quarantine upon arrival.
+- On arrival, travelers must submit **mandatory health declarations**. This form can be filled out at airports and border crossings electronically, or [submitted online](https://tokhaiyte.vn/) on your day of entry.
 
-For the most up–to–date travel information and policies, refer to the [Vietnam Tourism website](https://vietnam.travel/things-to-do/covid-19-travel-policies-vietnam).
+For more information on Vietnam's visa policies, refer to the [Vietnam Immigration Department](https://evisa.xuatnhapcanh.gov.vn/trang-chu-ttdt).
