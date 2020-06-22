@@ -63,10 +63,10 @@ export default {
   },
   computed: {
     ...mapState(['country']),
-    ...mapGetters(['getCountryByCode', 'getCountryGlobalState']),
+    ...mapGetters(['getCountryBySlug', 'getCountryGlobalState']),
     title() { return `${this.country.name} COVID-19 Travel Update`; },
     updatedOn() {
-      const date = this.getCountryGlobalState(this.$route.params.country)?.updatedOn;
+      const date = this.getCountryGlobalState(this.country.code)?.updatedOn;
       return date ? moment(date).format('MMMM Do, YYYY') : date;
     },
   },
@@ -77,7 +77,7 @@ export default {
       this.internationalContent = null;
       this.visaQuarantineContent = null;
 
-      const country = this.getCountryByCode(this.$route.params.country);
+      const country = this.getCountryBySlug(this.$route.params.country);
       this.updateCountryAction(country);
 
       const promises = [

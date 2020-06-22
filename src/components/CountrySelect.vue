@@ -15,18 +15,20 @@
 <script>
 import Multiselect from 'vue-multiselect';
 import { TravelDirection } from '@/constants/travel';
-import { mapState, mapActions } from 'vuex';
+import { mapGetters, mapState, mapActions } from 'vuex';
 
 export default {
   name: 'CountrySelect',
   components: { Multiselect },
   watch: {
     country(val) {
-      if (this.$route.params.country === val.code) return;
-      this.$router.push({ name: 'Country', params: { country: val.code } });
+      const country = this.getCountryByCode(val.code);
+      if (this.$route.params.country === country.slug) return;
+      this.$router.push({ name: 'Country', params: { country: country.slug } });
     },
   },
   computed: mapState({
+    ...mapGetters(['getCountryByCode']),
     ...mapState(['country', 'countryOptions', 'travelContext']),
     placeholder() {
       return this.travelContext === TravelDirection.Inbound

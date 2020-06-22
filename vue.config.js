@@ -9,7 +9,7 @@ const buildDir = 'dist';
 
 const countries = require('./src/constants/countries.js');
 
-const routes = countries.map((c) => `${basePath}${c.code}.html`);
+const routes = countries.map((c) => `${basePath}${c.slug}.html`);
 routes.push(`${basePath}about.html`, basePath);
 
 const productionPlugins = [

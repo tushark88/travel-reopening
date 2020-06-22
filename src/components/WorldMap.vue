@@ -67,13 +67,13 @@ function tooltipBody(d) {
             </span>
           </div>
           <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline pb-1">
-            <span class="text-xs">Travel to</span>
+            <span class="text-xs">Entry</span>
             <span class="badge-${state.inbound || 'unknown'} px-2.5 py-0.5 rounded-md text-xs text-center">
               ${travelStateLabel(state.inbound)}
             </span>
           </div>
           <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline ">
-            <span class="text-xs">Travel from</span>
+            <span class="text-xs">Exit</span>
             <span class="badge-${state.outbound || 'unknown'} px-2.5 py-0.5 rounded-md text-xs text-center">
               ${travelStateLabel(state.outbound)}
             </span>
@@ -182,8 +182,8 @@ export default {
         .attr('d', path)
         .on('click', (d) => {
           const country = this.getCountryById(d.id);
-          if (this.$route.params.country === country.code) return;
-          this.$router.push({ name: 'Country', params: { country: country.code } });
+          if (this.$route.params.country === country.slug) return;
+          this.$router.push({ name: 'Country', params: { country: country.slug } });
         })
         .call(renderTooltip(tooltipBody.bind(this)))
         .attr('transform', 'scale(1.55)');

@@ -2,7 +2,7 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into the Philippines?
 
-**Travel restrictions apply.** 
+**Travel restrictions apply.**
 
 From March 22, [**foreign nationals are restricted from entry**](https://www.dfa.gov.ph/covid-19-advisories/26402-travel-advisory-inbound-travel-restrictions-by-the-philippine-government-on-foreign-travelers) into the Philippines.
 

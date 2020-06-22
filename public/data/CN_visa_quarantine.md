@@ -12,3 +12,4 @@ All travelers arriving at Xiamen Gaoqi International Airport (XMN) will be requi
 
 Refer to the [IATA website](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm) for more details.
 
+

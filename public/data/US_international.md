@@ -2,7 +2,7 @@ Restrictions apply for inbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into the United States of America?
 
-**Travel restrictions apply.** 
+**Travel restrictions apply.**
 
 * Foreign nationals who have been in any of the following countries within 14 days of their attempted entry are **restricted from entering** the United States:
   * China, Iran, European Schengen Area (Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden, Switzerland, Monaco, San Marino, Vatican City), United Kingdom, Republic of Ireland, and Brazil
