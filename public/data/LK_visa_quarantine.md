@@ -1,4 +1,3 @@
-- All foreigners will not be able to apply for visas at this time.
-- Electronic Travel Authorizations (ETA), Landing endorsements, Resident Visas, Entry Visas, and Multiple Entry Visas granted to foreigners who have not entered Sri Lanka yet are temporarily suspended.
+Foreign travelers will not be able to apply for visas at this time. Several types of visas are also temporarily suspended until further notice. Refer to “Inbound Travel” section above for more information.
 
-For the most up–to–date information on COVID–19 regulations and travel restrictions, refer to the [Ministry of Health website](http://www.health.gov.lk/moh_final/english/) and the [Sri Lanka Tourism Development Authority website](https://srilanka.travel/covid19/).
+For the most up-to-date information on visa restrictions and travel measures, refer to the [Department of Immigration and Emigration of Sri Lanka](http://www.immigration.gov.lk/web/index.php?option=com_content&view=article&id=337&lang=en).
