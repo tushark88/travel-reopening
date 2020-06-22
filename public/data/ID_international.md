@@ -2,7 +2,7 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into Indonesia?
 
-**Travel restrictions apply. **There are no entry restrictions for Indonesian Citizens. 
+**Travel restrictions apply.** There are no entry restrictions for Indonesian Citizens. 
 
 Foreign nationals who can enter include:
 
