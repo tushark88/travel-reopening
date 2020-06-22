@@ -57,7 +57,7 @@ function tooltipBody(d) {
 
   return `
     <div class="text-gray-900 bg-white rounded-md shadow">
-      <div class="px-4 py-3 w-48">
+      <div class="px-4 py-3 w-56">
         <div class="flex flex-col">
           <p class="mt-0 mb-2 text-xs font-semibold">${d.properties.name}</p>
           <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline pb-1">
