@@ -20,7 +20,7 @@
           <div class="mr-0 sm:mr-2">
             <TravelDirectionToggle/>
           </div>
-          <CountrySelect class="mt-4 sm:mt-0"/>
+          <CountrySelect class="w-full md:max-w-md mt-4 sm:mt-0"/>
         </div>
       </div>
     </div>
