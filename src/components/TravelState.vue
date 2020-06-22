@@ -2,19 +2,19 @@
   <div v-if="state" class="my-4 sm:my-6 md:md-8">
     <h3>Travel Status</h3>
     <div class="inline-grid grid-flow-row grid-cols-2 row-gap-2 col-gap-4">
-      <span>Travel within {{country.name}}</span>
+      <span>Domestic</span>
       <span
         :class="travelStateLabelColor(state.domestic)"
         class="w-20 py-0.5 rounded-md text-center">
         {{ travelStateLabel(state.domestic) }}
       </span>
-      <span>Travel to {{country.name}}</span>
+      <span>Entry</span>
       <span
         :class="travelStateLabelColor(state.inbound)"
         class="w-20 py-0.5 rounded-md text-center">
         {{ travelStateLabel(state.inbound) }}
       </span>
-      <span>Travel from {{country.name}}</span>
+      <span>Exit</span>
       <span
         :class="travelStateLabelColor(state.outbound)"
         class="w-20 py-0.5 rounded-md text-center">
