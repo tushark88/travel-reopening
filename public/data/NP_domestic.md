@@ -1,4 +1,2 @@
-- A **nationwide lockdown** is in place until June 14. This period may be further extended.
-- All domestic commercial passenger flights are **[suspended until at least June 14](http://caanepal.gov.np/news-detail/post/urgent-notice-about-extension-suspension-period-domestic-and-international-commercial-flights-june-1)**. This period may be further extended.
-
-For the most up–to–date travel information, refer to the [Department of Immigration website](http://www.nepalimmigration.gov.np/) and the [Civil Aviation Authority of Nepal website](http://caanepal.gov.np/news/category/news).
+- The Nepalese government has initiated a three-phase easing of lockdown measures. Currently, shops are permitted to open and short journeys via private vehicles are allowed.
+- On **August 1, 2020**, domestic flights are [slated to resume](https://www.garda.com/crisis24/news-alerts/352291/nepal-domestic-and-international-flights-to-resume-from-august-1-update-15). Social distancing and hygiene measures will be implemented.
