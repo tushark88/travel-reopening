@@ -20,8 +20,8 @@ Costa
 Côte
 CoV
 COVID
-d'Ivoire
 d'annonce
+d'Ivoire
 de
 DGCA
 EASA
@@ -66,6 +66,7 @@ Minh
 minifies
 Ministerio
 MOH
+MOHW
 MOM
 Narch
 Nederlandwereldwijd
