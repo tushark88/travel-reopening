@@ -16,6 +16,6 @@ Refer [here](https://www.china-briefing.com/news/chinas-travel-restrictions-spec
 
 **Travel restrictions apply.** The [Civil Aviation Administration of China (CAAC)](http://www.caac.gov.cn/en/XWZX/) have allowed flights to approved cities to operate one international passenger flight a week starting from June 8, 2020 under the [five–one policy](https://www.caixinglobal.com/2020-05-23/flying-to-china-still-a-challenge-as-authorities-extend-restrictions-101557791.html).
 
-This comes after the US Trump administration issued [an order](https://www.transportation.gov/sites/dot.gov/files/2020-06/China Part 213 Phase Order 20120-6-1 Final.pdf) to suspend Chinese airlines, including Air China, China Eastern, and China Southern to operate direct passenger flights to the US beginning June 16, 2020. 
+This comes after the US Trump administration issued [an order](https://www.transportation.gov/sites/dot.gov/files/2020-06/China%20Part%20213%20Phase%20Order%2020120-6-1%20Final.pdf) to suspend Chinese airlines, including Air China, China Eastern, and China Southern to operate direct passenger flights to the US beginning June 16, 2020. 
 
 For the most up–to–date travel information, refer to the [COVID–19 Updates from the European Chamber](https://www.europeanchamber.com.cn/en/national-news/3131/focus_on_the_2019_ncov). 
