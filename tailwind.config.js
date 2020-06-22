@@ -20,6 +20,9 @@ module.exports = {
         0.5: '.125rem',
         2.5: '.625rem',
       },
+      gridTemplateColumns: {
+        legend: '1fr auto',
+      },
     },
   },
   variants: {},
