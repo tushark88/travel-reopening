@@ -51,8 +51,9 @@ export default {
 
 <style>
 .multiselect__tags {
-  @apply pl-3;
+  @apply pl-3 border rounded-md;
 }
+
 .multiselect__placeholder,
 .multiselect__input {
   @apply pl-0 text-base leading-none;
