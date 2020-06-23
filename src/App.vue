@@ -31,12 +31,3 @@ export default {
   },
 };
 </script>
-
-<style>
-@media (min-width: 640px) {
-  .flex-grow {
-    margin-left: calc(100vw - 100%);
-    margin-right: 0;
-  }
-}
-</style>
