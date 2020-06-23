@@ -43,9 +43,9 @@ export default {
     },
     travelStateLabel(state) {
       switch (state) {
-        case OpenStatus.Open: return 'Open';
-        case OpenStatus.Closed: return 'Closed';
-        case OpenStatus.Partial: return 'Partially open';
+        case OpenStatus.Open: return 'Allowed';
+        case OpenStatus.Closed: return 'Restricted';
+        case OpenStatus.Partial: return 'Partially allowed';
         default: return 'Unknown';
       }
     },
