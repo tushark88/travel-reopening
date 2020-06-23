@@ -15,13 +15,6 @@
         </div>
         <img class="h-auto w-8/12 md:w-6/12" src="@/assets/images/undraw_lost.svg">
       </div>
-      <p>It looks like something went wrong.</p>
-      <p class="mb-6">Please check your spelling and try again, or let us take you home.</p>
-      <router-link :to="{ name: 'Home'}" tag="button"
-        class="w-full sm:max-w-xs bg-primary text-white py-2
-        px-4 rounded-md focus:outline-none focus:shadow-outline">
-        Take me home
-      </router-link>
     </div>
   </div>
 </template>
