@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-white shadow mb-4 sm:mb-6 lg:mb-8">
+  <nav class="fixed w-full z-30 bg-white shadow">
     <div class="flex h-12 px-4 sm:px-6 lg:px-8">
       <div class="flex-shrink-0 flex items-center">
         <router-link class="pr-1 pt-1 no-underline hover:opacity-100" :to="{ name: 'Home'}">
