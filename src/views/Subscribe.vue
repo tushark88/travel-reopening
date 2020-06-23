@@ -1,16 +1,21 @@
 <template>
   <div class="main-container">
     <div class="main-container__inner">
-      <Subscription/>
+      <div class="flex flex-col items-center sm:flex-row sm:items-start">
+        <div class="mb-12 sm:mb-0 sm:mr-1">
+          <SubscriptionForm/>
+        </div>
+        <img class="h-auto w-8/12 md:w-6/12" src="@/assets/images/undraw_traveling.svg">
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Subscription from '@/components/Subscription.vue';
+import SubscriptionForm from '@/components/SubscriptionForm.vue';
 
 export default {
   name: 'Subscribe',
-  components: { Subscription },
+  components: { SubscriptionForm },
 };
 </script>
