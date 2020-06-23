@@ -61,7 +61,7 @@ countries:
         - '[All international flights to and from Tirana International Airport to resume on Monday, June 22, 2020.](https://www.garda.com/crisis24/news-alerts/352636/albania-international-flights-to-resume-june-22-update-13)'
     travel:
       domestic: partial
-      inbound: open
+      inbound: yes
       outbound: partial
     updated_on: 2020-06-15
   AM:
@@ -1595,7 +1595,7 @@ countries:
         - '[All nationals arriving from all regions are requested to wait 14 days at a location designated by the quarantine station chief and to refrain from using public transportation. This will be implemented until the end of June, 2020. The period can be renewed.](https://www.japan.travel/en/coronavirus/)'
         - '[Suspension of visa validity applies to various visa types.](https://www.japan.travel/en/coronavirus/)'
     travel:
-      domestic: open
+      domestic: yes
       inbound: partial
       inbound_restricted:
         - BD
@@ -2045,8 +2045,6 @@ countries:
     updated_on: 2020-06-09
   KW:
     sources:
-      inbound:
-        - '[Kuwait has closed its airport and land border with Iraq.](https://kw.usembassy.gov/covid-19-information/)'
       inbound:
         - '[Kuwait has closed its airport and land border with Iraq.](https://kw.usembassy.gov/covid-19-information/)'
     travel:
@@ -2692,8 +2690,8 @@ countries:
         - ES
         - DE
         - FR
-        - 
-        
+        -
+
         - LK
     updated_on: 2020-06-12
   MW:
@@ -3287,7 +3285,7 @@ countries:
       visa_quarantine:
         - '[While not currently indicated as mandatory, everyone arriving in the Netherlands from a high-risk area is strongly advised to self-quarantine for 14 days immediately after arrival.](https://www.government.nl/topics/coronavirus-covid-19/tourism-in-the-netherlands)'
     travel:
-      domestic: open
+      domestic: yes
       inbound: partial
       inbound_allowed:
         - AT
@@ -3923,7 +3921,7 @@ countries:
   SA:
     sources:
       domestic:
-        - '[Saudi Arabia's nationwide curfew has been lifted but restrictions still apply.](https://www.bbc.com/news/world-middle-east-53123945)'
+        - "[Saudi Arabia's nationwide curfew has been lifted but restrictions still apply.](https://www.bbc.com/news/world-middle-east-53123945)"
       inbound:
         - '[International flights have been suspended indefinitely.](https://www.visitsaudi.com/en/covid-19-information-page)'
         - '[Tourists and expatriates legally residing in Saudi Arabia and holding a valid visa, will be able to return home.](https://www.visitsaudi.com/en/covid-19-information-page)'
