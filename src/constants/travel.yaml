@@ -2692,7 +2692,8 @@ countries:
         - ES
         - DE
         - FR
-        - MY
+        - 
+        
         - LK
     updated_on: 2020-06-12
   MW:
@@ -2969,12 +2970,13 @@ countries:
     sources:
       domestic:
         - '[Inter-state travel will be allowed, with the exception of areas under local lockdowns, which are to be designated as being under ''enhanced movement control orders'' (MCO).](https://www.garda.com/crisis24/news-alerts/348781/malaysia-authorities-announce-easing-of-covid-19-measures-from-june-10-update-22)'
+        - '[Malaysia has relaxed restrictions and has allowed interstate travel.](https://www.garda.com/crisis24/news-alerts/348781/malaysia-authorities-announce-easing-of-covid-19-measures-from-june-10-update-22)'
       inbound:
         - '[International borders are to remain closed indefinitely, with some exceptions, and Malaysian immigration services have resumed operations by appointment only.](https://www.garda.com/crisis24/news-alerts/348781/malaysia-authorities-announce-easing-of-covid-19-measures-from-june-10-update-22)'
       outbound:
         - '[Malaysian citizens and PRs are not allowed to travel abroad for holidays during this period.](http://www.klia.com.my/passenger-guide/faq-covid-19-conditional-movement-control-order-cmco)'
     travel:
-      domestic: partial
+      domestic: open
       inbound: 'no'
       outbound: partial
     updated_on: 2020-06-09
