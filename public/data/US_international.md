@@ -2,17 +2,14 @@ Restrictions apply for inbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into the United States of America?
 
-**Travel restrictions apply.**
+Nationals and permanent residents, as well as their spouses, are allowed to enter the country. Other exceptions may apply. Refer to the [IATA Travel Centre](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm) for more details.
 
-* Foreign nationals who have been in any of the following countries within 14 days of their attempted entry are **restricted from entering** the United States:
-  * China, Iran, European Schengen Area (Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden, Switzerland, Monaco, San Marino, Vatican City), United Kingdom, Republic of Ireland, and Brazil
-* Citizens, permanent residents, certain family members, and [other exempt individuals](https://travel.state.gov/content/travel/en/News/visas-news/presidential-proclamation-coronavirus.html) are able to enter the United States through [one of 15 airports](https://www.dhs.gov/news/2020/05/27/department-homeland-security-adds-brazil-list-countries-covid-19-travel-restrictions), and are advised to self–quarantine for 14 days after arrival.
+Foreign nationals who have been in any of the following countries within 14 days of their attempted entry are **restricted from entering** the United States:
 
-For the most up–to–date information on the COVID–19 situation, refer to the [CDC website](https://www.cdc.gov/coronavirus/2019-ncov/travelers/travel-in-the-us.html).
+- China, Iran, European Austria, Belgium, Czechia, Denmark, Estonia, France, Finland, Greece, Germany, Hungary, Italy, Iceland, Latvia, Lithuania, Liechtenstein, Luxembourg, Malta, Norway, Netherlands, Portugal, Poland, Slovenia, Slovakia, Spain, Switzerland, Sweden, Monaco, San Marino, Vatican City, the United Kingdom, Ireland, and Brazil.
+
+For more information on travel restrictions into the United States of America, refer to the [Centers for Disease Control and Prevention](https://www.cdc.gov/coronavirus/2019-ncov/travelers/from-other-countries.html).
 
 #### Outbound Travel: Who can travel out of the United States of America?
 
-* There are currently no exit restrictions. However, the Department of State [strongly advises against all international travel](https://travel.state.gov/content/travel/en/traveladvisories/ea/travel-advisory-alert-global-level-4-health-advisory-issue.html).
-* Should travel be required, travelers are urged to enroll in the [Smart Traveler Enrollment Program](https://step.state.gov/step/) and follow [CDC guidelines](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
-
-For the most up–to–date information on the COVID–19 situation, refer to the [CDC website](https://www.cdc.gov/coronavirus/2019-ncov/travelers/travel-in-the-us.html).
+There are currently no exit restrictions. However, the Department of State [strongly advises against all international travel](https://travel.state.gov/content/travel/en/traveladvisories/ea/travel-advisory-alert-global-level-4-health-advisory-issue.html). Should travel be required, travelers are urged to enroll in the [Smart Traveler Enrollment Program](https://step.state.gov/step/) and follow [government guidelines](https://www.cdc.gov/coronavirus/2019-ncov/index.html).
