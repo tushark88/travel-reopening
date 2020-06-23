@@ -44,9 +44,9 @@ const renderTooltip = (accessor) => (selection) => {
 
 function travelStateLabel(state) {
   switch (state) {
-    case OpenStatus.Open: return 'Open';
-    case OpenStatus.Closed: return 'Closed';
-    case OpenStatus.Partial: return 'Partially open';
+    case OpenStatus.Open: return 'Allowed';
+    case OpenStatus.Closed: return 'Restricted';
+    case OpenStatus.Partial: return 'Partially allowed';
     default: return 'Unknown';
   }
 }
@@ -56,25 +56,21 @@ function tooltipBody(d) {
   const state = this.getCountryGlobalState(country.code);
 
   return `
-    <div class="text-gray-900 bg-white rounded-md shadow">
-      <div class="px-4 py-3 w-56">
+    <div class="bg-white rounded-md shadow">
+      <div class="px-4 py-3">
         <div class="flex flex-col">
-          <p class="mt-0 mb-2 text-xs font-semibold">${d.properties.name}</p>
-          <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline pb-1">
+          <p class="mb-2 text-xs font-semibold">${d.properties.name}</p>
+          <div class="inline-grid grid-cols-legend row-gap-1 col-gap-2">
             <span class="text-xs">Domestic</span>
-            <span class="badge-${state.domestic || 'unknown'} px-2.5 py-0.5 rounded-md text-xs text-center">
+            <span class="badge-${state.domestic || 'unknown'} px-2.5 py-0.5 text-xs text-center rounded-md">
               ${travelStateLabel(state.domestic)}
             </span>
-          </div>
-          <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline pb-1">
             <span class="text-xs">Entry</span>
-            <span class="badge-${state.inbound || 'unknown'} px-2.5 py-0.5 rounded-md text-xs text-center">
+            <span class="badge-${state.inbound || 'unknown'} px-2.5 py-0.5 text-xs text-center rounded-md">
               ${travelStateLabel(state.inbound)}
             </span>
-          </div>
-          <div class="inline-grid grid-cols-2 grid-col-gap-4 items-baseline ">
             <span class="text-xs">Exit</span>
-            <span class="badge-${state.outbound || 'unknown'} px-2.5 py-0.5 rounded-md text-xs text-center">
+            <span class="badge-${state.outbound || 'unknown'} px-2.5 py-0.5 text-xs text-center rounded-md">
               ${travelStateLabel(state.outbound)}
             </span>
           </div>
