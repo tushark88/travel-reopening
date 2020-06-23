@@ -2976,7 +2976,7 @@ countries:
       outbound:
         - '[Malaysian citizens and PRs are not allowed to travel abroad for holidays during this period.](http://www.klia.com.my/passenger-guide/faq-covid-19-conditional-movement-control-order-cmco)'
     travel:
-      domestic: open
+      domestic: partial
       inbound: 'no'
       outbound: partial
     updated_on: 2020-06-09
