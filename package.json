@@ -54,7 +54,7 @@
     "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-vue": "^6.2.2",
     "prerender-spa-plugin": "^3.4.0",
-    "sass": "^1.26.8",
+    "sass": "^1.26.9",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.5",
     "vue-cli-plugin-yaml": "^1.0.2",
