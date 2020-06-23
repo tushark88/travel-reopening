@@ -5,8 +5,18 @@
       <div class="main-container__inner">
         <div class="panel">
           <div class="panel__inner">
+           <div class="px-4 py-5 mb-4 bg-gray-100 rounded-md">
+              <p v-if='updatedOn' class="font-semibold text-sm">
+                Last updated on {{updatedOn}}
+              </p>
+              <p class="inline-flex mr-1 mb-0 font-semibold text-sm">
+                Want the latest travel updates in your inbox?
+              </p>
+              <router-link :to="{ name: 'Subscribe'}" class="inline-flex font-semibold text-sm">
+                Subscribe here →
+              </router-link>
+            </div>
             <h2 class="country-header">{{title}}</h2>
-            <p v-if='updatedOn'>Last updated on {{updatedOn}}</p>
             <TravelState :country="country"></TravelState>
             <div v-if='domesticContent || internationalContent || visaQuarantineContent'>
               <CountryBody :content="this.domesticContent">

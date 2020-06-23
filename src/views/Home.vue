@@ -3,7 +3,7 @@
     <TitleMapSelect/>
     <div class="main-container">
       <div class="main-container__inner">
-          <Reopening/>
+        <Reopening/>
       </div>
     </div>
   </div>
