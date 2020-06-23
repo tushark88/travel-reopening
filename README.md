@@ -1,4 +1,4 @@
-![Test](https://github.com/tourhero/travel-reopening/workflows/Test/badge.svg)
+![Test](https://github.com/tourhero/travel-reopening/workflows/Test%20and%20Build/badge.svg)
 
 # Project Travel Reopening
 
