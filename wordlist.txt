@@ -113,3 +113,5 @@ PEK
 Daqing
 Ha'erbin
 MOHW
+ECQ
+GCQ

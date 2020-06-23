@@ -1,4 +1,4 @@
-- Visa–free privileges of foreign nationals are temporarily suspended.
-- The issuance of entry visas for foreigners is suspended, and all previously–issued visas are cancelled, with [some exceptions](https://www.dfa.gov.ph/covid-19-advisories/26402-travel-advisory-inbound-travel-restrictions-by-the-philippine-government-on-foreign-travelers).
+- The issuance of entry visas for foreign nationals is currently suspended. Visa-free privileges are also suspended. Refer to the “Inbound Travel” section above for more information.
+- All arriving travelers are subject to quarantine procedures.
 
-For the most up–to–date news about COVID–19 restrictions, refer to the [Philippine News Agency news feed](https://www.pna.gov.ph/categories/anti-covid-19-pandemic) and the [Department of Foreign Affairs website](https://www.dfa.gov.ph/).
+For the most up–to–date news about international travel guidelines, refer to the [Department of Foreign Affairs of the Philippines](https://www.dfa.gov.ph/).
