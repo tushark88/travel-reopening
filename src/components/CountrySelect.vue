@@ -9,6 +9,7 @@
     :selectLabel="selectLabel"
     :value="country"
     @input="updateCountryAction">
+    <template v-slot:noResult>No country found. Check the spelling and try again.</template>
   </multiselect>
 </template>
 
@@ -50,6 +51,19 @@ export default {
 <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
 
 <style>
+.multiselect__tags {
+  @apply pl-3 border rounded-md;
+}
+
+.multiselect__placeholder,
+.multiselect__input {
+  @apply pl-0 text-base leading-none;
+}
+
+.multiselect__single {
+  @apply pl-0;
+}
+
 .multiselect__option--highlight,
 .multiselect__option--highlight:after {
   @apply bg-primary;
@@ -59,11 +73,4 @@ export default {
 .multiselect__option--selected.multiselect__option--highlight:after {
   @apply bg-secondary;
 }
-
-.multiselect__placeholder, .multiselect__input {
-  @apply text-base;
-  line-height: 1rem;
-  padding-left: 5px;
-}
-
 </style>
