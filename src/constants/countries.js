@@ -1160,7 +1160,7 @@ const countries = [
     id: '784',
   },
   {
-    name: 'UK',
+    name: 'United Kingdom',
     code: 'GB',
     id: '826',
   },
