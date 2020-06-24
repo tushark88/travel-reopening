@@ -1,8 +1,8 @@
 <template>
   <nav class="fixed w-full z-30 bg-white shadow">
-    <div class="flex h-12 px-4 sm:px-6 lg:px-8">
+    <div class="flex h-12 px-4 sm:px-6 md:px-8">
       <div class="flex-shrink-0 flex items-center">
-        <router-link class="pr-1 pt-1 no-underline hover:opacity-100" :to="{ name: 'Home'}">
+        <router-link class="pt-1 -ml-2 no-underline hover:opacity-100" :to="{ name: 'Home'}">
           <img class="block h-8 w-auto" src="../assets/images/site-logo.png">
         </router-link>
       </div>
