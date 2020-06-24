@@ -14,4 +14,4 @@ The following **entry restrictions** apply:
 
 There are currently no restrictions on leaving Vietnam. However, limited flight options are available. Check with your airlines for more information.
 
-For more information on international travel and entry restrictions relating to COVID–19, refer to Travel Advisory Updates on [Vietnam Tourism's website](https://vietnam.travel/things-to-do/covid-19-travel-policies-vietnam).
+For more information on international travel and entry restrictions relating to COVID-19, refer to Travel Advisory Updates on [Vietnam Tourism's website](https://vietnam.travel/things-to-do/covid-19-travel-policies-vietnam).

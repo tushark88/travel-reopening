@@ -1,4 +1,4 @@
-Domestic travel is possible with observed COVID–19 health and safety guidelines. All travel must be avoided when ill.
+Domestic travel is possible with observed COVID-19 health and safety guidelines. All travel must be avoided when ill.
 
 Selected internal border controls have been removed. These include:
 
@@ -8,4 +8,4 @@ Selected internal border controls have been removed. These include:
 
 Finland’s borders to Sweden remains closed. Restrictions on external border traffic will continue until July 14, 2020. This includes the Russian border and those arriving from other third countries.
 
-For the most up–to–date domestic travel information, refer to the [Finnish Government](https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions).
+For the most up-to-date domestic travel information, refer to the [Finnish Government](https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions).

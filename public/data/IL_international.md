@@ -6,6 +6,6 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Outbound Travel: Who can travel out of Israel?
 
-**Travel restrictions apply.** The State of Israel Ministry of Health advises against all non–essential travel.
+**Travel restrictions apply.** The State of Israel Ministry of Health advises against all non-essential travel.
 
 Healthcare system employees are not permitted to travel abroad.

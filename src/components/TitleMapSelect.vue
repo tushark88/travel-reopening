@@ -3,7 +3,7 @@
     <div class="main-container">
       <div class="main-container__inner">
         <div class="mb-4 sm:mb-6 lg:mb-8">
-          <h1>The Ultimate Guide to COVID–19 Travel Restrictions</h1>
+          <h1>The Ultimate Guide to COVID-19 Travel Restrictions</h1>
           <p class="w-full md:w-9/12">
             A free and open-source project by
             <a class="inline-flex no-underline" href="https://www.tourhero.com/">TourHero</a>
