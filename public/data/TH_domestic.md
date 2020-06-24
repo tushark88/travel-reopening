@@ -4,4 +4,4 @@ Individuals are required to practice health and safety routines, including socia
 - As of **June 15, 2020**, several types of businesses have [reopened](https://www.tatnews.org/2020/06/bangkok-new-normal-in-pictures-thailand/).
 - Domestic flights have resumed with extra safety protocols. Routes between 14 provinces have been  [reinstated](https://www.bangkokpost.com/business/1911300/domestic-flights-resume-with-extra-safety-protocols) by Nok Air, AirAsia, Thai Lion Air, and Thai Vietjet Air.
 
-For the most up–to–date domestic travel information, refer to the [Department of Disease Control of Thailand](https://ddc.moph.go.th/viralpneumonia/eng/index.php) and the [Tourism Authority of Thailand (TAT) Newsroom](https://www.tatnews.org/).
+For the most up-to-date domestic travel information, refer to the [Department of Disease Control of Thailand](https://ddc.moph.go.th/viralpneumonia/eng/index.php) and the [Tourism Authority of Thailand (TAT) Newsroom](https://www.tatnews.org/).

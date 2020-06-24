@@ -790,7 +790,7 @@ countries:
       outbound:
         - '[No restrictions for exiting the country. Avoid all non-essential travel.](https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions)'
       visa_quarantine:
-        - '[Starting on 15 June, 2020, self–isolation is recommended for all those arriving in Finland who come from countries that are still subject to internal or external border control. Such countries include Sweden, Germany, and Russia. Self-isolation is not required if the person arrives from Estonia, Latvia, Lithuania, Norway, Denmark, or Iceland.](https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/matkustaminen-ja-koronaviruspandemia)'
+        - '[Starting on 15 June, 2020, self-isolation is recommended for all those arriving in Finland who come from countries that are still subject to internal or external border control. Such countries include Sweden, Germany, and Russia. Self-isolation is not required if the person arrives from Estonia, Latvia, Lithuania, Norway, Denmark, or Iceland.](https://thl.fi/fi/web/infektiotaudit-ja-rokotukset/ajankohtaista/ajankohtaista-koronaviruksesta-covid-19/matkustaminen-ja-koronaviruspandemia)'
     travel:
       domestic: 'yes'
       inbound: partial
@@ -1740,7 +1740,7 @@ countries:
   KI:
     sources:
       inbound:
-        - '[Kiribati medical officials issued a travel advisory requiring travelers “from countries with ongoing local transmission of novel coronavirus”–which includes the United States—to spend at least 14 days in a country free of the virus before traveling to Kiribati, and to provide a medical clearance to confirm that they are virus-free.](https://fj.usembassy.gov/u-s-citizen-services/covid-19-information/)'
+        - '[Kiribati medical officials issued a travel advisory requiring travelers “from countries with ongoing local transmission of novel coronavirus” – which includes the United States — to spend at least 14 days in a country free of the virus before traveling to Kiribati, and to provide a medical clearance to confirm that they are virus-free.](https://fj.usembassy.gov/u-s-citizen-services/covid-19-information/)'
     travel:
       inbound: partial
       inbound_allowed:
@@ -2028,7 +2028,7 @@ countries:
     sources:
       domestic:
         - '[Domestic air carriers have resumed routes.](https://newsinfo.inquirer.net/1259719/south-koreas-air-carriers-resume-domestic-routes-for-spring-travel-season)'
-        - '[As of May 28, 2020, a series of social distancing measures have been re–imposed due to a new spike in COVID-19 cases. These measures remain in place until further notice.](https://www.channelnewsasia.com/news/asia/covid-19-south-korea-second-wave-45-new-cases-seoul-clusters-12861676)'
+        - '[As of May 28, 2020, a series of social distancing measures have been re-imposed due to a new spike in COVID-19 cases. These measures remain in place until further notice.](https://www.channelnewsasia.com/news/asia/covid-19-south-korea-second-wave-45-new-cases-seoul-clusters-12861676)'
       inbound:
         - '[South Korea has implemented a temporary suspension on short-term visas. Visa-free entry and visa waiver programs for normal passports are also suspended for countries with entry bans on South Koreans.](https://www.garda.com/crisis24/news-alerts/330281/south-korea-visa-waivers-suspended-for-countries-with-entry-ban-on-south-koreans-april-8-update-16)'
         - '[The Ministry of Health and Welfare issued a statement on Sunday, June 21, announcing they plan to limit the number of foreign nationals entering South Korea through a temporary restriction on visas and a ban on non-scheduled flights.](https://www.garda.com/crisis24/news-alerts/352921/south-korea-authorities-restrict-foreign-arrivals-amid-rising-covid-19-cases-june-21-update-24)'
@@ -2698,7 +2698,7 @@ countries:
     sources:
       inbound:
         - >-
-          [The Malawian government has announced increased screenings at its two international airports–Kamuzu International Airport (KIA) in Lilongwe and Chileka International Airport (CIA) in Blantyre. The Ministry of Health has intensified its screening of incoming passengers using a questionnaire that all arriving passengers need to complete. The questionnaire requests information on recent travel history and the presence of current symptoms of
+          [The Malawian government has announced increased screenings at its two international airports – Kamuzu International Airport (KIA) in Lilongwe and Chileka International Airport (CIA) in Blantyre. The Ministry of Health has intensified its screening of incoming passengers using a questionnaire that all arriving passengers need to complete. The questionnaire requests information on recent travel history and the presence of current symptoms of
           COVID-19.](https://mw.usembassy.gov/covid-19-information/)
     travel:
       inbound: 'yes'

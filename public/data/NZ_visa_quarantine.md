@@ -7,4 +7,4 @@
 
 - Holders of work, student, visitor, limited or interim visa with an expiry date of April 2 to July 9, 2020 inclusive of those in New Zealand on April 2, 2020 will have their visas automatically extended to September 25, 2020.
 
-For the most up–to–date travel information, refer to [the New Zealand Immigration](https://www.immigration.govt.nz/about-us/covid-19/border-closures-and-exceptions).
+For the most up-to-date travel information, refer to [the New Zealand Immigration](https://www.immigration.govt.nz/about-us/covid-19/border-closures-and-exceptions).

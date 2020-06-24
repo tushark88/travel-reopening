@@ -4,7 +4,7 @@ Currently, New Zealand is at [Alert Level 1](https://uniteforrecovery.govt.nz/co
 
 #### Pacific Islands
 
-- New Zealand citizens from Tokelau, Cook Islands and Niue traveling to New Zealand must self–isolate for 14 days upon arrival.
+- New Zealand citizens from Tokelau, Cook Islands and Niue traveling to New Zealand must self-isolate for 14 days upon arrival.
 
 #### Samoa and Tonga
 

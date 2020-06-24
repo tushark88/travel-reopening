@@ -11,12 +11,12 @@ The following Indian nationals and travelers will be required to be quarantined 
 - All travelers coming from/transiting through UAE, Qatar, Oman, and Kuwait
 - Travelers who have visited China, South Korea, Iran, Italy, Spain, France, and Germany on or after February 15, 2020
 
-For Indian nationals returning home, they will require a negative COVID–19 medical certification if they were returning from South Korea.
+For Indian nationals returning home, they will require a negative COVID-19 medical certification if they were returning from South Korea.
 
 All scheduled international commercial passenger services shall remain closed till the Government of India lifts prohibition on international travel of passengers from/to India. However, this restriction does not apply to international cargo operations and flights specially approved by [DGCA](https://dgca.gov.in/digigov-portal/).
 
 #### Outbound Travel: Who can travel out of India?
 
-**Travel restrictions apply.** Indian nationals are strongly advised to avoid non–essential travel to COVID–19 affected countries. This is emphasized for travel to China, Italy, Iran, South Korea, Japan, France, Spain and Germany.
+**Travel restrictions apply.** Indian nationals are strongly advised to avoid non-essential travel to COVID-19 affected countries. This is emphasized for travel to China, Italy, Iran, South Korea, Japan, France, Spain and Germany.
 
-For the most up–to–date travel information, refer to the [Bureau of Immigration, Ministry of Home Affairs, Government of India.](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-1)
+For the most up-to-date travel information, refer to the [Bureau of Immigration, Ministry of Home Affairs, Government of India.](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-1)

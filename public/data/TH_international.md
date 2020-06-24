@@ -10,4 +10,4 @@ From **July 1, 2020**, the international travel ban is expected to be lifted. Un
 
 Due to the current entry ban on international flights, very few commercial flights currently operate out of Thailand and are subject to cancellation without notice. Contact your airline for advice.
 
-For the most up–to–date international travel information, refer to the [Department of Disease Control of Thailand](https://ddc.moph.go.th/viralpneumonia/eng/index.php) and the [Civil Aviation Authority of Thailand (CAAT)](https://www.caat.or.th/en/archives/50437).
+For the most up-to-date international travel information, refer to the [Department of Disease Control of Thailand](https://ddc.moph.go.th/viralpneumonia/eng/index.php) and the [Civil Aviation Authority of Thailand (CAAT)](https://www.caat.or.th/en/archives/50437).

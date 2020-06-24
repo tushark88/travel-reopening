@@ -17,4 +17,4 @@ The Government does not restrict traveling out of Finland.
 
 However, the Government still recommends avoiding unnecessary travel to other countries except for Norway, Denmark, Iceland, Estonia, Latvia, and Lithuania.
 
-For the most up–to–date international travel information, refer to the [Finnish Government](https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions).
+For the most up-to-date international travel information, refer to the [Finnish Government](https://valtioneuvosto.fi/en/information-on-coronavirus/current-restrictions).

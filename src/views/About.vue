@@ -4,7 +4,7 @@
       <h1>About Project Travel Reopening</h1>
       <p>
         Project Travel Reopening is a free and open source project by TourHero. It provides an
-        up–to–date view of travel restrictions around the world due to the COVID–19 pandemic. We
+        up-to-date view of travel restrictions around the world due to the COVID-19 pandemic. We
         hope this information will be useful to businesses and individuals who require insights
         into the global situation in planning their travel.
       </p>
@@ -18,7 +18,7 @@
       <h2>How you can contribute</h2>
       <p>
         As the situation changes rapidly around the world, keeping information
-        up–to–date can be challenging. If you spot any incorrect or outdated
+        up-to-date can be challenging. If you spot any incorrect or outdated
         information, we encourage you to contribute to the project. The source
         code and the data is open-sourced on Github:
         <a href="https://github.com/tourhero/travel-reopening">
@@ -29,15 +29,15 @@
 
       <h2>Disclaimer</h2>
       <p>Advisories may change without warning. Please check official government
-        websites for up–to–date information on travel restrictions prior to your
-        journeys. This project displays information that is related only to COVID–19
+        websites for up-to-date information on travel restrictions prior to your
+        journeys. This project displays information that is related only to COVID-19
         travel restrictions and not to existing restrictions.
       </p>
 
       <h2>Legend</h2>
       <dl>
         <dt>Green</dt>
-        <dd>No travel restrictions related to COVID–19 apply</dd>
+        <dd>No travel restrictions related to COVID-19 apply</dd>
         <dt>Yellow</dt>
         <dd>
           Some travel restrictions apply depending on traveler’s point of origin,
@@ -65,7 +65,7 @@ export default {
       title: 'About',
       meta: [{
         name: 'description',
-        content: 'Project Travel Reopening is a free and open–source project by TourHero. It provides an up–to–date global view of travel restrictions due to the COVID–19 pandemic.',
+        content: 'Project Travel Reopening is a free and open-source project by TourHero. It provides an up-to-date global view of travel restrictions due to the COVID-19 pandemic.',
       }],
     };
   },
