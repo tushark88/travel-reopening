@@ -734,7 +734,7 @@ countries:
         - '[Upon arrival into Spain, a Public Health Passenger Locator Form must be presented.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       domestic: partial
-      inbound: 'no'
+      inbound: partial
       inbound_allowed:
         - AT
         - BE
