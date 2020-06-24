@@ -41,11 +41,11 @@ const productionPlugins = [
     }),
   }),
   new SitemapPlugin(`https://www.tourhero.com${basePath}`, sitemapPaths.entriesFromRoutes(routes), {
-      filename: 'sitemap.xml',
-      lastmod: true,
-      changefreq: 'daily',
-      priority: '0.8'
-  })
+    filename: 'sitemap.xml',
+    lastmod: true,
+    changefreq: 'daily',
+    priority: '0.8',
+  }),
 ];
 
 module.exports = {
