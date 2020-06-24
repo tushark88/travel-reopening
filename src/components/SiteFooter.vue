@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 sm:px-6 lg:px-8 mt-6 md:mt-8 border-t border-gray-200">
+  <div class="p-4 sm:px-6 md:px-8 mt-6 md:mt-8 border-t border-gray-200">
     <div class="flex flex-col items-starts sm:flex-row sm:items-center sm:justify-between mb-1">
       <p class="sm:mb-0 text-gray-700 text-sm">
         Notice a mistake?
