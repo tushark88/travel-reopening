@@ -12,9 +12,7 @@
             <input class="appearance-none block w-full sm:max-w-xs py-2 px-3 mb-4
               border rounded-md text-gray-700 focus:outline-none focus:shadow-outline"
               name="entry.1349569946" id="email" required placeholder="Enter your email">
-            <button class="w-full sm:max-w-xs bg-primary text-white py-2
-              px-4 rounded-md focus:outline-none focus:shadow-outline"
-              type="submit" id="subscribe-button">
+            <button class="button-primary" type="submit" id="subscribe-button">
               Subscribe
             </button>
           </form>
