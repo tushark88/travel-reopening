@@ -43,7 +43,7 @@ export default {
   },
   methods: {
     toDate(string) {
-      return moment(string).format('MMMM Do, YYYY');
+      return moment(string).format('MMMM D, YYYY');
     },
   },
 };
