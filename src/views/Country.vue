@@ -77,7 +77,7 @@ export default {
     title() { return `${this.country.name} COVID-19 Travel Update`; },
     updatedOn() {
       const date = this.getCountryGlobalState(this.country.code)?.updatedOn;
-      return date ? moment(date).format('MMMM Do, YYYY') : date;
+      return date ? moment(date).format('MMMM D, YYYY') : date;
     },
   },
   methods: {
