@@ -3,13 +3,13 @@ countries:
   AD:
     sources:
       domestic:
-        - '[There are no limits on movement around Andorra. However, a minimum safe distance of 1.5 metres between individuals has been stipulated. You should also be aware that, in open spaces, you must maintain a safe distance of 4 metres (if you are on foot), 10 metres (if you are running) and 20 metres (if you are cycling).](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/)'
+        - 'There are [no limits on movement around Andorra.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/) However, a minimum safe distance of 1.5 metres between individuals has been stipulated. You should also be aware that, in open spaces, you must maintain a safe distance of 4 metres (if you are on foot), 10 metres (if you are running) and 20 metres (if you are cycling).]'
       inbound:
-        - '[Since 1 June, 2020, Andorra has lifted the restrictions on entering the country via the borders with France and Spain. This applies to all visitors, including tourists and hikers.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/)'
+        - '[Since June 1, 2020, Andorra has lifted the restrictions on entering the country via the borders with France and Spain.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/) This applies to all visitors, including tourists and hikers.
       outbound:
-        - '[Since 1 June, 2020, Andorra has lifted the restrictions on entering the country via the borders with France and Spain. This applies to all visitors, including tourists and hikers.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/)'
+        - '[Since June 1, 2020, Andorra has lifted the restrictions on entering the country via the borders with France and Spain.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/) This applies to all visitors, including tourists and hikers.
       visa_quarantine:
-        - '[No. You will not have to go into any type of quarantine if you are travelling from Spain, France or Portugal.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/)'
+        - '[There will be no quarantine if you are travelling from Spain, France or Portugal.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/)'
     travel:
       domestic: 'yes'
       inbound: 'yes'
@@ -35,14 +35,14 @@ countries:
     sources:
       domestic:
         - '[Domestic flights currently operating on a very limited basis.](https://www.gov.uk/foreign-travel-advice/afghanistan/staying-during-coronavirus)'
-        - '[Under the new response plan, all hotels, schools, universities, parks, sports facilities, entertainment and social venues, and other non-essential businesses are to remain closed until at least September.](https://www.garda.com/crisis24/news-alerts/348711/afghanistan-authorities-introduce-new-covid-19-restrictions-june-7-update-6)'
+        - 'All hotels, schools, universities, parks, sports facilities, entertainment and social venues, and other non-essential businesses are to [remain closed until September.](https://www.garda.com/crisis24/news-alerts/348711/afghanistan-authorities-introduce-new-covid-19-restrictions-june-7-update-6)'
       inbound:
-        - '[Entry and exit procedures are pending guidance from the Government of Afghanistan once airports re-open and land borders resume normal operations.](https://af.usembassy.gov/covid-19-information/)'
-        - '[The Government of Afghanistan has re-opened its border with Iran, which had been closed briefly to all air and ground travel.](https://af.usembassy.gov/covid-19-information/)'
+        - '[Entry and exit procedures](https://af.usembassy.gov/covid-19-information/) are pending guidance from the Government of Afghanistan once airports re-open and land borders resume normal operations.'
+        - 'The Government of Afghanistan has [re-opened its border with Iran](https://af.usembassy.gov/covid-19-information/)'
       outbound:
-        - '[Commercial airlines have suspended flights in and out of Afghanistan and the length of these suspensions is undefined.](https://www.thenational.ae/lifestyle/travel/the-full-list-of-countries-where-commercial-passenger-flights-are-grounded-due-to-the-coronavirus-1.996215)'
+        - '[Commercial airlines have suspended flights in and out of Afghanistan](https://www.thenational.ae/lifestyle/travel/the-full-list-of-countries-where-commercial-passenger-flights-are-grounded-due-to-the-coronavirus-1.996215) and the length of these suspensions is undefined.'
       visa_quarantine:
-        - '[People arriving from other countries and who do not show symptoms of COVID-19 are advised to self-quarantine at home for 14 days](https://af.usembassy.gov/covid-19-information/)'
+        - 'People arriving from other countries and who do not show symptoms of COVID-19 are advised to [self-quarantine at home for 14 days](https://af.usembassy.gov/covid-19-information/)'
     travel:
       domestic: partial
       inbound: partial
@@ -53,14 +53,14 @@ countries:
   AG:
     sources:
       domestic:
-        - '[A daily curfew window from 5:00 am to 11:00 pm has been authorized by the State of Emergency. Curfew hours are 11 pm to 5 am nightly until July 31, 2020](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/)'
+        - '[A daily curfew window](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/) from 5:00 am to 11:00 pm has been authorized by the State of Emergency. Curfew hours are 11 pm to 5 am nightly until July 31, 2020.'
       inbound:
         - '[Antigua & Barbuda border’s reopened on 1 June, 2020.](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/)'
       outbound:
         - '[Antigua & Barbuda border’s reopened on 1 June, 2020.](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/)'
       visa_quarantine:
         - '[The regulations published on June 10, 2020 states that “All visitors to Antigua and Barbuda shall be tested for COVID-19 and shall pay a charge of One Hundred Dollars (US$100.00) United States Currency or its equivalent in Eastern Caribbean Dollars as a charge for the test.](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/)'
-        - 'All arriving passengers will be monitored for COVID-19 in accordance with guidelines of the Quarantine Authority and may undergo a rapid antigen test on arrival or at the hotel of lodging as determined by the Health Authorities.](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/)'
+        - '[All arriving passengers will be monitored for COVID-19 in accordance with guidelines of the Quarantine Authority and may undergo a rapid antigen test on arrival or at the hotel of lodging as determined by the Health Authorities.](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/)'
     travel:
       domestic: 'partial'
       inbound: 'yes'
@@ -72,13 +72,13 @@ countries:
       '2020-06-22': '[All international flights to and from Tirana International Airport to resume on Monday, June 22, 2020.](https://www.garda.com/crisis24/news-alerts/352636/albania-international-flights-to-resume-june-22-update-13)'
     sources:
       domestic:
-        - '[Mass transit, conferences, public hearings, swimming pools, theaters, cinemas, and nightclubs will remain closed until Tuesday, June 23, 2020, when the current state of emergency is due to expire.](https://www.garda.com/crisis24/news-alerts/352636/albania-international-flights-to-resume-june-22-update-13)'
+        - 'Mass transit, conferences, public hearings, swimming pools, theaters, cinemas, and nightclubs will remain closed until Tuesday, June 23, 2020, when the [current state of emergency is due to expire.](https://www.garda.com/crisis24/news-alerts/352636/albania-international-flights-to-resume-june-22-update-13)'
       inbound:
-        - '[Commercial flights returned to Albania on June 15, 2020, with flights from Tirana to Vienna, Belgrade, and Athens. The Government of Albania has declared that only European Union residents and nationals are eligible to board these flights at this time.](https://al.usembassy.gov/updates_covid19/)'
+        - '[Commercial flights returned to Albania on June 15, 2020,](https://al.usembassy.gov/updates_covid19/) with flights from Tirana to Vienna, Belgrade, and Athens. The Government of Albania has declared that only European Union residents and nationals are eligible to board these flights at this time.'
       outbound:
-        - '[Commercial flights returned to Albania on June 15, 2020, with flights from Tirana to Vienna, Belgrade, and Athens. The Government of Albania has declared that only European Union residents and nationals are eligible to board these flights at this time.](https://al.usembassy.gov/updates_covid19/)'
+        - '[Commercial flights returned to Albania on June 15, 2020,](https://al.usembassy.gov/updates_covid19/) with flights from Tirana to Vienna, Belgrade, and Athens. The Government of Albania has declared that only European Union residents and nationals are eligible to board these flights at this time.'
       visa_quarantine:
-        - '[There is no general requirement for travelers returning to Albania to self-quarantine. Quarantine will only apply in specific cases when ordered by health authorities.](https://al.usembassy.gov/updates_covid19/)'
+        - '[There is no general requirement for travelers returning to Albania to self-quarantine.](https://al.usembassy.gov/updates_covid19/) Quarantine will only apply in specific cases when ordered by health authorities.]'
     travel:
       domestic: partial
       inbound: partial
@@ -603,15 +603,15 @@ countries:
   DE:
     sources:
       domestic:
-        - '[Germany has reimposed coronavirus lockdown measures in two northwestern districts on Wednesday after local outbreaks linked to a meat processing factory.](https://www.aa.com.tr/en/europe/covid-19-germany-hit-by-local-infection-spikes/1888588)'
+        - '[Germany has reimposed coronavirus lockdown measures in two northwestern districts](https://www.aa.com.tr/en/europe/covid-19-germany-hit-by-local-infection-spikes/1888588) on Wednesday after local outbreaks linked to a meat processing factory.'
       inbound:
-        - '[EU Citizens, Liechtenstein, Switzerland, Norway and Iceland and all family members of these citizens are permitted to return to their home country or to their place of normal residence in Germany or another country.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
+        - 'EU Citizens, Liechtenstein, Switzerland, Norway and Iceland and all family members of these citizens are [permitted to return to their home country or to their place of normal residence in Germany or another country.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
       outbound:
         - '[Avoid all non-essential travel.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
-        - '[Checks at the borders with Austria, Switzerland, France and Denmark and for passengers arriving by air from Italy and Spain remain in effect until 15 June, 2020.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
+        - 'Checks at the borders with Austria, Switzerland, France and Denmark and for passengers arriving by air from Italy and Spain [remain in effect until 15 June, 2020.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
       visa_quarantine:
-        - '[The federal and state governments have agreed that all persons entering Germany from third countries are required to remain in self-quarantine for two weeks. Third countries are countries outside the European Union (EU). Persons traveling from Iceland, Liechtenstein, Norway, Switzerland, and the United Kingdom of Great Britain and Northern Ireland are exempt from this requirement, as are persons traveling from EU countries.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
-        - '[The quarantine requirement does not apply to persons entering from a third country if it is determined that the infection rate in that country is low. The names of these countries will be published on the website of the Robert-Koch-Institut.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
+        - 'The federal and state governments have agreed that all persons entering Germany from third countries are required to [remain in self-quarantine for two weeks.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3) Third countries are countries outside the European Union (EU). Persons traveling from Iceland, Liechtenstein, Norway, Switzerland, and the United Kingdom of Great Britain and Northern Ireland are exempt from this requirement, as are persons traveling from EU countries.'
+        - '[The quarantine requirement does not apply to persons entering from a third country](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3) if it is determined that the infection rate in that country is low. The names of these countries will be published on the website of the Robert-Koch-Institut.'
     travel:
       domestic: partial
       inbound: partial
