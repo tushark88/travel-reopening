@@ -95,12 +95,12 @@ export default {
     mapTitle() {
       if (this.country) {
         return this.travelContext === TravelDirection.Inbound
-          ? `From where you can enter ${this.country.name}`
-          : `Where you can go from ${this.country.name}`;
+          ? `Where you can travel to ${this.country.name} from`
+          : `Where you can travel to from ${this.country.name}`;
       }
       return this.travelContext === TravelDirection.Inbound
-        ? 'Entry travel restriction'
-        : 'Exit travel restriction';
+        ? 'Entry travel restrictions'
+        : 'Exit travel restrictions';
     },
   },
   methods: {
