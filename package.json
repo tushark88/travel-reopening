@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "covid:get": "curl -s https://covid.ourworldindata.org/data/owid-covid-data.csv -o public/data/covid-data.csv"
   },
   "dependencies": {
     "@types/d3": "^5.7.2",
