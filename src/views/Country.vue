@@ -17,7 +17,7 @@
               </router-link>
             </div>
             <h2 class="country-header">{{title}}</h2>
-            <TravelState :country="country"></TravelState>
+            <TravelState :country="country" />
             <div v-if='domesticContent || internationalContent || visaQuarantineContent'>
               <CountryBody :content="this.domesticContent">
                 <h3>Domestic Travel</h3>
@@ -37,7 +37,7 @@
             </div>
           </div>
         </div>
-        <CountrySources :countryCode="country.code"></CountrySources>
+        <CountrySources :countryCode="country.code" />
         <Disclaimer />
       </div>
     </div>
