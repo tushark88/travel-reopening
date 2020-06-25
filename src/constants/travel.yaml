@@ -11,6 +11,7 @@ countries:
     sources:
       domestic:
         - '[Residents of Abu Dhabi city, Al Ain and Al Dhafra can travel within their cities but not enter or leave them and cannot go to other emirates.](https://www.thenational.ae/uae/health/coronavirus-everything-you-need-to-know-about-covid-19-in-the-uae-1.990131)'
+        - '[From 24 June, 2020, cinemas, auction houses, entertainment centers, valet services, and fitness facilities are permitted to open, provided they do not exceed 50 percent capacity and respect social distancing measures.](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46)'
       inbound:
         - '[Repatriation entry only. Entry permit needed for expatriate residents to return to the UAE.](https://u.ae/en/information-and-services/justice-safety-and-the-law/handling-the-covid-19-outbreak/entry-permit-needed-for-expatriate-residents-to-return-to-the-uae)'
         - '[Foreign travelers would be permitted to enter the emirate from July 7, 2020.](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46)'
@@ -593,6 +594,7 @@ countries:
           countries.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)
         - '[The quarantine requirement does not apply to persons entering from a third country if it is determined that the infection rate in that country is low. The names of these countries will be published on the website of the Robert-Koch-Institut.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
     travel:
+      domestic: partial
       inbound: partial
       inbound_allowed:
         - BE
@@ -4513,6 +4515,7 @@ countries:
     sources:
       domestic:
         - '[Only essential domestic travel is permitted.](https://www.smartraveller.gov.au/destinations/africa/south-africa)'
+        - '[A nighttime curfew remains in place between 20:00 to 05:00 (local time). Interprovincial travel is not permitted except to return to work with proof of employment and in exceptional circumstances, such as funerals (with approval) or essential services.](https://www.garda.com/crisis24/news-alerts/353551/south-africa-authorities-confirm-over-100000-covid-19-cases-as-of-june-22-update-17)'
       inbound:
         - '[As of 24 May, 2020, national borders will remain closed except for the transport of goods and repatriation of nationals.](https://www.gov.za/speeches/president-cyril-ramaphosa-developments-south-africa%E2%80%99s-risk-adjusted-strategy-manage-spread)'
     travel:
