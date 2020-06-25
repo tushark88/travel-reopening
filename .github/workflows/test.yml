@@ -30,6 +30,8 @@ jobs:
 
       - name: Installing project dependencies
         run: yarn install
+      - name: Get latest COVID-19 data
+        run: yarn covid:get
       - name: Run Tests
         run: yarn test:unit
       - name: Build
