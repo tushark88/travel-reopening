@@ -92,31 +92,38 @@ countries:
         - '[Entry is allowed only under special circumstances.](https://www.gov.am/en/covid-travel-restrictions/)'
       outbound:
         - '[Land borders are closed. Citizens of Armenia or Georgia are permitted to return to their respective countries.](https://am.usembassy.gov/u-s-citizen-services/covid-19-information/)'
+      visa_quarantine:
+        - 'Travelers who are permitted to enter Armenia are asked to [complete health questionnaires and self-quarantine or self-monitor for 14 days.](https://am.usembassy.gov/u-s-citizen-services/covid-19-information/)'
+        - 'Most visa services are [suspended until further notice.](https://am.usembassy.gov/u-s-citizen-services/covid-19-information/)'
     travel:
       domestic: 'yes'
       inbound: partial
       outbound: partial
-    updated_on: 2020-06-15
+    updated_on: 2020-06-26
   AO:
     sources:
+      domestic:
+        - 'The government of Angola has [implemented measures](https://ao.usembassy.gov/covid-19-information/) to limit the spread of COVID-19.  Schools and universities are closed until further notice, and sporting events, festivals, and gatherings larger than 50 people have been banned.'
       inbound:
-        - '[Angola remains closed to passenger flights, the borders remain closed for all but commercial transport, and Luanda Province remains closed to overland personal travel or domestic passenger flights.](https://ao.usembassy.gov/health-alert-u-s-embassy-luanda-june-1-2020/)'
+        - 'Angola remains closed to passenger flights, the [borders remain closed](https://ao.usembassy.gov/health-alert-u-s-embassy-luanda-june-1-2020/) for all but commercial transport, and Luanda Province remains closed to overland personal travel or domestic passenger flights.'
     travel:
+      domestic: partial
       inbound: 'no'
-    updated_on: 2020-06-15
+    updated_on: 2020-06-26
   AR:
     sources:
       domestic:
         - '[Domestic flights, long-haul buses and trains remain suspended.](https://www.worldnomads.com/travel-safety/south-america/argentina/travel-alert)'
+        - 'More than 20,000 businesses are [expected to reopen](https://www.garda.com/crisis24/news-alerts/349141/argentina-buenos-aires-resumes-nonessential-business-trading-on-june-8-update-18) following the partial lifting of lockdown restrictions. Social distancing measures will, however, remain in place until June 28.'
       inbound:
         - '[Argentina''s borders are closed to all incoming foreigners till 24 May, 2020. All commercial flights have been suspended until 1 September, 2020.](https://www.worldnomads.com/travel-safety/south-america/argentina/travel-alert)'
       outbound:
         - '[Only sporadic and specially approved international flight options currently exist in Argentina.](https://ar.usembassy.gov/covid-19/)'
     travel:
-      domestic: 'no'
+      domestic: partial
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-15
+    updated_on: 2020-06-26
   AT:
     sources:
       domestic:
@@ -380,8 +387,9 @@ countries:
   CA:
     sources:
       domestic:
-        - '[Canada-US Border Restrictions:Avoid all non-essential travel for Canadians and U.S. Nationals are not allowed to enter.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic)'
-        - '[All passengers flying in Canada will be subject to health screenings.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic)'
+        - '[Interprovincial travel allowed](https://globalnews.ca/news/7102105/nb-covid-19-update-june-24/) for Nova Scotia, New Brunswick, Prince Edward Island and Newfoundland and Labrador without self-isolation.'
+        - '[Ontario extending the state of emergency](https://www.garda.com/crisis24/news-alerts/354086/canada-authorities-extend-state-of-emergency-in-ontario-until-july-15-update-17).'
+        - '[British Columbia extending the state of emergency](https://www.garda.com/crisis24/news-alerts/354061/canada-authorities-extend-state-of-emergency-in-british-columbia-until-july-7-update-16).'
       inbound:
         - '[Travelers arriving in Canada with symptoms consistent with COVID-19 may still enter Canada by land, rail or sea but not air.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#f)'
       outbound:
@@ -390,11 +398,12 @@ countries:
         - '[If you are Canadian or a permanent resident, and you have symptoms consistent with COVID-19, you may still enter Canada by land, rail, or sea. You may not enter Canada by air, to protect the health of all travelers.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).)'
         - '[If you have symptoms, you must isolate for 14 days. This is mandatory.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).)'
         - '[If you have recently returned to Canada and you have no symptoms, you must quarantine (self-isolate) for 14 days. ](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).)'
+        - '[All passengers flying in Canada will be subject to health screenings.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic)'
     travel:
       domestic: partial
       inbound: partial
       outbound: 'yes'
-    updated_on: 2020-06-15
+    updated_on: 2020-06-26
   CD:
     sources:
       domestic:
@@ -1501,7 +1510,7 @@ countries:
         - '[Iceland’s borders are currently closed to tourists from countries outside of the EEA and EFTA. Travellers from outside these areas will not be allowed to enter Iceland unless they can demonstrate that they are coming on “urgent business.” Borders are expected to be opened for non-Schengen residents from 1 July, 2020.](https://www.icelandreview.com/ask-ir/whats-the-status-of-covid-19-in-iceland/)'
         - '[Iceland opening on 15 June, 2020 to Schengen residents.](https://www.icelandreview.com/ask-ir/whats-the-status-of-covid-19-in-iceland/)'
       outbound:
-        - '[Avoid all non-essential travel.](https://www.government.is/news/article/2020/03/14/-Icelanders-advised-not-to-travel-abroad/)'
+        - 'Icelanders [no longer advised against travel](https://www.icelandreview.com/travel/icelanders-no-longer-advised-against-travel-to-europe/) to Europe.'
       visa_quarantine:
         - '[Passengers are required to fill out a pre-registration form www.covid.is/english before departure to Iceland, which requires passengers to provide their personal details and contact information, flight information, travel dates and address(es) during their stay in Iceland.](https://www.covid.is/english)'
     travel:
