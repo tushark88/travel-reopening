@@ -8,7 +8,7 @@ Citizens of other countries are not allowed to enter Iceland at the moment.
 
 #### Outbound Travel: Who can travel out of Iceland?
 
-Icelanders are no longer advised against travel within the continent of Europe.
+Icelanders are allowed to travel within the continent of Europe.
 
 All other countries, with the exception of Greenland and the Faroe Islands, still remain as high-risk areas for COVID-19. Icelanders are advised against traveling to such countries.
 
