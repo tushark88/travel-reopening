@@ -6,7 +6,7 @@ Travelers are subject to additional provincial or territorial public health meas
 
 **Ontario**: The government has extended the state of emergency until July 15, 2020.
 
-[Interprovincial travel](https://globalnews.ca/news/7102105/nb-covid-19-update-june-24/) is allowed between **Nova Scotia, New Brunswick, Prince Edward Island, Newfoundland, and Labrador** without self-isolation.
+**Nova Scotia, New Brunswick, Prince Edward Island, Newfoundland, and Labrador**: [Interprovincial travel](https://globalnews.ca/news/7102105/nb-covid-19-update-june-24/) is allowed without self-isolation.
 
 
 For the most up-to-date travel information, refer to the [Canada Border Services Agency](https://www.cbsa-asfc.gc.ca/services/covid/non-canadians-canadiens-eng.html).
