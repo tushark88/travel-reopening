@@ -4,7 +4,7 @@ Travelers are subject to additional provincial or territorial public health meas
 
 **British Columbia**: The government has extended the state of emergency until July 6, 2020.
 
-**Ontario**: The government has extended the state of emergency until July 15, 2020. 
+**Ontario**: The government has extended the state of emergency until July 15, 2020.
 
 [Interprovincial travel](https://globalnews.ca/news/7102105/nb-covid-19-update-june-24/) is allowed between **Nova Scotia, New Brunswick, Prince Edward Island, Newfoundland, and Labrador** without self-isolation.
 
