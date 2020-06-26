@@ -5,16 +5,16 @@ countries:
       domestic:
         - 'There are [no limits on movement around Andorra.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/) However, a minimum safe distance of 1.5 metres between individuals has been stipulated. You should also be aware that, in open spaces, you must maintain a safe distance of 4 metres (if you are on foot), 10 metres (if you are running) and 20 metres (if you are cycling).'
       inbound:
-        - '[Since June 1, 2020, Andorra has lifted the restrictions on entering the country via the borders with France and Spain.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/) This applies to all visitors, including tourists and hikers.
+        - 'Since June 1, 2020, Andorra has [lifted the restrictions](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/) on entering the country via the borders with France and Spain. This applies to all visitors, including tourists and hikers.
       outbound:
-        - '[Since June 1, 2020, Andorra has lifted the restrictions on entering the country via the borders with France and Spain.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/) This applies to all visitors, including tourists and hikers.
+        - 'Since June 1, 2020, Andorra has [lifted the restrictions](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/) on entering the country via the borders with France and Spain. This applies to all visitors, including tourists and hikers.
       visa_quarantine:
-        - '[There will be no quarantine if you are travelling from Spain, France or Portugal.](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/)'
+        - 'There will be [no quarantine](https://visitandorra.com/en/covid-19-in-andorra/faq-if-you-re-spending-a-few-days-in-andorra/) if you are travelling from Spain, France or Portugal.'
     travel:
       domestic: 'yes'
       inbound: 'yes'
       outbound: 'yes'
-    updated_on: 2020-06-15
+    updated_on: 2020-06-26
   AE:
     sources:
       domestic:
@@ -30,7 +30,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-09
+    updated_on: 2020-06-26
   AF:
     sources:
       domestic:
@@ -49,7 +49,7 @@ countries:
       inbound_allowed:
         - IR
       outbound: partial
-    updated_on: 2020-06-15
+    updated_on: 2020-06-26
   AG:
     sources:
       domestic:
@@ -59,13 +59,13 @@ countries:
       outbound:
         - '[Antigua & Barbuda border’s reopened on 1 June, 2020.](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/)'
       visa_quarantine:
-        - '[The regulations published on June 10, 2020 states that “All visitors to Antigua and Barbuda shall be tested for COVID-19 and shall pay a charge of One Hundred Dollars (US$100.00) United States Currency or its equivalent in Eastern Caribbean Dollars as a charge for the test.](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/)'
-        - '[All arriving passengers will be monitored for COVID-19 in accordance with guidelines of the Quarantine Authority and may undergo a rapid antigen test on arrival or at the hotel of lodging as determined by the Health Authorities.](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/)'
+        - '[The regulations](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/) published on June 10, 2020 states that “All visitors to Antigua and Barbuda shall be tested for COVID-19 and shall pay a charge of One Hundred Dollars (US$100.00) United States Currency or its equivalent in Eastern Caribbean Dollars as a charge for the test.'
+        - 'All arriving passengers will be monitored for COVID-19 in accordance with [guidelines](https://bb.usembassy.gov/u-s-citizen-services/covid-19-information/) of the Quarantine Authority and may undergo a rapid antigen test on arrival or at the hotel of lodging as determined by the Health Authorities.'
     travel:
       domestic: 'partial'
       inbound: 'yes'
       outbound: 'yes'
-    updated_on: 2020-06-15
+    updated_on: 2020-06-26
   AL:
     reopening:
       '2020-06-01': '[Albania to reopen land borders on June 1.](https://seenews.com/news/albania-to-reopen-land-borders-on-june-1-report-700190)'
@@ -78,12 +78,12 @@ countries:
       outbound:
         - '[Commercial flights returned to Albania on June 15, 2020,](https://al.usembassy.gov/updates_covid19/) with flights from Tirana to Vienna, Belgrade, and Athens. The Government of Albania has declared that only European Union residents and nationals are eligible to board these flights at this time.'
       visa_quarantine:
-        - '[There is no general requirement for travelers returning to Albania to self-quarantine.](https://al.usembassy.gov/updates_covid19/) Quarantine will only apply in specific cases when ordered by health authorities.]'
+        - '[There is no general requirement](https://al.usembassy.gov/updates_covid19/) for travelers returning to Albania to self-quarantine. Quarantine will only apply in specific cases when ordered by health authorities.'
     travel:
       domestic: partial
       inbound: partial
       outbound: partial
-    updated_on: 2020-06-15
+    updated_on: 2020-06-26
   AM:
     sources:
       domestic:
@@ -1495,7 +1495,9 @@ countries:
     updated_on: 2020-06-22
   IS:
     sources:
-      inbound:
+      domestic:
+        - '[Domestic travel is allowed](https://www.covid.is/english) with social distancing measures.'
+        inbound:
         - '[Iceland’s borders are currently closed to tourists from countries outside of the EEA and EFTA. Travellers from outside these areas will not be allowed to enter Iceland unless they can demonstrate that they are coming on “urgent business.” Borders are expected to be opened for non-Schengen residents from 1 July, 2020.](https://www.icelandreview.com/ask-ir/whats-the-status-of-covid-19-in-iceland/)'
         - '[Iceland opening on 15 June, 2020 to Schengen residents.](https://www.icelandreview.com/ask-ir/whats-the-status-of-covid-19-in-iceland/)'
       outbound:
@@ -1503,6 +1505,7 @@ countries:
       visa_quarantine:
         - '[Passengers are required to fill out a pre-registration form www.covid.is/english before departure to Iceland, which requires passengers to provide their personal details and contact information, flight information, travel dates and address(es) during their stay in Iceland.](https://www.covid.is/english)'
     travel:
+      domestic: open
       inbound: partial
       inbound_allowed:
         - AT
