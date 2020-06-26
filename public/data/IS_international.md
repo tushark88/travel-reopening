@@ -10,4 +10,4 @@ Citizens of other countries are not allowed to enter Iceland at the moment.
 
 Icelanders are advised not to travel abroad.
 
-For the most up-to-date travel information, refer to the [Official Information for COVID-19 in Iceland.](
+For the most up-to-date travel information, refer to the [Official Information for COVID-19 in Iceland.](https://www.covid.is/english)
