@@ -2533,9 +2533,9 @@ countries:
         - '[Entry will be allowed](https://www.ijzcg.me/me/novosti/covid-19-popustanje-mjera-u-medunarodnom-saobracaju) for travelers from countries who have less than 25 cases per 100,000 citizens. While travelers from these countries are currently not subject to quarantine, the final decision rests with local officials.'
         - 'Montenegro''s borders reopened on June 1, 2020, but [only for countries that meet certain criteria.](https://www.garda.com/crisis24/news-alerts/352796/montenegro-montenegro-to-open-borders-to-certain-countries-from-june-1-update-10)'
       outbound:
-        - 'Montenegrin Airlines has announced that [commercial flights will resume](https://me.usembassy.gov/covid-19-information/) with limited destinations on or about 15 June, 2020.'
+        - 'Montenegrin Airlines has announced that [commercial flights will resume](https://me.usembassy.gov/covid-19-information/) with limited destinations on or about June 15, 2020.'
       visa_quarantine:
-        - 'Extension of the validity of expired permanent and temporary residence permits and tourist visas until [1 July, 2020.](https://me.usembassy.gov/covid-19-information/)'
+        - 'Extension of the validity of expired permanent and temporary residence permits and tourist visas until [July 1, 2020.](https://me.usembassy.gov/covid-19-information/)'
     travel:
       domestic: 'partial'
       inbound: 'partial'
@@ -2665,7 +2665,7 @@ countries:
   MM:
     sources:
       domestic:
-        - '[Some restrictions have been eased](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15), however, with the operation of factories, workshops, and workplaces being facilitated.'
+        - '[Some restrictions have been eased](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15), however, with the operation of factories, workshops, and workplaces being facilitated. Bars and restaurants are reopening, with social distancing measures in place. Government, private, and monastic schools have reopened, and seminars, meetings, and training at government institutions are permitted.'
       inbound:
         - 'Suspension of international flights, will be [extended until July 15.](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15)'
       outbound:
