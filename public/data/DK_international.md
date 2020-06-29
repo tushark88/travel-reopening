@@ -14,7 +14,7 @@ For the most up-to-date travel information for who can travel into Denmark, refe
 
 #### Outbound Travel: Who can travel out of Denmark?
 
-**Travel restrictions apply.** The Ministry of Foreign Affairs of Denmark have [categorised countries at "yellow" or "orange" risk level](https://um.dk/en/news/newsdisplaypage/?newsID=C730AB75-D4D9-4310-9AF8-787AF4272F64).
+**Travel restrictions apply.** The Ministry of Foreign Affairs of Denmark have [categorized countries at "yellow" or "orange" risk level](https://um.dk/en/news/newsdisplaypage/?newsID=C730AB75-D4D9-4310-9AF8-787AF4272F64).
 
 Open countries are categorized as "yellow". When choosing to travel to a country categorized as "yellow", the government recommends extra caution and observance. These countries include:
 
