@@ -2665,7 +2665,7 @@ countries:
   MM:
     sources:
       domestic:
-        - '[Some restrictions have been eased](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15), however, with the operation of factories, workshops, and workplaces being facilitated. Bars and restaurants are reopening, with social distancing measures in place. Government, private, and monastic schools have reopened, and seminars, meetings, and training at government institutions are permitted.'
+        - ‘[Some restrictions have been eased](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15). Bars and restaurants are reopening, with social distancing measures in place.'
       inbound:
         - 'Suspension of international flights, will be [extended until July 15, 2020.](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15)'
       outbound:
