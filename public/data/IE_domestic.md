@@ -1,6 +1,8 @@
-Stay at home as much as possible. All non-essential travel, including travel overseas, should be avoided.
+Travelers are now allowed to travel domestically.
 
 Outdoor spaces and tourism sites are open where people can move around freely will require social distancing measures to be maintained.
+
+Face masks are compulsory on public transport, restaurants, and shops. Barbershops, churches, theatres, cinemas, and gyms are also allowed to reopen under certain hygiene conditions.
 
 Tourist travel to offshore islands may resume.
 
