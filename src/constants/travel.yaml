@@ -1421,6 +1421,7 @@ countries:
     sources:
       domestic:
         - 'Face masks will be compulsory on public transport, restaurants, and shops. Barbershops, churches, theatres, cinemas, and gyms will also be allowed to reopen under certain hygiene conditions. People will also be allowed to [resume domestic travel.](https://www.garda.com/crisis24/news-alerts/354916/ireland-face-masks-compulsory-on-public-transport-as-government-further-eases-lockdown-restrictions-from-june-29-update-9)'
+        - '[Tourist travel to offshore islands may resume.](https://www.rte.ie/news/regional/2020/0625/1149682-coronavirus-islands/)'
       inbound:
         - '[Passengers arriving to Ireland from overseas are required to complete a health declaration and will be subject to self-isolation for 14 days.](https://www.dfa.ie/travel/travel-advice/coronavirus/)'
       outbound:
