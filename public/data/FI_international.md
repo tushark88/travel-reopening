@@ -14,6 +14,7 @@ Internal border control and travel restrictions still remain for:
 The Netherlands, Belgium, Spain, Luxembourg, Malta, Portugal, Poland, France, Sweden, and the Czech Republic
 
 Currently, recreational travel (for example, visiting the summer cottage of an acquaintance) is not a necessary reason for foreign citizens to enter Finland.
+
 - Travelers from Norway, Denmark, Iceland, Estonia, Latvia, and Lithuania
 
 - If travelers have a residence permit issued by Finland.
