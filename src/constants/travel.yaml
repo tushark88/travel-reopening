@@ -2667,9 +2667,9 @@ countries:
       domestic:
         - '[Some restrictions have been eased](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15), however, with the operation of factories, workshops, and workplaces being facilitated. Bars and restaurants are reopening, with social distancing measures in place. Government, private, and monastic schools have reopened, and seminars, meetings, and training at government institutions are permitted.'
       inbound:
-        - 'Suspension of international flights, will be [extended until July 15.](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15)'
+        - 'Suspension of international flights, will be [extended until July 15, 2020.](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15)'
       outbound:
-        - 'Suspension of international flights, will be [extended until July 15.](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15)'
+        - 'Suspension of international flights, will be [extended until July 15, 2020.](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15)'
       visa_quarantine:
         - 'There is a [visa ban as well as a mandatory three-week quarantine period](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15) for returning Myanmar nationals.'
     travel:
@@ -4117,6 +4117,7 @@ countries:
     sources:
       domestic:
         - '[Circuit Breaker measures will be gradually eased from 2 June, 2020, and businesses will be allowed to resume activities in a phased manner.](https://www.stb.gov.sg/content/stb/en/home-pages/advisory-on-covid-19.html)'
+        - 'From July 1, 2020, [tourist attractions](https://www.stb.gov.sg/content/stb/en/home-pages/advisory-on-covid-19.html) such as the Singapore Zoo, Universal Studios Singapore, and ArtScience Museum will be allowed to reopen, subject to capacity allowances. Advance bookings may be required.'
       inbound:
         - '[Short-term visitors are not allowed entry into Singapore. Singapore has also ceased port calls for all cruise vessels.](https://www.caas.gov.sg/who-we-are/newsroom/Detail/travelers-to-be-allowed-to-transit-through-changi-airport/)'
         - '[Travelers may transit through Changi Airport.](https://www.caas.gov.sg/who-we-are/newsroom/Detail/travelers-to-be-allowed-to-transit-through-changi-airport/)'
@@ -4130,7 +4131,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: 'yes'
-    updated_on: 2020-06-09
+    updated_on: 2020-06-29
   SI:
     sources:
       inbound:
