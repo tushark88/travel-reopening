@@ -114,7 +114,8 @@ countries:
     sources:
       domestic:
         - '[Domestic flights, long-haul buses and trains remain suspended.](https://www.worldnomads.com/travel-safety/south-america/argentina/travel-alert)'
-        - 'More than 20,000 businesses are [expected to reopen](https://www.garda.com/crisis24/news-alerts/349141/argentina-buenos-aires-resumes-nonessential-business-trading-on-june-8-update-18) following the partial lifting of lockdown restrictions. Social distancing measures will, however, remain in place until June 28.'
+        - 'The lockdown in place in the Buenos Aires metropolitan area to prevent the spread of the coronavirus disease (COVID-19) [will be extended until July 17.](https://www.garda.com/crisis24/news-alerts/354761/argentina-authorities-extend-buenos-aires-lockdown-until-july-17-update-19)'
+        - 'Most of those non-essential businesses which resumed operations on June 8 will be required to [close again](https://www.garda.com/crisis24/news-alerts/354761/argentina-authorities-extend-buenos-aires-lockdown-until-july-17-update-19)'
       inbound:
         - '[Argentina''s borders are closed to all incoming foreigners till 24 May, 2020. All commercial flights have been suspended until 1 September, 2020.](https://www.worldnomads.com/travel-safety/south-america/argentina/travel-alert)'
       outbound:
@@ -123,7 +124,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-26
+    updated_on: 2020-06-29
   AT:
     sources:
       domestic:
@@ -315,17 +316,18 @@ countries:
   BR:
     sources:
       domestic:
-        - '[Several state and local governments across Brazil have issued decrees that restrict the movement of people to combat the spread of COVID-19.](https://br.usembassy.gov/covid-19-information/)'
-        - '[some economic activity has resumed in Sao Paulo as of June 1, including the reopening of shopping malls, despite the state still recording a high number of daily COVID-19 cases.](https://www.garda.com/crisis24/news-alerts/352456/brazil-over-a-million-covid-19-cases-confirmed-as-of-june-19-update-26)'
+        - 'Several state and local governments across Brazil have issued decrees that [restrict the movement of people](https://br.usembassy.gov/covid-19-information/) to combat the spread of COVID-19.'
+        - '[Some economic activity](https://www.garda.com/crisis24/news-alerts/352456/brazil-over-a-million-covid-19-cases-confirmed-as-of-june-19-update-26) has resumed in Sao Paulo as of June 1, including the reopening of shopping malls, despite the state still recording a high number of daily COVID-19 cases.'
+        - 'That the existing quarantine restrictions introduced due to the coronavirus disease (COVID-19) pandemic will be [extended until July 14.](https://www.garda.com/crisis24/news-alerts/354701/brazil-sao-paulo-authorities-extend-covid-19-restrictions-until-july-14-update-27)'
       inbound:
-        - '[On June 20, Brazil extended the decree that foreigners are banned from entering the country by air, land, and sea for 15 days (through July 5)](https://br.usembassy.gov/brazil-extends-border-closure-to-july-5/)'
+        - 'On June 20, Brazil extended the decree that [foreigners are banned](https://br.usembassy.gov/brazil-extends-border-closure-to-july-5/) from entering the country by air, land, and sea for 15 days (through July 5)'
       outbound:
-        - '[The inbound restrictions do not prevent individuals from departing on commercial flights.](https://br.usembassy.gov/brazil-extends-border-closure-to-july-5/)'
+        - 'The inbound restrictions [do not prevent individuals](https://br.usembassy.gov/brazil-extends-border-closure-to-july-5/) from departing on commercial flights.'
     travel:
       domestic: 'partial'
       inbound: 'no'
       outbound: yes
-    updated_on: 2020-06-15
+    updated_on: 2020-06-29
   BS:
     sources:
       domestic:
@@ -484,12 +486,17 @@ countries:
     updated_on: 2020-06-16
   CL:
     sources:
-      domestic: null
+      domestic:
+        - 'On Friday, June 26, 2020, Chilean authorities [imposed total quarantine orders](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions) for another five communes due to the coronavirus disease (COVID-19) pandemic, adding to a total of 63 communes under quarantine.'
       inbound:
-        - '[Chile’s borders have been closed to foreigners since 18 March, 2020.](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions)'
+        - 'Chile’s borders have been [closed to foreigners since 18 March, 2020.](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions)'
+      outbound:
+        - 'Chile’s borders have been [closed to foreigners since 18 March, 2020.](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions)'
     travel:
+      domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-15
+      outbound: 'no'
+    updated_on: 2020-06-29
   CM:
     sources:
       inbound:
@@ -525,12 +532,17 @@ countries:
     updated_on: 2020-06-15
   CR:
     sources:
+      domestic:
+        - 'Shops, museums, and theatres in these areas [may open on weekends](https://www.garda.com/crisis24/news-alerts/354691/costa-rica-borders-to-reopen-to-tourists-on-august-1-update-8); however, they may only operate at 50 percent capacity.'
       inbound:
-        - '[Costa Rica has closed its borders (land, sea, and air) to foreign travelers. Only Costa Rican citizens and residents will be permitted to enter the country.](https://www.twoweeksincostarica.com/costa-rica-coronavirus/)'
-        - '[No international arrivals until 30 June, 2020.](https://cr.usembassy.gov/covid-19-information/)'
+        - '[Borders will reopen to tourists from certain destinations on August 1](https://www.garda.com/crisis24/news-alerts/354691/costa-rica-borders-to-reopen-to-tourists-on-august-1-update-8) following their closure due to the coronavirus disease (COVID-19) pandemic. The health ministry stated that international airports will take arrivals from countries deemed to have controlled the spread of COVID-19.'
+      outbound:
+        - '[Borders will reopen to tourists from certain destinations on August 1](https://www.garda.com/crisis24/news-alerts/354691/costa-rica-borders-to-reopen-to-tourists-on-august-1-update-8) following their closure due to the coronavirus disease (COVID-19) pandemic. The health ministry stated that international airports will take arrivals from countries deemed to have controlled the spread of COVID-19.'
     travel:
+      domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-15
+      outbound: 'yes'
+    updated_on: 2020-06-29
   CU:
     reopening:
       '2020-08-01': '[The suspension has been extended until 1 August, 2020.](https://cu.usembassy.gov/covid-19-information/)'
@@ -691,11 +703,17 @@ countries:
     updated_on: 2020-06-15
   DO:
     sources:
+      domestic:
+        - 'The government of the Dominican Republic has confirmed that they will [not extend a nationwide curfew](https://www.garda.com/crisis24/news-alerts/354771/dominican-republic-authorities-lift-curfew-from-june-28-update-11) which is due to expire on Sunday, June 28.'
       inbound:
-        - '[Authorities from the Dominican Republic have announced the suspension of all commercial flights in and out of the country and the closure of land and sea borders, starting on 19 March, 2020, until further notice.](https://travel.gc.ca/destinations/dominican-republic?wbdisable=true)'
+        - 'Authorities from the Dominican Republic have announced the [suspension of all commercial flights closure of all borders](https://travel.gc.ca/destinations/dominican-republic?wbdisable=true), starting on 19 March, 2020, until further notice.'
+      outbound:
+        - 'Authorities from the Dominican Republic have announced the [suspension of all commercial flights closure of all borders](https://travel.gc.ca/destinations/dominican-republic?wbdisable=true), starting on 19 March, 2020, until further notice.'
     travel:
+      domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-15
+      outbound: 'no'
+    updated_on: 2020-06-29
   DZ:
     sources:
       domestic:
@@ -1401,6 +1419,9 @@ countries:
     updated_on: 2020-06-15
   IE:
     sources:
+      domestic:
+        - 'Face masks will be compulsory on public transport, restaurants, and shops. Barbershops, churches, theatres, cinemas, and gyms will also be allowed to reopen under certain hygiene conditions. People will also be allowed to [resume domestic travel.](https://www.garda.com/crisis24/news-alerts/354916/ireland-face-masks-compulsory-on-public-transport-as-government-further-eases-lockdown-restrictions-from-june-29-update-9)'
+        - '[Tourist travel to offshore islands may resume.](https://www.rte.ie/news/regional/2020/0625/1149682-coronavirus-islands/)'
       inbound:
         - '[Passengers arriving to Ireland from overseas are required to complete a health declaration and will be subject to self-isolation for 14 days.](https://www.dfa.ie/travel/travel-advice/coronavirus/)'
       outbound:
@@ -1410,9 +1431,10 @@ countries:
         - '[By law, if a traveler arrives in Ireland from any other country the traveler will need to fill in a form called the Covid-19 Passenger Locator Form. This includes Irish citizens coming home, people with no symptoms, and people who have tested negative for the virus in another country.](https://www2.hse.ie/conditions/coronavirus/travel.html)'
         - '[The traveler will also be asked to self-isolate for 14 days](https://www2.hse.ie/conditions/coronavirus/travel.html#self-isolation-after-travel)'
     travel:
+      domestic: partial
       inbound: 'yes'
       outbound: partial
-    updated_on: 2020-06-15
+    updated_on: 2020-06-29
   IL:
     sources:
       inbound:
@@ -1607,13 +1629,19 @@ countries:
     updated_on: 2020-06-12
   JO:
     reopening:
-      '2020-07-01': '[On 29 May, 2020, the Government of Jordan announced that airports in Jordan will remain closed through 1 July, 2020. There has been no announcement from the Government of Jordan about the opening of the land borders with Israel and the West Bank.](https://jo.usembassy.gov/covid-19-information/)'
+      '2020-07-01': 'On June 17, the Jordanian government confirmed that the suspension of international commercial flights and the closure of the country''s land and sea borders will remain in place until at least [July 4.](https://jo.usembassy.gov/covid-19-information/)'
     sources:
+      domestic:
+        - 'Jordan''s Minister of Industry, Trade, and Supply, Tariq Hammouri, [granted approval](https://jo.usembassy.gov/covid-19-information/) for entertainment and recreation activities within tourist resorts to resume.'
       inbound:
-        - '[On 29 May, 2020, the Government of Jordan announced that airports in Jordan will remain closed through 1 July, 2020. There has been no announcement from the Government of Jordan about the opening of the land borders with Israel and the West Bank.](https://jo.usembassy.gov/covid-19-information/)'
+        - 'On June 17, the Jordanian government confirmed that the suspension of international commercial flights and the closure of the country''s land and sea borders will remain in place until at least [July 4.](https://jo.usembassy.gov/covid-19-information/)'
+      outbound:
+        - 'On June 17, the Jordanian government confirmed that the suspension of international commercial flights and the closure of the country''s land and sea borders will remain in place until at least [July 4.](https://jo.usembassy.gov/covid-19-information/)'
     travel:
+      domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-12
+      outbound: 'no'
+    updated_on: 2020-06-29
   JP:
     sources:
       domestic:
@@ -2458,11 +2486,17 @@ countries:
     updated_on: 2020-06-12
   LY:
     sources:
+      domestic:
+        - 'The Tripoli-based Government of National Accord (GNA) [extended a curfew](https://reliefweb.int/report/libya/covid-19-movement-restrictions-libya-mobility-restriction-dashboard-3-7-may-2020) and other lockdown measures in place in areas under its control due to the coronavirus disease (COVID-19) pandemic for ten days from Saturday, June 27,2020, until Tuesday, July 7, 2020.'
       inbound:
-        - '[Libyan authorities initiated public health measures in March 2020 aimed at curbing the spread of COVID-19. These measures include travel and mobility restrictions due to the closure of airports, points of entry (POE) along land borders and maritime boundaries, as well as domestic movement restrictions.](https://reliefweb.int/report/libya/covid-19-movement-restrictions-libya-mobility-restriction-dashboard-3-7-may-2020)'
+        - 'Libyan authorities initiated public health measures in March 2020 aimed at curbing the spread of COVID-19. These measures include [travel and mobility restrictions](https://reliefweb.int/report/libya/covid-19-movement-restrictions-libya-mobility-restriction-dashboard-3-7-may-2020) due to the closure of airports, points of entry (POE) along land borders and maritime boundaries, as well as domestic movement restrictions.'
+      outbound:
+        - 'Libyan authorities initiated public health measures in March 2020 aimed at curbing the spread of COVID-19. These measures include [travel and mobility restrictions](https://reliefweb.int/report/libya/covid-19-movement-restrictions-libya-mobility-restriction-dashboard-3-7-may-2020) due to the closure of airports, points of entry (POE) along land borders and maritime boundaries, as well as domestic movement restrictions.'
     travel:
+      domestic: 'no'
       inbound: 'no'
-    updated_on: 2020-06-12
+      outbound: 'no'
+    updated_on: 2020-06-29
   MA:
     sources:
       domestic:
@@ -2493,18 +2527,18 @@ countries:
   ME:
     sources:
       domestic:
-        - '[Internal maritime transport is reinstated for people and goods, with appropriate prevention measures, including the wearing of masks. Recreational maritime transport is also allowed.](https://me.usembassy.gov/covid-19-information/)'
-        - '[The Montenegrin government announced that all public gatherings of more than two people are prohibited.](https://www.garda.com/crisis24/news-alerts/352796/montenegro-montenegro-to-open-borders-to-certain-countries-from-june-1-update-10)'
+        - 'Internal maritime transport is reinstated for people and goods, with appropriate prevention measures, including the wearing of masks. [Recreational maritime transport is also allowed.](https://me.usembassy.gov/covid-19-information/)'
+        - '[Reintroduced a number of restrictions](https://www.garda.com/crisis24/news-alerts/352796/montenegro-montenegro-to-open-borders-to-certain-countries-from-june-1-update-10) to prevent the spread of the coronavirus disease (COVID-19) due to a rise in the number of confirmed cases.'
       inbound:
-        - '[Entry will be allowed for travelers from countries who have less than 25 cases per 100,000 citizens. While travelers from these countries are currently not subject to quarantine, the final decision rests with local officials.](https://www.ijzcg.me/me/novosti/covid-19-popustanje-mjera-u-medunarodnom-saobracaju)'
-        - '[Montenegro''s borders reopened on June 1, 2020, but only for countries that meet certain criteria.](https://www.garda.com/crisis24/news-alerts/352796/montenegro-montenegro-to-open-borders-to-certain-countries-from-june-1-update-10)'
+        - '[Entry will be allowed](https://www.ijzcg.me/me/novosti/covid-19-popustanje-mjera-u-medunarodnom-saobracaju) for travelers from countries who have less than 25 cases per 100,000 citizens. While travelers from these countries are currently not subject to quarantine, the final decision rests with local officials.'
+        - 'Montenegro''s borders reopened on June 1, 2020, but [only for countries that meet certain criteria.](https://www.garda.com/crisis24/news-alerts/352796/montenegro-montenegro-to-open-borders-to-certain-countries-from-june-1-update-10)'
       outbound:
-        - '[Montenegrin Airlines has announced that commercial flights will resume with limited destinations on or about 15 June, 2020.](https://me.usembassy.gov/covid-19-information/)'
+        - 'Montenegrin Airlines has announced that [commercial flights will resume](https://me.usembassy.gov/covid-19-information/) with limited destinations on or about June 15, 2020.'
       visa_quarantine:
-        - '[Extension of the validity of expired permanent and temporary residence permits and tourist visas until 1 July, 2020.](https://me.usembassy.gov/covid-19-information/)'
+        - 'Extension of the validity of expired permanent and temporary residence permits and tourist visas until [July 1, 2020.](https://me.usembassy.gov/covid-19-information/)'
     travel:
-      domestic: 'yes'
-      inbound: partial
+      domestic: 'partial'
+      inbound: 'partial'
       inbound_allowed:
         - AL
         - DZ
@@ -2609,7 +2643,7 @@ countries:
         - SY
         - CI
       outbound: 'yes'
-    updated_on: 2020-06-11
+    updated_on: 2020-06-29
   MK:
     sources:
       domestic:
@@ -2630,11 +2664,19 @@ countries:
     updated_on: 2020-06-12
   MM:
     sources:
+      domestic:
+        - ‘[Some restrictions have been eased](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15). Bars and restaurants are reopening, with social distancing measures in place.'
       inbound:
-        - '[Effective 30 March, 2020, the Burmese government will no longer allow international commercial passenger flights to land at any airport in Burma. This suspension will last until at least 15 June, 2020.](https://mm.usembassy.gov/covid-19-information/)'
+        - 'Suspension of international flights, will be [extended until July 15, 2020.](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15)'
+      outbound:
+        - 'Suspension of international flights, will be [extended until July 15, 2020.](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15)'
+      visa_quarantine:
+        - 'There is a [visa ban as well as a mandatory three-week quarantine period](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15) for returning Myanmar nationals.'
     travel:
+      domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-11
+      outbound: 'no'
+    updated_on: 2020-06-29
   MN:
     sources:
       inbound:
@@ -4011,16 +4053,16 @@ countries:
   SD:
     sources:
       domestic:
-        - '[The Government of Sudan has extended the closure of Sudan’s airports for domestic and international flights through Sunday, June 28, 2020 and all land borders remain closed.](https://sd.usembassy.gov/covid-19-information/)'
+        - '[The ban on travel](https://www.garda.com/crisis24/news-alerts/354886/sudan-khartoum-international-airport-closure-extended-until-july-12-update-13) between Khartoum and other parts of the country has also been extended.'
       inbound:
-        - '[The Government of Sudan has extended the closure of Sudan’s airports for domestic and international flights through Sunday, June 28, 2020 and all land borders remain closed.](https://sd.usembassy.gov/covid-19-information/)'
+        - 'Sudan Civil Aviation Authority has [further extended the closure](https://www.garda.com/crisis24/news-alerts/354886/sudan-khartoum-international-airport-closure-extended-until-july-12-update-13) of Khartoum''s International Airport (KRT) until at least 2 pm (local time) on July 12, 2020.'
       outbound:
-        - '[The Government of Sudan has extended the closure of Sudan’s airports for domestic and international flights through Sunday, June 28, 2020 and all land borders remain closed.](https://sd.usembassy.gov/covid-19-information/)'
+        - 'Sudan Civil Aviation Authority has [further extended the closure](https://www.garda.com/crisis24/news-alerts/354886/sudan-khartoum-international-airport-closure-extended-until-july-12-update-13) of Khartoum''s International Airport (KRT) until at least 2 pm (local time) on July 12, 2020.'
     travel:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-09
+    updated_on: 2020-06-29
   SE:
     sources:
       domestic:
@@ -4075,6 +4117,7 @@ countries:
     sources:
       domestic:
         - '[Circuit Breaker measures will be gradually eased from 2 June, 2020, and businesses will be allowed to resume activities in a phased manner.](https://www.stb.gov.sg/content/stb/en/home-pages/advisory-on-covid-19.html)'
+        - 'From July 1, 2020, [tourist attractions](https://www.stb.gov.sg/content/stb/en/home-pages/advisory-on-covid-19.html) such as the Singapore Zoo, Universal Studios Singapore, and ArtScience Museum will be allowed to reopen, subject to capacity allowances. Advance bookings may be required.'
       inbound:
         - '[Short-term visitors are not allowed entry into Singapore. Singapore has also ceased port calls for all cruise vessels.](https://www.caas.gov.sg/who-we-are/newsroom/Detail/travelers-to-be-allowed-to-transit-through-changi-airport/)'
         - '[Travelers may transit through Changi Airport.](https://www.caas.gov.sg/who-we-are/newsroom/Detail/travelers-to-be-allowed-to-transit-through-changi-airport/)'
@@ -4088,7 +4131,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: 'yes'
-    updated_on: 2020-06-09
+    updated_on: 2020-06-29
   SI:
     sources:
       inbound:
@@ -4377,11 +4420,17 @@ countries:
     updated_on: 2020-06-09
   UG:
     sources:
+      domestic:
+        - 'Ugandan President Yoweri Museveni announced on Monday, June 22, that the ongoing overnight curfew will remain in place until further notice. The curfew is in place between 19:00 and 06:30 (local time). [Most other existing restrictions](https://www.garda.com/crisis24/news-alerts/354821/uganda-authorities-lift-lockdown-measures-in-gulu-district-on-june-29-update-10) will also remain in effect during this time, such as a ban on gatherings of more than five people.'
       inbound:
-        - '[Flights to Uganda are suspended.](https://ug.usembassy.gov/covid-19-information-page/)'
+        - '[Uganda''s borders remain closed since March 21.](https://www.garda.com/crisis24/news-alerts/354821/uganda-authorities-lift-lockdown-measures-in-gulu-district-on-june-29-update-10) Authorities have closed all land, water, and air points of entry until further notice, while only cargo and humanitarian flights will be allowed to land in the country.'
+      outbound:
+        - '[Uganda''s borders remain closed since March 21.](https://www.garda.com/crisis24/news-alerts/354821/uganda-authorities-lift-lockdown-measures-in-gulu-district-on-june-29-update-10) Authorities have closed all land, water, and air points of entry until further notice, while only cargo and humanitarian flights will be allowed to land in the country.'
     travel:
+      domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-09
+      outbound: 'no'
+    updated_on: 2020-06-29
   US:
     sources:
       domestic:
@@ -4548,25 +4597,28 @@ countries:
         - '[Only essential domestic travel is permitted.](https://www.smartraveller.gov.au/destinations/africa/south-africa)'
         - '[A night time curfew remains in place between 20:00 to 05:00 (local time). Interprovincial travel is not permitted except to return to work with proof of employment and in exceptional circumstances, such as funerals (with approval) or essential services.](https://www.garda.com/crisis24/news-alerts/353551/south-africa-authorities-confirm-over-100000-covid-19-cases-as-of-june-22-update-17)'
       inbound:
-        - '[As of 24 May, 2020, national borders will remain closed except for the transport of goods and repatriation of nationals.](https://www.gov.za/speeches/president-cyril-ramaphosa-developments-south-africa%E2%80%99s-risk-adjusted-strategy-manage-spread)'
+        - '[International travel is suspended indefinitely.](https://www.garda.com/crisis24/news-alerts/354681/south-africa-government-to-ease-covid-19-restrictions-further-from-june-29-update-18)'
+      outbound:
+        - '[International travel is suspended indefinitely.](https://www.garda.com/crisis24/news-alerts/354681/south-africa-government-to-ease-covid-19-restrictions-further-from-june-29-update-18)'
     travel:
       domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-09
+      outbound: 'no'
+    updated_on: 2020-06-29
   ZM:
     sources:
       domestic:
-        - '[Gatherings of 50 people of more are restricted. Following the President’s announcement on 8 May, 2020, restaurants, gyms and casinos are allowed to re-open, but bars and taverns remain closed. The Zambian authorities have asked people to avoid all non-essential travel.](https://www.gov.uk/foreign-travel-advice/zambia/staying-during-coronavirus)'
+        - 'Gatherings of 50 people of more are restricted. Following the President’s announcement on 8 May, 2020, restaurants, gyms and casinos are allowed to re-open, but bars and taverns remain closed. The Zambian authorities have asked people to [avoid all non-essential travel.](https://www.gov.uk/foreign-travel-advice/zambia/staying-during-coronavirus)'
+        - '[Domestic carriers are now able to operate.](https://www.garda.com/crisis24/news-alerts/354746/zambia-international-airports-reopen-june-25-update-7)'
       inbound:
-        - '[Zambia’s borders are open, but under tight screening. The border crossing at Nakonde with Tanzania reopened on 18 May, 2020.](https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements)'
-        - '[All tourist visas to Zambia have been cancelled.](https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements)'
+        - 'President Edgar Lungu announced the [immediate reopening of all international airports.](https://www.garda.com/crisis24/news-alerts/354746/zambia-international-airports-reopen-june-25-update-7)'
       outbound:
-        - '[Kenneth Kaunda International Airport (KKIA) in Lusaka remains open to international flights, but international flights are suspended from all provincial airports. International train and bus services are also suspended.](https://www.gov.uk/foreign-travel-advice/zambia/entry-requirements)'
+        - 'President Edgar Lungu announced the [immediate reopening of all international airports.](https://www.garda.com/crisis24/news-alerts/354746/zambia-international-airports-reopen-june-25-update-7)'
     travel:
       domestic: partial
-      inbound: 'no'
-      outbound: partial
-    updated_on: 2020-06-09
+      inbound: 'yes'
+      outbound: 'yes'
+    updated_on: 2020-06-29
   ZW:
     sources:
       domestic:
