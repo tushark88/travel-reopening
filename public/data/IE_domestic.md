@@ -1,4 +1,4 @@
-Travelers are now allowed to travel domestically.
+Travelers are now allowed to [travel domestically](https://www.garda.com/crisis24/news-alerts/354916/ireland-face-masks-compulsory-on-public-transport-as-government-further-eases-lockdown-restrictions-from-june-29-update-9).
 
 Outdoor spaces and tourism sites are open where people can move around freely will require social distancing measures to be maintained.
 
