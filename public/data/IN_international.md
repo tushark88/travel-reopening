@@ -12,11 +12,11 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 - International cargo operations
 - Flights specially approved by [DGCA](https://dgca.gov.in/digigov-portal/).
 
-All scheduled international commercial passenger services shall remain closed till the Government of India lifts prohibition on international travel of passengers from/to India.
-
-The following travelers are restricted from entering India :
+The following travelers are restricted from entering India:
 
 - Afghanistan, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Iceland, Hungary, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malaysia, Malta, Netherlands, Norway, Philippines, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom
+
+All scheduled international commercial passenger services shall remain closed till the Government of India lifts prohibition on international travel of passengers from/to India.
 
 #### Outbound Travel: Who can travel out of India?
 
