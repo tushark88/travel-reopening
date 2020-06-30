@@ -23,7 +23,7 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
   {
-    path: '/subscribe',
+    path: '/subscribe.html',
     name: 'Subscribe',
     component: Subscribe,
   },
