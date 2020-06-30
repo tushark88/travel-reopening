@@ -9,7 +9,7 @@
 
 <script>
 import {
-  axisBottom, extent, line, select, scaleTime, max, scaleLinear, axisLeft,
+  axisBottom, line, select, scaleTime, max, scaleLinear, axisLeft,
 } from 'd3';
 import moment from 'moment';
 
@@ -50,9 +50,8 @@ export default {
       svg.attr('width', width + margin.left + margin.right)
         .attr('height', height + margin.top + margin.bottom);
 
-
       const x = scaleTime()
-        .domain(extent(this.data, (d) => d.date))
+        .domain([moment('2020-02-01').toDate(), max(this.data, ({ date }) => +date)])
         .range([0, width]);
 
       svg.append('g')
