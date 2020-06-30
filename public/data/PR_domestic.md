@@ -3,7 +3,7 @@ There are no restrictions on domestic travel in Portugal.
 Wearing a face mask is mandatory and social distancing rules need to be observed when:
 
 - When traveling around the country, walking or driving
-- On public transport 
+- On public transport
 - When visiting tourist attractions like monuments, museums, zoos or aquariums
 - At public spaces like libraries, stores, and supermarkets
 
