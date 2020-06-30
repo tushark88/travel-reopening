@@ -1,0 +1,55 @@
+<template>
+  <div class="my-4 sm:my-6 md:my-8">
+    <h3>COVID-19 Statistics</h3>
+    <CovidStatsFigure :data="countryData.newCases">New confirmed cases</CovidStatsFigure>
+    <CovidStatsFigure :data="countryData.totalCases">Total confirmed cases</CovidStatsFigure>
+    <CovidStatsFigure :data="countryData.totalDeaths">Total deaths</CovidStatsFigure>
+    <CovidStatsFigure :data="countryData.stringencyIndex">Stringency Index</CovidStatsFigure>
+  </div>
+</template>
+
+<script>
+/* eslint-disable @typescript-eslint/camelcase */
+import { csv, timeParse } from 'd3';
+import CovidStatsFigure from '@/components/CovidStatsFigure.vue';
+
+export default {
+  name: 'CovidStats',
+  components: {
+    CovidStatsFigure,
+  },
+  data() {
+    return {
+      countriesData: [],
+    };
+  },
+  props: {
+    country: Object,
+  },
+  computed: {
+    countryData() { return this.countriesData[this.country.alpha3] || []; },
+  },
+  created() {
+    csv('data/covid-data.csv').then((r) => {
+      this.countriesData = r.reduce((acc, {
+        iso_code, date, total_cases, total_deaths, new_cases, stringency_index,
+      }) => {
+        if (!acc[iso_code]) {
+          acc[iso_code] = {
+            totalCases: [],
+            newCases: [],
+            totalDeaths: [],
+            stringencyIndex: [],
+          };
+        }
+        const parsedDate = timeParse('%Y-%m-%d')(date);
+        acc[iso_code].totalCases.push({ date: parsedDate, value: +total_cases });
+        acc[iso_code].newCases.push({ date: parsedDate, value: +new_cases });
+        acc[iso_code].totalDeaths.push({ date: parsedDate, value: +total_deaths });
+        acc[iso_code].stringencyIndex.push({ date: parsedDate, value: +stringency_index });
+        return acc;
+      }, {});
+    });
+  },
+};
+</script>
