@@ -28,6 +28,11 @@ const routes: Array<RouteConfig> = [
     component: Subscribe,
   },
   {
+    path: '/404.html',
+    name: 'NotFound',
+    component: () => import('@/views/NotFound.vue'),
+  },
+  {
     path: '/:country.html',
     name: 'Country',
     component: () => import('../views/Country.vue'),
