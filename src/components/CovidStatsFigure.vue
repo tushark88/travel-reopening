@@ -1,6 +1,8 @@
 <template>
   <div>
-    <strong><slot /></strong>:&nbsp;<span class='cases'>{{latestFigure}}</span>
+    <strong><slot /></strong>:
+    &nbsp;<span>{{latestFigure.value}}</span>
+    &nbsp;<span>({{latestFigure.date}})</span>
     <svg />
   </div>
 </template>
@@ -9,6 +11,7 @@
 import {
   axisBottom, extent, line, select, scaleTime, max, scaleLinear, axisLeft,
 } from 'd3';
+import moment from 'moment';
 
 export default {
   name: 'CovidStatsFigure',
@@ -17,11 +20,17 @@ export default {
   },
   computed: {
     latestFigure() {
-      if (!this.data) { return 0; }
+      if (!this.data) { return { value: 'NA', date: 'NA' }; }
       const sorted = (this.data.slice(0) || []) // make copy of array to prevent mutation
         .sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
       const figure = sorted[sorted.length - 1]?.value || 0;
-      return figure.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
+      const date = sorted[sorted.length - 1]?.date;
+      const formattedDate = date ? moment(date).format('MMMM D, YYYY') : 'NA';
+
+      return {
+        date: formattedDate,
+        value: figure.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,'),
+      };
     },
   },
   methods: {
@@ -57,6 +66,7 @@ export default {
 
 
       svg.append('path')
+        .attr('class', 'stats')
         .datum(this.data)
         .attr('fill', 'none')
         .attr('stroke', 'steelblue')
