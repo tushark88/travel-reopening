@@ -17,5 +17,6 @@ import SubscriptionForm from '@/components/SubscriptionForm.vue';
 export default {
   name: 'Subscribe',
   components: { SubscriptionForm },
+  mounted() { this.$nextTick(() => document.dispatchEvent(new Event('render-completed'))); },
 };
 </script>
