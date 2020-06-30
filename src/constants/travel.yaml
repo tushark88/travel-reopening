@@ -18,15 +18,15 @@ countries:
   AE:
     sources:
       domestic:
-        - '[Residents of Abu Dhabi city, Al Ain and Al Dhafra can travel within their cities but not enter or leave them and cannot go to other emirates.](https://www.thenational.ae/uae/health/coronavirus-everything-you-need-to-know-about-covid-19-in-the-uae-1.990131)'
-        - '[From 24 June, 2020, cinemas, auction houses, entertainment centers, valet services, and fitness facilities are permitted to open, provided they do not exceed 50 percent capacity and respect social distancing measures.](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46)'
+        - 'Residents of Abu Dhabi city, Al Ain and Al Dhafra can [travel within their cities but not enter or leave them and cannot go to other emirates.](https://www.thenational.ae/uae/health/coronavirus-everything-you-need-to-know-about-covid-19-in-the-uae-1.990131)'
+        - 'From 24 June, 2020, cinemas, auction houses, entertainment centers, valet services, and fitness facilities are [permitted to open](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46), provided they do not exceed 50 percent capacity and respect social distancing measures.'
       inbound:
-        - '[Repatriation entry only. Entry permit needed for expatriate residents to return to the UAE.](https://u.ae/en/information-and-services/justice-safety-and-the-law/handling-the-covid-19-outbreak/entry-permit-needed-for-expatriate-residents-to-return-to-the-uae)'
-        - '[Foreign travelers would be permitted to enter the emirate from July 7, 2020.](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46)'
-        - '[UAE authorities suspended all flights arriving from Pakistan from Monday, June 29, 2020](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46).'
+        - 'Repatriation entry only. [Entry permit needed for expatriate residents to return to the UAE.](https://u.ae/en/information-and-services/justice-safety-and-the-law/handling-the-covid-19-outbreak/entry-permit-needed-for-expatriate-residents-to-return-to-the-uae)'
+        - 'Foreign travelers would be [permitted to enter the emirate from July 7, 2020.](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46)'
+        - 'UAE authorities [suspended all flights arriving from Pakistan](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46) from Monday, June 29, 2020.'
       outbound:
-        - '[Limited outbound flights. On 13 May, 2020, Emirates Airline announced its plans to operate scheduled flights starting from 21 May, 2020, from Dubai to London Heathrow, Frankfurt, Paris, Milan, Madrid, Chicago, Toronto, Sydney and Melbourne.](https://www.aljazeera.com/news/2020/03/coronavirus-travel-restrictions-border-shutdowns-country-200318091505922.html)'
-        - '[Citizens and residents would be permitted to travel abroad from Tuesday, June 23, 2020](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46)'
+        - '[Limited outbound flights](https://www.aljazeera.com/news/2020/03/coronavirus-travel-restrictions-border-shutdowns-country-200318091505922.html). On 13 May, 2020, Emirates Airline announced its plans to operate scheduled flights starting from 21 May, 2020, from Dubai to London Heathrow, Frankfurt, Paris, Milan, Madrid, Chicago, Toronto, Sydney and Melbourne.'
+        - 'Citizens and residents would be [permitted to travel abroad from Tuesday, June 23, 2020](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46).'
     travel:
       domestic: partial
       inbound: 'no'
@@ -131,7 +131,7 @@ countries:
   AT:
     sources:
       domestic:
-        - '[The gastronomy sector and museums have [opened](https://www.austria.info/en/service-and-facts/coronavirus-information) on 15 May, 2020, accommodation facilities and recreational operations on 29 May, 2020.'
+        - '[The gastronomy sector and museums have [opened](https://www.austria.info/en/service-and-facts/coronavirus-information) on 15 May, 2020, accommodation facilities and recreational operations on May 29, 2020.'
         - '[Non-essential shops have reopened](https://www.austria.info/en/service-and-facts/coronavirus-information) and are required to comply with social distancing restrictions. Face masks are compulsory in all public spaces and gatherings of more than ten people remain prohibited.'
       inbound:
         - '[Austria opened its borders to 32 countries, inclusive of Italy](https://www.schengenvisainfo.com/news/austria-abolishes-entry-restrictions-for-essential-travel-from-32-european-countries-opens-border-with-italy/)'
@@ -225,9 +225,9 @@ countries:
       domestic:
         - 'The government announced that the [nationwide curfew will be lifted](https://www.garda.com/crisis24/news-alerts/355026/barbados-curfew-to-be-lifted-from-july-1-update-5), as well as the reduction of social distancing to 1m (3ft), and that outdoor and social events will be allowed to have as many as 500 attendees based on capacity.'
       inbound:
-        - '[Commercial air traffic will resume](https://www.garda.com/crisis24/news-alerts/355026/barbados-curfew-to-be-lifted-from-july-1-update-5) on July 12, 2020. Services operated by Air Canada will be permitted from July 15, 2020, followed by British Airways on July 18, 2020, JetBlue on July 25, 2020 and Virgin Atlantic on August 1, 2020.'
+        - '[Commercial air traffic will resume](https://www.garda.com/crisis24/news-alerts/355026/barbados-curfew-to-be-lifted-from-july-1-update-5) on July 12, 2020. Services operated by Air Canada will be permitted, followed by British Airways, JetBlue and Virgin Atlantic.'
       outbound:
-        - '[Commercial air traffic will resume](https://www.garda.com/crisis24/news-alerts/355026/barbados-curfew-to-be-lifted-from-july-1-update-5) on July 12, 2020. Services operated by Air Canada will be permitted from July 15, 2020, followed by British Airways on July 18, 2020, JetBlue on July 25, 2020 and Virgin Atlantic on August 1, 2020.'
+        - '[Commercial air traffic will resume](https://www.garda.com/crisis24/news-alerts/355026/barbados-curfew-to-be-lifted-from-july-1-update-5) on July 12, 2020. Services operated by Air Canada will be permitted, followed by British Airways, JetBlue and Virgin Atlantic.'
       visa_quarantine:
         - 'Those arriving in Barbados from outside the Caribbean Community (CARICOM) will be required to take a [test for COVID-19](https://www.garda.com/crisis24/news-alerts/355026/barbados-curfew-to-be-lifted-from-july-1-update-5) 72 hours prior to their arrival whilst arrivals from within the CARICOM area will need to take a test at least one week prior to arrival.'
     travel:
