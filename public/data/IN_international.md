@@ -5,7 +5,7 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 **Travel restrictions apply.** Those allowed to enter include:
 - Indian nationals
 - International cargo operations
-- Flights specially approved by [DGCA]
+- Flights specially approved by [DGCA](https://dgca.gov.in/digigov-portal/).
 
 All scheduled international commercial passenger services shall remain closed till the Government of India lifts prohibition on international travel of passengers from/to India.
 
