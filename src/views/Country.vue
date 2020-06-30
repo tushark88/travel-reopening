@@ -17,7 +17,10 @@
               </router-link>
             </div>
             <h2 class="country-header">{{title}}</h2>
-            <TravelState :country="country" />
+            <div class="blck md:flex mb-4">
+              <TravelState :country="country" class='w-full md:w-1/2' />
+              <CovidStats :country="country" class='w-full md:w-1/2' />
+            </div>
             <div v-if='domesticContent || internationalContent || visaQuarantineContent'>
               <CountryBody :content="this.domesticContent">
                 <h3>Domestic Travel</h3>
@@ -49,6 +52,7 @@ import axios from 'axios';
 import moment from 'moment';
 import CountryBody from '@/components/CountryBody.vue';
 import CountrySources from '@/components/CountrySources.vue';
+import CovidStats from '@/components/CovidStats.vue';
 import Disclaimer from '@/components/Disclaimer.vue';
 import TitleMapSelect from '@/components/TitleMapSelect.vue';
 import TravelState from '@/components/TravelState.vue';
@@ -59,6 +63,7 @@ export default {
   components: {
     CountryBody,
     CountrySources,
+    CovidStats,
     Disclaimer,
     TitleMapSelect,
     TravelState,
