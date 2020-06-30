@@ -18,6 +18,7 @@ export default {
   props: {
     data: { type: Array, default() { return []; } },
   },
+  created() { window.addEventListener('resize', this.handleSizeChange); },
   computed: {
     latestFigure() {
       if (!this.data) { return { value: 'NA', date: 'NA' }; }
@@ -33,12 +34,14 @@ export default {
       };
     },
   },
+  destroyed() { window.removeEventListener('resize', this.handleSizeChange); },
   methods: {
     drawData() {
       const margin = {
-        top: 10, right: 30, bottom: 30, left: 60,
+        top: 10, right: 0, bottom: 30, left: 0,
       };
-      const width = 460 - margin.left - margin.right;
+      const baseWidth = select(this.$el).style('width').slice(0, -2);
+      const width = baseWidth - margin.left - margin.right;
       const height = 100 - margin.top - margin.bottom;
 
       const svg = select(this.$el).select('svg');
@@ -75,6 +78,7 @@ export default {
           .x((d) => x(d.date))
           .y((d) => y(d.value)));
     },
+    handleSizeChange() { this.drawData(); },
   },
   watch: {
     data() { this.drawData(); },
