@@ -3,6 +3,7 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 #### Inbound Travel: Who can travel into India?
 
 **Travel restrictions apply.** Those allowed to enter include:
+
 - Indian nationals
 - International cargo operations
 - Flights specially approved by [DGCA](https://dgca.gov.in/digigov-portal/).
