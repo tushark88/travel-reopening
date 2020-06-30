@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2 class='mt-4'>{{mapTitle}}</h2>
-    <svg :width='svgWidth' :height='svgHeight' viewBox="410 120 700 400"></svg>
+    <p class="mt-3 text-base md:text-lg font-medium">{{mapTitle}}</p>
+    <svg :width="svgWidth" :height="svgHeight" viewBox="410 120 700 400"></svg>
   </div>
 </template>
 
