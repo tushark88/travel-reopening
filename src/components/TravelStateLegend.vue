@@ -14,9 +14,12 @@ export default {
 };
 </script>
 
-<style lang='scss'>
- .badge {
-   @apply py-0.5 px-2.5 mb-1 mr-1 text-xs text-gray-800 text-center rounded-md;
-   @screen md { @apply mr-0 text-sm };
+<style lang="scss">
+.badge {
+  @apply py-0.5 px-2.5 mb-1 mr-1 text-xs text-gray-800 text-center rounded-md;
+  @screen md { @apply mr-0 text-sm };
+  &:last-child {
+    @screen md { @apply mb-0 };
+  }
  };
 </style>

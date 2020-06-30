@@ -40,7 +40,7 @@ const router = new VueRouter({
   routes,
   scrollBehavior(to, from) {
     if (to.name === from.name) {
-      return false;
+      return undefined;
     }
     return { x: 0, y: 0 };
   },
