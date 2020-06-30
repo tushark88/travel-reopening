@@ -71,9 +71,6 @@ export default {
       svg.append('path')
         .attr('class', 'stats')
         .datum(this.data)
-        .attr('fill', 'none')
-        .attr('stroke', 'steelblue')
-        .attr('stroke-width', 1.5)
         .attr('d', line()
           .x((d) => x(d.date))
           .y((d) => y(d.value)));
@@ -85,3 +82,10 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+  svg path.stats {
+    fill: none;
+    stroke: theme("colors.primary");;
+  }
+</style>
