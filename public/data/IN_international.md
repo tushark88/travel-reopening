@@ -6,9 +6,9 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 - Indian nationals
   - The following Indian nationals and travelers will be required to be quarantined for 14 days upon arrival in India:
-      - All travelers coming from/transiting through UAE, Qatar, Oman, and Kuwait
-      - Travelers who have visited China, South Korea, Iran, Italy, Spain, France, and Germany on or after February 15, 2020
-      - They will require a negative COVID-19 medical certification if they were returning from South Korea.
+    - All travelers coming from/transiting through UAE, Qatar, Oman, and Kuwait
+    - Travelers who have visited China, South Korea, Iran, Italy, Spain, France, and Germany on or after February 15, 2020
+    - They will require a negative COVID-19 medical certification if they were returning from South Korea.
 - International cargo operations
 - Flights specially approved by [DGCA](https://dgca.gov.in/digigov-portal/).
 
