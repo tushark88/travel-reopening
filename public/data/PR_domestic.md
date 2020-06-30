@@ -7,7 +7,7 @@ Wearing a face mask is mandatory and social distancing rules need to be observed
 - When visiting tourist attractions like monuments, museums, zoos or aquariums
 - At public spaces like libraries, stores, and supermarkets
 
-Turismo de Portugal has created a "[Clean and Safe](https://portugalcleanandsafe.com/en)" stamp. This is awarded to award tourist activities that are compliant with hygiene and cleaning requirements issued according to National Health Authority guidelines.
+Turismo de Portugal has created a "[Clean and Safe](https://portugalcleanandsafe.com/en)" stamp. This is awarded to tourist activities that are compliant with hygiene and cleaning requirements issued according to National Health Authority guidelines.
 
 Those awarded are required to implement internal protocols that ensure the necessary hygiene measures to avoid the risk of contagion and to guarantee safe operating procedures for tourist activities.
 
