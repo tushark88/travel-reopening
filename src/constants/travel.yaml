@@ -3645,8 +3645,8 @@ countries:
         - SI
         - ES
         - SE
-    updated_on: 2020-06-30
       outbound: 'partial'
+    updated_on: 2020-06-30
   PS:
     sources:
       inbound:
