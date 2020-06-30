@@ -26,7 +26,6 @@ Travelers are allowed from:
 
 - Citizens who require entry on humanitarian grounds
 
-
 Flights are allowed from:
 
 - Countries within the European Union (except for Spain and Italy)
