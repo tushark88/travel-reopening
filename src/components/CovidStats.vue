@@ -9,7 +9,7 @@
 
 <script>
 /* eslint-disable @typescript-eslint/camelcase */
-import { csv } from 'd3';
+import { csv, timeParse } from 'd3';
 import CovidStatsFigure from '@/components/CovidStatsFigure.vue';
 
 export default {
@@ -40,9 +40,10 @@ export default {
             totalDeaths: [],
           };
         }
-        acc[iso_code].totalCases.push([date, +total_cases]);
-        acc[iso_code].newCases.push([date, +new_cases]);
-        acc[iso_code].totalDeaths.push([date, +total_deaths]);
+        const parsedDate = timeParse('%Y-%m-%d')(date);
+        acc[iso_code].totalCases.push({ date: parsedDate, value: +total_cases });
+        acc[iso_code].newCases.push({ date: parsedDate, value: +new_cases });
+        acc[iso_code].totalDeaths.push({ date: parsedDate, value: +total_deaths });
         return acc;
       }, {});
     });
