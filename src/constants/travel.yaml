@@ -23,14 +23,17 @@ countries:
       inbound:
         - '[Repatriation entry only. Entry permit needed for expatriate residents to return to the UAE.](https://u.ae/en/information-and-services/justice-safety-and-the-law/handling-the-covid-19-outbreak/entry-permit-needed-for-expatriate-residents-to-return-to-the-uae)'
         - '[Foreign travelers would be permitted to enter the emirate from July 7, 2020.](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46)'
+        - '[UAE authorities suspended all flights arriving from Pakistan from Monday, June 29, 2020](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46).'
       outbound:
         - '[Limited outbound flights. On 13 May, 2020, Emirates Airline announced its plans to operate scheduled flights starting from 21 May, 2020, from Dubai to London Heathrow, Frankfurt, Paris, Milan, Madrid, Chicago, Toronto, Sydney and Melbourne.](https://www.aljazeera.com/news/2020/03/coronavirus-travel-restrictions-border-shutdowns-country-200318091505922.html)'
         - '[Citizens and residents would be permitted to travel abroad from Tuesday, June 23, 2020](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46)'
     travel:
       domestic: partial
       inbound: 'no'
+      inbound_restricted:
+        - PK
       outbound: partial
-    updated_on: 2020-06-26
+    updated_on: 2020-06-30
   AF:
     sources:
       domestic:
@@ -128,16 +131,18 @@ countries:
   AT:
     sources:
       domestic:
-        - '[The gastronomy sector and museums have opened on 15 May, 2020, accommodation facilities and recreational operations on 29 May, 2020.](https://www.austria.info/en/service-and-facts/coronavirus-information)'
+        - '[The gastronomy sector and museums have [opened](https://www.austria.info/en/service-and-facts/coronavirus-information) on 15 May, 2020, accommodation facilities and recreational operations on 29 May, 2020.'
+        - '[Non-essential shops have reopened](https://www.austria.info/en/service-and-facts/coronavirus-information) and are required to comply with social distancing restrictions. Face masks are compulsory in all public spaces and gatherings of more than ten people remain prohibited.'
       inbound:
         - '[Austria opened its borders to 32 countries, inclusive of Italy](https://www.schengenvisainfo.com/news/austria-abolishes-entry-restrictions-for-essential-travel-from-32-european-countries-opens-border-with-italy/)'
+        - '[A ban on cross border travel](https://www.schengenvisainfo.com/news/austria-abolishes-entry-restrictions-for-essential-travel-from-32-european-countries-opens-border-with-italy/) remains in place for those arriving from Gütersloh district itself, unless the individual can provide a negative COVID-19 test less than 48 hours old.'
       outbound:
         - '[Cross-border travel will be permitted for tourists from neighboring countries that have a comparable decline in the virus.](https://www.austria.info/en/service-and-facts/coronavirus-information)'
-        - '[Road: Certain borders are closed, see domestic cross-border travel section.](https://www.austria.info/en/service-and-facts/coronavirus-information)'
-        - '[Airports: Limited exit. Vienna, Salzburg, and Innsbruck airports operate with limited flight plans.](https://www.austria.info/en/service-and-facts/coronavirus-information)'
+        - 'Road: [Certain borders are closed](https://www.austria.info/en/service-and-facts/coronavirus-information), see domestic cross-border travel section.'
+        - 'Airports: Limited exit. Vienna, Salzburg, and Innsbruck airports operate with [limited flight plans.](https://www.austria.info/en/service-and-facts/coronavirus-information)'
       visa_quarantine:
-        - '[Austrian citizens, EU/EEA/CH/UK citizens, and third-country nationals traveling from within the Schengen area can enter without the test if they commit to a 14-day home quarantine.](https://www.austria.info/en/service-and-facts/coronavirus-information)'
-        - '[Vienna Airport now offers molecular-biological COVID-19 tests (PCR test) directly on-site at the airport.](https://www.viennaairport.com/pcrtest)'
+        - 'Austrian citizens, EU/EEA/CH/UK citizens, and third-country nationals traveling from within the Schengen area can [enter without any quarantine.](https://www.garda.com/crisis24/news-alerts/355336/austria-authorities-announce-new-border-measures-for-germans-arriving-from-areas-with-high-covid-19-infections-june-28-update-16)'
+        - 'Vienna Airport now offers [molecular-biological COVID-19 tests (PCR test) directly on-site](https://www.viennaairport.com/pcrtest) at the airport.'
     travel:
       domestic: partial
       inbound: partial
@@ -175,7 +180,7 @@ countries:
         - VA
         - CY
       outbound: partial
-    updated_on: 2020-06-15
+    updated_on: 2020-06-30
   AU:
     sources:
       domestic:
@@ -217,12 +222,19 @@ countries:
     updated_on: 2020-06-15
   BB:
     sources:
+      domestic:
+        - 'The government announced that the [nationwide curfew will be lifted](https://www.garda.com/crisis24/news-alerts/355026/barbados-curfew-to-be-lifted-from-july-1-update-5), as well as the reduction of social distancing to 1m (3ft), and that outdoor and social events will be allowed to have as many as 500 attendees based on capacity.'
       inbound:
-        - '[Suspension of commercial international flights, with negotiations for some airlines to provide limited service.](https://www.universalweather.com/blog/caribbean-coronavirus-covid-19-impact-on-business-aviation/)'
-        - '[The Grantley Adams International Airport is closed to commercial flights until 30 June, 2020.](https://www.universalweather.com/blog/caribbean-coronavirus-covid-19-impact-on-business-aviation/)'
+        - '[Commercial air traffic will resume](https://www.garda.com/crisis24/news-alerts/355026/barbados-curfew-to-be-lifted-from-july-1-update-5) on July 12, 2020. Services operated by Air Canada will be permitted from July 15, 2020, followed by British Airways on July 18, 2020, JetBlue on July 25, 2020 and Virgin Atlantic on August 1, 2020.'
+      outbound:
+        - '[Commercial air traffic will resume](https://www.garda.com/crisis24/news-alerts/355026/barbados-curfew-to-be-lifted-from-july-1-update-5) on July 12, 2020. Services operated by Air Canada will be permitted from July 15, 2020, followed by British Airways on July 18, 2020, JetBlue on July 25, 2020 and Virgin Atlantic on August 1, 2020.'
+      visa_quarantine:
+        - 'Those arriving in Barbados from outside the Caribbean Community (CARICOM) will be required to take a [test for COVID-19](https://www.garda.com/crisis24/news-alerts/355026/barbados-curfew-to-be-lifted-from-july-1-update-5) 72 hours prior to their arrival whilst arrivals from within the CARICOM area will need to take a test at least one week prior to arrival.'
     travel:
-      inbound: 'no'
-    updated_on: 2020-06-15
+      domestic: 'yes'
+      inbound: 'yes'
+      outbound: 'yes'
+    updated_on: 2020-06-30
   BD:
     sources:
       domestic:
@@ -706,27 +718,28 @@ countries:
       domestic:
         - 'The government of the Dominican Republic has confirmed that they will [not extend a nationwide curfew](https://www.garda.com/crisis24/news-alerts/354771/dominican-republic-authorities-lift-curfew-from-june-28-update-11) which is due to expire on Sunday, June 28.'
       inbound:
-        - 'Authorities from the Dominican Republic have announced the [suspension of all commercial flights closure of all borders](https://travel.gc.ca/destinations/dominican-republic?wbdisable=true), starting on 19 March, 2020, until further notice.'
+        - 'The Dominican Republic will [gradually reopen for international tourism from Wednesday, July 1, 2020](https://travel.gc.ca/destinations/dominican-republic?wbdisable=true) as the country relaxes restrictions imposed due to the coronavirus disease (COVID-19) pandemic.'
       outbound:
-        - 'Authorities from the Dominican Republic have announced the [suspension of all commercial flights closure of all borders](https://travel.gc.ca/destinations/dominican-republic?wbdisable=true), starting on 19 March, 2020, until further notice.'
+        - - 'The Dominican Republic will [gradually reopen for international tourism from Wednesday, July 1, 2020](https://travel.gc.ca/destinations/dominican-republic?wbdisable=true) as the country relaxes restrictions imposed due to the coronavirus disease (COVID-19) pandemic.'
     travel:
       domestic: 'partial'
-      inbound: 'no'
-      outbound: 'no'
-    updated_on: 2020-06-29
+      inbound: 'partial'
+      outbound: 'partial'
+    updated_on: 2020-06-30
   DZ:
     sources:
       domestic:
         - '[Suspended domestic flights as of 22 March, 2020.](https://dz.usembassy.gov/covid-19-information/)'
+        - 'Public transportation including buses and taxi services have partially resumed, with capacity limits for the number of passengers. Other businesses such as clothing shops, car rentals, and hair salons have also been [permitted to reopen.](https://dz.usembassy.gov/covid-19-information/)'
       inbound:
-        - '[All land borders remain closed and the suspension of non-cargo domestic and international air and maritime travel remains in place](https://dz.usembassy.gov/covid-19-information/)'
+        - 'Non-cargo international air and maritime travel, as well as domestic flights, are [suspended.](https://www.garda.com/crisis24/news-alerts/355311/algeria-president-announces-borders-to-remain-closed-until-end-of-covid-19-pandemic-update-20)'
       outbound:
-        - '[Algeria closed all land borders and suspended non-cargo international air and maritime travel as of 17 March, 2020.](https://dz.usembassy.gov/covid-19-information/)'
+        - 'Non-cargo international air and maritime travel, as well as domestic flights, are [suspended.](https://www.garda.com/crisis24/news-alerts/355311/algeria-president-announces-borders-to-remain-closed-until-end-of-covid-19-pandemic-update-20)'
     travel:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15
+    updated_on: 2020-06-30
   EC:
     sources:
       domestic:
@@ -1521,9 +1534,16 @@ countries:
     sources:
       domestic:
         - '[People have been encouraged to return to work, and parks, gardens, and recreational areas have also reopened as part of the easing of measures. Gyms, restaurants, and cafés remain closed until further notice.](https://www.garda.com/crisis24/news-alerts/351296/iran-covid-19-death-toll-rises-amid-fears-of-second-wave-on-june-15-update-31)'
+        - '[Wearing of face masks in public places](https://www.garda.com/crisis24/news-alerts/355401/iran-wearing-of-facemasks-mandatory-in-certain-public-spaces-from-july-5-update-32) will become mandatory from Sunday, July 5, 2020 due to the ongoing coronavirus disease (COVID-19) pandemic. The measures will remain in place until July 22, 2020, however, they may be extended further.'
+      inbound:
+        - '[Flights remain suspended until further notice.](https://www.garda.com/crisis24/news-alerts/320716/iran-over-6500-confirmed-covid-19-cases-reported-as-further-flight-restrictions-are-implemented-march-8-update-11)'
+      outbound:
+        - '[Flights remain suspended until further notice.](https://www.garda.com/crisis24/news-alerts/320716/iran-over-6500-confirmed-covid-19-cases-reported-as-further-flight-restrictions-are-implemented-march-8-update-11)'
     travel:
       domestic: 'partial'
-    updated_on: 2020-06-22
+      inbound: 'no'
+      outbound: 'no'
+    updated_on: 2020-06-30
   IS:
     sources:
       domestic:
@@ -2644,6 +2664,20 @@ countries:
         - CI
       outbound: 'yes'
     updated_on: 2020-06-29
+  MG:
+    sources:
+      domestic:
+        - 'Malagasy authorities [extended the national health state of emergency](https://www.garda.com/crisis24/news-alerts/355161/madagascar-authorities-extend-health-state-of-emergency-and-update-covid-19-measures-in-worst-affected-areas-june-27-update-11), initially declared on March 21, for a further 15 days until Sunday, July 12, 2020.'
+        - '[Gatherings of up to 50 people are permitted across the country](https://www.garda.com/crisis24/news-alerts/355161/madagascar-authorities-extend-health-state-of-emergency-and-update-covid-19-measures-in-worst-affected-areas-june-27-update-11), though social distancing measures should be adhered to and face masks remain mandatory for all individuals outdoors.'
+      inbound:
+        - '[All land, sea, and air borders remain closed](https://www.worldaware.com/covid-19-alert-madagascar-lifts-some-restrictions-while-other-measures-place-through-june-30).'
+      outbound:
+        - '[All land, sea, and air borders remain closed](https://www.worldaware.com/covid-19-alert-madagascar-lifts-some-restrictions-while-other-measures-place-through-june-30).'
+    travel:
+      domestic: 'no'
+      inbound: 'no'
+      outbound: 'no'
+    updated_on: 2020-06-30
   MK:
     sources:
       domestic:
@@ -3055,264 +3089,23 @@ countries:
     updated_on: 2020-06-09
   MZ:
     sources:
+      domestic:
+        - 'Mozambique''s state of emergency in response to the coronavirus disease (COVID-19) pandemic has been [extended by 30 days until July 30, 2020](https://www.garda.com/crisis24/news-alerts/355281/mozambique-government-extends-covid-19-state-of-emergency-until-july-30-update-7).'
+        - 'Lockdown measures on key economic sectors such as tourism, culture, and business services will also be eased, allowing some businesses, resorts, and restaurants to [reopen](https://www.garda.com/crisis24/news-alerts/355281/mozambique-government-extends-covid-19-state-of-emergency-until-july-30-update-7).'
       inbound:
         - '[The Ministry of Health (MISAU) has implemented screening at airports and other points of entry scanning the temperatures of all travelers.](https://mz.usembassy.gov/covid-19-information-2/)'
+        - '[In order to support international business and tourism, the suspension of international flights to and from Mozambique has also been lifted, allowing business travellers, tourists, and essential personnel to enter the country from a number of designated ''safe'' countries.](https://mz.usembassy.gov/covid-19-information-2/)'
+      outbound:
+        - '[The Ministry of Health (MISAU) has implemented screening at airports and other points of entry scanning the temperatures of all travelers.](https://mz.usembassy.gov/covid-19-information-2/)'
+        - '[In order to support international business and tourism, the suspension of international flights to and from Mozambique has also been lifted, allowing business travellers, tourists, and essential personnel to enter the country from a number of designated ''safe'' countries](https://mz.usembassy.gov/covid-19-information-2/).'
       visa_quarantine:
         - '[No visas (including border visas) are being issued at this time.](https://mz.usembassy.gov/covid-19-information-2/)'
         - '[All arrivals to Mozambique, regardless of citizenship, will be on a mandated 14-day self-quarantine.](https://www.mfa.gov.sg/countries-regions/m/mozambique/travel-page)'
     travel:
+      domestic: partial
       inbound: partial
-      inbound_allowed:
-        - AD
-        - AE
-        - AF
-        - AG
-        - AI
-        - AL
-        - AM
-        - AO
-        - AQ
-        - AR
-        - AS
-        - AT
-        - AU
-        - AW
-        - AX
-        - AZ
-        - BA
-        - BB
-        - BD
-        - BE
-        - BF
-        - BG
-        - BH
-        - BI
-        - BJ
-        - BL
-        - BM
-        - BN
-        - BO
-        - BQ
-        - BR
-        - BS
-        - BT
-        - BV
-        - BW
-        - BY
-        - BZ
-        - CA
-        - CC
-        - CD
-        - CF
-        - CG
-        - CH
-        - CI
-        - CK
-        - CL
-        - CM
-        - CN
-        - CO
-        - CR
-        - CU
-        - CV
-        - CW
-        - CX
-        - CY
-        - CZ
-        - DE
-        - DJ
-        - DK
-        - DM
-        - DO
-        - DZ
-        - EC
-        - EE
-        - EG
-        - EH
-        - ER
-        - ES
-        - ET
-        - FI
-        - FJ
-        - FK
-        - FM
-        - FO
-        - FR
-        - GA
-        - GB
-        - GD
-        - GE
-        - GF
-        - GG
-        - GH
-        - GI
-        - GL
-        - GM
-        - GN
-        - GP
-        - GQ
-        - GR
-        - GS
-        - GT
-        - GU
-        - GW
-        - GY
-        - HK
-        - HM
-        - HN
-        - HR
-        - HT
-        - HU
-        - ID
-        - IE
-        - IL
-        - IM
-        - IN
-        - IO
-        - IQ
-        - IR
-        - IS
-        - IT
-        - JE
-        - JM
-        - JO
-        - JP
-        - KE
-        - KG
-        - KH
-        - KI
-        - KM
-        - KN
-        - KP
-        - KR
-        - KW
-        - KY
-        - KZ
-        - LA
-        - LB
-        - LC
-        - LI
-        - LK
-        - LR
-        - LS
-        - LT
-        - LU
-        - LV
-        - LY
-        - MA
-        - MC
-        - MD
-        - ME
-        - MF
-        - MG
-        - MH
-        - MK
-        - ML
-        - MM
-        - MN
-        - MO
-        - MP
-        - MQ
-        - MR
-        - MS
-        - MT
-        - MU
-        - MV
-        - MW
-        - MX
-        - MY
-        - MZ
-        - NA
-        - NC
-        - NE
-        - NF
-        - NG
-        - NI
-        - NL
-        - NO
-        - NP
-        - NR
-        - NU
-        - NZ
-        - OM
-        - PA
-        - PE
-        - PF
-        - PG
-        - PH
-        - PK
-        - PL
-        - PM
-        - PN
-        - PR
-        - PS
-        - PT
-        - PW
-        - PY
-        - QA
-        - RE
-        - RO
-        - RS
-        - RU
-        - RW
-        - SA
-        - SB
-        - SC
-        - SD
-        - SE
-        - SG
-        - SH
-        - SI
-        - SJ
-        - SK
-        - SL
-        - SM
-        - SN
-        - SO
-        - SR
-        - SS
-        - ST
-        - SV
-        - SX
-        - SY
-        - SZ
-        - TC
-        - TD
-        - TF
-        - TG
-        - TH
-        - TJ
-        - TK
-        - TL
-        - TM
-        - TN
-        - TO
-        - TR
-        - TT
-        - TV
-        - TW
-        - TZ
-        - UA
-        - UG
-        - UM
-        - US
-        - UY
-        - UZ
-        - VA
-        - VC
-        - VE
-        - VG
-        - VI
-        - VN
-        - VU
-        - WF
-        - WS
-        - YE
-        - YT
-        - ZA
-        - ZM
-        - ZW
-    updated_on: 2020-06-11
+      outbound: partial
+    updated_on: 2020-06-30
   NA:
     sources:
       domestic:
@@ -3813,10 +3606,17 @@ countries:
     updated_on: 2020-06-11
   PL:
     sources:
+      domestic:
+        - '[Domestic flights have resumed](https://www.gov.pl/web/coronavirus/travel) and public transportation is operational with reduced capacity.'
       inbound:
-        - '[As of Tuesday, June 16th, 2020 restrictions on international flights within the EU will be lifted.](https://www.poland.travel/en/travel-inspirations/safety-advice-for-travellers-concerning-the-covid-19-epidemic)'
+        - 'As of June 17, 2020, restrictions on international flights for [certain countries will be lifted.](https://www.gov.pl/web/coronavirus/travel)'
+      outbound:
+        - 'As Poland has restored full border traffic with members of the European Union, [travelers may move freely.](https://www.gov.pl/web/coronavirus/travel)'
+      visa_quarantine:
+        - 'The obligation to undergo [a 14-day quarantine](https://www.gov.pl/web/coronavirus/travel) is imposed on persons crossing the borders of the Republic of Poland that are also the external borders of the EU, when traveling to their place of residence or stay.'
     travel:
-      inbound: 'yes'
+      domestic: 'partial'
+      inbound: 'partial'
       inbound_allowed:
         - AT
         - BE
@@ -3845,7 +3645,8 @@ countries:
         - SI
         - ES
         - SE
-    updated_on: 2020-06-22
+    updated_on: 2020-06-30
+      outbound: 'partial'
   PS:
     sources:
       inbound:
@@ -4327,17 +4128,18 @@ countries:
       outbound: 'no'
     updated_on: 2020-06-09
   TN:
-    reopening:
-      '2020-06-27': '[The Tunisian government announced on 1 June, 2020, that it will reopen its land, sea, and air borders on 27 June, 2020, amid the ongoing coronavirus disease (COVID-19) pandemic.](https://www.garda.com/crisis24/news-alerts/347441/tunisia-authorities-reopen-land-sea-and-air-borders-june-27-update-11)'
     sources:
       domestic:
-        - '[As of June 11, inter-city and inter-governorate travel is no longer restricted and special authorization to travel is not required.  The nightly curfew hours was cancelled, effective June 8, 2020.](https://tn.usembassy.gov/message-for-us-citizens-61120/)'
+        - '[Domestic travel between cities and regions resumed on June 4, 2020, the nationwide curfew was lifted on June 15, 2020](https://www.garda.com/crisis24/news-alerts/355241/tunisia-air-sea-and-land-borders-reopen-june-27-update-13).'
       inbound:
-        - '[All flights to Tunisia are suspended. This does not apply to repatriation flights for nationals and permanent residents, as well as other emergency flights.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
+        - '[On Saturday, June 27,  Tunisian authorities reopened the country''s air, sea, and land borders](https://www.garda.com/crisis24/news-alerts/355241/tunisia-air-sea-and-land-borders-reopen-june-27-update-13).'
+      outbound:
+        - '[On Saturday, June 27,  Tunisian authorities reopened the country''s air, sea, and land borders](https://www.garda.com/crisis24/news-alerts/355241/tunisia-air-sea-and-land-borders-reopen-june-27-update-13).'
     travel:
       domestic: 'yes'
-      inbound: 'no'
-    updated_on: 2020-06-09
+      inbound: 'yes'
+      outbound: 'yes'
+    updated_on: 2020-06-30
   TO:
     sources:
       inbound:
