@@ -38,23 +38,27 @@ export default {
   methods: {
     drawData() {
       const margin = {
-        top: 10, right: 0, bottom: 30, left: 0,
+        top: 10, right: 30, bottom: 30, left: 40,
       };
       const baseWidth = select(this.$el).style('width').slice(0, -2);
       const width = baseWidth - margin.left - margin.right;
       const height = 100 - margin.top - margin.bottom;
 
-      const svg = select(this.$el).select('svg');
-      svg.selectAll('*').remove();
+      select(this.$el).select('svg').selectAll('g').remove();
 
-      svg.attr('width', width + margin.left + margin.right)
-        .attr('height', height + margin.top + margin.bottom);
+      const svg = select(this.$el)
+        .select('svg')
+        .attr('width', width + margin.left + margin.right)
+        .attr('height', height + margin.top + margin.bottom)
+        .append('g')
+        .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
       const x = scaleTime()
-        .domain([moment('2020-02-01').toDate(), max(this.data, ({ date }) => +date)])
+        .domain([moment('2020-01-01').toDate(), moment().toDate()])
         .range([0, width]);
 
       svg.append('g')
+        .attr('class', 'xaxis')
         .attr('transform', `translate(0, ${height})`)
         .call(axisBottom(x));
 
@@ -64,8 +68,8 @@ export default {
         .range([height, 0]);
 
       svg.append('g')
-        .call(axisLeft(y));
-
+        .attr('class', 'yaxis')
+        .call(axisLeft(y).ticks(3));
 
       svg.append('path')
         .attr('class', 'stats')
@@ -83,8 +87,11 @@ export default {
 </script>
 
 <style lang="scss">
-  svg path.stats {
-    fill: none;
-    stroke: theme("colors.primary");;
+  svg {
+    .xaxis text { text-anchor: start; }
+    .stats {
+      fill: none;
+      stroke: theme("colors.primary");
+    }
   }
 </style>
