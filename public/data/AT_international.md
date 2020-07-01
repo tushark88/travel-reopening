@@ -6,7 +6,7 @@ As of June 16, 2020, Austria allows tourists from European countries except for 
 
 As of June 4, 2020, Austrian borders are open:
 
-- Germany - As of June 28, 2020, [new border measures](https://www.garda.com/crisis24/news-alerts/355336/austria-authorities-announce-new-border-measures-for-germans-arriving-from-areas-with-high-covid-19-infections-june-28-update-16) have announced that for those arriving from areas with high COVID-19 infection rates in Germany.
+- Germany - As of June 28, 2020, [new border measures](https://www.garda.com/crisis24/news-alerts/355336/austria-authorities-announce-new-border-measures-for-germans-arriving-from-areas-with-high-covid-19-infections-june-28-update-16) have been announced for those arriving from areas with high COVID-19 infection rates in Germany.
 - Liechtenstein
 - Switzerland
 - Slovakia
