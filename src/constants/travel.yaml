@@ -1361,13 +1361,34 @@ countries:
     travel:
       inbound: 'no'
     updated_on: 2020-06-13
+  HK:
+    sources:
+      domestic:
+        - '[A ban on gatherings of more than 50 people](https://mup.gov.hr/uzg-covid/english/286212) in Hong Kong, implemented in response to the coronavirus disease (COVID-19) pandemic, was extended by two weeks on Tuesday, June 30, 2020 until July 14, 2020.'
+      inbound:
+        - '[The Hong Kong SAR Government restricts](https://www.coronavirus.gov.hk/eng/travel-advice.html) any Hubei residents, and non-Hong Kong residents who have visited the Hubei Province in the past 14 days upon arrival from entering Hong Kong since January 27, 2020.'
+      outbound:
+        - 'Members of the public are strongly urged to [avoid non-essential travel outside Hong Kong.](https://www.coronavirus.gov.hk/eng/travel-advice.html)'
+      visa_quarantine:
+        - '[A mandatory 14-day quarantine period](https://www.garda.com/crisis24/news-alerts/355666/hong-kong-ban-on-gatherings-of-more-than-50-people-extended-until-july-14-as-other-covid-19-measures-eased-update-30) remains in place for travelers arriving from mainland China, Macau, and Taiwan until at least Tuesday, July 7, while quarantine requirements for those arriving from all other destinations will remain in place until September 18, 2020'
+    travel:
+      domestic: partial
+      inbound: partial
+      outbound: yes
+    updated_on: 2020-07-01
   HN:
     sources:
+      domestic:
+        - 'The Government of Honduras announced on June 29, 2020, that the [nationwide curfew has been extended until July 12, 2020](https://www.garda.com/crisis24/news-alerts/355511/honduras-authorities-extend-nationwide-curfew-until-july-12-update-10) in addition to renewed vehicle circulation restrictions amid the coronavirus disease (COVID-19) pandemic. The curfew remains in place between the hours of 17:00 and 09:00 (local time).'
       inbound:
-        - '[The Honduran government announced all borders (air, land, and sea) would be closed as of 15 March, 2020, until further notice.](https://hn.usembassy.gov/covid-19-information/)'
+        - 'The Honduran government announced all borders (air, land, and sea) would be closed as of 15 March, 2020, [until further notice.](https://hn.usembassy.gov/covid-19-information/)'
+      outbound:
+        - 'The Honduran government announced all borders (air, land, and sea) would be closed as of 15 March, 2020, [until further notice.](https://hn.usembassy.gov/covid-19-information/)'
     travel:
+      domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-13
+      outbound: 'no'
+    updated_on: 2020-07-01
   HR:
     sources:
       inbound:
@@ -1521,15 +1542,17 @@ countries:
     sources:
       domestic:
         - '[Domestic flights remain suspended, as are flights to and from Iraq.](https://gds.gov.iq/covid-19-iraq-extends-nationwide-curfew/)'
+        - 'Authorities announced that a total lockdown will be [imposed in the Erbil province](https://www.garda.com/crisis24/news-alerts/355496/iraq-authorities-to-impose-total-lockdown-in-erbil-province-from-june-30-update-37)'
+        - '[The national 18:00 to 05:00 (local time) curfew remains in place](https://www.garda.com/crisis24/news-alerts/355496/iraq-authorities-to-impose-total-lockdown-in-erbil-province-from-june-30-update-37) in Iraq''s other provinces.'
       inbound:
         - '[Domestic flights remain suspended, as are flights to and from Iraq.](https://gds.gov.iq/covid-19-iraq-extends-nationwide-curfew/)'
       outbound:
         - '[Domestic flights remain suspended, as are flights to and from Iraq.](https://gds.gov.iq/covid-19-iraq-extends-nationwide-curfew/)'
     travel:
-      domestic: 'no'
+      domestic: 'partial'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15
+    updated_on: 2020-07-01
   IR:
     sources:
       domestic:
@@ -2713,13 +2736,19 @@ countries:
     updated_on: 2020-06-29
   MN:
     sources:
+      domestic:
+        - 'Schools, universities, and higher educational facilities have been [closed until September 1, 2020](https://www.garda.com/crisis24/news-alerts/355611/mongolia-authorities-extend-suspension-of-international-air-and-rail-services-until-at-least-july-15-update-10).'
       inbound:
-        - '[Mongolia has extended suspension of all inbound travel from foreign locations until June 30, 2020, and banned the entry of all foreign nationals for the same period. All commercial flights, passenger rail, and auto traffic into and out of Mongolia are suspended during this time period.](https://mn.usembassy.gov/covid-19-information/)'
+        - 'Mongolian authorities announced on Tuesday, June 30, 2020, that the suspension of all international air and rail services due to the coronavirus disease (COVID-19) pandemic has been [extended until at least July 15, 2020](https://www.garda.com/crisis24/news-alerts/355611/mongolia-authorities-extend-suspension-of-international-air-and-rail-services-until-at-least-july-15-update-10).'
+      outbound:
+        - 'Mongolian authorities announced on Tuesday, June 30, 2020, that the suspension of all international air and rail services due to the coronavirus disease (COVID-19) pandemic has been [extended until at least July 15, 2020](https://www.garda.com/crisis24/news-alerts/355611/mongolia-authorities-extend-suspension-of-international-air-and-rail-services-until-at-least-july-15-update-10).'
       visa_quarantine:
-        - '[All travelers to Mongolia are subject to quarantine for 21 days upon arrival. Mongolian public-health authorities request that individuals arriving in Mongolia from any foreign country, i.e., every traveler arriving in Mongolia from overseas, will be quarantined under observation at NCCD for 21 days then self-quarantine at home for another 14 days after dismissed from hospital.](https://mn.usembassy.gov/covid-19-information/)'
+        - '[All travelers to Mongolia are subject to quarantine for 21 days upon arrival](https://mn.usembassy.gov/covid-19-information/). Mongolian public-health authorities request that individuals arriving in Mongolia from any foreign country, i.e., every traveler arriving in Mongolia from overseas, will be quarantined under observation at NCCD for 21 days then self-quarantine at home for another 14 days after dismissed from hospital.'
     travel:
+      domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-12
+      outbound: 'no'
+    updated_on: 2020-07-01
   MR:
     sources:
       inbound:
@@ -3064,15 +3093,24 @@ countries:
     updated_on: 2020-06-12
   MX:
     sources:
+      domestic:
+        - '[Businesses have been given permission to reopen(https://www.garda.com/crisis24/news-alerts/355486/mexico-authorities-further-ease-covid-19-restrictions-in-mexico-city-june-29-update-17) and the city''s metro service will resume.'
       inbound:
-        - '[The United States and Mexico entered a joint initiative 21 March, 2020, restricting non-essential travel along the U.S.-Mexico land border to prevent the spread of the COVID-19 virus. Non-essential travel includes travel that is considered tourism or recreational in nature. The restrictions are in place until at least 22 June, 2020.](https://mx.usembassy.gov/u-s-citizen-services/covid-19-information/)'
-        - '[All airports of entry are operating, possibly on a reduced schedule.](https://www.universalweather.com/blog/mexico-coronavirus-covid-19-impact-on-business-aviation/)'
+        - 'Land border restrictions with the US, which were introduced due to COVID-19, will be [extended through July 21](https://www.garda.com/crisis24/news-alerts/355486/mexico-authorities-further-ease-covid-19-restrictions-in-mexico-city-june-29-update-17)'
+        - 'All airports of entry are operating, [possibly on a reduced schedule.](https://www.universalweather.com/blog/mexico-coronavirus-covid-19-impact-on-business-aviation/)'
+      outbound:
+        - 'Land border restrictions with the US, which were introduced due to COVID-19, will be [extended through July 21](https://www.garda.com/crisis24/news-alerts/355486/mexico-authorities-further-ease-covid-19-restrictions-in-mexico-city-june-29-update-17)'
+        - 'All airports of entry are operating, [possibly on a reduced schedule.](https://www.universalweather.com/blog/mexico-coronavirus-covid-19-impact-on-business-aviation/)'
       visa_quarantine:
-        - '[Travelers entering Mexico via land may be subject to health screen including temperature checks. Travelers may experience significant delays and face the possibility of being returned to the United States or quarantined in Mexico.](https://mx.usembassy.gov/u-s-citizen-services/covid-19-information/)'
-        - '[There is a questionnaire form to be completed and signed by each crew member and passenger arriving at any airport, on a domestic or international flight. Temperature checks are conducted. If someone is at 38 degrees C or above, they will be quarantined and the rest of the Pax and Crew may not be able to enter the country.](https://www.universalweather.com/blog/mexico-coronavirus-covid-19-impact-on-business-aviation/)'
+        - 'Travelers entering Mexico via land may be subject to [health screen including temperature checks](https://mx.usembassy.gov/u-s-citizen-services/covid-19-information/). Travelers may experience significant delays and face the possibility of being returned to the United States or quarantined in Mexico.'
+        - '[There is a questionnaire form to be completed and signed by each crew member and passenger](https://www.universalweather.com/blog/mexico-coronavirus-covid-19-impact-on-business-aviation/) arriving at any airport, on a domestic or international flight. Temperature checks are conducted. If someone is at 38 degrees C or above, they will be quarantined and the rest of the Pax and Crew may not be able to enter the country.'
     travel:
-      inbound: 'no'
-    updated_on: 2020-06-12
+      domestic: 'partial'
+      inbound: 'partial'
+      inbound_restricted:
+        - US
+      outbound: 'partial'
+    updated_on: 2020-07-01
   MY:
     sources:
       domestic:
@@ -3241,22 +3279,20 @@ countries:
     updated_on: 2020-06-09
   NP:
     reopening:
-      '2020-08-01': '[The Ministry of Culture, Tourism and Civil Aviation announced on Friday, June 19, that it plans to resume domestic and international flights from August 1](https://www.garda.com/crisis24/news-alerts/352291/nepal-domestic-and-international-flights-to-resume-from-august-1-update-15)'
+      '2020-08-01': 'The Ministry of Culture, Tourism and Civil Aviation announced on Friday, June 19, 2020, that it [plans to resume domestic and international flights from August 1, 2020](https://www.garda.com/crisis24/news-alerts/352291/nepal-domestic-and-international-flights-to-resume-from-august-1-update-15).'
     sources:
       domestic:
-        - '[The Ministry of Culture, Tourism and Civil Aviation announced on Friday, June 19, that it plans to resume domestic and international flights from August 1](https://www.garda.com/crisis24/news-alerts/352291/nepal-domestic-and-international-flights-to-resume-from-august-1-update-15)'
-        - '[The Nepalese government commenced a three-phase easing of lockdown measures on June 11, with shops permitted to open and private vehicles allowed to circulate for short journeys.](https://www.garda.com/crisis24/news-alerts/352291/nepal-domestic-and-international-flights-to-resume-from-august-1-update-15)'
+        - 'The Ministry of Culture, Tourism and Civil Aviation announced on Friday, June 19, 2020, that it [plans to resume domestic and international flights from August 1, 2020](https://www.garda.com/crisis24/news-alerts/352291/nepal-domestic-and-international-flights-to-resume-from-august-1-update-15).'
+        - '[Nepalese authorities have extended lockdown measures until July 22, 2020](https://www.garda.com/crisis24/news-alerts/355626/nepal-authorities-extend-lockdown-until-july-22-update-16), where only some businesses and activities are permitted to operate as long as they adhere to social distancing measures.'
       inbound:
-        - '[The Ministry of Culture, Tourism and Civil Aviation announced on Friday, June 19, that it plans to resume domestic and international flights from August 1](https://www.garda.com/crisis24/news-alerts/352291/nepal-domestic-and-international-flights-to-resume-from-august-1-update-15)'
+        - 'The Ministry of Culture, Tourism and Civil Aviation announced on Friday, June 19, 2020, that it [plans to resume domestic and international flights from August 1, 2020](https://www.garda.com/crisis24/news-alerts/352291/nepal-domestic-and-international-flights-to-resume-from-august-1-update-15).'
       outbound:
-        - '[The Ministry of Culture, Tourism and Civil Aviation announced on Friday, June 19, that it plans to resume domestic and international flights from August 1](https://www.garda.com/crisis24/news-alerts/352291/nepal-domestic-and-international-flights-to-resume-from-august-1-update-15)'
-      visa_quarantine:
-        - '[The Department of Immigration also suspends all its visa services till 14 June, 2020, and requests all the foreigners in Nepal to remain patient regardless of their visa term.](http://www.nepalimmigration.gov.np/post/notice-regarding-temporary-shutdown-of-visa-services-sunday-31st-may-2020)'
+        - 'The Ministry of Culture, Tourism and Civil Aviation announced on Friday, June 19, 2020, that it [plans to resume domestic and international flights from August 1, 2020](https://www.garda.com/crisis24/news-alerts/352291/nepal-domestic-and-international-flights-to-resume-from-august-1-update-15).'
     travel:
       domestic: 'partial'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-16
+    updated_on: 2020-07-01
   NR:
     sources:
       inbound:
@@ -3659,10 +3695,14 @@ countries:
     updated_on: 2020-06-09
   PT:
     sources:
+      domestic:
+        - 'Wearing a face mask is mandatory and [social distancing rules need to be observed](https://www.visitportugal.com/en/node/421189).'
       inbound:
-        - '[Flights will be permitted from all countries in the European Schengen travel zone except Spain and Italy, plus the UK, US, Canada, Brazil and a handful of other Portuguese-speaking countries.](https://www.schengenvisainfo.com/news/portugal-to-open-its-borders-for-tourists-from-certain-countries-only/)'
-        - '[Please note that the border with Spain is closed and is expected to reopen on July 1](https://pt.usembassy.gov/covid-19-information/)'
+        - '[Flights will be permitted from countries](https://www.schengenvisainfo.com/news/portugal-to-open-its-borders-for-tourists-from-certain-countries-only/) in the European Schengen travel zone except Spain and Italy. Flights are also permitted to some countries outside of the EU.'
+      outbound:
+        - 'Citizens residing in other countries are [guaranteed exit from Portugal.](https://www.visitportugal.com/en/node/421189)'
     travel:
+      inbound: yes
       inbound: partial
       inbound_allowed:
         - AO
@@ -3700,7 +3740,19 @@ countries:
         - SE
         - CH
         - VE
-    updated_on: 2020-06-09
+        - BR
+        - MZ
+        - CV
+        - GW
+        - ST
+        - TL
+        - US
+        - GB
+        - VE
+        - CA
+        - ZA
+      outbound: yes
+    updated_on: 2020-07-01
   PW:
     sources:
       inbound:
@@ -3717,11 +3769,17 @@ countries:
     updated_on: 2020-06-09
   QA:
     sources:
+      domestic:
+        - '[Restrictions are easing](https://www.garda.com/crisis24/news-alerts/355431/qatar-government-to-further-ease-covid-19-restrictions-from-july-1-update-22), so restaurants will be able to resume operations at a limited capacity and public parks and beaches will reopen. Offices will also be allowed to reopen at a maximum of 50 percent capacity. Private and public gatherings should not exceed a five-person limit.'
       inbound:
-        - '[Entry to the State of Qatar will only be allowed for Qatari nationals, who will be required to enter quarantine for a period of 14 days.](https://www.qatarairways.com/en-sg/travel-alerts.html)'
+        - 'Flights are able to depart, although [arrivals remain suspended](https://www.garda.com/crisis24/news-alerts/355431/qatar-government-to-further-ease-covid-19-restrictions-from-july-1-update-22).'
+      outbound:
+        - '[Flights are able to depart](https://www.garda.com/crisis24/news-alerts/355431/qatar-government-to-further-ease-covid-19-restrictions-from-july-1-update-22), although arrivals remain suspended.'
     travel:
+      inbound: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-09
+      inbound: 'yes'
+    updated_on: 2020-07-01
   RO:
     sources:
       inbound:
@@ -3751,7 +3809,7 @@ countries:
         - LU
         - MT
         - NL
-        - 'NO'
+        - NO
         - PL
         - PT
         - RO
@@ -3766,15 +3824,17 @@ countries:
       sources:
         domestic:
           - '[Social distancing measures apply.](https://covid19.rs/homepage-english/)'
+          - 'There is a ban on gatherings of more than 200 people, while schools and universities will remain closed [until further notice.](https://www.garda.com/crisis24/news-alerts/355606/serbia-authorities-announce-compulsory-use-of-face-masks-in-some-serbian-states-june-30-update-12)'
         inbound:
-          - '[All COVID-19 related entry restrictions are lifted for both Serbian and foreign citizens.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements)'
+          - 'All COVID-19 related entry restrictions are [lifted for both Serbian and foreign citizens.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements)'
         visa_quarantine:
-          - '[It is no longer necessary to have a negative PCR test or special permit to enter Serbia.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements)'
-          - '[The government of Serbia has abolished self-isolation requirements upon entry.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements)'
+          - 'It is no longer necessary to have a negative PCR test or special permit to [enter Serbia.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements)'
+          - 'The government of Serbia has [abolished self-isolation requirements upon entry.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements)'
       travel:
         domestic: partial
         inbound: yes
-      updated_on: 2020-06-23
+        outbound: yes
+      updated_on: 2020-07-01
   RU:
     sources:
       domestic:
@@ -4000,10 +4060,16 @@ countries:
   SN:
     sources:
       domestic:
-        - '[Senegal is in a state of emergency till July 2, 2020.](https://www.garda.com/crisis24/news-alerts/347411/senegal-authorities-extend-state-of-emergency-until-july-2-update-9)'
+        - 'Both the state of emergency and the nightly curfew, which were imposed due to the coronavirus disease (COVID-19) pandemic will be [lifted at 23:00 (local time) on Tuesday, July 30, 2020](https://www.garda.com/crisis24/news-alerts/355466/senegal-state-of-emergency-to-be-lifted-on-june-30-update-11).'
+      inbound:
+        - 'The government also stated that Senegal will open its borders to international flights under certain conditions from July 15; however, the [country''s land and sea borders will remain closed.](https://www.garda.com/crisis24/news-alerts/355466/senegal-state-of-emergency-to-be-lifted-on-june-30-update-11)'
+      outbound:
+        - 'The government also stated that Senegal will open its borders to international flights under certain conditions from July 15; however, the [country''s land and sea borders will remain closed.](https://www.garda.com/crisis24/news-alerts/355466/senegal-state-of-emergency-to-be-lifted-on-june-30-update-11)'
     travel:
       domestic: no
-    updated_on: 2020-06-23
+      inbound: no
+      outbound: no
+    updated_on: 2020-07-01
   SO:
     sources:
       domestic:
@@ -4081,23 +4147,22 @@ countries:
       outbound: 'no'
     updated_on: 2020-06-09
   TH:
-    reopening:
-      '2020-07-01': '[The government has set 1 July, 2020, for the lifting of all business and activity lockdowns ordered earlier to cope with Covid-19, said the National Security Council chief. These include interprovincial and international travel, as well as the end of emergency decree and curfew.](https://www.bangkokpost.com/learning/easy/1925844/)'
     sources:
       domestic:
-        - '[Domestic flights resume with extra safety protocols: Nok Air, AirAsia, Thai Lion Air and Thai Vietjet Air were allowed to reinstate flights between 14 provinces after a month-long suspension now that the number of Covid-19 infections was falling.](https://www.bangkokpost.com/business/1911300/domestic-flights-resume-with-extra-safety-protocols)'
-        - '[For the period of 1-30 June, 2020, Bangkok has allowed several types of businesses and activities to reopen.](https://www.tatnews.org/2020/06/bangkoks-third-phase-of-easing-lockdown-what-reopens-what-remains-closed/)'
+        - 'Domestic flights resume with extra safety protocols: Nok Air, AirAsia, Thai Lion Air and Thai Vietjet Air were [allowed to reinstate flights](https://www.bangkokpost.com/business/1911300/domestic-flights-resume-with-extra-safety-protocols) between 14 provinces after a month-long suspension now that the number of Covid-19 infections was falling.'
+        - 'For the period of 1-30 June, 2020, Bangkok has allowed [several types of businesses and activities to reopen.](https://www.tatnews.org/2020/06/bangkoks-third-phase-of-easing-lockdown-what-reopens-what-remains-closed/)'
+        - '[The state of emergency has been extended](https://www.tatnews.org/2020/06/bangkoks-third-phase-of-easing-lockdown-what-reopens-what-remains-closed/) until July 31, 2020, amid the coronavirus disease (COVID-19) pandemic.'
       inbound:
-        - '[From July 1, 2020, the international travel ban is expected to be lifted. ](https://www.caat.or.th/en/archives/50437)'
+        - '[From July 1, 2020, the international travel ban is expected to be lifted](https://www.caat.or.th/en/archives/51825) for nationals, residents, their families, diplomats, people with work permits, and people with special permissions.'
       outbound:
-        - '[Certain airports are still operating, including Suvarnabhumi Airport in Bangkok. Limited outbound flights available.](https://www.bangkokairportonline.com/flight-status-arrivals-departures/)'
+        - 'Certain airports are still operating, including Suvarnabhumi Airport in Bangkok. [Limited outbound flights available.](https://www.bangkokairportonline.com/flight-status-arrivals-departures/)'
       visa_quarantine:
-        - '[Passengers will be subject to the measures under communicable disease law, such as a 14-day state quarantine and the regulations under the Emergency Decree on State Emergency.](https://thaiembdc.org/wp-content/uploads/2020/05/CAAT-News-8-Extension-of-temporary-ban-on-all-international-flights-until-30-June-2020-1.pdf)'
+        - '[Passengers will be subject to the measures under communicable disease law](https://thaiembdc.org/wp-content/uploads/2020/05/CAAT-News-8-Extension-of-temporary-ban-on-all-international-flights-until-30-June-2020-1.pdf), such as a 14-day state quarantine and the regulations under the Emergency Decree on State Emergency.'
     travel:
       domestic: partial
-      inbound: 'no'
+      inbound: 'partial'
       outbound: partial
-    updated_on: 2020-06-09
+    updated_on: 2020-07-01
   TJ:
     sources:
       domestic:
