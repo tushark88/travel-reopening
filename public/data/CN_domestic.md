@@ -20,6 +20,7 @@ For the most up-to-date daily briefing of COVID-19 cases in China, refer to the 
 
 - Until at least September 18, 2020, all non-Hong Kong residents arriving by air from any location other than mainland China, Macau, and Taiwan will be denied entry. Non-Hong Kong residents arriving from mainland China, Macau, or Taiwan will be denied entry if they have been to any overseas countries and regions in the past two weeks.
 - Until at least July 7, 2020, Hong Kong residents and non-Hong Kong residents arriving from mainland China, Macau, or Taiwan with no travel to any overseas countries and regions in the past two weeks will be subject to a 14-day compulsory quarantine.
+- Until July 14, 2020, Hong Kong [bans gatherings](https://www.garda.com/crisis24/news-alerts/355666/hong-kong-ban-on-gatherings-of-more-than-50-people-extended-until-july-14-as-other-covid-19-measures-eased-update-30) of more than 50 people.
 
 For the most up-to-date daily information, refer to [The Government of Hong Kong Special Administrative Region](https://www.info.gov.hk/gia/general/202003/18/P2020031800758.htm).
 
