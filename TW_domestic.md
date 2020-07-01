@@ -10,4 +10,4 @@ These are the preventive measures that Taiwan has taken on the community level:
 - Specified upper limits for gatherings and assemblies
 - Social distancing to be observed at public gatherings and large business premises
 
-For the most up–to–date travel information, refer to [Taiwan's Ministry of Health and Welfare Community Transmission Prevention.](https://covid19.mohw.gov.tw/en/cp-4786-53904-206.html).
+For the most up-to-date travel information, refer to [Taiwan's Ministry of Health and Welfare Community Transmission Prevention.](https://covid19.mohw.gov.tw/en/cp-4786-53904-206.html).
