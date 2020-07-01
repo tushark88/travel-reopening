@@ -1364,7 +1364,7 @@ countries:
   HK:
     sources:
       domestic:
-        - '[A ban on gatherings of more than 50 people](https://mup.gov.hr/uzg-covid/english/286212) in Hong Kong, implemented in response to the coronavirus disease (COVID-19) pandemic, was extended by two weeks on Tuesday, June 30, 2020 until July 14, 2020.'
+        - '[A ban on gatherings of more than 50 people](https://mup.gov.hr/uzg-covid/english/286212) in Hong Kong, implemented in response to the coronavirus disease (COVID-19) pandemic, was extended by two weeks from Tuesday, June 30 to July 14, 2020.'
       inbound:
         - '[The Hong Kong SAR Government restricts](https://www.coronavirus.gov.hk/eng/travel-advice.html) any Hubei residents, and non-Hong Kong residents who have visited the Hubei Province in the past 14 days upon arrival from entering Hong Kong since January 27, 2020.'
       outbound:
