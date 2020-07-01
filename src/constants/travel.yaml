@@ -198,28 +198,39 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15
+    updated_on: 2020-07-01
   AZ:
     sources:
+      domestic:
+        - 'The Government of Azerbaijan has [implemented strict rules requiring people to stay inside](https://az.usembassy.gov/covid-19-information-for-azerbaijan/#:~:text=Entry%20and%20Exit%20Requirements&text=Currently%20all%20arrivals%20to%20Azerbaijan,facilities%2C%20regardless%20of%20travel%20origin), whether in private homes, apartments, or permanent or temporary residences and to monitor citizen movements.'
       inbound:
-        - '[Only residents and nationals of Azerbaijian allowed.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
+        - 'Flights into and out of Azerbaijan are [no longer available.](https://az.usembassy.gov/covid-19-information-for-azerbaijan/#:~:text=Entry%20and%20Exit%20Requirements&text=Currently%20all%20arrivals%20to%20Azerbaijan,facilities%2C%20regardless%20of%20travel%20origin)'
       outbound:
-        - '[All flights to and from Azerbaijan are suspended and movement between cities remains prohibited.](https://www.smartraveller.gov.au/destinations/europe/azerbaijan?)'
+        - 'Flights into and out of Azerbaijan are [no longer available.](https://az.usembassy.gov/covid-19-information-for-azerbaijan/#:~:text=Entry%20and%20Exit%20Requirements&text=Currently%20all%20arrivals%20to%20Azerbaijan,facilities%2C%20regardless%20of%20travel%20origin)'
+      visa_quarantine:
+        - 'Currently all arrivals to Azerbaijan, including U.S. citizens, are being placed in a [mandatory 14-day quarantine](https://az.usembassy.gov/covid-19-information-for-azerbaijan/#:~:text=Entry%20and%20Exit%20Requirements&text=Currently%20all%20arrivals%20to%20Azerbaijan,facilities%2C%20regardless%20of%20travel%20origin) in government-provided facilities, regardless of travel origin.'
+        - 'Azerbaijan has [temporarily suspended the issuance of e-visas.](https://az.usembassy.gov/covid-19-information-for-azerbaijan/#:~:text=Entry%20and%20Exit%20Requirements&text=Currently%20all%20arrivals%20to%20Azerbaijan,facilities%2C%20regardless%20of%20travel%20origin)'
     travel:
+      domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-15
+    updated_on: 2020-07-01
   BA:
     sources:
+      domestic:
+        - 'Wearing masks and social distancing (a minimum of 2 metres) are [mandatory in all public places](https://www.oecd.org/south-east-europe/COVID-19-Crisis-in-Bosnia-and-Herzegovina.pdf).'
       inbound:
-        - '[The BiH Council of Ministers has announced that it will allow entry to the citizens of Croatia, Serbia, and Montenegro as of June 1, 2020. There is still a ban to entry for non-resident foreign nationals.](https://ba.usembassy.gov/covid-19-information/)'
+        - 'The BiH Council of Ministers has announced that it will allow entry to the citizens of Croatia, Serbia, and Montenegro as of June 1, 2020. There is [still a ban to entry for non-resident foreign nationals.](https://ba.usembassy.gov/covid-19-information/)'
+      visa_quarantine:
+        - 'Both the Republika Srpska and the Federation have [abolished self-isolation measures for people entering BiH.](https://ba.usembassy.gov/covid-19-information/).'
     travel:
+      domestic: partial
       inbound: partial
       inbound_allowed:
         - HR
         - RS
         - ME
-    updated_on: 2020-06-15
+    updated_on: 2020-07-01
   BB:
     sources:
       domestic:
@@ -238,13 +249,15 @@ countries:
   BD:
     sources:
       domestic:
-        - '[Domestic commercial passenger flights will resume on a limited scale.](https://bd.usembassy.gov/covid-19-information/)'
+        - '[Domestic commercial passenger flights resumed on a limited scale.](https://bd.usembassy.gov/covid-19-information/)'
       inbound:
-        - '[Civil Aviation Authority of Bangladesh has announced that until 15 June, 2020, several countries will be banned from landing at any airport in Bangladesh.](https://bd.usembassy.gov/covid-19-information/)'
+        - '[Foreign nationals with valid visas will be required to produce a medical certificate (with English translation)](https://bd.usembassy.gov/covid-19-information/) to be obtained within 72 hours of travel, indicating that he/she is COVID-19 negative. This medical certificate needs to be submitted on arrival at the Bangladesh point of entry (airport/seaport/land port).'
+      visa_quarantine:
+        - 'The Government of Bangladesh has announced it has begun distributing health information cards and [conducting temperature screening of all passengers arriving in Bangladesh at all points of entry](https://bd.usembassy.gov/covid-19-information/).'
     travel:
       domestic: 'yes'
-      inbound: 'no'
-    updated_on: 2020-06-15
+      inbound: 'yes'
+    updated_on: 2020-07-01
   BE:
     sources:
       domestic:
@@ -1364,7 +1377,7 @@ countries:
   HK:
     sources:
       domestic:
-        - '[A ban on gatherings of more than 50 people](https://mup.gov.hr/uzg-covid/english/286212) in Hong Kong, implemented in response to the coronavirus disease (COVID-19) pandemic, was extended by two weeks from Tuesday, June 30 to July 14, 2020.'
+        - '[A ban on gatherings of more than 50 people](https://mup.gov.hr/uzg-covid/english/286212) in Hong Kong, implemented in response to the coronavirus disease (COVID-19) pandemic, was extended by two weeks on Tuesday, June 30, 2020 until July 14, 2020.'
       inbound:
         - '[The Hong Kong SAR Government restricts](https://www.coronavirus.gov.hk/eng/travel-advice.html) any Hubei residents, and non-Hong Kong residents who have visited the Hubei Province in the past 14 days upon arrival from entering Hong Kong since January 27, 2020.'
       outbound:
@@ -1391,11 +1404,19 @@ countries:
     updated_on: 2020-07-01
   HR:
     sources:
+      domestic:
+        - '[Wearing the mask is still mandatory](https://koronavirus.gov.hu/korlatozasok) in shops and on public transport.'
+        - 'Music and dance events for over 500 people are [still not possible.](https://koronavirus.gov.hu/korlatozasok)'
       inbound:
-        - '[Nationals of the Czech Republic, Hungary, Republic of Austria, Republic of Estonia, Republic of Latvia, Republic of Lithuania, Republic of Poland, Republic of Slovenia, Federal Republic of Germany and the Slovak Republic are not required to provide any special reason for their entry.](https://mup.gov.hr/uzg-covid/english/286212)'
-        - '[All other foreign nationals may enter the country for business reasons or other economic interests for the Republic of Croatia, and pressing personal reasons, if they provide relevant proof.](https://mup.gov.hr/uzg-covid/english/286212)'
+        - 'Nationals of the Czech Republic, Hungary, Republic of Austria, Republic of Estonia, Republic of Latvia, Republic of Lithuania, Republic of Poland, Republic of Slovenia, Federal Republic of Germany and the Slovak Republic are [not required to provide any special reason for their entry](https://mup.gov.hr/uzg-covid/english/286212).'
+        - 'As of June 17, citizens of Switzerland, Lichtenstein, Norway, and Iceland can enter Hungary without restrictions, and Hungarian citizens [can enter these countries freely](https://hu.usembassy.gov/covid-19/#:~:text=General%20Rule%3A,able%20to%20enter%20the%20country.), without having to undergo a mandatory quarantine.'
+        - 'All other foreign nationals may enter the country for business reasons or other economic interests for the Republic of Croatia, and pressing personal reasons, [if they provide relevant proof.](https://mup.gov.hr/uzg-covid/english/286212)'
+      outbound:
+        - 'Borders to some [neighbouring countries have reopened](https://hu.usembassy.gov/covid-19/#:~:text=General%20Rule%3A,able%20to%20enter%20the%20country.).'
     travel:
+      domestic: open
       inbound: partial
+      outbound: partial
       inbound_allowed:
         - CZ
         - HU
@@ -1407,7 +1428,11 @@ countries:
         - SI
         - DE
         - SK
-    updated_on: 2020-06-15
+        - CH
+        - NO
+        - LI
+        - IS
+    updated_on: 2020-07-01
   HT:
     sources:
       inbound:
@@ -4252,11 +4277,19 @@ countries:
     reopening:
       '2020-10-01': '[Projected reopening timeline: Foreign tourists may be allowed to visit the country in October, according to the Ministry of Transportation and Communications (MOTC).](https://www.taiwannews.com.tw/en/news/3937453)'
     sources:
+      domestic:
+        - 'The CECC has forwarded text messages via the national “Public Warning System (PWS) for transmissible diseases” to remind the public at particular locations [to maintain a safe social distance and wear masks.](https://covid19.mohw.gov.tw/en/cp-4786-53904-206.html).'
       inbound:
-        - '[Foreign travelers are prohibited from entering or transiting through Taiwan.](https://covid19.mohw.gov.tw/en/cp-4784-53773-206.html)'
+        - 'Foreign nationals may apply to enter Taiwan for reasons [other than tourism and regular social visits.](https://covid19.mohw.gov.tw/en/cp-4868-54641-206.html).'
+      outbound:
+        - 'Foreign nationals may apply to enter Taiwan for reasons [other than tourism and regular social visits.](https://covid19.mohw.gov.tw/en/cp-4868-54641-206.html).'
+      visa_quarantine:
+        - '[Taiwan advises against non-essential travel to all countries](https://www.cdc.gov.tw/En/Category/Page/6RfZbI-lhs_Y4Xm9YRx1yw).'
     travel:
-      inbound: 'no'
-    updated_on: 2020-06-09
+      domestic: 'yes'
+      inbound: 'partial'
+      outbound: 'no'
+    updated_on: 2020-07-01
   TZ:
     sources:
       domestic:
