@@ -22,4 +22,4 @@ As of June 25, 2020, transit travelers are allowed at Taiwan Taoyuan Internation
 
 The Taiwan Centers for Disease and Control has issued a Level 3 warning to avoid all non-essential travel to all countries.
 
-For the most up–to–date travel information, refer to [Taiwan Centers for Disease and Control.](https://www.cdc.gov.tw/En/Category/Page/6RfZbI-lhs_Y4Xm9YRx1yw).
+For the most up-to-date travel information, refer to [Taiwan Centers for Disease and Control.](https://www.cdc.gov.tw/En/Category/Page/6RfZbI-lhs_Y4Xm9YRx1yw).
