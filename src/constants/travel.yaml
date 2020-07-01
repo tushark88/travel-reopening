@@ -3702,7 +3702,7 @@ countries:
       outbound:
         - 'Citizens residing in other countries are [guaranteed exit from Portugal.](https://www.visitportugal.com/en/node/421189)'
     travel:
-      inbound: yes
+      domestic: yes
       inbound: partial
       inbound_allowed:
         - AO
@@ -3776,9 +3776,9 @@ countries:
       outbound:
         - '[Flights are able to depart](https://www.garda.com/crisis24/news-alerts/355431/qatar-government-to-further-ease-covid-19-restrictions-from-july-1-update-22), although arrivals remain suspended.'
     travel:
-      inbound: 'partial'
+      domestic: 'partial'
       inbound: 'no'
-      inbound: 'yes'
+      outbound: 'yes'
     updated_on: 2020-07-01
   RO:
     sources:
