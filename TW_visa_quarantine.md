@@ -20,4 +20,4 @@ Short-term business travelers can apply for a [shortened home quarantine](https:
 
 - Travelers entering Taiwan for business-related reasons like goods inspection, after-sale services, technical assistance, technical training, and contract         signing
 
-For the most up–to–date travel information, refer to [Taiwan's Ministry of Health and Welfare COVID-19 Timeline](https://covid19.mohw.gov.tw/en/sp-timeline0-206.html).
+For the most up-to-date travel information, refer to [Taiwan's Ministry of Health and Welfare COVID-19 Timeline](https://covid19.mohw.gov.tw/en/sp-timeline0-206.html).
