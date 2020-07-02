@@ -285,11 +285,57 @@ countries:
     updated_on: 2020-06-15
   BG:
     sources:
+      domestic:
+        - '[Wearing a disposable or reusable protective mask or other means](http://www.mh.government.bg/bg/novini/aktualno/ot-utre-23-yuni-noseneto-na-predpazna-maska-ili-dr/) covering the nose and mouth, including towels, scarfs, helmets, etc., is mandatory in all indoor public places.'
+        - '[A 50% occupancy condition applies](http://www.mh.government.bg/bg/novini/aktualno/ot-utre-23-yuni-noseneto-na-predpazna-maska-ili-dr/) to the holding of cultural and entertainment events indoors and outdoors.'
       inbound:
-        - '[From 14 May, 2020, to 14 June, 2020 entry to Bulgaria for all passengers (including EU and Schengen nationals) and by any means of transport, including aircraft, maritime transport and rail is temporarily prohibited. Exceptions include Bulgarian nationals and families.](https://www.mondaq.com/operational-impacts-and-strategy/948802/updates-to-coronavirus-travel-restrictions-introduced-in-bulgaria)'
+        - 'All nationals, permanent residents and their family members of the European Union, United Kingdom, the Schengen Agreement States including San Marino, Andorra, Monaco and Vatican City, Bosnia and Herzegovina, Montenegro, and Serbia, are [allowed into Bulgaria as of June 18, 2020](https://bg.usembassy.gov/novel-coronavirus-covid-19-information/#:~:text=Entry%20ban%3A%20U.S.%20citizens%20are,exceptions%20to%20this%20entry%20ban.&text=As%20of%20June%2018%2C%20permanent,countries%20may%20enter%20%E2%80%8BBulgaria).'
+      visa_quarantine:
+        - 'All persons (with limited exceptions) arriving in Bulgaria from Sweden, the United Kingdom, Portugal, and from all third countries (outside the European Union), except Serbia, Bosnia and Herzegovina and Montenegro, Iceland, Norway, Switzerland, Lichtenstein, San Marino, Andorra, Monaco, and Vatican City must [quarantine for a period of 14 days at home or at other accommodation](https://bg.usembassy.gov/novel-coronavirus-covid-19-information/#:~:text=Entry%20ban%3A%20U.S.%20citizens%20are,exceptions%20to%20this%20entry%20ban.&text=As%20of%20June%2018%2C%20permanent,countries%20may%20enter%20%E2%80%8BBulgaria).'
     travel:
-      inbound: 'no'
-    updated_on: 2020-06-15
+      domestic: 'partial'
+      inbound: 'partial'
+      inbound_allowed:
+        - SM
+        - AD
+        - MC
+        - VA
+        - BA
+        - ME
+        - RS
+        - GB
+        - AT
+        - BE
+        - BG
+        - HR
+        - CY
+        - CZ
+        - DK
+        - EE
+        - FI
+        - FR
+        - DE
+        - GR
+        - HU
+        - IE
+        - IT
+        - LV
+        - LT
+        - LU
+        - MT
+        - NL
+        - PL
+        - PT
+        - RO
+        - SK
+        - SI
+        - ES
+        - SE
+        - IS
+        - LI
+        - NO
+        - CH
+    updated_on: 2020-07-02
   BH:
     sources:
       inbound:
@@ -358,14 +404,14 @@ countries:
       domestic:
         - '[Inter island travel allowed with travel application.](https://www.osac.gov/Content/Report/1e5dbe0f-306f-429e-b385-18d348bd34ff)'
       inbound:
-        - '[All airports and seaports of The Bahamas remain closed to incoming international flights carrying visitors at this time, (including private airports).](https://bs.usembassy.gov/covid-19-information/)'
-      outbound:
-        - '[All airports and seaports of The Bahamas remain closed to incoming international flights carrying visitors at this time, (including private airports).](https://bs.usembassy.gov/covid-19-information/)'
+        - 'On July 1, 2020, the Bahamian government [reopened the country''s borders to international tourists](https://www.garda.com/crisis24/news-alerts/355966/bahamas-authorities-reopen-borders-to-international-tourism-on-july-1-update-6).'
+        - 'Those arriving before Tuesday, July 7, must [provide negative COVID-19 test results](https://www.garda.com/crisis24/news-alerts/355966/bahamas-authorities-reopen-borders-to-international-tourism-on-july-1-update-6) that are no more than ten days old. After July 7, arrivals must provide a test result that is no more than seven days old.'
+      visa_quarantine:
+        - 'Each traveler must submit a [Travel Health Visa Application form](https://www.osac.gov/Content/Report/1e5dbe0f-306f-429e-b385-18d348bd34ff).'
     travel:
       domestic: 'yes'
       inbound: 'no'
-      outbound: 'no'
-    updated_on: 2020-06-15
+    updated_on: 2020-07-02
   BT:
     sources:
       domestic:
@@ -414,23 +460,22 @@ countries:
   CA:
     sources:
       domestic:
-        - '[Interprovincial travel allowed](https://globalnews.ca/news/7102105/nb-covid-19-update-june-24/) for Nova Scotia, New Brunswick, Prince Edward Island and Newfoundland and Labrador without self-isolation.'
-        - '[Ontario extending the state of emergency](https://www.garda.com/crisis24/news-alerts/354086/canada-authorities-extend-state-of-emergency-in-ontario-until-july-15-update-17).'
-        - '[British Columbia extending the state of emergency](https://www.garda.com/crisis24/news-alerts/354061/canada-authorities-extend-state-of-emergency-in-british-columbia-until-july-7-update-16).'
+        - '[Interprovincial travel allowed](https://globalnews.ca/news/7106284/coronavirus-provincial-travel/) for Nova Scotia, New Brunswick, Prince Edward Island and Newfoundland and Labrador without self-isolation.'
+        - '[Ontario extending the state of emergency until July 15, 2020](https://www.garda.com/crisis24/news-alerts/354086/canada-authorities-extend-state-of-emergency-in-ontario-until-july-15-update-17).'
+        - '[British Columbia extending the state of emergency until July 7, 2020](https://www.garda.com/crisis24/news-alerts/354061/canada-authorities-extend-state-of-emergency-in-british-columbia-until-july-7-update-16).'
       inbound:
-        - '[Travelers arriving in Canada with symptoms consistent with COVID-19 may still enter Canada by land, rail or sea but not air.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#f)'
+        - '[current ban on most international travelers entering the country has been extended until July 31, 2020](https://www.garda.com/crisis24/news-alerts/355886/canada-authorities-extend-ban-on-most-foreign-travelers-until-july-31-update-18).'
       outbound:
-        - '[Avoid all essential travel.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#_Travellers_departing_Canada)'
+        - '[Avoid all essential travel](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#_Travellers_departing_Canada).'
       visa_quarantine:
-        - '[If you are Canadian or a permanent resident, and you have symptoms consistent with COVID-19, you may still enter Canada by land, rail, or sea. You may not enter Canada by air, to protect the health of all travelers.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).)'
-        - '[If you have symptoms, you must isolate for 14 days. This is mandatory.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).)'
-        - '[If you have recently returned to Canada and you have no symptoms, you must quarantine (self-isolate) for 14 days. ](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).)'
-        - '[All passengers flying in Canada will be subject to health screenings.](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic)'
+        - 'If you have symptoms, [you must isolate for 14 days](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).'
+        - 'If you have recently returned to Canada and you have no symptoms, [you must quarantine (self-isolate) for 14 days](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).'
+        - 'All passengers flying into Canada will be [subject to health screenings](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).'
     travel:
       domestic: partial
       inbound: partial
       outbound: 'yes'
-    updated_on: 2020-06-26
+    updated_on: 2020-07-02
   CD:
     sources:
       domestic:
@@ -532,7 +577,8 @@ countries:
   CN:
     sources:
       domestic:
-        - '[Certain areas need a ''green health code'', more information can be found in the link.](https://www.china-briefing.com/news/wp-content/uploads/2020/05/Travel-_-Entry-Policy-By-Province-As-of-May-24.jpg)'
+        - 'Certain areas need a ''green health code'', [more information can be found in the link](https://www.china-briefing.com/news/wp-content/uploads/2020/05/Travel-_-Entry-Policy-By-Province-As-of-May-24.jpg).'
+        - '[Beijing lifted lockdowns in five neighborhoods](https://www.china-briefing.com/news/wp-content/uploads/2020/05/Travel-_-Entry-Policy-By-Province-As-of-May-24.jpg) following a decrease in coronavirus disease (COVID-19) cases.'
       inbound:
         - '[In Beijing, all international flights are currently being redirected to one of 12 other cities.](https://www.china-briefing.com/news/chinas-travel-restrictions-due-to-covid-19-an-explainer/)'
       outbound:
@@ -547,7 +593,7 @@ countries:
       domestic: partial
       inbound: partial
       outbound: partial
-    updated_on: 2020-06-15
+    updated_on: 2020-07-02
   CO:
     sources:
       inbound:
@@ -572,11 +618,19 @@ countries:
     reopening:
       '2020-08-01': '[The suspension has been extended until 1 August, 2020.](https://cu.usembassy.gov/covid-19-information/)'
     sources:
+      domestic:
+        - 'The capital, Havana, will enter phase one of a three-phase normalization process. [Residents will be permitted](https://cu.usembassy.gov/covid-19-information/) to travel on public or private transport, go to the beach, visit bars and restaurants, and go to recreation centers.'
       inbound:
-        - '[On 2 April, 2020 the Cuban government suspended the arrival and departure of all international flights.](https://cu.usembassy.gov/covid-19-information/)'
+        - 'On 2 April, 2020 the Cuban government [suspended the arrival and departure of all international flights](https://cu.usembassy.gov/covid-19-information/).'
+      outbound:
+        - 'On 2 April, 2020 the Cuban government [suspended the arrival and departure of all international flights](https://cu.usembassy.gov/covid-19-information/).'
+      visa_quarantine:
+        - '[Authorities may isolate individuals](https://cu.usembassy.gov/covid-19-information/) arriving from COVID-19 high risk countries, or those exhibiting symptoms similar to COVID-19, as well as require screening and evaluation at a local hospital or clinic.'
     travel:
+      domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-15
+      outbound: 'no'
+    updated_on: 2020-07-02
   CV:
     sources:
       inbound:
@@ -638,7 +692,7 @@ countries:
         - LU
         - MT
         - NL
-        - 'NO'
+        - NO
         - PL
         - RO
         - SK
@@ -1713,11 +1767,12 @@ countries:
   JP:
     sources:
       domestic:
-        - '[Restrictions on inter-prefectural travel in the rest of the country were lifted on 1 June, 2020.](https://www.japan-guide.com/news/alerts.html)'
-        - '[The remaining restrictions on domestic travel are scheduled to be lifted from 19 June, 2020, and a campaign to promote domestic tourism is slated to start in late July, 2020.](https://www.japan-guide.com/news/alerts.html)'
+        - 'On June 19, the Japanese government [lifted domestic travel restrictions.](https://www.garda.com/crisis24/news-alerts/355956/japan-authorities-add-multiple-countries-to-entry-ban-on-july-1-update-31)'
+        - 'Both All Nippon Airways and Japan Airlines announced they would [increase domestic flights in July based on demand](https://www.garda.com/crisis24/news-alerts/355956/japan-authorities-add-multiple-countries-to-entry-ban-on-july-1-update-31); however, these will operate on a reduced schedule.'
       inbound:
         - '[Foreign nationals who have stayed in the listed areas are denied permission to enter Japan.](https://www.japan.travel/en/coronavirus/)'
         - '[Foreign nationals who have Chinese passports issued in Hubei Province or Zhejiang Province of China.](https://www.japan.travel/en/coronavirus/)'
+        - 'The Japanese government [added passengers from 18 countries to an entry ban](https://www.garda.com/crisis24/news-alerts/355956/japan-authorities-add-multiple-countries-to-entry-ban-on-july-1-update-31) in place to limit the spread of the coronavirus disease (COVID-19).'
       outbound:
         - '[No current restrictions on outbound travel. Airports remain operational.](https://www.japan.travel/en/coronavirus/)'
       visa_quarantine:
@@ -1800,7 +1855,7 @@ countries:
         - ME
         - NL
         - MK
-        - 'NO'
+        - NO
         - PL
         - PT
         - RO
@@ -1839,8 +1894,26 @@ countries:
         - MA
         - ZA
         - ST
+        - DZ
+        - CM
+        - CF
+        - CR
+        - CU
+        - SZ
+        - GE
+        - GD
+        - GT
+        - GY
+        - HT
+        - IQ
+        - JM
+        - LB
+        - MR
+        - NI
+        - VC
+        - SN
       outbound: 'yes'
-    updated_on: 2020-06-09
+    updated_on: 2020-07-02
   KE:
     sources:
       inbound:
@@ -3190,14 +3263,16 @@ countries:
   NG:
     sources:
       domestic:
-        - '[resumption of domestic flights which was scheduled to occur on Sunday, June 21, will be postponed until further notice.](https://www.garda.com/crisis24/news-alerts/352271/nigeria-domestic-flight-resumption-postponed-june-18-update-28)'
-        - '[Interstate travel also remains prohibited.](https://www.garda.com/crisis24/news-alerts/352271/nigeria-domestic-flight-resumption-postponed-june-18-update-28)'
+        - '[Travel between Nigeria''s states is now permitted](https://www.garda.com/crisis24/news-alerts/355926/nigeria-authorities-ease-covid-19-restrictions-on-july-1-update-30), and airports have reopened for domestic flights. While bus transportation has resumed, railways will remain closed until health guidelines are in place. Schools will also reopen for students in their final year in order for them to prepare for exams.'
       inbound:
         - '[As of Friday, June 19, all airports remain closed to international flights until further notice.](https://www.garda.com/crisis24/news-alerts/352271/nigeria-domestic-flight-resumption-postponed-june-18-update-28)'
+      outbound:
+        - '[As of Friday, June 19, all airports remain closed to international flights until further notice.](https://www.garda.com/crisis24/news-alerts/352271/nigeria-domestic-flight-resumption-postponed-june-18-update-28)'
     travel:
-      domestic: no
+      domestic: partial
       inbound: no
-    updated_on: 2020-06-22
+      outbound: no
+    updated_on: 2020-07-02
   NI:
     sources:
       inbound:
