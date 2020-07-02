@@ -43,11 +43,9 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes,
-  scrollBehavior(to) {
-    if (to.hash) {
-      return {
-        selector: to.hash,
-      };
+  scrollBehavior(to, from) {
+    if (to.name === from.name) {
+      return undefined;
     }
     return { x: 0, y: 0 };
   },
