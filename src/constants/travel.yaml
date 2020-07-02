@@ -629,7 +629,7 @@ countries:
     travel:
       domestic: 'partial'
       inbound: 'no'
-      inbound: 'no'
+      outbound: 'no'
     updated_on: 2020-07-02
   CV:
     sources:
@@ -3266,7 +3266,7 @@ countries:
         - '[Travel between Nigeria''s states is now permitted](https://www.garda.com/crisis24/news-alerts/355926/nigeria-authorities-ease-covid-19-restrictions-on-july-1-update-30), and airports have reopened for domestic flights. While bus transportation has resumed, railways will remain closed until health guidelines are in place. Schools will also reopen for students in their final year in order for them to prepare for exams.'
       inbound:
         - '[As of Friday, June 19, all airports remain closed to international flights until further notice.](https://www.garda.com/crisis24/news-alerts/352271/nigeria-domestic-flight-resumption-postponed-june-18-update-28)'
-      inbound:
+      outbound:
         - '[As of Friday, June 19, all airports remain closed to international flights until further notice.](https://www.garda.com/crisis24/news-alerts/352271/nigeria-domestic-flight-resumption-postponed-june-18-update-28)'
     travel:
       domestic: partial
