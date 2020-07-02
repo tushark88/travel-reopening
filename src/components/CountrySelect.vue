@@ -23,6 +23,10 @@ export default {
   components: { Multiselect },
   watch: {
     country(val) {
+      if (!val) {
+        this.$router.push({ name: 'Home' });
+        return;
+      }
       const country = this.getCountryByCode(val.code);
       if (this.$route.params.country === country.slug) return;
       this.$router.push({ name: 'Country', params: { country: country.slug } });
