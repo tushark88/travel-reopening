@@ -1377,7 +1377,7 @@ countries:
   HK:
     sources:
       domestic:
-        - '[A ban on gatherings of more than 50 people](https://mup.gov.hr/uzg-covid/english/286212) in Hong Kong, implemented in response to the coronavirus disease (COVID-19) pandemic, was extended by two weeks on Tuesday, June 30, 2020 until July 14, 2020.'
+        - '[A ban on gatherings of more than 50 people](https://mup.gov.hr/uzg-covid/english/286212) in Hong Kong, implemented in response to the coronavirus disease (COVID-19) pandemic, was extended by two weeks on Tuesday, June 30 to July 14, 2020.'
       inbound:
         - '[The Hong Kong SAR Government restricts](https://www.coronavirus.gov.hk/eng/travel-advice.html) any Hubei residents, and non-Hong Kong residents who have visited the Hubei Province in the past 14 days upon arrival from entering Hong Kong since January 27, 2020.'
       outbound:
@@ -1408,7 +1408,7 @@ countries:
         - '[Wearing the mask is still mandatory](https://koronavirus.gov.hu/korlatozasok) in shops and on public transport.'
         - 'Music and dance events for over 500 people are [still not possible.](https://koronavirus.gov.hu/korlatozasok)'
       inbound:
-        - 'Nationals of the Czech Republic, Hungary, Republic of Austria, Republic of Estonia, Republic of Latvia, Republic of Lithuania, Republic of Poland, Republic of Slovenia, Federal Republic of Germany and the Slovak Republic are [not required to provide any special reason for their entry](https://mup.gov.hr/uzg-covid/english/286212).'
+        - 'Nationals of the Czech Republic, Hungary, Austria, Estonia, Latvia, Lithuania, Poland, Slovenia, Germany and the Slovak Republic are [not required to provide any special reason for their entry](https://mup.gov.hr/uzg-covid/english/286212).'
         - 'As of June 17, citizens of Switzerland, Lichtenstein, Norway, and Iceland can enter Hungary without restrictions, and Hungarian citizens [can enter these countries freely](https://hu.usembassy.gov/covid-19/#:~:text=General%20Rule%3A,able%20to%20enter%20the%20country.), without having to undergo a mandatory quarantine.'
         - 'All other foreign nationals may enter the country for business reasons or other economic interests for the Republic of Croatia, and pressing personal reasons, [if they provide relevant proof.](https://mup.gov.hr/uzg-covid/english/286212)'
       outbound:
@@ -4284,7 +4284,7 @@ countries:
       outbound:
         - 'Foreign nationals may apply to enter Taiwan for reasons [other than tourism and regular social visits.](https://covid19.mohw.gov.tw/en/cp-4868-54641-206.html).'
       visa_quarantine:
-        - '[Taiwan advises against non-essential travel to all countries](https://www.cdc.gov.tw/En/Category/Page/6RfZbI-lhs_Y4Xm9YRx1yw).'
+        - 'Taiwan advises against [non-essential travel to all countries](https://www.cdc.gov.tw/En/Category/Page/6RfZbI-lhs_Y4Xm9YRx1yw).'
     travel:
       domestic: 'yes'
       inbound: 'partial'
