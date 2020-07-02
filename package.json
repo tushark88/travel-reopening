@@ -57,7 +57,7 @@
     "prerender-spa-plugin": "^3.4.0",
     "sass": "^1.26.9",
     "sass-loader": "^8.0.2",
-    "typescript": "~3.9.5",
+    "typescript": "~3.9.6",
     "vue-cli-plugin-yaml": "^1.0.2",
     "vue-template-compiler": "^2.6.11"
   }
