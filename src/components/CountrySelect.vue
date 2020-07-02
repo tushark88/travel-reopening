@@ -3,11 +3,14 @@
     id="country-select"
     label="name"
     open-direction="below"
+    :multiple="false"
+    :internal-search="false"
     :hideSelected="true"
-    :options="countryOptions"
+    :options="filteredOptions"
     :placeholder="placeholder"
     :selectLabel="selectLabel"
     :value="country"
+    @search-change="searchChange"
     @input="updateCountryAction">
     <template v-slot:noResult>No country found. Check the spelling and try again.</template>
   </multiselect>
@@ -15,12 +18,18 @@
 
 <script>
 import Multiselect from 'vue-multiselect';
+import { removeDiacritics } from '@/constants/countries';
 import { TravelDirection } from '@/constants/travel';
 import { mapGetters, mapState, mapActions } from 'vuex';
 
 export default {
   name: 'CountrySelect',
   components: { Multiselect },
+  data() {
+    return {
+      filteredOptions: [],
+    };
+  },
   watch: {
     country(val) {
       if (!val) {
@@ -46,8 +55,17 @@ export default {
         : 'Press enter to select';
     },
   }),
+  created() { this.filteredOptions = this.countryOptions; },
   methods: {
     ...mapActions(['updateCountryAction']),
+    searchChange(search) {
+      this.filteredOptions = search
+        ? this.countryOptions.filter((option) => {
+          const regExp = new RegExp(removeDiacritics(search), 'gi');
+          return regExp.test(option.searchKey);
+        })
+        : this.countryOptions;
+    },
   },
 };
 </script>

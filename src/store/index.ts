@@ -2,7 +2,7 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 // @ts-ignore
-import * as CountryOptions from '@/constants/countries';
+import { countries as CountryOptions } from '@/constants/countries';
 // @ts-ignore
 import { countries } from '@/constants/travel.yaml';
 import { OpenStatus, TravelDirection } from '@/constants/travel';
