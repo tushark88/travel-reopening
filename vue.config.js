@@ -11,7 +11,7 @@ const basePath = process.env.NODE_ENV === 'production'
 const buildDir = 'dist';
 
 const sitemapPaths = require('./src/utils/sitemapPaths');
-const countries = require('./src/constants/countries.js');
+const { countries } = require('./src/constants/countries.js');
 
 const routes = countries.map((c) => `${basePath}${c.slug}.html`);
 routes.push(`${basePath}about.html`, `${basePath}subscribe.html`, `${basePath}404.html`, basePath);

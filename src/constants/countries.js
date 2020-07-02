@@ -1,12 +1,8 @@
 /* eslint-disable-next-line @typescript-eslint/no-var-requires */
-const countries = require('./country-codes_json.json');
+const countriesJson = require('./country-codes_json.json');
 
-const removeDiacritics = function (text) {
-  return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-};
-
-/* eslint-disable-next-line func-names */
-const toSlug = function (name) {
+const removeDiacritics = (text) => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const toSlug = (name) => {
   if (!name) { return ''; }
   return removeDiacritics(name)
     .replace(/(\.|\(|\)|-|&)+/, '')
@@ -16,7 +12,7 @@ const toSlug = function (name) {
     .join('_');
 };
 
-const cc = countries.map((c) => {
+const countries = countriesJson.map((c) => {
   const name = c['CLDR display name'];
   return {
     id: c['ISO3166-1-numeric'],
@@ -27,4 +23,7 @@ const cc = countries.map((c) => {
   };
 }).filter(({ name }) => !!name);
 
-module.exports = cc;
+module.exports = {
+  countries,
+  removeDiacritics,
+};
