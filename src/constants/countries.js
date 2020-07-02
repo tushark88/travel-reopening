@@ -16,6 +16,8 @@ const countries = countriesJson.map((c) => {
   const name = c['CLDR display name'];
   const searchKey = [
     name,
+    c['ISO3166-1-Alpha-3'],
+    c['UNTERM English Formal'],
   ].join(',');
 
   return {
