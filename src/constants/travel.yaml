@@ -3920,7 +3920,7 @@ countries:
       visa_quarantine:
         - '[The state of alert requires home-quarantine for all people arriving in Romania except for certain professionals and people entering the country after spending at least 14 days in certain countries with low COVID-19 case growth, as determined by the National Institute of Public Health on a weekly basis](https://ro.usembassy.gov/covid-19-information/)'
     travel:
-      inbound: partial
+      domestic: partial
       inbound: partial
       inbound_allowed:
         - AT
