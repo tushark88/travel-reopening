@@ -708,8 +708,8 @@ countries:
         - SI
         - ES
         - SE
-    updated_on: 2020-07-03
       outbound: partial
+    updated_on: 2020-07-03
   DE:
     sources:
       domestic:
