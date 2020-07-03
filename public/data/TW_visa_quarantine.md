@@ -1,4 +1,4 @@
-Foreign nationals, Hong Kong, and Macao residents entering Taiwan will need to abide by these restrictions:
+Foreign nationals, Hong Kong, and Macau residents entering Taiwan will need to abide by these restrictions:
 
 - Travelers who are departing from low to medium risk countries as approved by the [Central Epidemic Command Center (CECC)](https://www.cdc.gov.tw/En/Bulletin/Detail/pevkg6JalT40I4uB6wAWcg?typeid=158)
 
