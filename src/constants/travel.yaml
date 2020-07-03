@@ -479,14 +479,15 @@ countries:
   CD:
     sources:
       domestic:
-        - '[The Congolese government has been easing COVID-19 restrictions across the country since the end of April, with the reopening of shops and other facilities in major urban centers](https://www.garda.com/crisis24/news-alerts/352646/drc-government-extends-state-of-health-emergency-until-july-5-update-17)'
+        - 'The Congolese government has been easing COVID-19 restrictions across the country since the end of April, with the [reopening of shops and other facilities in major urban centers](https://www.garda.com/crisis24/news-alerts/352646/drc-government-extends-state-of-health-emergency-until-july-5-update-17).'
+        - 'Shops, cafes, bars, restaurants, and government offices have [reopened in Gombe](https://www.garda.com/crisis24/news-alerts/352646/drc-government-extends-state-of-health-emergency-until-july-5-update-17), but the central market remains closed.'
       inbound:
-        - '[DRC has suspended all international passenger flights until further notice. All domestic passenger flights between Kinshasa and the provinces are suspended. All road and river transport between Kinshasa and the provinces are suspended for passenger traffic.](https://cd.usembassy.gov/covid-19-information/)'
+        - 'DRC has [suspended all international passenger flights until further notice](https://cd.usembassy.gov/covid-19-information/). All domestic passenger flights between Kinshasa and the provinces are suspended. All road and river transport between Kinshasa and the provinces are suspended for passenger traffic.'
         - '[Increased exceptions for cross-border travel.](https://www.garda.com/crisis24/news-alerts/352646/drc-government-extends-state-of-health-emergency-until-july-5-update-17)'
     travel:
       domestic: 'partial'
       inbound: 'partial'
-    updated_on: 2020-06-15
+    updated_on: 2020-07-03
   CF:
     sources:
       domestic: null
@@ -668,15 +669,24 @@ countries:
     updated_on: 2020-06-16
   CZ:
     sources:
+      domestic:
+        - 'Domestic travel is [allowed in the Czech Republic](https://koronavirus.mzcr.cz/en/roadmap-for-easing-measures/).'
       inbound:
-        - '[Entry is allowed for certain countries.](https://www.mvcr.cz/mvcren/docDetail.aspx?docid=22239932&doctype=ART)'
+        - 'The Czech Republic allows entry to citizens of the [European Union](https://koronavirus.mzcr.cz/en/list-of-european-countries-according-to-the-level-of-risk/).'
+      outbound:
+        - 'Exit for Czech Republic citizens is [allowed](https://www.bbc.com/news/world-europe-52411989).'
+      visa_quarantine:
+        - '[Entry for travelers of any origin, must present the necessaary travel documents required for entry](https://www.mvcr.cz/mvcren/docDetail.aspx?docid=22239932&doctype=ART).'
     travel:
+      domestic: yes
       inbound: partial
       inbound_allowed:
         - AT
+        - BE
         - BG
         - HR
         - CY
+        - CZ
         - DK
         - EE
         - FI
@@ -684,22 +694,22 @@ countries:
         - DE
         - GR
         - HU
-        - IS
+        - IE
         - IT
-        - LI
-        - LT
         - LV
+        - LT
         - LU
         - MT
         - NL
-        - NO
         - PL
+        - PT
         - RO
         - SK
         - SI
         - ES
-        - CH
-    updated_on: 2020-06-16
+        - SE
+    updated_on: 2020-07-03
+      outbound: partial
   DE:
     sources:
       domestic:
@@ -835,11 +845,20 @@ countries:
     updated_on: 2020-06-15
   EG:
     sources:
+      domestic:
+        - 'Hotels in Egypt have now resumed operation, and have been able to operate at 50% capacity since June 1, 2020. Casinos are also allowed to open if they [do not exceed 50% of their total capacity.](https://www.garda.com/crisis24/news-alerts/355906/egypt-national-carrier-announces-resumption-of-flights-from-july-1-update-30).'
       inbound:
-        - '[Flights to Egypt are suspended.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
+        - 'EgyptAir officials have announced that international commercial flights will [resume from Wednesday, July 1, 2020](https://www.garda.com/crisis24/news-alerts/355906/egypt-national-carrier-announces-resumption-of-flights-from-july-1-update-30).'
+        - 'A limited number of services to Egypt are now [operating from a variety of international destinations](https://www.egyptonlinevisa.com/travel-restrictions/).'
+      outbound:
+        - '[Outbound travel from egypt is not restricted](https://www.egyptonlinevisa.com/travel-restrictions/).'
+      visa_quarantine:
+        - 'All passengers arriving in Egypt by air, including returning Egyptian residents, are still required to have their [temperature taken and self-quarantine for 7 days.](https://www.egyptonlinevisa.com/travel-restrictions/)'
     travel:
-      inbound: 'no'
-    updated_on: 2020-06-15
+      domestic: 'partial'
+      inbound: 'partial'
+      outbound: 'yes'
+    updated_on: 2020-07-03
   ER:
     sources:
       inbound:
@@ -1055,11 +1074,18 @@ countries:
     updated_on: 2020-06-15
   GA:
     sources:
+      domestic:
+        - 'Travel by air, boat, and train within Gabon is also [allowed.](https://www.garda.com/crisis24/news-alerts/355856/gabon-authorities-further-ease-covid-19-restrictions-as-of-july-1-update-9)'
       inbound:
-        - '[As of 21 March, 2020, all land, sea, and air borders are closed, with the exception of freight shipments, which are still permitted.](https://ga.usembassy.gov/u-s-citizen-services/coronavirus-update/)'
+        - '[Commercial air travel may resume](https://www.garda.com/crisis24/news-alerts/355856/gabon-authorities-further-ease-covid-19-restrictions-as-of-july-1-update-9), with two international flights per airline per week.'
+        - 'Gabon''s land and sea borders, however, will [remain closed to travelers,](https://www.garda.com/crisis24/news-alerts/355856/gabon-authorities-further-ease-covid-19-restrictions-as-of-july-1-update-9).'
+      outbound:
+        - '[Commercial air travel may resume](https://www.garda.com/crisis24/news-alerts/355856/gabon-authorities-further-ease-covid-19-restrictions-as-of-july-1-update-9), with two international flights per airline per week.'
     travel:
-      inbound: 'no'
-    updated_on: 2020-06-15
+      domestic: 'yes'
+      inbound: 'partial'
+      outbound: 'no'
+    updated_on: 2020-07-03
   GB:
     sources:
       domestic:
@@ -1561,20 +1587,17 @@ countries:
   IN:
     sources:
       domestic:
-        - '[Domestic flights have resumed with strict restrictions.](https://www.freepressjournal.in/india/ready-to-take-that-domestic-flight-here-is-the-list-of-guidelines-issued-by-dgca-for-airlines)'
-        - '[Lockdown restrictions in different cities differ.](https://www.bbc.com/news/world-asia-india-52707371)'
+        - 'Domestic flights have resumed with [strict restrictions](https://www.freepressjournal.in/india/ready-to-take-that-domestic-flight-here-is-the-list-of-guidelines-issued-by-dgca-for-airlines).'
+        - 'Lockdown restrictions in different cities [differ](https://www.bbc.com/news/world-asia-india-52707371).'
       inbound:
-        - '[Travel of passengers from Afghanistan, Philippines, Malaysia to India is prohibited with immediate effect.](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf)'
-        - >-
-          [Passengers travelling from / having visited Italy or Republic of Korea and desirous of entering India will need certificate of having tested negative from COVID-19 from the designated laboratories authorized by Health Authority of these
-          countries.](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-0#:~:text=15%2C%202020%20shall%20be%20quarantined,minimum%20period%20of%2014%20days.&text=Incoming%20travellers%20including%20Indian%20nationals,on%20their%20arrival%20in%20India)
-        - >-
-          [On March 18, 2020, more countries were added to the list of restricted countries](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf)
+        - 'Travel of passengers from Afghanistan, Philippines, Malaysia to India is [prohibited with immediate effect](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf).'
+        - 'Passengers travelling from / having visited Italy or Republic of Korea and desirous of entering India will need [certificate of having tested negative from COVID-19 from the designated laboratories](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-0#:~:text=15%2C%202020%20shall%20be%20quarantined,minimum%20period%20of%2014%20days.&text=Incoming%20travellers%20including%20Indian%20nationals,on%20their%20arrival%20in%20India) authorized by Health Authority of these countries.'
+        - 'On March 18, 2020, more countries were added to the [list of restricted countries](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf).'
+        - '[Nepal and Bhutan nationals are allowed. Maldives nationals would require visa](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf).'
       outbound:
-        - '[Air India continues to add commercial evacuation flights departing from India to international destinations](https://in.usembassy.gov/covid-19-information/)'
+        - '[Indians are strongly advised to avoid non essential travel](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-1) to Corona Virus affected countries.'
       visa_quarantine:
-        - '[All scheduled international commercial passenger services shall remain closed till prohibition on international travel of passengers from/to India is lifted by the Government of India. However, this restriction will not apply to international cargo operations and flights especially approved by DGCA.](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-1)'
-        - '[Refer to the FAQ on New Visa Restrictions for COVID-19.](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf)'
+        - 'Refer to the [FAQ on New Visa Restrictions for COVID-19.](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf)'
     travel:
       domestic: partial
       inbound: partial
@@ -1615,8 +1638,8 @@ countries:
         - CH
         - TR
         - GB
-      outbound: 'no'
-    updated_on: 2020-06-15
+      outbound: 'yes'
+    updated_on: 2020-07-03
   IQ:
     sources:
       domestic:
@@ -2273,11 +2296,18 @@ countries:
     updated_on: 2020-06-12
   LB:
     sources:
+      domestic:
+        - 'Public gatherings are to remain banned and cultural venues will not reopen and other various measures will be [extended until August 2, 2020](https://www.garda.com/crisis24/news-alerts/355786/lebanon-authorities-announce-extension-of-covid-19-restrictions-until-august-2-update-26).'
       inbound:
-        - '[Rafic Hariri International Airport is closed as of midnight, 19 March, 2020. Commercial flight service from Rafic Hariri International Airport will be suspended until the airport reopens. All land border crossings into Syria have been closed indefinitely as of 12 March, 2020.](https://www.gov.uk/foreign-travel-advice/lesotho)'
+        - 'The announcement comes as Lebanon [prepares to reopen](https://www.garda.com/crisis24/news-alerts/355786/lebanon-authorities-announce-extension-of-covid-19-restrictions-until-august-2-update-26) Rafic Hariri International Airport (BEY) on Wednesday, July 1, 2020.'
+        - 'The airport will operate at 10 percent capacity following its reopening, [permitting for 2000 travelers per day](https://www.garda.com/crisis24/news-alerts/355786/lebanon-authorities-announce-extension-of-covid-19-restrictions-until-august-2-update-26).'
+      visa_quarantine:
+        - 'Under new government regulations, arrivals will not be required to undergo a quarantine period but will be asked to undergo a [COVID-19 test 96 hours before arrival, as well as once more in Beirut](https://www.garda.com/crisis24/news-alerts/355786/lebanon-authorities-announce-extension-of-covid-19-restrictions-until-august-2-update-26). A 100USD fee will be payable to the airline for the test.'
     travel:
-      inbound: 'no'
-    updated_on: 2020-06-12
+      domestic: 'partial'
+      inbound: 'partial'
+      outbound: 'partial'
+    updated_on: 2020-07-03
   LC:
     sources:
       domestic:
@@ -2641,8 +2671,9 @@ countries:
   MA:
     sources:
       domestic:
-        - '[Government has classified the country into 2 zones, with different restrictions for each zone.](https://www.garda.com/crisis24/news-alerts/352501/morocco-further-easing-of-covid-19-restrictions-from-june-19-update-17)'
-        - '[Moroccan authorities announced on Monday, June 22, that domestic flights would be permitted to resume from Thursday, June 25, amid the further easing of coronavirus disease (COVID-19) restrictions.](https://www.garda.com/crisis24/news-alerts/353416/morocco-authorities-announce-resumption-of-domestic-flights-from-june-25-update-18)'
+        - 'Government has classified the country into 2 zones, [with different restrictions for each zone.](https://www.garda.com/crisis24/news-alerts/352501/morocco-further-easing-of-covid-19-restrictions-from-june-19-update-17)'
+        - '[Inter-provincial travel is permitted](https://www.garda.com/crisis24/news-alerts/353416/morocco-authorities-announce-resumption-of-domestic-flights-from-june-25-update-18), subject to movement restrictions in certain areas. You must carry identification documents with you at all times.'
+        - 'As of June 25, 2020, [domestic transport services, including flights and railways, have resumed](https://www.garda.com/crisis24/news-alerts/353416/morocco-authorities-announce-resumption-of-domestic-flights-from-june-25-update-18).'
       inbound:
         - '[All commercial flights to or from Morocco have now been suspended. Passenger ferry links between Morocco and Spain and Gibraltar have also been suspended.](https://www.gov.uk/foreign-travel-advice/morocco/entry-requirements)'
         - '[The Kingdom of Morocco has decided to suspend, until further notice, all international passenger flights to and from its territory](https://www.diplomatie.ma/en/morocco-suspends-all-international-passenger-flights-its-territory)'
@@ -3462,22 +3493,21 @@ countries:
   PH:
     sources:
       domestic:
-        - '[Restrictions slowly easing, but high-risk districts deemed as ''critical zones'' will remain under lockdown. Districts that report two or more cases of COVID-19 per week, will also remain under strict shelter-at-home restrictions.](https://www.garda.com/crisis24/news-alerts/346436/philippines-authorities-ease-lockdown-in-metro-manila-from-june-1-update-22)'
-        - '[For domestic travellers, quarantine and testing policies of local government units may be applicable. Guests travelling on domestic routes are advised to check local travel guidelines.](https://newsroom.airasia.com/news/2020/5/31/frequently-asked-questions-precautionary-measures-before-you-fly-with-airasia)'
+        - 'Restrictions slowly easing, but high-risk districts deemed as []''critical zones'' will remain under lockdown](https://www.garda.com/crisis24/news-alerts/346436/philippines-authorities-ease-lockdown-in-metro-manila-from-june-1-update-22). Districts that report two or more cases of COVID-19 per week, will also remain under strict shelter-at-home restrictions.'
+        - 'For domestic travellers, quarantine and testing policies of local government units may be applicable. Guests travelling on domestic routes are advised to check [local travel guidelines.](https://newsroom.airasia.com/news/2020/5/31/frequently-asked-questions-precautionary-measures-before-you-fly-with-airasia)'
+        - 'Filipino President Rodrigo Duterte announced on Tuesday, June 30, 2020, that the lockdown would be [extended in Cebu City until July 15, 2020](https://newsroom.airasia.com/news/2020/5/31/frequently-asked-questions-precautionary-measures-before-you-fly-with-airasia).'
       inbound:
-        - >-
-          [On May 9, 2020, the Civil Aviation Authority of the Philippines (CAAP) announced that Manila's Ninoy Aquino International Airport (MNL) will resume international flight arrivals from Monday, 11 May, 2020, following new entry requirements introduced due to the coronavirus disease (COVID-19) pandemic. As such, the airport will operate on a limited basis with a cap on passenger
-          arrivals.](https://www.garda.com/crisis24/news-alerts/340496/philippines-manilas-ninoy-aquino-international-airport-mnl-to-resume-international-flight-arrivals-from-may-11-update-18)
+        - 'On May 9, 2020, the Civil Aviation Authority of the Philippines (CAAP) announced that Manila''s Ninoy Aquino International Airport (MNL) will resume international flight arrivals from Monday, 11 May, 2020, following new entry requirements introduced due to the coronavirus disease (COVID-19) pandemic. As such, the airport will operate on a [limited basis with a cap on passenger arrivals.](https://www.garda.com/crisis24/news-alerts/340496/philippines-manilas-ninoy-aquino-international-airport-mnl-to-resume-international-flight-arrivals-from-may-11-update-18)'
       outbound:
-        - '[All foreign nationals may now fly out of the country at any time, subject to availability of flights. No Filipino tourists shall be allowed to fly out of the country at any time.](https://www.philippineairlines.com/en/ph/home/covid-19/travelrules)'
+        - 'All foreign nationals may now fly out of the country at any time, subject to availability of flights. [No Filipino tourists shall be allowed to fly out of the country at any time.](https://www.philippineairlines.com/en/ph/home/covid-19/travelrules)'
       visa_quarantine:
         - '[Visa-free privileges of foreign nationals are temporarily suspended.](https://www.dfa.gov.ph/covid-19-advisories/26402-travel-advisory-inbound-travel-restrictions-by-the-philippine-government-on-foreign-travelers)'
-        - '[All issuance of entry visas for visa-required foreign nationals are suspended while all previously-issued visas are cancelled, except those issued to Foreign Government and International Organization officials accredited to the Philippines, or foreign spouse and children of Filipino nationals.](https://www.dfa.gov.ph/covid-19-advisories/26402-travel-advisory-inbound-travel-restrictions-by-the-philippine-government-on-foreign-travelers)'
+        - 'All issuance of [entry visas for visa-required foreign nationals are suspended](https://www.dfa.gov.ph/covid-19-advisories/26402-travel-advisory-inbound-travel-restrictions-by-the-philippine-government-on-foreign-travelers) while all previously-issued visas are cancelled, except those issued to Foreign Government and International Organization officials accredited to the Philippines, or foreign spouse and children of Filipino nationals.'
     travel:
       domestic: partial
-      inbound: 'no'
+      inbound: partial
       outbound: partial
-    updated_on: 2020-06-09
+    updated_on: 2020-07-03
   PK:
     sources:
       inbound:
@@ -3882,18 +3912,22 @@ countries:
     updated_on: 2020-07-01
   RO:
     sources:
+      domestic:
+        - '[The Romanian Government permitted the reopening of shopping centers, fitness clubs, private indoor events of no more than 20 people, and outdoor events of no more than 50 people](https://www.garda.com/crisis24/news-alerts/355876/romania-authorities-postpone-relaxing-of-some-covid-19-restrictions-june-30-update-9).'
+        - '[The relaxation of measures was scheduled to take place on Wednesday, July 1, 2020](https://www.garda.com/crisis24/news-alerts/355876/romania-authorities-postpone-relaxing-of-some-covid-19-restrictions-june-30-update-9).'
       inbound:
-        - '[Certain passengers are permitted to enter Romania. Refer to IATA website for more information.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
+        - 'The Government has [eased commercial flight and travel restrictions to 22 countries](https://ro.usembassy.gov/covid-19-information/) with documented COVID-19 case reduction as of June 22, 2020.'
+      visa_quarantine:
+        - '[The state of alert requires home-quarantine for all people arriving in Romania except for certain professionals and people entering the country after spending at least 14 days in certain countries with low COVID-19 case growth, as determined by the National Institute of Public Health on a weekly basis](https://ro.usembassy.gov/covid-19-information/)'
     travel:
+      inbound: partial
       inbound: partial
       inbound_allowed:
         - AT
-        - BE
         - BG
-        - HR
-        - CY
         - CZ
-        - DK
+        - CY
+        - HR
         - EE
         - FI
         - FR
@@ -3906,20 +3940,12 @@ countries:
         - LV
         - LI
         - LT
-        - LU
         - MT
-        - NL
         - NO
-        - PL
-        - PT
-        - RO
         - SK
         - SI
-        - ES
-        - SE
         - CH
-        - GB
-    updated_on: 2020-06-09
+    updated_on: 2020-07-03
     RS:
       sources:
         domestic:
@@ -3944,7 +3970,7 @@ countries:
     travel:
       domestic: partial
       inbound: 'no'
-    updated_on: 2020-06-23
+    updated_on: 2020-07-03
   RW:
     sources:
       inbound:
