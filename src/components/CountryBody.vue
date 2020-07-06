@@ -4,14 +4,6 @@
     <div v-if="!!this.content">
       <vue-markdown :source="content" :anchorAttributes='anchorAttributes'></vue-markdown>
     </div>
-    <div v-else>
-      <p>
-        Oops...sorry, we don't have information at the moment.
-        Help us improve this data by dropping us
-        <a href="mailto:travel-map@tourhero.com?subject=Travel+Map+Update">an email</a>.
-        Thank you very much for your help!
-      </p>
-    </div>
   </div>
 </template>
 

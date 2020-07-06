@@ -32,12 +32,15 @@
                 <h3>Visa &amp; Quarantine Measures</h3>
               </CountryBody>
             </div>
-            <div v-else>
-              Oops...sorry, we don't have information about {{country.name}} at the moment.
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel__inner">
+            <p class="mb-0">
               Help us improve this data by dropping us
               <a href="mailto:travel-map@tourhero.com?subject=Travel+Map+Update">an email</a>.
               Thank you very much for your help!
-            </div>
+            </p>
           </div>
         </div>
         <CountrySources :countryCode="country.code" />
