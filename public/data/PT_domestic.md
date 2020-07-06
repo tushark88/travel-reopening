@@ -1,4 +1,4 @@
-There are no restrictions on domestic travel in Portugal.
+There are no restrictions on domestic travel in Portugal. Portugal has lowered its [state of alert](http://www.xinhuanet.com/english/2020-06/29/c_139173761.htm) to the lowest of three emergency levels.
 
 Wearing a face mask is mandatory and social distancing rules need to be observed when:
 
