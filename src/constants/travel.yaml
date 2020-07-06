@@ -1595,7 +1595,7 @@ countries:
         - 'On March 18, 2020, more countries were added to the [list of restricted countries](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf).'
         - '[Nepal and Bhutan nationals are allowed. Maldives nationals would require visa](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf).'
       outbound:
-        - '[Indians are strongly advised to avoid non essential travel](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-1) to Corona Virus affected countries.'
+        - '[Indians are strongly advised to avoid non-essential travel](https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19-1) to Corona Virus affected countries.'
       visa_quarantine:
         - 'Refer to the [FAQ on New Visa Restrictions for COVID-19.](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf)'
     travel:
@@ -3493,11 +3493,11 @@ countries:
   PH:
     sources:
       domestic:
-        - 'Restrictions slowly easing, but high-risk districts deemed as []''critical zones'' will remain under lockdown](https://www.garda.com/crisis24/news-alerts/346436/philippines-authorities-ease-lockdown-in-metro-manila-from-june-1-update-22). Districts that report two or more cases of COVID-19 per week, will also remain under strict shelter-at-home restrictions.'
+        - 'Restrictions slowly easing, but high-risk districts deemed as [''critical zones'' will remain under lockdown](https://www.garda.com/crisis24/news-alerts/346436/philippines-authorities-ease-lockdown-in-metro-manila-from-june-1-update-22). Districts that report two or more cases of COVID-19 per week, will also remain under strict shelter-at-home restrictions.'
         - 'For domestic travellers, quarantine and testing policies of local government units may be applicable. Guests travelling on domestic routes are advised to check [local travel guidelines.](https://newsroom.airasia.com/news/2020/5/31/frequently-asked-questions-precautionary-measures-before-you-fly-with-airasia)'
         - 'Filipino President Rodrigo Duterte announced on Tuesday, June 30, 2020, that the lockdown would be [extended in Cebu City until July 15, 2020](https://newsroom.airasia.com/news/2020/5/31/frequently-asked-questions-precautionary-measures-before-you-fly-with-airasia).'
       inbound:
-        - 'On May 9, 2020, the Civil Aviation Authority of the Philippines (CAAP) announced that Manila''s Ninoy Aquino International Airport (MNL) will resume international flight arrivals from Monday, 11 May, 2020, following new entry requirements introduced due to the coronavirus disease (COVID-19) pandemic. As such, the airport will operate on a [limited basis with a cap on passenger arrivals.](https://www.garda.com/crisis24/news-alerts/340496/philippines-manilas-ninoy-aquino-international-airport-mnl-to-resume-international-flight-arrivals-from-may-11-update-18)'
+        - 'On May 9, 2020, the Civil Aviation Authority of the Philippines (CAAP) announced that Manila''s Ninoy Aquino International Airport (MNL) will resume international flight arrivals from Monday, May 11, 2020, following new entry requirements introduced due to the coronavirus disease (COVID-19) pandemic. As such, the airport will operate on a [limited basis with a cap on passenger arrivals.](https://www.garda.com/crisis24/news-alerts/340496/philippines-manilas-ninoy-aquino-international-airport-mnl-to-resume-international-flight-arrivals-from-may-11-update-18)'
       outbound:
         - 'All foreign nationals may now fly out of the country at any time, subject to availability of flights. [No Filipino tourists shall be allowed to fly out of the country at any time.](https://www.philippineairlines.com/en/ph/home/covid-19/travelrules)'
       visa_quarantine:
