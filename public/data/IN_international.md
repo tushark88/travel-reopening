@@ -2,8 +2,10 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into India?
 
-**Travel restrictions apply.** Those allowed to enter include:
+**Travel restrictions apply.** Those [allowed](https://boi.gov.in/sites/default/files/u4/faq-covid19.pdf) to enter include:
 
+- Nepal and Bhutan nationals.
+- Maldives nationals require a visa.
 - Indian nationals
   - The following Indian nationals will be required to be quarantined for 14 days upon arrival in India:
     - All travelers coming from/transiting through UAE, Qatar, Oman, and Kuwait

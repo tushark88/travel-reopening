@@ -15,6 +15,11 @@ Only Canadian nationals are allowed to enter. Some exceptions are made for forei
 
 Foreign nationals who fulfill these requirements and are permitted to enter Canada must quarantine for 14 days.
 
+These measures are in effect until at least:
+
+- July 21, 2020, for travelers arriving in the United States of America
+- July 31, 2020, for all other foreign nationals
+
 For the most up-to-date travel information, refer to the [Canada Border Services Agency](https://www.cbsa-asfc.gc.ca/services/covid/non-canadians-canadiens-eng.html).
 
 #### Outbound Travel: Who can travel out of Canada?
