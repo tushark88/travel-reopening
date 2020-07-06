@@ -32,6 +32,7 @@ export default {
 <style lang="scss">
 .badge {
   @apply py-0.5 px-2.5 text-base text-center rounded-md whitespace-no-wrap;
+  &-xs { @apply text-xs }
   &-no {
     @apply bg-secondary;
     @apply text-white;

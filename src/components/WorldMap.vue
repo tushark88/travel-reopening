@@ -60,17 +60,17 @@ function tooltipBody(d) {
       <div class="px-4 py-3">
         <div class="flex flex-col">
           <p class="mb-2 text-xs font-semibold">${country.name}</p>
-          <div class="inline-grid grid-cols-legend row-gap-1 col-gap-2">
+          <div class="inline-grid grid-cols-legend row-gap-1 col-gap-2 items-baseline">
             <span class="text-xs">Domestic</span>
-            <span class="badge-${state.domestic || 'unknown'} px-2.5 py-0.5 text-xs text-center rounded-md">
+            <span class="badge badge-xs badge-${state.domestic || 'unknown'}">
               ${travelStateLabel(state.domestic)}
             </span>
             <span class="text-xs">Entry</span>
-            <span class="badge-${state.inbound || 'unknown'} px-2.5 py-0.5 text-xs text-center rounded-md">
+            <span class="badge badge-xs badge-${state.inbound || 'unknown'}">
               ${travelStateLabel(state.inbound)}
             </span>
             <span class="text-xs">Exit</span>
-            <span class="badge-${state.outbound || 'unknown'} px-2.5 py-0.5 text-xs text-center rounded-md">
+            <span class="badge badge-xs badge-${state.outbound || 'unknown'}">
               ${travelStateLabel(state.outbound)}
             </span>
           </div>
