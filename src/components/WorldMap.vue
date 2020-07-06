@@ -59,7 +59,7 @@ function tooltipBody(d) {
     <div class="bg-white rounded-md shadow">
       <div class="px-4 py-3">
         <div class="flex flex-col">
-          <p class="mb-2 text-xs font-semibold">${d.properties.name}</p>
+          <p class="mb-2 text-xs font-semibold">${country.name}</p>
           <div class="inline-grid grid-cols-legend row-gap-1 col-gap-2">
             <span class="text-xs">Domestic</span>
             <span class="badge-${state.domestic || 'unknown'} px-2.5 py-0.5 text-xs text-center rounded-md">
