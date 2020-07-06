@@ -35,26 +35,29 @@
       </p>
 
       <h2>Legend</h2>
-      <dl>
-        <dt>Green</dt>
-        <dd>No travel restrictions related to COVID-19 apply</dd>
-        <dt>Yellow</dt>
-        <dd>
-          Some travel restrictions apply depending on traveler’s point of origin,
+      <div class="inline-grid grid-cols-legend row-gap-2 col-gap-4 items-baseline">
+        <TravelStateBadge travelState="selected" />
+        <p class="mb-0">Selected country</p>
+        <TravelStateBadge travelState="yes" />
+        <p class="mb-0">No travel restrictions related to COVID-19 apply</p>
+        <TravelStateBadge travelState="partial" />
+        <p class="mb-0">Some travel restrictions apply depending on traveler’s point of origin,
           nationality, or other reasons
-        </dd>
-        <dt>Red</dt>
-        <dd>Non-essential travel is prohibited. Repatriation travel may be possible</dd>
-        <dt>Gray</dt>
-        <dd>No information</dd>
-        <dt>Blue</dt>
-        <dd>Selected country</dd>
-      </dl>
+        </p>
+        <TravelStateBadge travelState="no" />
+        <p class="mb-0">
+          Non-essential travel is prohibited. Repatriation travel may be possible
+        </p>
+        <TravelStateBadge travelState="unknown" />
+        <p class="mb-0">No information</p>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import TravelStateBadge from '@/components/TravelStateBadge.vue';
+
 export default {
   name: 'About',
   components: { TravelStateBadge },
@@ -72,24 +75,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss">
-  $column_width: 100px;
-  dl {
-    padding: 0.5em;
-    dt {
-      float: left;
-      clear: left;
-      width: $column_width;
-      text-align: right;
-      font-weight: bold;
-      &::after {
-        content: ":";
-      }
-    }
-    dd {
-      margin: 0 0 0 $column_width + 10px;
-      padding: 0 0 0.5em 0;
-    }
-  }
-</style>
