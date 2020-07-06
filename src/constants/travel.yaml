@@ -187,6 +187,7 @@ countries:
         - '[Domestic travel varies from state to state. Refer to indvidual goverment websites.](https://www.interstatequarantine.org.au/state-and-territory-border-closures/)'
         - '[On Sunday, June 21, 2020, authorities in Victoria state announced that they were extending the current state of emergency for four weeks until July 19](https://www.garda.com/crisis24/news-alerts/352701/australia-authorities-in-victoria-state-reimpose-restrictions-and-extend-state-of-emergency-until-july-19-update-29)'
         - '[NSW will ease restrictions on July 1, with the 50-person cap for indoor venues to be lifted provided guests apply social distancing measures.](https://www.garda.com/crisis24/news-alerts/352701/australia-authorities-in-victoria-state-reimpose-restrictions-and-extend-state-of-emergency-until-july-19-update-29)'
+        - 'Following discussions between Victoria''s Premier Daniel Andrews and his New South Wales (NSW) counterpart Gladys Berejiklian on Monday, July 6, 2020, it has been announced that the [border between the states will close from 23:59 (local time) on Tuesday, July 7, 2020](https://www.garda.com/crisis24/news-alerts/356941/australia-victoria-new-south-wales-border-to-close-on-july-7-update-34).'
       inbound:
         - '[Only nationals and residents of Australia are allowed.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
         - '[Nationals of New Zealand usually residing in Australia are allowed to enter Australia.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
@@ -198,7 +199,7 @@ countries:
       domestic: partial
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-07-01
+    updated_on: 2020-07-06
   AZ:
     sources:
       domestic:
@@ -250,14 +251,17 @@ countries:
     sources:
       domestic:
         - '[Domestic commercial passenger flights resumed on a limited scale.](https://bd.usembassy.gov/covid-19-information/)'
+        - 'The wearing of face masks and social distancing measures also remain compulsory in public places, while a [ban on rallies, meetings, and mass gatherings remain in place.](https://www.garda.com/crisis24/news-alerts/356071/bangladesh-authorities-extend-covid-19-restrictions-until-august-3-update-17)'
       inbound:
         - '[Foreign nationals with valid visas will be required to produce a medical certificate (with English translation)](https://bd.usembassy.gov/covid-19-information/) to be obtained within 72 hours of travel, indicating that he/she is COVID-19 negative. This medical certificate needs to be submitted on arrival at the Bangladesh point of entry (airport/seaport/land port).'
+      outbound:
+        - '[All non-essential travel remains prohibited.](https://www.garda.com/crisis24/news-alerts/356071/bangladesh-authorities-extend-covid-19-restrictions-until-august-3-update-17)'
       visa_quarantine:
         - 'The Government of Bangladesh has announced it has begun distributing health information cards and [conducting temperature screening of all passengers arriving in Bangladesh at all points of entry](https://bd.usembassy.gov/covid-19-information/).'
     travel:
       domestic: 'yes'
       inbound: 'yes'
-    updated_on: 2020-07-01
+    updated_on: 2020-07-06
   BE:
     sources:
       domestic:
@@ -278,11 +282,15 @@ countries:
     updated_on: 2020-06-15
   BF:
     sources:
+      domestic:
+        - 'As of June 3, 2020, the Government of Burkina Faso [cancelled the curfew](https://www.smartraveller.gov.au/destinations/africa/burkina-faso) which was in effect throughout the country, except for the provinces that are under a state of emergency (the East and Sahel regions, the provinces of Kossi and Sourou in Boucle de Mouhoun, the province of Kenedougou in Hauts Bassins, the province of Louroum in the North, and the province of Koulpelogo in the Center-East region).'
       inbound:
+        - '[Burkina Faso''s borders are closed to foreigners and international flights are cancelled.](https://www.smartraveller.gov.au/destinations/africa/burkina-faso)'
+      outbound:
         - '[Burkina Faso''s borders are closed to foreigners and international flights are cancelled.](https://www.smartraveller.gov.au/destinations/africa/burkina-faso)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15
+    updated_on: 2020-07-06
   BG:
     sources:
       domestic:
@@ -391,14 +399,14 @@ countries:
         - '[Some economic activity](https://www.garda.com/crisis24/news-alerts/352456/brazil-over-a-million-covid-19-cases-confirmed-as-of-june-19-update-26) has resumed in Sao Paulo as of June 1, including the reopening of shopping malls, despite the state still recording a high number of daily COVID-19 cases.'
         - 'That the existing quarantine restrictions introduced due to the coronavirus disease (COVID-19) pandemic will be [extended until July 14.](https://www.garda.com/crisis24/news-alerts/354701/brazil-sao-paulo-authorities-extend-covid-19-restrictions-until-july-14-update-27)'
       inbound:
-        - 'On June 20, Brazil extended the decree that [foreigners are banned](https://br.usembassy.gov/brazil-extends-border-closure-to-july-5/) from entering the country by air, land, and sea for 15 days (through July 5)'
+        - 'All air, land, and sea borders will remain [closed to foreign nationals until Wednesday, July 29, 2020](https://www.garda.com/crisis24/news-alerts/356371/brazil-authorities-extend-border-closures-until-july-29-update-28).'
       outbound:
         - 'The inbound restrictions [do not prevent individuals](https://br.usembassy.gov/brazil-extends-border-closure-to-july-5/) from departing on commercial flights.'
     travel:
       domestic: 'partial'
       inbound: 'no'
       outbound: yes
-    updated_on: 2020-06-29
+    updated_on: 2020-07-06
   BS:
     sources:
       domestic:
@@ -642,7 +650,13 @@ countries:
   CY:
     sources:
       inbound:
-        - '[Entry is allowed for certain countries.](https://cy.usembassy.gov/covid-19-information/#:~:text=For%20Tourists%3A,14%20days%20prior%20to%20travel.)'
+        - '[All movement restrictions are lifted, including nighttime curfew](https://cy.usembassy.gov/covid-19-information/#:~:text=%E2%80%9CTRNC%E2%80%9D%20citizens%2C%20permanent%20residents,be%20subject%20to%20any%20fee).'
+        - 'Gatherings of up to 25 people are allowed](https://cy.usembassy.gov/covid-19-information/#:~:text=%E2%80%9CTRNC%E2%80%9D%20citizens%2C%20permanent%20residents,be%20subject%20to%20any%20fee).'
+      inbound:
+        - '[Entry is allowed for certain countries](https://cy.usembassy.gov/covid-19-information/#:~:text=For%20Tourists%3A,14%20days%20prior%20to%20travel).'
+        - 'Cyprian authorities announced on Saturday, July 4, that the country will [no longer accept flights arriving from Lebanon from Monday, July 6, 2020](https://www.garda.com/crisis24/news-alerts/356776/cyprus-authorities-ban-flights-arriving-from-lebanon-from-july-6-update-12).'
+      visa_quarantine:
+        - '[The suspension of all visa services](https://www.garda.com/crisis24/news-alerts/356776/cyprus-authorities-ban-flights-arriving-from-lebanon-from-july-6-update-12) will also apply and remain in place indefinitely.'
     travel:
       inbound: partial
       inbound_allowed:
@@ -666,6 +680,8 @@ countries:
         - IL
         - PL
         - RO
+      inbound_restricted:
+        - LB
     updated_on: 2020-06-16
   CZ:
     sources:
@@ -868,17 +884,17 @@ countries:
     updated_on: 2020-06-15
   ES:
     reopening:
-      '2020-06-21': '[The Spanish authorities have decided to reopen country’s borders on 21 June, 2020, for all EU and Schengen countries, except for Portugal with which the borders will reopen in July, 2020.](https://newseu.cgtn.com/news/2020-05-25/Spain-s-lockdown-eased-UK-schools-to-reopen-COVID-19-daily-bulletin-QMAjS8xApG/index.html)'
     sources:
       domestic:
         - '[Spain has eased some lockdown restrictions.](https://newseu.cgtn.com/news/2020-05-25/Spain-s-lockdown-eased-UK-schools-to-reopen-COVID-19-daily-bulletin-QMAjS8xApG/index.html)'
+        - '[Authorities reimposed a lockdown](https://newseu.cgtn.com/news/2020-05-25/Spain-s-lockdown-eased-UK-schools-to-reopen-COVID-19-daily-bulletin-QMAjS8xApG/index.html) in Segrià municipality (Catolonia region), including the city of Lleida, due to a rise in coronavirus disease (COVID-19) cases in the area on Saturday, July 4, 2020.'
       inbound:
-        - '[The Spanish authorities have decided to reopen country’s borders on 21 June, 2020, for all EU and Schengen countries, except for Portugal with which the borders will reopen in July, 2020.](https://www.schengenvisainfo.com/news/spain-to-reopen-borders-a-week-later-than-commissions-recommended-date/)'
+        - '[The Spanish authorities have decided to reopen country’s borders](https://www.schengenvisainfo.com/news/spain-to-reopen-borders-a-week-later-than-commissions-recommended-date/) on 21 June, 2020, for all EU and Schengen countries, except for Portugal with which the borders will reopen in July, 2020.'
       outbound:
-        - '[Spain’s major airports have reopened for international flights with Ibiza, Tenerife, Malaga and Palma all welcoming planes](https://www.thesun.co.uk/travel/11647411/spains-airports-open-flights/)'
+        - '[Spain’s major airports have reopened for international flights](https://www.thesun.co.uk/travel/11647411/spains-airports-open-flights/) with Ibiza, Tenerife, Malaga and Palma all welcoming planes.'
       visa_quarantine:
-        - '[From 1 July, 2020, tourists will be able to visit Spain without having to quarantine for two weeks.](https://news.sky.com/story/coronavirus-spain-to-welcome-tourists-from-1-july-with-no-quarantine-11994664)'
-        - '[Upon arrival into Spain, a Public Health Passenger Locator Form must be presented.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
+        - 'From 1 July, 2020, tourists will be able to visit Spain [without having to quarantine for two weeks.](https://news.sky.com/story/coronavirus-spain-to-welcome-tourists-from-1-july-with-no-quarantine-11994664)'
+        - 'Upon arrival into Spain, a [Public Health Passenger Locator Form must be presented.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       domestic: partial
       inbound: partial
@@ -910,11 +926,11 @@ countries:
         - ES
         - SE
         - IS
-        - 'NO'
+        - NO
         - CH
         - LI
       outbound: 'yes'
-    updated_on: 2020-06-09
+    updated_on: 2020-07-06
   ET:
     sources:
       inbound:
@@ -1396,11 +1412,10 @@ countries:
         - '[Travel by ferry to and from islands is permitted.](https://gr.usembassy.gov/covid-19-information/)'
         - '[Some flights to islands are operational.](https://gr.usembassy.gov/covid-19-information/)'
       inbound:
-        - '[International flights are allowed into Athens and Thessaloniki airports from 15 June to 30 June, 2020](https://www.mfa.gr/en/current-affairs/statements-speeches/greece-welcomes-the-world.html)'
-        - '[International flights are allowed into all airports in Greece from 1 July, 2020, additional restrictions regarding certain countries will be announced at a later date](https://www.mfa.gr/en/current-affairs/statements-speeches/greece-welcomes-the-world.html)'
-        - '[Land border arrivals from Albania, North Macedonia and Bulgaria will be allowed as of 15 June, 2020. Visitors will be subject to random tests upon arrival. Arrivals by sea will be allowed as of 1 July, 2020. Visitors will be subject to random tests upon arrival.](https://www.mfa.gr/en/current-affairs/statements-speeches/greece-welcomes-the-world.html)'
+        - 'Greek authorities announced the [reopening of the country''s borders on Thursday, July 2, 2020](https://www.garda.com/crisis24/news-alerts/356251/greece-authorities-reopen-borders-on-july-2-update-25), following the easing of some coronavirus disease (COVID-19) restrictions.'
+        - 'Travelers entering the country must complete an [Online Passenger Locator Form (PLF) at least 48 hours before arriving](https://www.garda.com/crisis24/news-alerts/356251/greece-authorities-reopen-borders-on-july-2-update-25).'
       visa_quarantine:
-        - '[Until 15 June, 2020, all travelers, including returning Greek nationals, arriving in Greece will need to undergo a compulsory Covid-19 test and a quarantine. If the test is negative, they are placed in a 7-day self-quarantine; if the test is positive, they are under a monitored 14-day quarantine.](https://www.mfa.gr/en/current-affairs/statements-speeches/greece-welcomes-the-world.html)'
+        - 'Travelers may also be subject to [additional health screening and a 14-day quarantine period.](https://www.garda.com/crisis24/news-alerts/356251/greece-authorities-reopen-borders-on-july-2-update-25)'
     travel:
       domestic: partial
       inbound: partial
@@ -1432,7 +1447,13 @@ countries:
         - SK
         - FI
         - SE
-    updated_on: 2020-06-15
+        - CH
+        - GB
+        - LI
+        - NO
+        - RO
+        - CY
+    updated_on: 2020-07-06
   GT:
     sources:
       inbound:
@@ -1559,21 +1580,21 @@ countries:
   IE:
     sources:
       domestic:
-        - 'Face masks will be compulsory on public transport, restaurants, and shops. Barbershops, churches, theatres, cinemas, and gyms will also be allowed to reopen under certain hygiene conditions. People will also be allowed to [resume domestic travel.](https://www.garda.com/crisis24/news-alerts/354916/ireland-face-masks-compulsory-on-public-transport-as-government-further-eases-lockdown-restrictions-from-june-29-update-9)'
-        - '[Tourist travel to offshore islands may resume.](https://www.rte.ie/news/regional/2020/0625/1149682-coronavirus-islands/)'
+        - 'Face masks will be compulsory on public transport, restaurants, and shops. Barbershops, churches, theatres, cinemas, and gyms will also be allowed to reopen under certain hygiene conditions. People will also be allowed to [resume domestic travel](https://www.garda.com/crisis24/news-alerts/354916/ireland-face-masks-compulsory-on-public-transport-as-government-further-eases-lockdown-restrictions-from-june-29-update-9).'
+        - '[Tourist travel to offshore islands may resume](https://www.rte.ie/news/regional/2020/0625/1149682-coronavirus-islands/).'
       inbound:
-        - '[Passengers arriving to Ireland from overseas are required to complete a health declaration and will be subject to self-isolation for 14 days.](https://www.dfa.ie/travel/travel-advice/coronavirus/)'
+        - 'Those arriving from a country in the "green list" will [no longer be subject to the 14-day self-quarantine requirements](https://www.garda.com/crisis24/news-alerts/356771/ireland-authorities-to-ease-quarantine-requirements-from-july-20-update-10). However, quarantine requirements will remain in place for all countries which are not included in the list.'
       outbound:
         - '[Do not travel – Note: Afghanistan, Burundi, Central African Republic, Democratic Republic of Congo, Iraq, Libya, Mali, Somalia, South Sudan, Syria, and Yemen have pre-existing ‘Do Not Travel’ designations which remain in place.](https://www.dfa.ie/travel/travel-advice/coronavirus/)'
         - '[Avoid non-essential travel. All other countries including Great Britain but excluding Northern Ireland](https://www.dfa.ie/travel/travel-advice/coronavirus/)'
       visa_quarantine:
-        - '[By law, if a traveler arrives in Ireland from any other country the traveler will need to fill in a form called the Covid-19 Passenger Locator Form. This includes Irish citizens coming home, people with no symptoms, and people who have tested negative for the virus in another country.](https://www2.hse.ie/conditions/coronavirus/travel.html)'
-        - '[The traveler will also be asked to self-isolate for 14 days](https://www2.hse.ie/conditions/coronavirus/travel.html#self-isolation-after-travel)'
+        - 'Those arriving from higher risk locations will still be required to fill out a [Passenger Locator Form on arrival and self-isolate for two weeks](https://www.garda.com/crisis24/news-alerts/356771/ireland-authorities-to-ease-quarantine-requirements-from-july-20-update-10).'
+        - 'Those arriving from a country in the "green list" will [no longer be subject to the 14-day self-quarantine requirements](https://www.garda.com/crisis24/news-alerts/356771/ireland-authorities-to-ease-quarantine-requirements-from-july-20-update-10). However, quarantine requirements will remain in place for all countries which are not included in the list.'
     travel:
       domestic: partial
       inbound: 'yes'
-      outbound: partial
-    updated_on: 2020-06-29
+      outbound: no
+    updated_on: 2020-07-06
   IL:
     sources:
       inbound:
@@ -1647,18 +1668,18 @@ countries:
         - 'Authorities announced that a total lockdown will be [imposed in the Erbil province](https://www.garda.com/crisis24/news-alerts/355496/iraq-authorities-to-impose-total-lockdown-in-erbil-province-from-june-30-update-37)'
         - '[The national 18:00 to 05:00 (local time) curfew remains in place](https://www.garda.com/crisis24/news-alerts/355496/iraq-authorities-to-impose-total-lockdown-in-erbil-province-from-june-30-update-37) in Iraq''s other provinces.'
       inbound:
-        - '[Domestic flights remain suspended, as are flights to and from Iraq.](https://gds.gov.iq/covid-19-iraq-extends-nationwide-curfew/)'
+        - 'The current ban on regular doemstic and commercial flight operations have been [extended until at least Wednesday, July 15, 2020](https://gds.gov.iq/covid-19-iraq-extends-nationwide-curfew/)'
       outbound:
-        - '[Domestic flights remain suspended, as are flights to and from Iraq.](https://gds.gov.iq/covid-19-iraq-extends-nationwide-curfew/)'
+        - 'The current ban on regular doemstic and commercial flight operations have been [extended until at least Wednesday, July 15, 2020](https://gds.gov.iq/covid-19-iraq-extends-nationwide-curfew/)'
     travel:
       domestic: 'partial'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-07-01
+    updated_on: 2020-07-06
   IR:
     sources:
       domestic:
-        - '[People have been encouraged to return to work, and parks, gardens, and recreational areas have also reopened as part of the easing of measures. Gyms, restaurants, and cafés remain closed until further notice.](https://www.garda.com/crisis24/news-alerts/351296/iran-covid-19-death-toll-rises-amid-fears-of-second-wave-on-june-15-update-31)'
+        - 'People have been encouraged to return to work, and parks, gardens, and recreational areas have also reopened as part of the easing of measures. Gyms, restaurants, and cafés [remain closed until further notice.](https://www.garda.com/crisis24/news-alerts/351296/iran-covid-19-death-toll-rises-amid-fears-of-second-wave-on-june-15-update-31)'
         - '[Wearing of face masks in public places](https://www.garda.com/crisis24/news-alerts/355401/iran-wearing-of-facemasks-mandatory-in-certain-public-spaces-from-july-5-update-32) will become mandatory from Sunday, July 5, 2020 due to the ongoing coronavirus disease (COVID-19) pandemic. The measures will remain in place until July 22, 2020, however, they may be extended further.'
       inbound:
         - '[Flights remain suspended until further notice.](https://www.garda.com/crisis24/news-alerts/320716/iran-over-6500-confirmed-covid-19-cases-reported-as-further-flight-restrictions-are-implemented-march-8-update-11)'
@@ -1668,7 +1689,7 @@ countries:
       domestic: 'partial'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-30
+    updated_on: 2020-07-06
   IS:
     sources:
       domestic:
@@ -1773,20 +1794,18 @@ countries:
       inbound: 'yes'
     updated_on: 2020-06-12
   JO:
-    reopening:
-      '2020-07-01': 'On June 17, the Jordanian government confirmed that the suspension of international commercial flights and the closure of the country''s land and sea borders will remain in place until at least [July 4.](https://jo.usembassy.gov/covid-19-information/)'
     sources:
       domestic:
         - 'Jordan''s Minister of Industry, Trade, and Supply, Tariq Hammouri, [granted approval](https://jo.usembassy.gov/covid-19-information/) for entertainment and recreation activities within tourist resorts to resume.'
       inbound:
-        - 'On June 17, the Jordanian government confirmed that the suspension of international commercial flights and the closure of the country''s land and sea borders will remain in place until at least [July 4.](https://jo.usembassy.gov/covid-19-information/)'
+        - 'Jordanian authorities announced on Tuesday, June 30, 2020, that the suspension on regular commercial international flights would be [extended until at least July 14, 2020](https://www.garda.com/crisis24/news-alerts/355981/jordan-authorities-extend-flight-suspension-until-july-14-update-25).'
       outbound:
-        - 'On June 17, the Jordanian government confirmed that the suspension of international commercial flights and the closure of the country''s land and sea borders will remain in place until at least [July 4.](https://jo.usembassy.gov/covid-19-information/)'
+        - 'Jordanian authorities announced on Tuesday, June 30, 2020, that the suspension on regular commercial international flights would be [extended until at least July 14, 2020](https://www.garda.com/crisis24/news-alerts/355981/jordan-authorities-extend-flight-suspension-until-july-14-update-25).'
     travel:
       domestic: 'partial'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-29
+    updated_on: 2020-07-06
   JP:
     sources:
       domestic:
@@ -2270,21 +2289,30 @@ countries:
     updated_on: 2020-06-09
   KW:
     sources:
+      domestic:
+        - 'The current lockdown in Mahboula, Jleeb Al-Shuyoukh and other states is [scheduled to be lifted on July 9, 2020](https://www.garda.com/crisis24/news-alerts/356516/kuwait-lockdown-restrictions-to-be-lifted-in-mahboula-and-jleeb-al-shuyoukh-from-july-9-update-21).'
+        - 'Additionally, a partial curfew [remains in effect between 19:00 and 05:00 (local time) daily](https://www.garda.com/crisis24/news-alerts/356516/kuwait-lockdown-restrictions-to-be-lifted-in-mahboula-and-jleeb-al-shuyoukh-from-july-9-update-21).'
       inbound:
-        - '[Kuwait has closed its airport and land border with Iraq.](https://kw.usembassy.gov/covid-19-information/)'
+        - '[Kuwait has closed its airport and land border with Iraq](https://kw.usembassy.gov/covid-19-information/).'
+      inbound:
+        - '[Kuwait has closed its airport and land border with Iraq](https://kw.usembassy.gov/covid-19-information/).'
     travel:
+      domestic: 'no'
       inbound: 'no'
-    updated_on: 2020-06-12
+      outbound: 'no'
+    updated_on: 2020-07-06
   KZ:
     sources:
       domestic:
-        - '[Kazakhstan''s flag carrier Air Astana resumed flights from Almaty and Nur-Sultan to principal regional centers across the country, further domestic flight services are to resume as local airports begin to reopen.](https://www.garda.com/crisis24/news-alerts/349926/kazakhstan-lockdown-measures-introduced-in-karaganda-region-june-11-update-18)'
+        - '[The two-week lockdown will see some non-essential businesses closed](https://www.garda.com/crisis24/news-alerts/356021/kazakhstan-authorities-announce-two-week-lockdown-from-july-5-update-20), while restrictions on travel between provinces will be reintroduced. Public transport operating hours will be reduced and a ban on public gatherings will be implemented until July 19.'
       inbound:
         - '[President Kassym-Jomart Tokayev on March 15 declared a state of emergency, barring entry to the country for everyone except returning citizens, diplomats and those invited by the government](https://www.garda.com/crisis24/news-alerts/322946/kazakhstan-government-bars-entry-to-foreigners-due-to-covid-19-march-15-update-8)'
+      visa_quarantine:
+        - '[Visa-free travel suspended until November 2020](https://kz.usembassy.gov/covid-19-information/).'
     travel:
-      domestic: partial
+      domestic: no
       inbound: 'no'
-    updated_on: 2020-06-12
+    updated_on: 2020-07-06
   LA:
     reopening:
       '2020-06-30': '[All land border crossings and airports will remain closed, entry into Laos is granted only in very limited circumstances and will last until 30 June, 2020.](https://la.usembassy.gov/covid-19-information/)'
@@ -2833,14 +2861,16 @@ countries:
   MK:
     sources:
       domestic:
-        - '[Ban on movement for all citizens at the domestic level. The travel ban applies from Monday to Friday, from 4 pm to 5 am the next day. During the weekend, the movement of all citizens is prohibited throughout the country from Friday to Monday, from 4 to 5 am](https://www.oecd.org/south-east-europe/COVID-19-Crisis-in-North-Macedonia.pdf)'
+        - '[Ban on movement for all citizens at the domestic level](https://www.oecd.org/south-east-europe/COVID-19-Crisis-in-North-Macedonia.pdf). The travel ban applies from Monday to Friday, from 4 pm to 5 am the next day. During the weekend, the movement of all citizens is prohibited throughout the country from Friday to Monday, from 4 to 5 am.'
+        - 'As of Friday, June 26, 2020, the indoor areas of bars and restaurants, along with gyms, are [permitted to operate while implementing specific protocols](https://www.oecd.org/south-east-europe/COVID-19-Crisis-in-North-Macedonia.pdf).'
       inbound:
-        - '[The Government of North Macedonia closed Skopje International Airport at midnight on 18 March, 2020 due to the global spread of COVID-19. All airports in North Macedonia are currently closed for commercial flights.](https://mk.usembassy.gov/covid-19-information/)'
-        - '[Only citizens and legal residents of North Macedonia are allowed entry into North Macedonia and are subject to quarantine regulations.](https://mk.usembassy.gov/covid-19-information/)'
+        - 'The resumption of airport operations follows the [reopening of North Macedonia''s borders on June 26, 2020](https://www.garda.com/crisis24/news-alerts/356231/north-macedonia-authorities-announce-the-reopening-of-airports-july-2-update-13), amid the easing of COVID-19 restrictions.'
+      visa_quarantine:
+        - '[There is no longer a requirement](https://www.garda.com/crisis24/news-alerts/356231/north-macedonia-authorities-announce-the-reopening-of-airports-july-2-update-13) for travelers arriving in North Macedonia to self-isolate, present a PCR test or quarantine upon entry.'
     travel:
-      domestic: 'no'
-      inbound: 'no'
-    updated_on: 2020-06-11
+      domestic: 'partial'
+      inbound: 'partial'
+    updated_on: 2020-07-06
   ML:
     sources:
       inbound:
@@ -2853,16 +2883,16 @@ countries:
       domestic:
         - ‘[Some restrictions have been eased](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15). Bars and restaurants are reopening, with social distancing measures in place.'
       inbound:
-        - 'Suspension of international flights, will be [extended until July 15, 2020.](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15)'
+        - 'Suspension of international flights, will be [extended until July 31, 2020.](https://www.garda.com/crisis24/news-alerts/356181/myanmar-flight-suspension-extended-until-july-31-update-16)'
       outbound:
-        - 'Suspension of international flights, will be [extended until July 15, 2020.](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15)'
+        - 'Suspension of international flights, will be [extended until July 31, 2020.](https://www.garda.com/crisis24/news-alerts/356181/myanmar-flight-suspension-extended-until-july-31-update-16)'
       visa_quarantine:
         - 'There is a [visa ban as well as a mandatory three-week quarantine period](https://www.garda.com/crisis24/news-alerts/354981/myanmar-authorities-extend-international-flights-suspension-and-other-covid-19-restrictions-until-july-15-update-15) for returning Myanmar nationals.'
     travel:
       domestic: 'partial'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-29
+    updated_on: 2020-07-06
   MN:
     sources:
       domestic:
@@ -2938,14 +2968,17 @@ countries:
     updated_on: 2020-06-12
   MV:
     sources:
+      domestic:
+        - 'Those on islands with no confirmed COVID-19 cases are permitted to travel to the Greater Malé region following the [lifting of inter-island travel restrictions](https://www.garda.com/crisis24/news-alerts/356226/maldives-curfew-extended-in-greater-male-until-14-july-update-13).'
+        - 'The 23:00 to 05:00 (local time) curfew affects Malé, Vilimalé, and Hulhumalé, and will remain in place until [at least July 14, 2020](https://www.garda.com/crisis24/news-alerts/356226/maldives-curfew-extended-in-greater-male-until-14-july-update-13).'
       inbound:
-        - >-
-          [The Government of Maldives has announced a ban on entry into Maldives of anyone who has left or transited the UK in the last 14 days, as well as people who have in the last 14 days been to mainland China (not including Hong Kong), Iran, South Korea (North Gyeongsang and South Gyeongsang provinces), Italy, Bangladesh, Spain, Germany (the federal states of Bavaria, North Rhine-Westphalia and Baden-Württemberg), France (Île-de-France and Grand Est regions), Malaysia and Sri
-          Lanka.](https://www.gov.uk/foreign-travel-advice/maldives)
+        - '[The Government of Maldives has announced a ban on entry into Maldives](https://www.gov.uk/foreign-travel-advice/maldives) of anyone who has left or transited the UK in the last 14 days, as well as people who have in the last 14 days been to mainland China (not including Hong Kong), Iran, South Korea (North Gyeongsang and South Gyeongsang provinces), Italy, Bangladesh, Spain, Germany (the federal states of Bavaria, North Rhine-Westphalia and Baden-Württemberg), France (Île-de-France and Grand Est regions), Malaysia and Sri Lanka.'
       visa_quarantine:
         - '[Effective on 27 March, 2020, Maldives suspended all visas on arrival until further notice.](https://mv.usmission.gov/covid-19-information/)'
         - '[All incoming passengers would be quarantined for 14 days.](https://mv.usmission.gov/covid-19-information/)'
+        - 'Travel from Malé to the surrounding islands [requires a 14-day mandatory quarantine period](https://www.garda.com/crisis24/news-alerts/356226/maldives-curfew-extended-in-greater-male-until-14-july-update-13).'
     travel:
+      domestic: partial
       inbound: partial
       inbound_restricted:
         - UK
@@ -2957,10 +2990,8 @@ countries:
         - ES
         - DE
         - FR
-        -
-
         - LK
-    updated_on: 2020-06-12
+    updated_on: 2020-07-06
   MW:
     sources:
       inbound:
@@ -3510,13 +3541,17 @@ countries:
     updated_on: 2020-07-03
   PK:
     sources:
+      domestic:
+        - 'Shopping malls, markets, warehouses, auto-repair shops, and hair salons will be [allowed to remain open](https://www.garda.com/crisis24/news-alerts/356556/pakistan-authorities-extend-lockdown-in-balochistan-province-until-july-15-update-32) from 09:00 to 19:00 (local time) on Thursdays and Saturdays, all businesses will remain closed on Fridays.'
+        - 'Educational facilities throughout the Balochistan province will [remain closed until the end of the lockdown](https://www.garda.com/crisis24/news-alerts/356556/pakistan-authorities-extend-lockdown-in-balochistan-province-until-july-15-update-32), while cinemas, wedding halls, and farmhouses will remain closed indefinitely. Additionally, public gatherings of more than ten people remain prohibited, as well as political rallies and social and religious events.'
       inbound:
-        - '[Entry is allowed but all travelers must go through COVID-19 Testing on arrival and could include isolation or qurantine.](https://pk.usembassy.gov/covid-19-information/)'
+        - '[Entry is allowed](https://pk.usembassy.gov/covid-19-information/) but all travelers must go through COVID-19 Testing on arrival and could include isolation or qurantine.'
       outbound:
-        - '[Travelers departing Pakistan are subject to local health screening that may include a questionnaire, temperature monitoring. Passengers may be denied boarding.](https://pk.usembassy.gov/covid-19-information/)'
+        - 'Travelers departing Pakistan are subject to local health screening that may include a questionnaire, temperature monitoring. [Passengers may be denied boarding.](https://pk.usembassy.gov/covid-19-information/)'
       visa_quarantine:
-        - '[Travelers arriving in Pakistan are subject to local health requirements to include COVID-19 testing on arrival and could include isolation or quarantine.](https://pk.usembassy.gov/covid-19-information/)'
+        - 'Travelers arriving in Pakistan are subject to local health requirements to include COVID-19 testing on arrival and could include [isolation or quarantine.](https://pk.usembassy.gov/covid-19-information/)'
     travel:
+      domestic: 'partial'
       inbound: 'yes'
       inbound_allowed:
         - AD
@@ -3769,7 +3804,7 @@ countries:
         - ZM
         - ZW
       outbound: partial
-    updated_on: 2020-06-11
+    updated_on: 2020-07-06
   PL:
     sources:
       domestic:
@@ -3827,6 +3862,8 @@ countries:
     sources:
       domestic:
         - 'Wearing a face mask is mandatory and [social distancing rules need to be observed](https://www.visitportugal.com/en/node/421189).'
+        - 'The state of alert has been decreed](https://www.garda.com/crisis24/news-alerts/356491/portugal-government-downgrade-to-state-of-alert-july-1-update-17) amid the easing of some coronavirus disease (COVID-19) restrictions, however, some areas including the Lisbon Metropolitan Area remain under additional restrictions.'
+        - 'Portuguese authorities announced on June 22, 2020, that [some lockdown measures would be restored in Lisbon](https://www.garda.com/crisis24/news-alerts/356491/portugal-government-downgrade-to-state-of-alert-july-1-update-17) following an increase in COVID-19, cases in the city. Gatherings are limited to 20 people, except for religious ceremonies and family events, such as weddings and christenings.'
       inbound:
         - '[Flights will be permitted from countries](https://www.schengenvisainfo.com/news/portugal-to-open-its-borders-for-tourists-from-certain-countries-only/) in the European Schengen travel zone except Spain and Italy. Flights are also permitted to some countries outside of the EU.'
       outbound:
@@ -3951,16 +3988,16 @@ countries:
         domestic:
           - '[Social distancing measures apply.](https://covid19.rs/homepage-english/)'
           - 'There is a ban on gatherings of more than 200 people, while schools and universities will remain closed [until further notice.](https://www.garda.com/crisis24/news-alerts/355606/serbia-authorities-announce-compulsory-use-of-face-masks-in-some-serbian-states-june-30-update-12)'
+          - '[Belgrad has imposed](https://www.garda.com/crisis24/news-alerts/355606/serbia-authorities-announce-compulsory-use-of-face-masks-in-some-serbian-states-june-30-update-12) the compulsory use of face masks in indoor public spaces and on public transport, and a ban on gatherings of more than 100 people indoors or 500 outdoors. Opening hours for bars and cafes will also be limited to 06:00 to 23:00 (local time) as per previous restrictions, while nightclubs have been ordered to close.'
         inbound:
-          - 'All COVID-19 related entry restrictions are [lifted for both Serbian and foreign citizens.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements)'
+          - 'All COVID-19 related entry restrictions are [lifted for both Serbian and foreign citizens](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements).'
         visa_quarantine:
-          - 'It is no longer necessary to have a negative PCR test or special permit to [enter Serbia.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements)'
-          - 'The government of Serbia has [abolished self-isolation requirements upon entry.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements)'
+          - 'It is no longer necessary to have a negative PCR test or special permit to [enter Serbia.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements).'
+          - 'The government of Serbia has [abolished self-isolation requirements upon entry.](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements).'
       travel:
         domestic: partial
         inbound: yes
-        outbound: yes
-      updated_on: 2020-07-01
+      updated_on: 2020-07-06
   RU:
     sources:
       domestic:
@@ -3973,13 +4010,16 @@ countries:
     updated_on: 2020-07-03
   RW:
     sources:
+      domestic:
+        - 'On June 25, 2020, the government of Rwanda placed six areas of Kigali back under lockdown following a rise in cases of COVID-19](https://www.garda.com/crisis24/news-alerts/356661/rwanda-authorities-to-reopen-airports-for-commercial-flights-from-august-1-update-10).'
       inbound:
-        - '[Flights to Kigali International Airport (KGL) are suspended.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
+        - 'Flights to Kigali International Airport (KGL) are suspended and will [reopen for commercial flights From August 1, 2020](https://www.garda.com/crisis24/news-alerts/356661/rwanda-authorities-to-reopen-airports-for-commercial-flights-from-august-1-update-10).'
       visa_quarantine:
-        - '[Nationals and residents of Rwanda will be subject to a mandatory 14-day quarantine at designated locations.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
+        - 'Nationals and residents of Rwanda will be subject to a [mandatory 14-day quarantine at designated locations](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm).'
+        - 'All passengers, including those in transit, will be required to show proof of a negative COVID-19 test result taken within 72 hours of arrival in Rwanda, and those staying in Rwanda will have to take a second test upon arrival and stay in designated hotels at their own cost until the [result is confirmed](https://www.garda.com/crisis24/news-alerts/356661/rwanda-authorities-to-reopen-airports-for-commercial-flights-from-august-1-update-10)'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-23
+    updated_on: 2020-07-06
   SA:
     sources:
       domestic:
@@ -4009,6 +4049,7 @@ countries:
     sources:
       inbound:
         - '[Travelers from ''low risk'' countries are allowed.](https://www.seychellestourismboard.travel/news-media/press-releases/429-seychelles-lifts-covid-19-travel-restrictions-gradually-as-from-1st-june)'
+        - '[ The resumption of passenger flights from August 1, 2020, will be open to visitors from approved countries only](https://www.garda.com/crisis24/news-alerts/356546/seychelles-authorities-announce-the-resumption-of-commercial-passenger-flights-from-august-1-update-5).'
       outbound:
         - '[Travelers exiting will be screened.](https://www.seychellestourismboard.travel/news-media/press-releases/429-seychelles-lifts-covid-19-travel-restrictions-gradually-as-from-1st-june)'
       visa_quarantine:
@@ -4574,11 +4615,27 @@ countries:
       outbound:
         - '[As of June 3, 2020, All travel to and from Somoa has ceased.](https://www.samoagovt.ws/2020/06/amended-state-of-emergency-orders-for-coronavirs-covid-19-03rd-june-2020/)'
       visa_quarantine:
-        - '[All travelers entering from Sompa from New Zealand will be quarantined for 14 days.](https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/st-kitts-tourism-(eblast-only)/media/skb-emergency-powers-covid-19-regulations-v4.docx.docx-5ef109d10fa7f.pdf)'
+        - '[There are no mandatory quarantine requirements for individuals who enter into Kosovo](https://xk.usembassy.gov/coronavirus/#:~:text=There%20are%20no%20mandatory%20quarantine,information%20can%20be%20found%20here.).'
     travel:
       inbound: 'partial'
       outbound: 'no'
     updated_on: 2020-06-23
+  XK:
+    sources:
+      domestic:
+        - 'At this time there are [no quarantine or social restrictions in place](https://xk.usembassy.gov/coronavirus/#:~:text=There%20are%20no%20mandatory%20quarantine,information%20can%20be%20found%20here.).'
+      inbound:
+        - 'Authorities announced the [reopening of some of Kosovo''s land borders on Wednesday, July 1, 2020](https://www.garda.com/crisis24/news-alerts/355991/kosovo-authorities-ease-covid-19-restrictions-as-of-july-1-update-5).'
+        - 'All travelers entering the country as of June 28, 2020 when [limited international flights resumed](https://www.garda.com/crisis24/news-alerts/355991/kosovo-authorities-ease-covid-19-restrictions-as-of-july-1-update-5), are recommended to have evidence of a negative RT-PCR test, that is no older than four days.'
+      outbound:
+        - '[Limited flights out of the country, while land borders are also open](https://www.garda.com/crisis24/news-alerts/355991/kosovo-authorities-ease-covid-19-restrictions-as-of-july-1-update-5).'
+      visa_quarantine:
+        - '[There are no mandatory quarantine requirements for individuals who enter into Kosovo](https://xk.usembassy.gov/coronavirus/#:~:text=There%20are%20no%20mandatory%20quarantine,information%20can%20be%20found%20here.).'
+    travel:
+      domestic: 'yes'
+      inbound: 'partial'
+      outbound: 'partial'
+    updated_on: 2020-07-06
   YE:
     sources:
       domestic:
