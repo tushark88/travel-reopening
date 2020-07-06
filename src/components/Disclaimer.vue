@@ -1,7 +1,7 @@
 <template>
   <div class="panel">
     <div class="panel__inner">
-      <h2>Disclaimer</h2>
+      <h3>Disclaimer</h3>
       <p class="mb-0">
         Advisories may change without warning. Please check official government
         websites for up-to-date information on travel restrictions prior to your
