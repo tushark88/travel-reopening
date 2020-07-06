@@ -57,6 +57,7 @@
 <script>
 export default {
   name: 'About',
+  components: { TravelStateBadge },
   mounted() {
     this.$nextTick(() => document.dispatchEvent(new Event('render-completed')));
   },
