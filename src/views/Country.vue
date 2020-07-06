@@ -12,27 +12,31 @@
               <p class="inline-flex mr-1 mb-0 font-semibold text-sm">
                 Want the latest travel updates in your inbox?
               </p>
-              <router-link :to="{ name: 'Subscribe'}" class="inline-flex font-semibold text-sm">
+              <router-link :to="{name: 'Subscribe'}" class="inline-flex font-semibold text-sm">
                 Subscribe here →
               </router-link>
             </div>
             <h2 class="country-header">{{title}}</h2>
-            <div class="blck md:flex mb-4">
-              <TravelState :country="country" class='w-full md:w-1/2' />
-              <CovidStats :country="country" class='w-full md:w-1/2' />
-            </div>
-            <div v-if='domesticContent || internationalContent || visaQuarantineContent'>
-              <CountryBody :content="this.domesticContent">
-                <h3>Domestic Travel</h3>
-              </CountryBody>
-              <CountryBody :content="this.internationalContent">
-                <h3>International Travel</h3>
-              </CountryBody>
-              <CountryBody :content="this.visaQuarantineContent">
-                <h3>Visa &amp; Quarantine Measures</h3>
-              </CountryBody>
+            <div class="mt-6 md:flex">
+              <div class="md:order-1">
+                <TravelState :country="country" />
+              </div>
+              <div class="md:order-0 w-full md:w-1/2 mt-6 md:mt-0 md:mr-4">
+                <CovidStats :country="country" />
+              </div>
             </div>
           </div>
+        </div>
+        <div v-if='domesticContent || internationalContent || visaQuarantineContent'>
+          <CountryBody :content="internationalContent">
+            <h3>International Travel</h3>
+          </CountryBody>
+          <CountryBody :content="domesticContent">
+            <h3>Domestic Travel</h3>
+          </CountryBody>
+          <CountryBody :content="visaQuarantineContent">
+            <h3>Visa &amp; Quarantine Measures</h3>
+          </CountryBody>
         </div>
         <div class="panel">
           <div class="panel__inner">

@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <slot />
-    <div v-if="!!this.content">
-      <vue-markdown :source="content" :anchorAttributes='anchorAttributes'></vue-markdown>
+  <div class="panel">
+    <div class="panel__inner">
+      <slot />
+      <div v-if="!!this.content">
+        <vue-markdown :source="content" :anchorAttributes='anchorAttributes'></vue-markdown>
+      </div>
     </div>
   </div>
 </template>
