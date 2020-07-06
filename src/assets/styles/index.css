@@ -78,31 +78,6 @@ ol > li:not(:last-child) { @apply mb-2; }
   .panel__inner { @apply p-6; }
 }
 
-.badge-no {
-  @apply bg-secondary;
-  @apply text-white;
-}
-
-.badge-partial {
-  @apply bg-state-partial;
-  @apply text-gray-800;
-}
-
-.badge-selected {
-  @apply bg-primary;
-  @apply text-white;
-}
-
-.badge-unknown {
-  @apply bg-gray-400;
-  @apply text-gray-800;
-}
-
-.badge-yes {
-  @apply bg-state-open;
-  @apply text-white;
-}
-
 /**
 * This injects any component classes registered by plugins.
 **/

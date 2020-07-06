@@ -9,7 +9,7 @@ export default {
   name: 'TravelStateBadge',
   computed: {
     badgeColor() {
-      if (this.travelState) {
+      if (Object.values(OpenStatus).includes(this.travelState)) {
         return `badge badge--${this.travelState}`;
       }
       return 'badge badge--unknown';
