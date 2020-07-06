@@ -5,12 +5,13 @@ Individual states and territories implement their own measures that may impact i
 - **Border restrictions apply.**
 - Checkpoints established at airports and major highways.
 - Only **Queensland residents, residents undertaking essential services and activities in border communities**, and those granted with exemptions are allowed to enter Queensland.
+- From **July 10, 2020** at 12 noon, travelers from New South Wales, South Australia, Western Australia, Tasmania, the Australian Capital Territory and the Northern Territory can enter Queensland if they submit a border declaration. **Those who have spent time in Victoria during the past 14 days must undergo mandatory hotel quarantine.**
 
 Refer to the [Queensland Government website](https://www.covid19.qld.gov.au/government-actions/border-closing) for more information.
 
 #### New South Wales
 
-- There are **no current border restrictions**.
+- On **July 7, 2020**, the border between New South Wales and Victoria will close from 11:59 pm (local time) due to a spike in COVID-19 cases in Melbourne, Victoria.
 - As of **June 1, 2020**, intrastate travel restrictions have been lifted; holiday travel within New South Wales is permitted.
 - While restrictions have eased, social distancing measures still apply.
 
@@ -25,6 +26,7 @@ Refer to the [ACT Government website](https://www.covid19.act.gov.au/help-and-ad
 
 #### South Australia
 
+- A pre-approval system has been set up for travelers wishing to enter South Australia. This is to determine if you fall into the category of an essential traveler. [Click here](https://www.covid-19.sa.gov.au/restrictions-and-responsibilities/travel-restrictions) for more information.
 - Travelers arriving into South Australia directly from the Northern Territory, Queensland, Tasmania, and Western Australia are **no longer required to quarantine**.
 - All other travelers will need to **quarantine for 14 days**.
 - Border checkpoints have been established along the border, as well as at airports, seaports, and interstate train stations.
@@ -33,8 +35,9 @@ Refer to the [South Australia Government website](https://www.covid-19.sa.gov.au
 
 #### Victoria
 
-- There are **no current border restrictions**.
-- As of **June 21, 2020**, certain crowd restrictions have been [reimposed](https://www.garda.com/crisis24/news-alerts/352976/australia-western-australia-announces-covid-19-restrictions-to-end-from-july-18-update-30) due to a rise in COVID-19 infections.
+- On **July 7, 2020**, the border between Victoria and New South Wales will close from 11:59 pm (local time) due to a spike in COVID-19 cases in Melbourne. This will remain in effect until further notice.
+- As of **July 4, 2020**, lockdown measures have been reintroduced in parts of Melbourne due to a rise in local cases of COVID-19. Movement may be restricted for certain postcodes. [Click here](https://www.garda.com/crisis24/news-alerts/356941/australia-victoria-new-south-wales-border-to-close-on-july-7-update-34) for more information.
+- As of **June 28, 2020**, COVID-19 testing is compulsory for all returning travelers entering Victoria. Those who refuse testing must quarantine for an additional 10 days on top of the 14-day minimum quarantine period.
 
 Refer to the Victorian [Department of Health and Human Services website](https://www.dhhs.vic.gov.au/victorias-restriction-levels-covid-19) for more information on travel restrictions.
 

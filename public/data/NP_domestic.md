@@ -1,2 +1,2 @@
-- The Nepalese government has initiated a three-phase easing of lockdown measures. Currently, shops are permitted to open and short journeys via private vehicles are allowed.
+- The Nepalese government has extended lockdown measures [until **July 22, 2020**](https://www.garda.com/crisis24/news-alerts/355626/nepal-authorities-extend-lockdown-until-july-22-update-16). Currently, only some activities and businesses may operate, subject to safety protocols and social distancing measures.
 - On **August 1, 2020**, domestic flights are [slated to resume](https://www.garda.com/crisis24/news-alerts/352291/nepal-domestic-and-international-flights-to-resume-from-august-1-update-15). Social distancing and hygiene measures will be implemented.
