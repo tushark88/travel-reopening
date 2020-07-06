@@ -649,7 +649,7 @@ countries:
     updated_on: 2020-06-15
   CY:
     sources:
-      inbound:
+      domestic:
         - '[All movement restrictions are lifted, including nighttime curfew](https://cy.usembassy.gov/covid-19-information/#:~:text=%E2%80%9CTRNC%E2%80%9D%20citizens%2C%20permanent%20residents,be%20subject%20to%20any%20fee).'
         - 'Gatherings of up to 25 people are allowed](https://cy.usembassy.gov/covid-19-information/#:~:text=%E2%80%9CTRNC%E2%80%9D%20citizens%2C%20permanent%20residents,be%20subject%20to%20any%20fee).'
       inbound:
@@ -682,7 +682,7 @@ countries:
         - RO
       inbound_restricted:
         - LB
-    updated_on: 2020-06-16
+    updated_on: 2020-07-06
   CZ:
     sources:
       domestic:
@@ -2294,7 +2294,7 @@ countries:
         - 'Additionally, a partial curfew [remains in effect between 19:00 and 05:00 (local time) daily](https://www.garda.com/crisis24/news-alerts/356516/kuwait-lockdown-restrictions-to-be-lifted-in-mahboula-and-jleeb-al-shuyoukh-from-july-9-update-21).'
       inbound:
         - '[Kuwait has closed its airport and land border with Iraq](https://kw.usembassy.gov/covid-19-information/).'
-      inbound:
+      outbound:
         - '[Kuwait has closed its airport and land border with Iraq](https://kw.usembassy.gov/covid-19-information/).'
     travel:
       domestic: 'no'
