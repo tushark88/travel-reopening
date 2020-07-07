@@ -71,9 +71,10 @@ export default {
         .attr('class', 'yaxis')
         .call(axisLeft(y).ticks(3));
 
+      const nonEmptyData = this.data.filter((d) => !!d.value && +d.value > 0);
       svg.append('path')
         .attr('class', 'stats')
-        .datum(this.data)
+        .datum(nonEmptyData)
         .attr('d', line()
           .x((d) => x(d.date))
           .y((d) => y(d.value)));
