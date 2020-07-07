@@ -1,5 +1,5 @@
 <template>
-  <div class="my-4 sm:my-6 md:my-8">
+  <div>
     <h3>COVID-19 Statistics</h3>
     <CovidStatsFigure :data="countryData.newCases">New confirmed cases</CovidStatsFigure>
     <CovidStatsFigure :data="countryData.totalCases">Total confirmed cases</CovidStatsFigure>

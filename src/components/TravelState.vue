@@ -1,5 +1,5 @@
 <template>
-  <div v-if="state" class="my-4 sm:my-6 md:my-8">
+  <div v-if="state">
     <h3>Travel Status</h3>
     <div class="inline-grid grid-cols-legend row-gap-2 col-gap-4 items-baseline">
       <span>Domestic</span>

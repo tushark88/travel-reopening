@@ -1,7 +1,7 @@
 <template>
   <div class="panel">
     <div class="panel__inner">
-      <h2>Sources</h2>
+      <h3>Sources</h3>
       <ol v-if="sourcesList.length">
         <li v-for="source in sourcesList" :key="source">
           <vue-markdown

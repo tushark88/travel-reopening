@@ -30,7 +30,6 @@ h5 { @apply text-base font-medium mb-4; }
   h2,
   h2.country-header { @apply text-2xl; },
   h3 { @apply text-xl; }
-  h4 { @apply text-lg; }
 }
 
 p { @apply mb-4; }
@@ -77,6 +76,8 @@ ol > li:not(:last-child) { @apply mb-2; }
 @screen md {
   .panel__inner { @apply p-6; }
 }
+
+.panel p:last-child { @apply mb-0 }
 
 /**
 * This injects any component classes registered by plugins.
