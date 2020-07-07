@@ -9,7 +9,7 @@
 
 <script>
 import {
-  axisBottom, line, select, scaleTime, max, scaleLinear, axisLeft,
+  axisBottom, line, select, scaleTime, max, scaleLinear, axisRight,
 } from 'd3';
 import moment from 'moment';
 
@@ -68,7 +68,9 @@ export default {
 
       svg.append('g')
         .attr('class', 'yaxis')
-        .call(axisLeft(y).ticks(3));
+        .call(axisRight(y).ticks(3))
+        .select('.tick:first-of-type')
+        .remove();
 
       const nonEmptyData = this.data.filter((d) => !!d.value && +d.value > 0);
       svg.append('path')
