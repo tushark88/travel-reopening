@@ -38,7 +38,7 @@
           <div class="panel__inner">
             <p class="mb-0">
               Help us improve this data by dropping us
-              <a href="mailto:travel-map@tourhero.com?subject=Travel+Map+Update">an email</a>.
+              <a href="mailto:travel-map@tourhero.com?subject=Travel%20Map%20Update">an email</a>.
               Thank you very much for your help!
             </p>
           </div>
