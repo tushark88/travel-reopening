@@ -68,7 +68,9 @@ export default {
 
       svg.append('g')
         .attr('class', 'yaxis')
-        .call(axisRight(y).ticks(3));
+        .call(axisRight(y).ticks(3))
+        .select('.tick:first-of-type')
+        .remove();
 
       const nonEmptyData = this.data.filter((d) => !!d.value && +d.value > 0);
       svg.append('path')
