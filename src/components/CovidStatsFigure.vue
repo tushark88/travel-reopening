@@ -21,16 +21,15 @@ export default {
   created() { window.addEventListener('resize', this.handleSizeChange); },
   computed: {
     latestFigure() {
-      if (!this.data) { return { value: 'NA', date: 'NA' }; }
-      const sorted = (this.data.slice(0) || []) // make copy of array to prevent mutation
-        .sort((a, b) => Date.parse(a.date) - Date.parse(b.date));
-      const figure = sorted[sorted.length - 1]?.value || 0;
-      const date = sorted[sorted.length - 1]?.date;
-      const formattedDate = date ? moment(date).format('MMMM D, YYYY') : 'NA';
+      if (!this.data || this.data.length <= 0) { return { value: 'NA', date: 'NA' }; }
+      const lastFigure = (this.data.slice(0) || []) // make copy of array to prevent mutation
+        .sort((a, b) => b.date - a.date)
+        .find(({ value }) => value);
+      const formattedDate = lastFigure.date ? moment(lastFigure.date).format('MMMM D, YYYY') : 'NA';
 
       return {
         date: formattedDate,
-        value: figure.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,'),
+        value: lastFigure.value.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,'),
       };
     },
   },
