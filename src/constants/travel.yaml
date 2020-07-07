@@ -499,12 +499,12 @@ countries:
     travel:
       domestic: 'partial'
       inbound: 'no'
-      inbound: 'no'
+      outbound: 'no'
     updated_on: 2020-07-07
   BY:
     sources:
       inbound:
-        - '[Belavia is resuming flights to Rome.](https://by.usembassy.gov/health-alert-u-s-embassy-minsk-belarus-june-8-2020/)'
+        - '[Belavia is resuming flights to Rome](https://by.usembassy.gov/health-alert-u-s-embassy-minsk-belarus-june-8-2020/).'
     travel:
       inbound: partial
     updated_on: 2020-07-07
