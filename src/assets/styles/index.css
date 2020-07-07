@@ -77,6 +77,8 @@ ol > li:not(:last-child) { @apply mb-2; }
   .panel__inner { @apply p-6; }
 }
 
+.panel p:last-child { @apply mb-0 }
+
 /**
 * This injects any component classes registered by plugins.
 **/
