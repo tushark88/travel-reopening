@@ -38,7 +38,7 @@
           <div class="panel__inner">
             <p class="mb-0">
               Help us improve this data by dropping us
-              <a href="mailto:travel-map@tourhero.com?subject=Travel+Map+Update">an email</a>.
+              <a :href="emailTo">an email</a>.
               Thank you very much for your help!
             </p>
           </div>
@@ -86,6 +86,10 @@ export default {
     updatedOn() {
       const date = this.getCountryGlobalState(this.country.code)?.updatedOn;
       return date ? moment(date).format('MMMM D, YYYY') : date;
+    },
+    emailTo() {
+      const subject = encodeURI(`Travel Map Update for ${this.country.name}`);
+      return `mailto:travel-map@tourhero.com?subject=${subject}`;
     },
   },
   methods: {
