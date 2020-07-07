@@ -283,11 +283,11 @@ countries:
   BF:
     sources:
       domestic:
-        - 'As of June 3, 2020, the Government of Burkina Faso [cancelled the curfew](https://www.smartraveller.gov.au/destinations/africa/burkina-faso) which was in effect throughout the country, except for the provinces that are under a state of emergency (the East and Sahel regions, the provinces of Kossi and Sourou in Boucle de Mouhoun, the province of Kenedougou in Hauts Bassins, the province of Louroum in the North, and the province of Koulpelogo in the Center-East region).'
+        - 'As of June 3, 2020, the Government of Burkina Faso [canceled the curfew](https://www.smartraveller.gov.au/destinations/africa/burkina-faso) which was in effect throughout the country, except for the provinces that are under a state of emergency (the East and Sahel regions, the provinces of Kossi and Sourou in Boucle de Mouhoun, the province of Kenedougou in Hauts Bassins, the province of Louroum in the North, and the province of Koulpelogo in the Center-East region).'
       inbound:
-        - '[Burkina Faso''s borders are closed to foreigners and international flights are cancelled.](https://www.smartraveller.gov.au/destinations/africa/burkina-faso)'
+        - '[Burkina Faso''s borders are closed to foreigners and international flights are canceled.](https://www.smartraveller.gov.au/destinations/africa/burkina-faso)'
       outbound:
-        - '[Burkina Faso''s borders are closed to foreigners and international flights are cancelled.](https://www.smartraveller.gov.au/destinations/africa/burkina-faso)'
+        - '[Burkina Faso''s borders are closed to foreigners and international flights are canceled.](https://www.smartraveller.gov.au/destinations/africa/burkina-faso)'
     travel:
       inbound: 'no'
     updated_on: 2020-07-06
@@ -650,8 +650,8 @@ countries:
   CY:
     sources:
       domestic:
-        - '[All movement restrictions are lifted, including nighttime curfew](https://cy.usembassy.gov/covid-19-information/#:~:text=%E2%80%9CTRNC%E2%80%9D%20citizens%2C%20permanent%20residents,be%20subject%20to%20any%20fee).'
-        - 'Gatherings of up to 25 people are allowed](https://cy.usembassy.gov/covid-19-information/#:~:text=%E2%80%9CTRNC%E2%80%9D%20citizens%2C%20permanent%20residents,be%20subject%20to%20any%20fee).'
+        - '[All movement restrictions are lifted, including night time curfew](https://cy.usembassy.gov/covid-19-information/#:~:text=%E2%80%9CTRNC%E2%80%9D%20citizens%2C%20permanent%20residents,be%20subject%20to%20any%20fee).'
+        - '[Gatherings of up to 25 people are allowed](https://cy.usembassy.gov/covid-19-information/#:~:text=%E2%80%9CTRNC%E2%80%9D%20citizens%2C%20permanent%20residents,be%20subject%20to%20any%20fee).'
       inbound:
         - '[Entry is allowed for certain countries](https://cy.usembassy.gov/covid-19-information/#:~:text=For%20Tourists%3A,14%20days%20prior%20to%20travel).'
         - 'Cyprian authorities announced on Saturday, July 4, that the country will [no longer accept flights arriving from Lebanon from Monday, July 6, 2020](https://www.garda.com/crisis24/news-alerts/356776/cyprus-authorities-ban-flights-arriving-from-lebanon-from-july-6-update-12).'
@@ -886,14 +886,13 @@ countries:
     reopening:
     sources:
       domestic:
-        - '[Spain has eased some lockdown restrictions.](https://newseu.cgtn.com/news/2020-05-25/Spain-s-lockdown-eased-UK-schools-to-reopen-COVID-19-daily-bulletin-QMAjS8xApG/index.html)'
-        - '[Authorities reimposed a lockdown](https://newseu.cgtn.com/news/2020-05-25/Spain-s-lockdown-eased-UK-schools-to-reopen-COVID-19-daily-bulletin-QMAjS8xApG/index.html) in Segrià municipality (Catolonia region), including the city of Lleida, due to a rise in coronavirus disease (COVID-19) cases in the area on Saturday, July 4, 2020.'
+        - '[Authorities reimposed a lockdown](https://newseu.cgtn.com/news/2020-05-25/Spain-s-lockdown-eased-UK-schools-to-reopen-COVID-19-daily-bulletin-QMAjS8xApG/index.html) in Segrià municipality (Catalonia region), including the city of Lleida, due to a rise in coronavirus disease (COVID-19) cases in the area on Saturday, July 4, 2020.'
       inbound:
         - '[The Spanish authorities have decided to reopen country’s borders](https://www.schengenvisainfo.com/news/spain-to-reopen-borders-a-week-later-than-commissions-recommended-date/) on 21 June, 2020, for all EU and Schengen countries, except for Portugal with which the borders will reopen in July, 2020.'
       outbound:
         - '[Spain’s major airports have reopened for international flights](https://www.thesun.co.uk/travel/11647411/spains-airports-open-flights/) with Ibiza, Tenerife, Malaga and Palma all welcoming planes.'
       visa_quarantine:
-        - 'From 1 July, 2020, tourists will be able to visit Spain [without having to quarantine for two weeks.](https://news.sky.com/story/coronavirus-spain-to-welcome-tourists-from-1-july-with-no-quarantine-11994664)'
+        - 'From July 1, 2020, tourists will be able to visit Spain [without having to quarantine for two weeks.](https://news.sky.com/story/coronavirus-spain-to-welcome-tourists-from-1-july-with-no-quarantine-11994664)'
         - 'Upon arrival into Spain, a [Public Health Passenger Locator Form must be presented.](https://www.iatatravelcentre.com/international-travel-document-news/1580226297.htm)'
     travel:
       domestic: partial
