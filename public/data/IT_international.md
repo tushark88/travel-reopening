@@ -10,6 +10,8 @@ There are no travel restrictions from the following countries:
 - Andorra, Principality of Monaco;
 - Republic of San Marino and Vatican City State.
 
+As of July 7, 2020, flights arriving from Bangladesh have been [suspended](https://www.garda.com/crisis24/news-alerts/357501/italy-flights-from-bangladesh-suspended-following-imported-covid-19-cases-july-7-update-34).
+
 For visa and quarantine requirements, please refer below.
 
 #### Outbound Travel: Who can travel out of Italy?

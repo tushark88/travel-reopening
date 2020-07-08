@@ -2,13 +2,11 @@ Restrictions apply for inbound and outbound travel. See below for more details.
 
 #### Inbound Travel: Who can travel into Estonia?
 
-**Travel restrictions apply.** Self-isolation is not compulsory if you arrive from or have spent 14 days in these countries before arriving in Estonia:
+**Travel restrictions apply.** As of 6 July, 2020, self-isolation is not compulsory if you arrive from or have spent 14 days in these countries before arriving in Estonia:
 
-Austria, Spain, The Netherlands, Croatia, Iceland, Ireland, Italy, Greece, Cyprus, Lithuania, Liechtenstein, Luxembourg, Latvia, Norway, France, Malta, Germany, Slovakia, Slovenia, Finland, Switzerland, Denmark, the Czech Republic, and Hungary.
+Austria, Belgium, Bulgaria, Croatia, Czech Republic, Cyprus, Denmark, Finland, France, Germany, Greece, Hungary , Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, Algeria, Australia, Canada, Georgia, Japan, Montenegro, Morocco, New Zealand, Rwanda, Serbia, South Korea, Thailand, Tunisia, and Uruguay
 
-As of June 29, 2020, self-isolation is not compulsory if you arrive from or have spent 14 days in Belgium before arriving in Estonia.
-
-As of June 1, 2020, the government has allowed travelers with no symptoms arriving from the European Union, the Schengen area and Northern Ireland. However, as of June 22, 2020, Estonia has enforced a two-week self-isolation requirement for those arriving from **Poland, Sweden, Romania, Bulgaria, Portugal, and The United Kingdom.**
+For travlers arriving from the rest of the world, mandatory self-isolation still currently applies.
 
 Travel documents and medical symptoms are checked at the border crossing points, i.e. ports, airports and checkpoints at Russian land borders. Border control personnel have legal rights to deny entering for persons who show symptoms of COVID-19, i.e. to deport them back to the country of arrival.
 
