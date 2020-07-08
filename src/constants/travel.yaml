@@ -270,9 +270,9 @@ countries:
         - 'The Government of Belgium has imposed entry and exit controls on [non-essential travel to and from the country.](https://dofi.ibz.be/sites/dvzoe/EN/Pages/Travel-to-Belgium.aspx)'
         - '[Entry is allowed](https://dofi.ibz.be/sites/dvzoe/EN/Pages/Travel-to-Belgium.aspx) for nationals of EU Member States and Schengen Member States, for the purposes of returning to their homes; Third-country nationals who are in possession a residence card (or D-visa) delivered by a Schengen Member State, for the purpose of returning to their homes.'
       outbound:
-        - '[From 15 June, 2020, you are allowed to go on holiday](https://www.info-coronavirus.be/en/faq/). You may only visit countries in the European Union, including the United Kingdom, Switzerland, Liechtenstein, Iceland, Norway.'
+        - '[From June 15, 2020, you are allowed to go on holiday](https://www.info-coronavirus.be/en/faq/). You may only visit countries in the European Union, including the United Kingdom, Switzerland, Liechtenstein, Iceland, Norway.'
       visa_quarantine:
-        - 'The examination of visa applications already submitted continues. However, in the event of a positive decision, the visa will not be issued immediately, [except in exceptional cases (essential travel)](https://dofi.ibz.be/sites/dvzoe/EN/Pages/Travel-to-Belgium.aspx).'
+        - 'The examination of visa applications already submitted continues. However, in the event of an approved visa application, it will not be issued immediately, [except for essential travel](https://dofi.ibz.be/sites/dvzoe/EN/Pages/Travel-to-Belgium.aspx).'
         - 'People with a valid visa are strongly advised to postpone any non-essential travel and to travel [when the situation is normalized](https://dofi.ibz.be/sites/dvzoe/EN/Pages/Travel-to-Belgium.aspx).'
     travel:
       domestic: 'yes'
@@ -402,7 +402,7 @@ countries:
   BJ:
     sources:
       domestic:
-        - 'Places of worship, bars, clubs, beaches, and places of celebration are closed. All cultural and sport events have been [cancelled](https://bj.usembassy.gov/info-covid19/).'
+        - 'Places of worship, bars, clubs, beaches, and places of celebration are closed. All cultural and sport events have been [canceled](https://bj.usembassy.gov/info-covid19/).'
       inbound:
         - 'Land borders with Benin’s four neighboring countries are [closed to all](https://bj.usembassy.gov/info-covid19/).'
         - 'Cotonou Cadjehoun Airport remains open, though [flight options are limited](https://bj.usembassy.gov/info-covid19/).'
@@ -421,18 +421,18 @@ countries:
         - 'Officials intend to allow cinemas and swimming pools to [restart operations from July 6 with safeguards](https://www.worldaware.com/covid-19-alert-brunei-further-ease-domestic-controls-july-4), such as limiting the facilities to 30 percent of the capacity and banning children below 15 years of age.'
         - 'Most eating establishments can serve dine-in customers at 80 percent of the seating capacity from July 6, while open-air stalls may operate with [full seating capacity](https://www.worldaware.com/covid-19-alert-brunei-further-ease-domestic-controls-july-4).'
       inbound:
-        - 'The Bruneian government has imposed an entry ban on all foreign travellers, including transit passengers, from March 24, 2020 [until further notice](https://www.mfa.gov.sg/countries-regions/b/brunei-darussalam/travel-page).'
+        - 'The Bruneian government has imposed an entry ban on all foreign travelers, including transit passengers, from March 24, 2020 [until further notice](https://www.mfa.gov.sg/countries-regions/b/brunei-darussalam/travel-page).'
       outbound:
         - 'From March 16, 2020, all citizens and residents of Brunei Darussalam are [not permitted to leave the country](https://bn.usembassy.gov/coronavirus-covid-19-health-alert-30/).'
     travel:
       inbound: 'no'
-      outbound: partial
+      outbound: no
     updated_on: 2020-07-07
   BO:
     sources:
       domestic:
         - 'The Bolivian government announced an [extension of national quarantine measures through July 31, 2020](https://bo.usembassy.gov/covid-19-information/)'
-        - 'Monday to Friday: Persons and vehicles are prohibited from circulating between the nighttime hours of 18:00 and 5:00 but may circulate during the day with limits on the number of people in vehicles. Saturday and Sunday: Vehicles are prohibited from circulating. People may circulate on foot within 500 meters of their home. These curfews are in effect [until July 31, 2020](https://bo.usembassy.gov/covid-19-information/).'
+        - 'Monday to Friday: Persons and vehicles are prohibited from commuting between the night time hours of 18:00 and 5:00 but may commute during the day with limits on the number of people in vehicles. Saturday and Sunday: Vehicles are prohibited from commuting. People may travel on foot within 500 meters of their home. These curfews are in effect [until July 31, 2020](https://bo.usembassy.gov/covid-19-information/).'
       inbound:
         - '[International flights remain suspended and all borders remain closed.](https://bo.usembassy.gov/covid-19-information/)'
       outbound:
@@ -476,11 +476,11 @@ countries:
     sources:
       domestic:
         - '[Most tourism sites closed](https://www.tourism.gov.bt/announcements/tourism-bhutan-situation-report-on-covid-19-as-of-23rd-march-2020).'
-        - '[Schools have resumed for most classes and all students are required to wear masks. While all parks and public spaces have reopened, huge gatherings of crowds including tournaments and spectators are prohibited. Wearing of face masks are a requirement at all gatherings and safe distancing protocols are to be followed.](https://www.drukasia.com/bhutan/update-on-covid-19-is-bhutan-safe/).'
+        - 'Schools have resumed for most classes and all students are required to wear masks. While all parks and public spaces have reopened, huge gatherings of crowds including tournaments and spectators are prohibited. Wearing of face masks are a requirement at all gatherings and [safe distancing protocols are to be followed](https://www.drukasia.com/bhutan/update-on-covid-19-is-bhutan-safe/).'
       inbound:
-        - '[All inbound tourists will be denied entry into Bhutan, till further notice.](https://www.mfa.gov.sg/countries-regions/b/bhutan/travel-page)'
+        - '[All inbound tourists will be denied entry into Bhutan, till further notice](https://www.mfa.gov.sg/countries-regions/b/bhutan/travel-page).'
       outbound:
-        - '[All flights suspended.](https://www.tourism.gov.bt/announcements/tourism-bhutan-situation-report-on-covid-19-as-of-23rd-march-2020)'
+        - '[All flights suspended](https://www.tourism.gov.bt/announcements/tourism-bhutan-situation-report-on-covid-19-as-of-23rd-march-2020).'
     travel:
       domestic: 'partial'
       inbound: 'no'
@@ -504,7 +504,7 @@ countries:
   BY:
     sources:
       inbound:
-        - '[Belavia is resuming flights to Rome](https://by.usembassy.gov/health-alert-u-s-embassy-minsk-belarus-june-8-2020/).'
+        - '[Belavia Airlines is resuming flights to Rome](https://by.usembassy.gov/health-alert-u-s-embassy-minsk-belarus-june-8-2020/).'
     travel:
       inbound: partial
     updated_on: 2020-07-07
@@ -947,7 +947,7 @@ countries:
     sources:
       domestic:
         - '[Authorities reimposed a lockdown](https://newseu.cgtn.com/news/2020-05-25/Spain-s-lockdown-eased-UK-schools-to-reopen-COVID-19-daily-bulletin-QMAjS8xApG/index.html) in Segrià municipality (Catalonia region), including the city of Lleida, due to a rise in coronavirus disease (COVID-19) cases in the area on Saturday, July 4, 2020.'
-        - '[Galician authorities reimposed a lockdown in La Mariña](https://www.garda.com/crisis24/news-alerts/356816/spain-authorities-reimpose-lockdown-in-la-marina-galicia-region-july-5-update-34) until Friday, July 10, 2020. However, residents will not be required to go on a full quarantine within their confined area and bars and restaurants will remain open during the lockdown, but limited to a 50 percent capacity.'
+        - '[Galician authorities reimposed a lockdown in La Mariña](https://www.garda.com/crisis24/news-alerts/356816/spain-authorities-reimpose-lockdown-in-la-marina-galicia-region-july-5-update-34) until Friday, July 10, 2020. However, residents will not be required to go on a full quarantine within their confined area. Bars and restaurants will remain open during the lockdown, but limited to a 50 percent capacity.'
       inbound:
         - '[The Spanish authorities have decided to reopen country’s borders](https://www.schengenvisainfo.com/news/spain-to-reopen-borders-a-week-later-than-commissions-recommended-date/) on 21 June, 2020, for all EU and Schengen countries, except for Portugal with which the borders will reopen in July, 2020.'
       outbound:
@@ -2024,14 +2024,16 @@ countries:
       outbound: 'yes'
     updated_on: 2020-07-02
   KE:
+    reopening:
+      '2020-08-01': 'Kenyatta stated that [international commercial flights would resume from August 1, 2020](https://www.garda.com/crisis24/news-alerts/357071/kenya-movement-restrictions-to-be-lifted-in-nairobi-mombasa-and-mandera-counties-july-7-update-25).'
     sources:
       domestic:
-        - 'Kenyatta stated that international commercial flights would resume from August 1 and that [domestic flights will commence from July 15](https://www.garda.com/crisis24/news-alerts/357071/kenya-movement-restrictions-to-be-lifted-in-nairobi-mombasa-and-mandera-counties-july-7-update-25).'
-        - 'The government extended the current curfew in place between 21:00 and 04:00 by another 30 days as of July 6. [Public gatherings also remain banned for a further 30 days](https://www.garda.com/crisis24/news-alerts/357071/kenya-movement-restrictions-to-be-lifted-in-nairobi-mombasa-and-mandera-counties-july-7-update-25).'
+        - 'Kenyatta stated that international commercial flights would resume from August 1, 2020, and that [domestic flights will commence from July 15, 2020](https://www.garda.com/crisis24/news-alerts/357071/kenya-movement-restrictions-to-be-lifted-in-nairobi-mombasa-and-mandera-counties-july-7-update-25).'
+        - 'The government extended the current curfew in place between 21:00 and 04:00 by another 30 days as of July 6, 2020. [Public gatherings also remain banned for a further 30 days](https://www.garda.com/crisis24/news-alerts/357071/kenya-movement-restrictions-to-be-lifted-in-nairobi-mombasa-and-mandera-counties-july-7-update-25).'
       inbound:
-        - 'Kenyatta stated that [international commercial flights would resume from August 1](https://www.garda.com/crisis24/news-alerts/357071/kenya-movement-restrictions-to-be-lifted-in-nairobi-mombasa-and-mandera-counties-july-7-update-25) and that domestic flights will commence from July 15.'
+        - 'Kenyatta stated that [international commercial flights would resume from August 1, 2020](https://www.garda.com/crisis24/news-alerts/357071/kenya-movement-restrictions-to-be-lifted-in-nairobi-mombasa-and-mandera-counties-july-7-update-25), and that domestic flights will commence from July 15, 2020.'
       outbound:
-        - 'Kenyatta stated that international commercial flights would resume from August 1 and that [domestic flights will commence from July 15](https://www.garda.com/crisis24/news-alerts/357071/kenya-movement-restrictions-to-be-lifted-in-nairobi-mombasa-and-mandera-counties-july-7-update-25).'
+        - 'Kenyatta stated that international commercial flights would resume from August 1, 2020, and that [domestic flights will commence from July 15, 2020](https://www.garda.com/crisis24/news-alerts/357071/kenya-movement-restrictions-to-be-lifted-in-nairobi-mombasa-and-mandera-counties-july-7-update-25).'
     travel:
       inbound: 'no'
     updated_on: 2020-07-07
@@ -4725,10 +4727,10 @@ countries:
         - 'The Samoan government extended the state of emergency introduced due to the COVID-19 pandemic [until August 2, 2020](https://www.garda.com/crisis24/news-alerts/356976/samoa-authorities-extend-state-of-emergency-until-august-2-update-8).'
         - '[The government also amended regulations on public gatherings](https://www.samoagovt.ws/2020/06/amended-state-of-emergency-orders-for-coronavirs-covid-19-03rd-june-2020/), with meetings and church services now allowed to have up to 50 attendees so long as social distancing of 6 ft is adhered to. Restaurants will be permitted to operate on Sundays between 12:00 (local time) and 22:00 for take away services only.'
       inbound:
-        - 'All travelers outside of New Zealand must spend 28 days or more in New Zealand before onward travel to Samoa and [must comply with requirements.](https://www.samoagovt.ws/2020/06/22-june-2020-%e2%9d%97special-travel-advice-and-information-paper-for-travellers-from-new-zealand/)'
-        - '[As of June 3, 2020, [all travel to and from Somoa has ceased.](https://www.samoagovt.ws/2020/06/amended-state-of-emergency-orders-for-coronavirs-covid-19-03rd-june-2020/)'
+        - 'All travelers outside of New Zealand must spend 28 days or more in New Zealand before onward travel to Samoa and [must comply with requirements](https://www.samoagovt.ws/2020/06/22-june-2020-%e2%9d%97special-travel-advice-and-information-paper-for-travellers-from-new-zealand/).'
+        - '[As of June 3, 2020, [all travel to and from Samoa has ceased](https://www.samoagovt.ws/2020/06/amended-state-of-emergency-orders-for-coronavirs-covid-19-03rd-june-2020/).'
       outbound:
-        - 'As of June 3, 2020, [all travel to and from Somoa has ceased.](https://www.samoagovt.ws/2020/06/amended-state-of-emergency-orders-for-coronavirs-covid-19-03rd-june-2020/)'
+        - 'As of June 3, 2020, [all travel to and from Samoa has ceased](https://www.samoagovt.ws/2020/06/amended-state-of-emergency-orders-for-coronavirs-covid-19-03rd-june-2020/).'
       visa_quarantine:
         - 'Samoan citizens and residents are required to [undergo testing for COVID-19 within five days prior to re-entering the country](https://www.garda.com/crisis24/news-alerts/356976/samoa-authorities-extend-state-of-emergency-until-august-2-update-8).'
     travel:
