@@ -31,11 +31,11 @@
           <CountryBody :content="internationalContent">
             <h3>International Travel</h3>
           </CountryBody>
-          <CountryBody :content="domesticContent">
-            <h3>Domestic Travel</h3>
-          </CountryBody>
           <CountryBody :content="visaQuarantineContent">
             <h3>Visa &amp; Quarantine Measures</h3>
+          </CountryBody>
+          <CountryBody :content="domesticContent">
+            <h3>Domestic Travel</h3>
           </CountryBody>
         </div>
         <div class="panel">
