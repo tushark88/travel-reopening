@@ -4481,7 +4481,7 @@ countries:
     travel:
       domestic: partial
       inbound: no
-      inbound: no
+      outbound: no
     updated_on: 2020-07-08
   TG:
     sources:
