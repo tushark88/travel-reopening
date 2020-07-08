@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@sentry/browser": "^5.19.0",
-    "@sentry/integrations": "^5.19.0",
+    "@sentry/integrations": "^5.19.1",
     "@types/d3": "^5.7.2",
     "@types/d3-geo": "^1.11.1",
     "@types/topojson": "^3.2.2",
