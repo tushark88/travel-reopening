@@ -68,25 +68,23 @@ countries:
       domestic: 'partial'
       inbound: 'yes'
       outbound: 'yes'
-    updated_on: 2020-06-26
+    updated_on: 2020-07-08
   AL:
-    reopening:
-      '2020-06-01': '[Albania to reopen land borders on June 1.](https://seenews.com/news/albania-to-reopen-land-borders-on-june-1-report-700190)'
-      '2020-06-22': '[All international flights to and from Tirana International Airport to resume on Monday, June 22, 2020.](https://www.garda.com/crisis24/news-alerts/352636/albania-international-flights-to-resume-june-22-update-13)'
     sources:
       domestic:
-        - 'Mass transit, conferences, public hearings, swimming pools, theaters, cinemas, and nightclubs will remain closed until Tuesday, June 23, 2020, when the [current state of emergency is due to expire.](https://www.garda.com/crisis24/news-alerts/352636/albania-international-flights-to-resume-june-22-update-13)'
+        - 'People are now allowed to move around freely](https://www.garda.com/crisis24/news-alerts/357461/albania-public-transportation-services-resume-in-tirana-july-6-update-14), with parks, gyms and internet cafes now open.'
+        - '[A ban on public gatherings remains in place](https://www.garda.com/crisis24/news-alerts/357461/albania-public-transportation-services-resume-in-tirana-july-6-update-14).'
       inbound:
         - '[Commercial flights returned to Albania on June 15, 2020,](https://al.usembassy.gov/updates_covid19/) with flights from Tirana to Vienna, Belgrade, and Athens. The Government of Albania has declared that only European Union residents and nationals are eligible to board these flights at this time.'
       outbound:
-        - '[Commercial flights returned to Albania on June 15, 2020,](https://al.usembassy.gov/updates_covid19/) with flights from Tirana to Vienna, Belgrade, and Athens. The Government of Albania has declared that only European Union residents and nationals are eligible to board these flights at this time.'
+        - '[Commercial flights returned to Albania on June 15, 2020](https://al.usembassy.gov/updates_covid19/), with flights from Tirana to Vienna, Belgrade, and Athens. The Government of Albania has declared that only European Union residents and nationals are eligible to board these flights at this time.'
       visa_quarantine:
         - '[There is no general requirement](https://al.usembassy.gov/updates_covid19/) for travelers returning to Albania to self-quarantine. Quarantine will only apply in specific cases when ordered by health authorities.'
     travel:
       domestic: partial
       inbound: partial
       outbound: partial
-    updated_on: 2020-06-26
+    updated_on: 2020-07-08
   AM:
     sources:
       domestic:
@@ -560,29 +558,37 @@ countries:
     sources:
       domestic: null
       inbound:
-        - '[Bangui-M''Poko International Airport (BGF) has been closed since 1 April, 2020. Persons entering CAR from locations with local-transmission of COVID-19 are required to self-isolate for 21 days.](https://www.worldaware.com/covid-19-alert-countries-across-africa-enforcing-various-travel-restrictions-preventative-measures)'
         - '[Anyone coming from a country with local-transmission of COVID-19 is banned from entering, airport is also closed.](https://cf.usembassy.gov/covid-19-information/)'
+      visa_quarantine:
+        - 'Persons entering CAR from locations with local-transmission of COVID-19 are required to [self-isolate for 21 days](https://cf.usembassy.gov/covid-19-information/).'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15
+    updated_on: 2020-07-08
   CG:
     sources:
+      domestic:
+        - 'The Republic of Congo has closed its land, air, and maritime borders due to the ongoing pandemic and [domestic and international commercial flights currently remain suspended](https://www.garda.com/crisis24/news-alerts/353951/congo-number-of-confirmed-covid-19-cases-passes-1000-on-june-23-as-state-of-emergency-extended-update-7).'
+        - 'Non-essential businesses, schools, and places of worship also [remain closed](https://www.garda.com/crisis24/news-alerts/353951/congo-number-of-confirmed-covid-19-cases-passes-1000-on-june-23-as-state-of-emergency-extended-update-7).'
       inbound:
-        - '[Domestic and international flights remain suspended.](https://www.garda.com/crisis24/news-alerts/348541/congo-authorities-extend-nationwide-curfew-orders-until-june-20-update-6)'
+        - 'The Republic of Congo has closed its land, air, and maritime borders due to the ongoing pandemic. Domestic and [international commercial flights currently remain suspended](https://www.garda.com/crisis24/news-alerts/353951/congo-number-of-confirmed-covid-19-cases-passes-1000-on-june-23-as-state-of-emergency-extended-update-7).'
+      outbound:
+        - 'The Republic of Congo has closed its land, air, and maritime borders due to the ongoing pandemic. Domestic and [international commercial flights currently remain suspended](https://www.garda.com/crisis24/news-alerts/353951/congo-number-of-confirmed-covid-19-cases-passes-1000-on-june-23-as-state-of-emergency-extended-update-7).'
     travel:
+      domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-15
+      outbound: 'no'
+    updated_on: 2020-07-08
   CH:
     sources:
       domestic:
-        - '[Rules on hygiene and social distancing apply on all trips and excursions within Switzerland.](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende.html#1707070180)'
-        - '[Since 6 June, 2020, further businesses and institutions have been able to reopen and events for up to 300 people have been allowed to take place.](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/massnahmen-des-bundes.html)'
+        - 'Rules on hygiene and social distancing [apply on all trips and excursions within Switzerland](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/empfehlungen-fuer-reisende.html#1707070180).'
+        - 'Since June 6, 2020, further businesses and institutions have been able to reopen and events for up to 300 people have been [allowed to take place](https://www.bag.admin.ch/bag/en/home/krankheiten/ausbrueche-epidemien-pandemien/aktuelle-ausbrueche-epidemien/novel-cov/massnahmen-des-bundes.html).'
       inbound:
-        - '[As of 15 June, 2020, Switzerland has lifted all COVID-19 related entry restrictions for travelers from other Schengen countries](https://ch.usembassy.gov/covid-19-info/#:~:text=As%20of%20June%2015%2C%20Switzerland,agreement%20with%20the%20other%20country.)'
+        - 'As of June 15, 2020, Switzerland has lifted all COVID-19 related entry restrictions for travelers from [other Schengen countries](https://ch.usembassy.gov/covid-19-info/#:~:text=As%20of%20June%2015%2C%20Switzerland,agreement%20with%20the%20other%20country).'
       outbound:
-        - '[Switzerland will not stop anyone from leaving the country.](https://www.sem.admin.ch/sem/en/home/aktuell/aktuell/faq-einreiseverweigerung.html)'
+        - '[Switzerland will not stop anyone from leaving the country](https://www.sem.admin.ch/sem/en/home/aktuell/aktuell/faq-einreiseverweigerung.html).'
       visa_quarantine:
-        - '[Current visa suspension (Visa C and Visa D) remains. It is currently not possible to apply for a visa, regardless of the date of your planned journey.](https://www.sem.admin.ch/sem/en/home/aktuell/aktuell/faq-einreiseverweigerung.html)'
+        - '[Visa services are still suspended](https://ch.usembassy.gov/covid-19-info/).'
     travel:
       domestic: partial
       inbound: partial
@@ -615,14 +621,23 @@ countries:
         - SE
         - GB
       outbound: 'yes'
-    updated_on: 2020-06-09
+    updated_on: 2020-07-08
   CI:
     sources:
+      domestic:
+        - 'Effective May 15, 2020, the [curfew was lifted nation-wide](https://ci.usembassy.gov/covid-19-information/), while bars, night clubs, cinemas and entertainment venues remain closed through July 15, 2020.'
+        - 'Travel from the Greater Abidjan area (including Dabou, Azagule, Bingerville, Grand-Bassam, Bonoua and Assinie) to the rest of the country remains prohibited through July 15, 2020 and is being enforced by entry and exit check points. There is an [online application process to request permission for inter-city travel](https://ci.usembassy.gov/covid-19-information/).'
       inbound:
-        - '[Cote d’Ivoire’s border closure and suspension on commercial flight operations was extended through 30 June, 2020.](https://ci.usembassy.gov/health-alert-u-s-embassy-abidjan-cote-divoire-2/)'
+        - 'The government announced that [some international flights will be permitted to resume](https://ci.usembassy.gov/covid-19-information/) as of July 1, 2020. Additional clarification is still expected from the Ministry of Transport further detailing these plans and when intercontinental flights may begin.'
+      outbound:
+        - 'The government announced that [some international flights will be permitted to resume](https://ci.usembassy.gov/covid-19-information/) as of July 1, 2020. Additional clarification is still expected from the Ministry of Transport further detailing these plans and when intercontinental flights may begin.'
+      visa_quarantine:
+        - 'Arriving passengers are registered and sent home for a [two-week period of quarantine, receiving regular calls and follow-up for 14 days](https://ci.usembassy.gov/covid-19-information/) to monitor for any symptoms of COVID-19.'
     travel:
+      domestic: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-16
+      outbound: 'no'
+    updated_on: 2020-07-08
   CL:
     sources:
       domestic:
@@ -790,11 +805,11 @@ countries:
     sources:
       domestic:
         - '[Germany has reimposed coronavirus lockdown measures in two northwestern districts](https://www.aa.com.tr/en/europe/covid-19-germany-hit-by-local-infection-spikes/1888588) on Wednesday after local outbreaks linked to a meat processing factory.'
+        - 'German authorities announced on June 17, 2020 that the ban on large events will be [extended until at least October 31, 2020](https://www.garda.com/crisis24/news-alerts/357631/germany-lockdown-in-gutersloh-district-lifted-following-court-ruling-july-7-update-33).'
       inbound:
         - 'EU Citizens, Liechtenstein, Switzerland, Norway and Iceland and all family members of these citizens are [permitted to return to their home country or to their place of normal residence in Germany or another country.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
       outbound:
         - '[Avoid all non-essential travel.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
-        - 'Checks at the borders with Austria, Switzerland, France and Denmark and for passengers arriving by air from Italy and Spain [remain in effect until 15 June, 2020.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3)'
       visa_quarantine:
         - 'The federal and state governments have agreed that all persons entering Germany from third countries are required to [remain in self-quarantine for two weeks.](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3) Third countries are countries outside the European Union (EU). Persons traveling from Iceland, Liechtenstein, Norway, Switzerland, and the United Kingdom of Great Britain and Northern Ireland are exempt from this requirement, as are persons traveling from EU countries.'
         - '[The quarantine requirement does not apply to persons entering from a third country](https://www.bmi.bund.de/SharedDocs/faqs/EN/topics/civil-protection/coronavirus/coronavirus-faqs.html;jsessionid=6E220CBEC1484CEF34F9618F8E5197FA.2_cid287#doc13797140bodyText3) if it is determined that the infection rate in that country is low. The names of these countries will be published on the website of the Robert-Koch-Institut.'
@@ -832,10 +847,10 @@ countries:
         - IS
         - LI
         - MC
-        - 'NO'
+        - NO
         - CH
       outbound: partial
-    updated_on: 2020-06-26
+    updated_on: 2020-07-08
   DJ:
     sources:
       inbound:
@@ -909,16 +924,63 @@ countries:
       domestic:
         - '[Border control personnel have legal rights to deny entering for persons who show symptoms of COVID-19, i.e. to deport them back to the country of arrival.](https://www.visitestonia.com/en/why-estonia/coronavirus-and-travelling-to-estonia)'
       inbound:
-        - '[From 1 June, 2020, Estonia admits people with no Covid-19 symptoms arriving from the European Union, the members of the Schengen area or the United Kingdom of Great Britain and Northern Ireland - but quarantine requirements may apply.](https://vm.ee/en/information-countries-and-quarantine-requirements-passengers)'
+        - 'From June 1, 2020, Estonia [admits people](https://vm.ee/en/information-countries-and-quarantine-requirements-passengers) with no COVID-19 symptoms arriving from the European Union, the members of the Schengen area or the United Kingdom of Great Britain and Northern Ireland - but quarantine requirements may apply.'
+        - 'Estonia reopened its borders to [14 countries outside the European Union](https://www.garda.com/crisis24/news-alerts/357576/estonia-authorities-reopen-borders-to-further-countries-from-july-6-update-4)'
       outbound:
-        - '[No restrictions for exiting the country.](https://www.visitestonia.com/en/why-estonia/coronavirus-and-travelling-to-estonia)'
+        - '[No restrictions for exiting the country](https://www.visitestonia.com/en/why-estonia/coronavirus-and-travelling-to-estonia).'
       visa_quarantine:
-        - '[Based on the coronavirus infection rate, starting from Monday 22 June, a two-week self-isolation requirement applies to people arriving in Estonia from Poland, Sweden, Romania, Bulgaria, Portugal, and the United Kingdom.](https://vm.ee/en/news/updated-information-about-countries-and-self-isolation-requirements-passengers-europe-21-june)'
+        - 'Those arriving from countries with a COVID-19 infection rate of over 16 per 100,000 inhabitants in the past [14 days being required to self-isolate for 14 days upon arrival in Estonia](https://www.garda.com/crisis24/news-alerts/357576/estonia-authorities-reopen-borders-to-further-countries-from-july-6-update-4).'
     travel:
       domestic: 'no'
       inbound: partial
+      inbound_allowed:
+        - AT
+        - BE
+        - BG
+        - HR
+        - CZ
+        - CY
+        - DK
+        - FI
+        - FR
+        - DE
+        - GR
+        - HU
+        - IS
+        - IE
+        - IT
+        - LV
+        - LI
+        - LT
+        - LU
+        - MT
+        - NL
+        - NO
+        - PL
+        - PT
+        - RO
+        - SK
+        - SI
+        - ES
+        - SE
+        - CH
+        - GB
+        - DZ
+        - AU
+        - CA
+        - GE
+        - JP
+        - ME
+        - MA
+        - NZ
+        - RW
+        - RS
+        - KR
+        - TH
+        - TN
+        - UY
       outbound: 'yes'
-    updated_on: 2020-06-15
+    updated_on: 2020-07-08
   EG:
     sources:
       domestic:
@@ -1802,16 +1864,14 @@ countries:
   IT:
     sources:
       domestic:
-        - '[From 3 June, 2020, it is possible to travel from one region to the other.](http://www.italia.it/en/useful-info/covid-19-information-and-updates-for-tourists.html)'
+        - '[From June 3, 2020, it is possible to travel from one region to the other](http://www.italia.it/en/useful-info/covid-19-information-and-updates-for-tourists.html).'
       inbound:
-        - '[From 3 June, 2020, travelling to and from the following States is allowed: Member States of the European Union, States parties to the Schengen Agreement, the United Kingdom of Great Britain and Northern Ireland, Andorra, Monaco.](http://www.italia.it/en/useful-info/covid-19-information-and-updates-for-tourists.html)'
+        - 'From June 3, 2020, [travelling to and from the following States is allowed](http://www.italia.it/en/useful-info/covid-19-information-and-updates-for-tourists.html): Member States of the European Union, States parties to the Schengen Agreement, the United Kingdom of Great Britain and Northern Ireland, Andorra, Monaco.'
+        - 'Flights from Bangladesh have been [suspended from July 7, 2020](http://www.italia.it/en/useful-info/covid-19-information-and-updates-for-tourists.html).'
       outbound:
-        - '[The Italian government has decided to permit unrestricted travel between Italy and other Schengen countries and within Italy itself starting 3 June, 2020.](https://www.schengenvisainfo.com/news/italy-to-permit-unrestricted-travel-starting-june-3/)'
+        - 'The Italian government has decided to [permit unrestricted travel between Italy and other Schengen countries and within Italy itself](https://www.schengenvisainfo.com/news/italy-to-permit-unrestricted-travel-starting-june-3/) starting June 3, 2020.'
       visa_quarantine:
-        - '[From 3 June, 2020, if you are traveling to Italy from any of the above-mentioned countries you will no longer be required to self-isolate for 14 days, under supervision by the competent health authorities, unless you stayed in another country prior to traveling to Italy.](https://www.esteri.it/mae/en/ministero/normativaonline/decreto-iorestoacasa-domande-frequenti/focus-cittadini-italiani-in-rientro-dall-estero-e-cittadini-stranieri-in-italia.html)'
-        - >-
-          [If you are traveling from or to any country other than those listed above, the travel restrictions previously in force shall continue to apply. Only essential travel from or to these countries, in fact, is allowed, for proven work, urgent or health needs, although you are still allowed to return home if you live in Italy.
-          ](https://www.esteri.it/mae/en/ministero/normativaonline/decreto-iorestoacasa-domande-frequenti/focus-cittadini-italiani-in-rientro-dall-estero-e-cittadini-stranieri-in-italia.html)
+        - 'From July 1, 2020, if you are traveling to Italy from any of the above-mentioned countries you will no longer be required to self-isolate for 14 days, under supervision by the competent health authorities, [unless you stayed in another country prior to traveling to Italy](https://www.esteri.it/mae/en/ministero/normativaonline/decreto-iorestoacasa-domande-frequenti/focus-cittadini-italiani-in-rientro-dall-estero-e-cittadini-stranieri-in-italia.html).'
     travel:
       domestic: 'yes'
       inbound: partial
@@ -1843,7 +1903,7 @@ countries:
         - MA
         - MT
         - NL
-        - 'NO'
+        - NO
         - PL
         - PT
         - PO
@@ -1851,8 +1911,10 @@ countries:
         - SI
         - SK
         - UK
+      inbound_restricted:
+        - BD
       outbound: partial
-    updated_on: 2020-06-09
+    updated_on: 2020-07-08
   JM:
     sources:
       inbound:
@@ -3562,17 +3624,17 @@ countries:
       domestic:
         - '[Travelers can travel around the country, if they follow good personal health measures.](https://covid19.govt.nz/alert-system/alert-level-2/#travel-and-transport)'
       inbound:
-        - '[The New Zealand border has been closed to almost all travellers from 23:59 New Zealand Time on Thursday 19 March, 2020.](https://www.immigration.govt.nz/about-us/covid-19/coronavirus-update-inz-response)'
+        - '[Borders are closed for all foreign travelers](https://www.garda.com/crisis24/news-alerts/357296/new-zealand-air-new-zealand-suspend-incoming-flight-bookings-july-7-update-18).'
       outbound:
-        - '[The New Zealand border is currently closed to almost all travellers to help stop the spread of COVID-19.](https://www.immigration.govt.nz/about-us/covid-19/coronavirus-update-inz-response)'
+        - 'Outbound flights will not be affected by the [travel ban](https://www.garda.com/crisis24/news-alerts/357296/new-zealand-air-new-zealand-suspend-incoming-flight-bookings-july-7-update-18).'
       visa_quarantine:
-        - '[People granted a resident visa outside New Zealand and who are travelling to New Zealand on that resident for the first time may not travel to and enter New Zealand.](https://www.immigration.govt.nz/about-us/covid-19/border-closures-and-exceptions)'
-        - '[There are a small number of additional, limited exceptions to the ban on travelling to and entering New Zealand.](https://www.immigration.govt.nz/about-us/covid-19/border-closures-and-exceptions)'
+        - 'New Zealand citizens and residents may return to the country but must undergo a [mandatory 14-day managed quarantine or isolation](https://www.garda.com/crisis24/news-alerts/357296/new-zealand-air-new-zealand-suspend-incoming-flight-bookings-july-7-update-18).'
+
     travel:
       domestic: 'yes'
       inbound: 'no'
-      outbound: 'no'
-    updated_on: 2020-06-09
+      outbound: 'yes'
+    updated_on: 2020-07-08
   OM:
     sources:
       inbound:
@@ -3613,18 +3675,18 @@ countries:
         - 'Restrictions slowly easing, but high-risk districts deemed as [''critical zones'' will remain under lockdown](https://www.garda.com/crisis24/news-alerts/346436/philippines-authorities-ease-lockdown-in-metro-manila-from-june-1-update-22). Districts that report two or more cases of COVID-19 per week, will also remain under strict shelter-at-home restrictions.'
         - 'For domestic travellers, quarantine and testing policies of local government units may be applicable. Guests travelling on domestic routes are advised to check [local travel guidelines.](https://newsroom.airasia.com/news/2020/5/31/frequently-asked-questions-precautionary-measures-before-you-fly-with-airasia)'
         - 'Filipino President Rodrigo Duterte announced on Tuesday, June 30, 2020, that the lockdown would be [extended in Cebu City until July 15, 2020](https://newsroom.airasia.com/news/2020/5/31/frequently-asked-questions-precautionary-measures-before-you-fly-with-airasia).'
+        - 'Duterte further announced that the [general community quarantine (GCQ) has been extended until July 31, 2020](https://www.garda.com/crisis24/news-alerts/357626/philippines-authorities-lift-ban-on-non-essential-travel-abroad-july-7-update-25).'
       inbound:
         - 'On May 9, 2020, the Civil Aviation Authority of the Philippines (CAAP) announced that Manila''s Ninoy Aquino International Airport (MNL) will resume international flight arrivals from Monday, May 11, 2020, following new entry requirements introduced due to the coronavirus disease (COVID-19) pandemic. As such, the airport will operate on a [limited basis with a cap on passenger arrivals.](https://www.garda.com/crisis24/news-alerts/340496/philippines-manilas-ninoy-aquino-international-airport-mnl-to-resume-international-flight-arrivals-from-may-11-update-18)'
       outbound:
-        - 'All foreign nationals may now fly out of the country at any time, subject to availability of flights. [No Filipino tourists shall be allowed to fly out of the country at any time.](https://www.philippineairlines.com/en/ph/home/covid-19/travelrules)'
+        - '[Non-essential travel abroad can resume with immediate effect](https://www.philippineairlines.com/en/ph/home/covid-19/travelrules). Those traveling abroad must observe any restrictions in place at their final destination and will have to undergo a COVID-19 test and a mandatory quarantine period on return to the Philippines. They will also be required to submit confirmation of tickets, visas, and health insurance prior to travel, as well as signing a declaration form.'
       visa_quarantine:
-        - '[Visa-free privileges of foreign nationals are temporarily suspended.](https://www.dfa.gov.ph/covid-19-advisories/26402-travel-advisory-inbound-travel-restrictions-by-the-philippine-government-on-foreign-travelers)'
         - 'All issuance of [entry visas for visa-required foreign nationals are suspended](https://www.dfa.gov.ph/covid-19-advisories/26402-travel-advisory-inbound-travel-restrictions-by-the-philippine-government-on-foreign-travelers) while all previously-issued visas are cancelled, except those issued to Foreign Government and International Organization officials accredited to the Philippines, or foreign spouse and children of Filipino nationals.'
     travel:
       domestic: partial
       inbound: partial
-      outbound: partial
-    updated_on: 2020-07-03
+      outbound: yes
+    updated_on: 2020-07-08
   PK:
     sources:
       domestic:
@@ -4410,13 +4472,16 @@ countries:
   TD:
     sources:
       domestic:
-        - '[There is a curfew in place in certain provinces](https://www.garda.com/crisis24/news-alerts/350776/chad-authorities-extend-international-flight-suspension-through-june-22-update-11)'
+        - '[There are curfews in place in certain provinces](https://www.garda.com/crisis24/news-alerts/350776/chad-authorities-extend-international-flight-suspension-through-june-22-update-11).'
       inbound:
-        - '[The Chadian government has extended the suspension of international flights through Monday, June 22, due to the ongoing coronavirus disease (COVID-19) pandemic](https://www.garda.com/crisis24/news-alerts/350776/chad-authorities-extend-international-flight-suspension-through-june-22-update-11)'
+        - 'All international commercial passenger flights are [suspended until further notice, while land borders remain closed](https://www.garda.com/crisis24/news-alerts/357366/chad-authorities-extend-and-shorten-nightly-curfew-in-ndjamena-and-other-regions-until-july-20-update-12).'
+      outbound:
+        - 'All international commercial passenger flights are [suspended until further notice, while land borders remain closed](https://www.garda.com/crisis24/news-alerts/357366/chad-authorities-extend-and-shorten-nightly-curfew-in-ndjamena-and-other-regions-until-july-20-update-12).'
     travel:
       domestic: partial
-      inbound: partial
-    updated_on: 2020-06-09
+      inbound: no
+      outbound: no
+    updated_on: 2020-07-08
   TG:
     sources:
       inbound:
@@ -4562,18 +4627,225 @@ countries:
   UA:
     sources:
       domestic:
-        - '[Several services and institutions have reopened.](https://ua.usembassy.gov/covid-19-information/)'
-        - '[Domestic and international flights resumed on Monday, June 15.](https://ua.usembassy.gov/covid-19-information/)'
+        - 'In Ukraine, all public transportation, hotels, restaurants and coffee shops, church services, day care centers, swimming pools and sports gyms (except group that are larger than 10 people) are [open](https://www.traveloffpath.com/ukraine-has-reopened-for-tourism-everything-you-need-to-know/), as well as sporting events without spectators.'
+        - 'Inter-regional transportation, including passenger rail travel on Ukrzaliznytsia (Ukrainian Railways) are [available](https://www.traveloffpath.com/ukraine-has-reopened-for-tourism-everything-you-need-to-know/).'
       inbound:
-        - '[Domestic and international flights resumed on Monday, June 15.](https://ua.usembassy.gov/covid-19-information/)'
+        - 'The Ministry of Health of Ukraine have created a [''RED Zone'' country list and a ''GREEN Zone'' country list](https://www.traveloffpath.com/ukraine-has-reopened-for-tourism-everything-you-need-to-know/).'
+        - 'The ''RED Zone'' countries are defined by having more than 40 active cases per 100,000 population. Tourists entering Ukraine from the ''RED Zone'' countries may still be permitted, but [need to undergo quarantine for 14 days.](https://www.traveloffpath.com/ukraine-has-reopened-for-tourism-everything-you-need-to-know/).'
+        - 'The ''Green Zone'' countries are defined by having less than 40 active cases per 100,000 population. Tourists entering Ukraine from the ''Green Zone'' countries [do not need to quarantine.](https://www.traveloffpath.com/ukraine-has-reopened-for-tourism-everything-you-need-to-know/).'
       outbound:
-        - '[Several land border checkpoints with neighboring countries have reopened.](https://dpsu.gov.ua/ua/De-mozhna-peretnuti-kordon-avtotransportom/)'
-        - '[All scheduled commercial international passenger services, including flights, trains and passenger buses to and from Ukraine are currently suspended.](https://ua.usembassy.gov/covid-19-information/)'
+        - 'Commercial international passenger services to and from Ukraine have [resumed as of June 15, 2020](https://ua.usembassy.gov/covid-19-information/).'
     travel:
       domestic: partial
-      inbound: 'yes'
-      outbound: partial
-    updated_on: 2020-06-09
+      inbound: 'partial'
+      inbound_allowed:
+        - AF
+        - AL
+        - DZ
+        - AD
+        - AO
+        - AI
+        - AG
+        - AW
+        - AU
+        - AT
+        - BS
+        - BB
+        - BZ
+        - BJ
+        - BM
+        - BT
+        - BW
+        - VG
+        - BG
+        - BF
+        - BI
+        - KH
+        - CM
+        - NL
+        - KY
+        - TD
+        - CN
+        - KM
+        - CG
+        - CU
+        - CW
+        - CY
+        - CZ
+        - DK
+        - DM
+        - DJ
+        - ER
+        - EE
+        - SZ
+        - ET
+        - FO
+        - FK
+        - FJ
+        - FI
+        - PF
+        - GM
+        - GE
+        - DE
+        - GH
+        - GI
+        - GR
+        - GL
+        - GD
+        - GP
+        - GN
+        - GY
+        - HK
+        - HU
+        - IS
+        - IN
+        - ID
+        - IR
+        - IQ
+        - IE
+        - IM
+        - IT
+        - CI
+        - JM
+        - JP
+        - JO
+        - KE
+        - KG
+        - LA
+        - LV
+        - LB
+        - LS
+        - LR
+        - LY
+        - LI
+        - LT
+        - LU
+        - MO
+        - MG
+        - MW
+        - MY
+        - ML
+        - MT
+        - MQ
+        - MR
+        - MU
+        - MC
+        - MN
+        - MS
+        - MA
+        - MZ
+        - MM
+        - NA
+        - NP
+        - NC
+        - NZ
+        - NI
+        - NE
+        - NG
+        - NO
+        - PG
+        - PY
+        - PH
+        - PL
+        - RE
+        - RO
+        - RW
+        - SM
+        - SN
+        - RS
+        - SL
+        - SK
+        - SI
+        - SO
+        - KR
+        - SD
+        - LK
+        - KN
+        - VC
+        - SD
+        - CH
+        - SY
+        - TW
+        - TJ
+        - TZ
+        - TH
+        - TL
+        - TG
+        - TT
+        - TN
+        - TR
+        - UG
+        - UY
+        - UZ
+        - VA
+        - VE
+        - VN
+        - EH
+        - YE
+        - ZM
+        - ZW
+        - AG
+        - AR
+        - AM
+        - AZ
+        - BH
+        - BD
+        - BY
+        - BE
+        - BO
+        - BA
+        - BR
+        - CV
+        - CA
+        - CL
+        - CO
+        - CR
+        - DO
+        - EC
+        - EG
+        - SV
+        - GQ
+        - FR
+        - GF
+        - GA
+        - GT
+        - GW
+        - HT
+        - HN
+        - IQ
+        - IL
+        - KZ
+        - KW
+        - KG
+        - LU
+        - MV
+        - MR
+        - YT
+        - MX
+        - MD
+        - ME
+        - MK
+        - OM
+        - PK
+        - PS
+        - PA
+        - PE
+        - PT
+        - QA
+        - RU
+        - ST
+        - SA
+        - SC
+        - SG
+        - ZA
+        - ES
+        - SR
+        - SE
+        - UA
+        - GB
+        - US
+      outbound: yes
+    updated_on: 2020-07-08
   UG:
     sources:
       domestic:
