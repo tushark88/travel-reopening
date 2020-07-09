@@ -19,21 +19,21 @@ countries:
     sources:
       domestic:
         - 'Residents of Abu Dhabi city, Al Ain and Al Dhafra can [travel within their cities but not enter or leave them and cannot go to other emirates.](https://www.thenational.ae/uae/health/coronavirus-everything-you-need-to-know-about-covid-19-in-the-uae-1.990131)'
-        - 'From 24 June, 2020, cinemas, auction houses, entertainment centers, valet services, and fitness facilities are [permitted to open](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46), provided they do not exceed 50 percent capacity and respect social distancing measures.'
+        - 'From June 24, 2020, cinemas, auction houses, entertainment centers, valet services, and fitness facilities are [permitted to open](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46), provided they do not exceed 50 percent capacity and respect social distancing measures.'
       inbound:
-        - 'Repatriation entry only. [Entry permit needed for expatriate residents to return to the UAE.](https://u.ae/en/information-and-services/justice-safety-and-the-law/handling-the-covid-19-outbreak/entry-permit-needed-for-expatriate-residents-to-return-to-the-uae)'
-        - 'Foreign travelers would be [permitted to enter the emirate from July 7, 2020.](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46)'
+        - 'Authorities in the UAE eased travel restrictions for international tourists, [permitting their arrival](https://www.garda.com/crisis24/news-alerts/357706/uae-authorities-in-dubai-ease-travel-restrictions-on-july-7-update-48).'
+        - '[All passengers are expected to produce a negative COVID-19 test](https://www.garda.com/crisis24/news-alerts/357706/uae-authorities-in-dubai-ease-travel-restrictions-on-july-7-update-48) prior to boarding flights to Dubai that is less than 96 hours old](https://www.garda.com/crisis24/news-alerts/357706/uae-authorities-in-dubai-ease-travel-restrictions-on-july-7-update-48).'
         - 'UAE authorities [suspended all flights arriving from Pakistan](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46) from Monday, June 29, 2020.'
       outbound:
-        - '[Limited outbound flights](https://www.aljazeera.com/news/2020/03/coronavirus-travel-restrictions-border-shutdowns-country-200318091505922.html). On 13 May, 2020, Emirates Airline announced its plans to operate scheduled flights starting from 21 May, 2020, from Dubai to London Heathrow, Frankfurt, Paris, Milan, Madrid, Chicago, Toronto, Sydney and Melbourne.'
         - 'Citizens and residents would be [permitted to travel abroad from Tuesday, June 23, 2020](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46).'
     travel:
       domestic: partial
-      inbound: 'no'
+      inbound: 'yes'
+      outbound: 'yes'
       inbound_restricted:
         - PK
       outbound: partial
-    updated_on: 2020-06-30
+    updated_on: 2020-07-09
   AF:
     sources:
       domestic:
@@ -250,6 +250,7 @@ countries:
       domestic:
         - '[Domestic commercial passenger flights resumed on a limited scale.](https://bd.usembassy.gov/covid-19-information/)'
         - 'The wearing of face masks and social distancing measures also remain compulsory in public places, while a [ban on rallies, meetings, and mass gatherings remain in place.](https://www.garda.com/crisis24/news-alerts/356071/bangladesh-authorities-extend-covid-19-restrictions-until-august-3-update-17)'
+        - 'Government of Bangladesh has placed an area of Dhaka under a [three-week lockdown](https://www.garda.com/crisis24/news-alerts/356071/bangladesh-authorities-extend-covid-19-restrictions-until-august-3-update-17) between Saturday, July 4, and Saturday, July 25, 2020.'
       inbound:
         - '[Foreign nationals with valid visas will be required to produce a medical certificate (with English translation)](https://bd.usembassy.gov/covid-19-information/) to be obtained within 72 hours of travel, indicating that he/she is COVID-19 negative. This medical certificate needs to be submitted on arrival at the Bangladesh point of entry (airport/seaport/land port).'
       outbound:
@@ -257,9 +258,10 @@ countries:
       visa_quarantine:
         - 'The Government of Bangladesh has announced it has begun distributing health information cards and [conducting temperature screening of all passengers arriving in Bangladesh at all points of entry](https://bd.usembassy.gov/covid-19-information/).'
     travel:
-      domestic: 'yes'
+      domestic: 'partial'
       inbound: 'yes'
-    updated_on: 2020-07-06
+      outbound: no
+    updated_on: 2020-07-09
   BE:
     sources:
       domestic:
@@ -642,6 +644,7 @@ countries:
     sources:
       domestic:
         - 'On Friday, June 26, 2020, Chilean authorities [imposed total quarantine orders](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions) for another five communes due to the coronavirus disease (COVID-19) pandemic, adding to a total of 63 communes under quarantine.'
+        - '[Under the quarantine measures](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions), members of the public may only leave their homes to access basic or essential services, including medical, or to access public services.'
       inbound:
         - 'Chile’s borders have been [closed to foreigners since 18 March, 2020.](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions)'
       outbound:
@@ -650,7 +653,7 @@ countries:
       domestic: 'partial'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-29
+    updated_on: 2020-07-09
   CM:
     sources:
       inbound:
@@ -680,15 +683,22 @@ countries:
     updated_on: 2020-07-02
   CO:
     sources:
+      domestic:
+        - '[Some non-essential businesses and public facilities, including barbershops, museums, and libraries have since begun to reopen](https://www.garda.com/crisis24/news-alerts/357646/colombia-covid-19-lockdown-extended-until-august-1-update-19).'
       inbound:
-        - '[All overland, water and air borders are closed.](https://thecitypaperbogota.com/news/colombia-on-course-for-worlds-longest-lockdown-after-extension-to-july-1/2523)'
+        - '[All overland, water and air borders are closed and have been extended until August 1, 2020](https://www.garda.com/crisis24/news-alerts/357646/colombia-covid-19-lockdown-extended-until-august-1-update-19).'
+      outbound:
+        - '[All overland, water and air borders are closed and have been extended until August 1, 2020](https://www.garda.com/crisis24/news-alerts/357646/colombia-covid-19-lockdown-extended-until-august-1-update-19).'
     travel:
+      inbound: 'partial'
       inbound: 'no'
-    updated_on: 2020-06-15
+      outbound: 'no'
+    updated_on: 2020-07-09
   CR:
     sources:
       domestic:
         - 'Shops, museums, and theatres in these areas [may open on weekends](https://www.garda.com/crisis24/news-alerts/354691/costa-rica-borders-to-reopen-to-tourists-on-august-1-update-8); however, they may only operate at 50 percent capacity.'
+        - 'The government has imposed [nationwide vehicular restrictions](https://www.garda.com/crisis24/news-alerts/357751/costa-rica-authorities-place-most-of-san-jose-greater-metropolitan-area-under-orange-alert-july-2-update-9), in place between 05:00 and 19:00, with the last digit on the license plate dictating when a vehicle is permitted on the road.'
       inbound:
         - '[Borders will reopen to tourists from certain destinations on August 1](https://www.garda.com/crisis24/news-alerts/354691/costa-rica-borders-to-reopen-to-tourists-on-august-1-update-8) following their closure due to the coronavirus disease (COVID-19) pandemic. The health ministry stated that international airports will take arrivals from countries deemed to have controlled the spread of COVID-19.'
       outbound:
@@ -696,8 +706,8 @@ countries:
     travel:
       domestic: 'partial'
       inbound: 'no'
-      outbound: 'yes'
-    updated_on: 2020-06-29
+      outbound: 'no'
+    updated_on: 2020-07-09
   CU:
     reopening:
       '2020-08-01': '[The suspension has been extended until 1 August, 2020.](https://cu.usembassy.gov/covid-19-information/)'
@@ -717,11 +727,14 @@ countries:
     updated_on: 2020-07-02
   CV:
     sources:
+      domestic:
+        - '[Maritime transport for inter-island travel has resumed](https://cv.usembassy.gov/health-alert-u-s-embassy-praia-cabo-verde-june-4-2020/).'
       inbound:
-        - '[As of 1 June, 2020, maritime passenger transportation resumed for Boa Vista.  Inter-island maritime transportation and flights are anticipated to resume for all islands on 30 June, 2020. Media reports have indicated commercial international flights will resume sometime in July](https://cv.usembassy.gov/health-alert-u-s-embassy-praia-cabo-verde-june-4-2020/)'
+        - 'Media reports have indicated commercial international flights will [resume sometime in July](https://cv.usembassy.gov/health-alert-u-s-embassy-praia-cabo-verde-june-4-2020/).'
     travel:
+      domestic: yes
       inbound: partial
-    updated_on: 2020-06-15
+    updated_on: 2020-07-09
   CY:
     sources:
       domestic:
@@ -854,71 +867,109 @@ countries:
   DJ:
     sources:
       inbound:
-        - '[Regular passenger flights in to and out of Djibouti remain suspended. All land and sea borders remained closed to passenger travel as well](https://dj.usembassy.gov/covid-19-information-28-may-2020/)'
+        - '[Djibouti’s international airport is still scheduled to remain closed to incoming and outgoing passenger flights through September 1, 2020](https://dj.usembassy.gov/health-alert-flight-information-u-s-embassy-djibouti-june-23-2020/).'
+      outbound:
+        - '[Djibouti’s international airport is still scheduled to remain closed to incoming and outgoing passenger flights through September 1, 2020](https://dj.usembassy.gov/health-alert-flight-information-u-s-embassy-djibouti-june-23-2020/).'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15
+      outbound: 'no'
+    updated_on: 2020-07-09
   DK:
     sources:
+      domestic:
+        - '[Domestic travel is not restricted](https://www.visitdenmark.com/denmark/travel-essentials/safe-travel-denmark) and it is not mandatory to wear a mask.'
       inbound:
-        - '[14 days quarantine required for all inbound travelers with the exception of travelers coming from: Norway, Germany and Iceland after 15 June, 2020.](https://politi.dk/en/-/media/mediefiler/corona/fact-sheet-regarding-borders.pdf?la=en&hash=D87B1914C4F2700A007F9471BDA92C75CFA3AE99)'
-        - '[From 15 June, 2020, tourists from Germany, Norway and Iceland are allowed to return to Denmark and must show documentation of a valid booking on their arrival.](https://www.visitdenmark.com/denmark/travel-essentials/coronavirus)'
-        - '[If a tourist wishing to enter shows clear signs of sickness, for example a cough, fever, or similar, they will not be allowed to cross the border.](https://www.visitdenmark.com/denmark/travel-essentials/coronavirus)'
+        - '[Denmark’s borders are open](https://www.visitdenmark.com/denmark/travel-essentials/safe-travel-denmark) to most European countries (except Portugal and Sweden), as well as Australia, Canada, Japan, New Zealand, South Korea, and Thailand from June 27, 2020.'
+        - 'Tourists from the approved countries must show documentation of a [valid booking for a minimum of 6 days on entry.](https://www.visitdenmark.com/denmark/travel-essentials/safe-travel-denmark)'
       outbound:
-        - '[Avoid all non-essential travel. Green light is given to travel to Norway, Germany and Iceland after 15 June, 2020.](https://politi.dk/en/-/media/mediefiler/corona/fact-sheet-regarding-borders.pdf?la=en&hash=D87B1914C4F2700A007F9471BDA92C75CFA3AE99)'
+        - '[Avoid all non-essential travel](https://politi.dk/en/-/media/mediefiler/corona/fact-sheet-regarding-borders.pdf?la=en&hash=D87B1914C4F2700A007F9471BDA92C75CFA3AE99)'
       visa_quarantine:
-        - '[Due to the restrictions on entry into Denmark, it is temporarily not possible to apply for a visa to Denmark.](https://um.dk/en/)'
-        - '[Applications for business visas can be handed in 6 months prior to the planned trip.](https://um.dk/en/)'
-        - '[It is not possible to modify the issued visa, so travelers must apply for a new visa for the time of travel.](https://um.dk/en/)'
+        - 'Tourists from the approved countries must show documentation of a [valid booking for a minimum of 6 days on entry.](https://www.visitdenmark.com/denmark/travel-essentials/safe-travel-denmark)'
     travel:
+      domestic: yes
       inbound: partial
+      inbound_allowed:
+        - AT
+        - BE
+        - BG
+        - HR
+        - CY
+        - CZ
+        - DK
+        - EE
+        - FI
+        - FR
+        - DE
+        - GR
+        - HU
+        - IE
+        - IT
+        - LV
+        - LT
+        - LU
+        - MT
+        - NL
+        - PL
+        - RO
+        - SK
+        - SI
+        - ES
       outbound: 'yes'
-    updated_on: 2020-06-15
+    updated_on: 2020-07-09
   DM:
     sources:
+      domestic:
       inbound:
-        - '[Dominica has closed its airports (Douglas Charles and Canefield) and its seaports to arriving and departing passengers](https://www.gov.uk/foreign-travel-advice/dominica)'
+        - '[Dominica has closed its airports](https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements) (Douglas Charles and Canefield) and its seaports to arriving and departing passengers. They will open for nationals and residents on July 15, 2020, and for non-nationals on August 7, 2020.'
+      outbound:
+        - '[Dominica has closed its airports](https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements) (Douglas Charles and Canefield) and its seaports to arriving and departing passengers. They will open for nationals and residents on July 15, 2020, and for non-nationals on August 7, 2020.'
+      visa_quarantine:
+        - '[Mandatory 14 day quarantine will be necessary](https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements), self-isolating, in a Government facility, or in a certified hotel or guest house.'
     travel:
       inbound: 'no'
-    updated_on: 2020-06-15
+      outbound: 'no'
+    updated_on: 2020-07-09
   DO:
     sources:
       domestic:
-        - 'The government of the Dominican Republic has confirmed that they will [not extend a nationwide curfew](https://www.garda.com/crisis24/news-alerts/354771/dominican-republic-authorities-lift-curfew-from-june-28-update-11) which is due to expire on Sunday, June 28.'
+        - 'The government of the Dominican Republic has confirmed that they will [not extend a nationwide curfew](https://www.garda.com/crisis24/news-alerts/354771/dominican-republic-authorities-lift-curfew-from-june-28-update-11) which is due to expire on Sunday, June 28, 2020.'
       inbound:
         - 'The Dominican Republic will [gradually reopen for international tourism from Wednesday, July 1, 2020](https://travel.gc.ca/destinations/dominican-republic?wbdisable=true) as the country relaxes restrictions imposed due to the coronavirus disease (COVID-19) pandemic.'
       outbound:
-        - - 'The Dominican Republic will [gradually reopen for international tourism from Wednesday, July 1, 2020](https://travel.gc.ca/destinations/dominican-republic?wbdisable=true) as the country relaxes restrictions imposed due to the coronavirus disease (COVID-19) pandemic.'
+        - 'The Dominican Republic will [gradually reopen for international tourism from Wednesday, July 1, 2020](https://travel.gc.ca/destinations/dominican-republic?wbdisable=true) as the country relaxes restrictions imposed due to the coronavirus disease (COVID-19) pandemic.'
     travel:
       domestic: 'partial'
       inbound: 'partial'
       outbound: 'partial'
-    updated_on: 2020-06-30
+    updated_on: 2020-07-09
   DZ:
     sources:
       domestic:
         - '[Suspended domestic flights as of 22 March, 2020.](https://dz.usembassy.gov/covid-19-information/)'
         - 'Public transportation including buses and taxi services have partially resumed, with capacity limits for the number of passengers. Other businesses such as clothing shops, car rentals, and hair salons have also been [permitted to reopen.](https://dz.usembassy.gov/covid-19-information/)'
+        '[Authorities in Algeria imposed lockdown measures in 18 communes](https://dz.usembassy.gov/covid-19-information/) in the wilaya of Sétif, will see a curfew between the hours of 12:00 and 04:00 (local time) for fifteen days.'
       inbound:
-        - 'Non-cargo international air and maritime travel, as well as domestic flights, are [suspended.](https://www.garda.com/crisis24/news-alerts/355311/algeria-president-announces-borders-to-remain-closed-until-end-of-covid-19-pandemic-update-20)'
+        - 'Non-cargo international air and maritime travel, as well as domestic flights, are [suspended](https://www.garda.com/crisis24/news-alerts/355311/algeria-president-announces-borders-to-remain-closed-until-end-of-covid-19-pandemic-update-20).'
       outbound:
-        - 'Non-cargo international air and maritime travel, as well as domestic flights, are [suspended.](https://www.garda.com/crisis24/news-alerts/355311/algeria-president-announces-borders-to-remain-closed-until-end-of-covid-19-pandemic-update-20)'
+        - 'Non-cargo international air and maritime travel, as well as domestic flights, are [suspended](https://www.garda.com/crisis24/news-alerts/355311/algeria-president-announces-borders-to-remain-closed-until-end-of-covid-19-pandemic-update-20).'
     travel:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-30
+    updated_on: 2020-07-09
   EC:
     sources:
       domestic:
-        - '[All public gatherings (including sporting events and entertainment centers) and all inter-provincial travel remain prohibited. Schools also remain closed nationwide.](https://www.garda.com/crisis24/news-alerts/351326/ecuador-state-of-emergency-extended-for-60-days-on-june-16-update-12)'
+        - '[All public gatherings (including sporting events and entertainment centers), all inter-provincial travel (by car) remain prohibited and schools also remain closed nationwide. The state of emergency will remain in force until August 15, 2020](https://www.gov.uk/foreign-travel-advice/ecuador/staying-during-coronavirus).'
         - '[Certain municipalities are not on a lockdown](https://www.gov.uk/foreign-travel-advice/ecuador/staying-during-coronavirus)'
       inbound:
-        - '[Ecuador approved resumption of commercial flight operations beginning 1 June, 2020, with limited flight capacity.](https://ec.usembassy.gov/covid-19-information-ecu-2/)'
+        - 'Ecuador approved resumption of commercial flight operations beginning June 1, 2020, with [limited flight capacity](https://www.gov.uk/foreign-travel-advice/ecuador/entry-requirements).'
+      visa_quarantine:
+        - 'All passengers will be subject to [mandatory self-isolation for 14 days](https://www.gov.uk/foreign-travel-advice/ecuador/entry-requirements).'
     travel:
       domestic: 'partial'
-      inbound: 'yes'
-    updated_on: 2020-06-15
+      inbound: 'partial'
+    updated_on: 2020-07-09
   EE:
     sources:
       domestic:
@@ -999,11 +1050,19 @@ countries:
     updated_on: 2020-07-03
   ER:
     sources:
+      domestic:
+        - '[A lockdown across Eritrea is in place](https://www.gov.uk/foreign-travel-advice/eritrea/entry-requirements).'
       inbound:
-        - '[Asmara International Airport is currently closed.](https://www.gov.uk/foreign-travel-advice/eritrea/entry-requirements)'
+        - '[Asmara International Airport is currently closed](https://www.gov.uk/foreign-travel-advice/eritrea/entry-requirements)'
+      outbound:
+        - '[Asmara International Airport is currently closed](https://www.gov.uk/foreign-travel-advice/eritrea/entry-requirements)'
+      visa_quarantine:
+        - '[All entry visas to Eritrea have been suspended](https://www.gov.uk/foreign-travel-advice/eritrea/entry-requirements).'
     travel:
+      domestic: 'no'
       inbound: 'no'
-    updated_on: 2020-06-15
+      outbound: 'no'
+    updated_on: 2020-07-09
   ES:
     reopening:
     sources:
@@ -1725,14 +1784,17 @@ countries:
     updated_on: 2020-07-06
   IL:
     sources:
+      domestic:
+        - 'All West Bank governorates, towns, and villages will be [closed off](https://www.worldaware.com/covid-19-alert-israel-extends-entry-ban-non-residents-until-july-1) until July 12, with businesses closed and movement restricted. However, pharmacies, bakeries, and supermarkets will remain open.'
       inbound:
         - '[Authorities in Israel extended the existing nationwide entry ban on non-residents until July 1, 2020, as part of the country''s efforts to limit the spread of coronavirus disease (COVID-19)](https://www.worldaware.com/covid-19-alert-israel-extends-entry-ban-non-residents-until-july-1)'
       outbound:
         - '[Avoid non-essential travel](https://govextra.gov.il/ministry-of-health/corona/corona-virus-en/faq-corona-en/)'
     travel:
+      domestic: 'no'
       inbound: 'no'
       outbound: partial
-    updated_on: 2020-06-15
+    updated_on: 2020-07-09
   IN:
     sources:
       domestic:
@@ -1750,45 +1812,12 @@ countries:
     travel:
       domestic: partial
       inbound: partial
-      inbound_restricted:
-        - AF
-        - PH
-        - MY
-        - AT
-        - BE
-        - BG
-        - HR
-        - CY
-        - CZ
-        - DK
-        - EE
-        - FI
-        - FR
-        - DE
-        - GR
-        - IS
-        - HU
-        - IE
-        - IT
-        - LV
-        - LI
-        - LT
-        - LU
-        - MT
-        - NL
-        - NO
-        - PL
-        - PT
-        - RO
-        - SK
-        - SI
-        - ES
-        - SE
-        - CH
-        - TR
-        - GB
+      inbound_allowed:
+        - NP
+        - BT
+        - Mv
       outbound: 'yes'
-    updated_on: 2020-07-03
+    updated_on: 2020-07-09
   IQ:
     sources:
       domestic:
@@ -2821,7 +2850,7 @@ countries:
   LY:
     sources:
       domestic:
-        - 'The Tripoli-based Government of National Accord (GNA) [extended a curfew](https://reliefweb.int/report/libya/covid-19-movement-restrictions-libya-mobility-restriction-dashboard-3-7-may-2020) and other lockdown measures in place in areas under its control due to the coronavirus disease (COVID-19) pandemic for ten days from Saturday, June 27,2020, until Tuesday, July 7, 2020.'
+        - 'The Tripoli-based Government of National Accord (GNA) [extended a curfew](https://reliefweb.int/report/libya/covid-19-movement-restrictions-libya-mobility-restriction-dashboard-3-7-may-2020) and other lockdown measures in place in areas under its control due to the coronavirus disease (COVID-19) pandemic until July 17, 2020.'
       inbound:
         - 'Libyan authorities initiated public health measures in March 2020 aimed at curbing the spread of COVID-19. These measures include [travel and mobility restrictions](https://reliefweb.int/report/libya/covid-19-movement-restrictions-libya-mobility-restriction-dashboard-3-7-may-2020) due to the closure of airports, points of entry (POE) along land borders and maritime boundaries, as well as domestic movement restrictions.'
       outbound:
@@ -2830,7 +2859,7 @@ countries:
       domestic: 'no'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-29
+    updated_on: 2020-07-09
   MA:
     sources:
       domestic:
@@ -3473,7 +3502,7 @@ countries:
   NG:
     sources:
       domestic:
-        - '[Travel between Nigeria''s states is now permitted](https://www.garda.com/crisis24/news-alerts/355926/nigeria-authorities-ease-covid-19-restrictions-on-july-1-update-30), and airports have reopened for domestic flights. While bus transportation has resumed, railways will remain closed until health guidelines are in place. Schools will also reopen for students in their final year in order for them to prepare for exams.'
+        - '[Travel between Nigeria''s states is now permitted](https://www.garda.com/crisis24/news-alerts/357901/nigeria-authorities-resume-domestic-flights-from-july-8-update-32), and certain airports have reopened for domestic flights. While bus transportation has resumed, railways will remain closed until health guidelines are in place. Schools will also reopen for students in their final year in order for them to prepare for exams.'
       inbound:
         - '[As of Friday, June 19, all airports remain closed to international flights until further notice.](https://www.garda.com/crisis24/news-alerts/352271/nigeria-domestic-flight-resumption-postponed-june-18-update-28)'
       outbound:
@@ -3482,7 +3511,7 @@ countries:
       domestic: partial
       inbound: no
       outbound: no
-    updated_on: 2020-07-02
+    updated_on: 2020-07-09
   NI:
     sources:
       inbound:
@@ -4136,7 +4165,7 @@ countries:
         domestic:
           - '[Social distancing measures apply.](https://covid19.rs/homepage-english/)'
           - 'There is a ban on gatherings of more than 200 people, while schools and universities will remain closed [until further notice.](https://www.garda.com/crisis24/news-alerts/355606/serbia-authorities-announce-compulsory-use-of-face-masks-in-some-serbian-states-june-30-update-12)'
-          - '[Belgrad has imposed](https://www.garda.com/crisis24/news-alerts/355606/serbia-authorities-announce-compulsory-use-of-face-masks-in-some-serbian-states-june-30-update-12) the compulsory use of face masks in indoor public spaces and on public transport, and a ban on gatherings of more than 100 people indoors or 500 outdoors. Opening hours for bars and cafes will also be limited to 06:00 to 23:00 (local time) as per previous restrictions, while nightclubs have been ordered to close.'
+          - '[Belgrade has imposed](https://www.garda.com/crisis24/news-alerts/355606/serbia-authorities-announce-compulsory-use-of-face-masks-in-some-serbian-states-june-30-update-12) the compulsory use of face masks in indoor public spaces and on public transport, and a ban on gatherings of more than five people indoors or outdoors.'
         inbound:
           - 'All COVID-19 related entry restrictions are [lifted for both Serbian and foreign citizens](https://www.gov.uk/foreign-travel-advice/san-marino/entry-requirements).'
         visa_quarantine:
@@ -4145,7 +4174,7 @@ countries:
       travel:
         domestic: partial
         inbound: yes
-      updated_on: 2020-07-06
+      updated_on: 2020-07-09
   RU:
     sources:
       domestic:
@@ -4230,15 +4259,16 @@ countries:
     sources:
       domestic:
         - '[The ban on travel](https://www.garda.com/crisis24/news-alerts/354886/sudan-khartoum-international-airport-closure-extended-until-july-12-update-13) between Khartoum and other parts of the country has also been extended.'
+        - '[The curfew in Khartoum](https://www.garda.com/crisis24/news-alerts/354886/sudan-khartoum-international-airport-closure-extended-until-july-12-update-13) will now be in place from 18:00 - 06:00 (local time). Between the hours of 06:00 - 18:00 individuals will be permitted to move freely.'
       inbound:
         - 'Sudan Civil Aviation Authority has [further extended the closure](https://www.garda.com/crisis24/news-alerts/354886/sudan-khartoum-international-airport-closure-extended-until-july-12-update-13) of Khartoum''s International Airport (KRT) until at least 2 pm (local time) on July 12, 2020.'
       outbound:
         - 'Sudan Civil Aviation Authority has [further extended the closure](https://www.garda.com/crisis24/news-alerts/354886/sudan-khartoum-international-airport-closure-extended-until-july-12-update-13) of Khartoum''s International Airport (KRT) until at least 2 pm (local time) on July 12, 2020.'
     travel:
-      domestic: 'no'
+      domestic: 'partial'
       inbound: 'no'
       outbound: 'no'
-    updated_on: 2020-06-29
+    updated_on: 2020-07-09
   SE:
     sources:
       domestic:
@@ -4927,18 +4957,18 @@ countries:
   UZ:
     sources:
       domestic:
-        - '[Authorities in Uzbekistan have extended the nationwide lockdown measures until August 1](https://www.garda.com/crisis24/news-alerts/351056/uzbekistan-authorities-extend-covid-19-restrictions-until-august-1-update-14)'
-        - '[Green and yellow zones are to lift restrictions on schools on Monday, June 15.](https://www.garda.com/crisis24/news-alerts/351056/uzbekistan-authorities-extend-covid-19-restrictions-until-august-1-update-14)'
+        - 'Authorities in Uzbekistan have [extended the nationwide lockdown measures until August 1, 2020](https://www.garda.com/crisis24/news-alerts/357721/uzbekistan-authorities-to-introduce-second-lockdown-from-july-10-update-16).'
+        - '[Travel between regions will be restricted](https://www.garda.com/crisis24/news-alerts/357721/uzbekistan-authorities-to-introduce-second-lockdown-from-july-10-update-16), the movement of vehicles will be limited and large gatherings, including weddings, banned, while funerals will be limited to 15 guests.'
       inbound:
-        - '[Uzbekistan will resume international flights starting from June 15 as per the decision of the Special Republican Anti-Coronavirus Commission. Flights shall be restored with countries where there is a stable sanitary and epidemiological situation.](https://uz.usembassy.gov/covid-19-information/)'
-        - '[Uzbekistan government has classified flights to and from these countries as Green, Yellow and Red flights, indicating which countries travellers are allowed to come from and travel to](https://uz.usembassy.gov/covid-19-information/)'
+        - '[Flights shall be restored](https://uz.usembassy.gov/covid-19-information/) with countries where there is a stable sanitary and epidemiological situation.'
+        - 'Uzbekistan government has classified flights to and from these countries as Green, Yellow and Red flights, indicating which countries [travellers are allowed to come from and travel to](https://uz.usembassy.gov/covid-19-information/)'
       outbound:
         - '[Rail and air links between Tashkent and remote regions have been allowed to partially resume.](https://www.garda.com/crisis24/news-alerts/346901/uzbekistan-authorities-announce-changes-in-covid-19-related-restrictions-may-30-update-12)'
     travel:
       domestic: partial
       inbound: partial
       outbound: partial
-    updated_on: 2020-06-09
+    updated_on: 2020-07-09
   VC:
     sources:
       inbound:
