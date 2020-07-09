@@ -22,7 +22,7 @@ countries:
         - 'From June 24, 2020, cinemas, auction houses, entertainment centers, valet services, and fitness facilities are [permitted to open](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46), provided they do not exceed 50 percent capacity and respect social distancing measures.'
       inbound:
         - 'Authorities in the UAE eased travel restrictions for international tourists, [permitting their arrival](https://www.garda.com/crisis24/news-alerts/357706/uae-authorities-in-dubai-ease-travel-restrictions-on-july-7-update-48).'
-        - '[All passengers are expected to produce a negative COVID-19 test](https://www.garda.com/crisis24/news-alerts/357706/uae-authorities-in-dubai-ease-travel-restrictions-on-july-7-update-48) prior to boarding flights to Dubai that is less than 96 hours old](https://www.garda.com/crisis24/news-alerts/357706/uae-authorities-in-dubai-ease-travel-restrictions-on-july-7-update-48).'
+        - 'All passengers are expected to produce a [negative COVID-19 test](https://www.garda.com/crisis24/news-alerts/357706/uae-authorities-in-dubai-ease-travel-restrictions-on-july-7-update-48) prior to boarding flights to Dubai that is less than 96 hours old](https://www.garda.com/crisis24/news-alerts/357706/uae-authorities-in-dubai-ease-travel-restrictions-on-july-7-update-48).'
         - 'UAE authorities [suspended all flights arriving from Pakistan](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46) from Monday, June 29, 2020.'
       outbound:
         - 'Citizens and residents would be [permitted to travel abroad from Tuesday, June 23, 2020](https://www.garda.com/crisis24/news-alerts/353051/uae-authorities-in-emirate-of-sharjah-announce-easing-of-covid-19-restrictions-from-june-24-update-46).'
@@ -646,9 +646,9 @@ countries:
         - 'On Friday, June 26, 2020, Chilean authorities [imposed total quarantine orders](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions) for another five communes due to the coronavirus disease (COVID-19) pandemic, adding to a total of 63 communes under quarantine.'
         - '[Under the quarantine measures](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions), members of the public may only leave their homes to access basic or essential services, including medical, or to access public services.'
       inbound:
-        - 'Chile’s borders have been [closed to foreigners since 18 March, 2020.](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions)'
+        - 'Chile’s borders have been [closed to foreigners since March 18, 2020.](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions)'
       outbound:
-        - 'Chile’s borders have been [closed to foreigners since 18 March, 2020.](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions)'
+        - 'Chile’s borders have been [closed to foreigners since March 18, 2020.](https://www.natlawreview.com/article/summer-2020-travel-advisory-us-embassyconsular-services-and-covid-19-restrictions)'
     travel:
       domestic: 'partial'
       inbound: 'no'
@@ -917,6 +917,8 @@ countries:
       outbound: 'yes'
     updated_on: 2020-07-09
   DM:
+    reopening:
+      '2020-08-07':'Dominica is projected to [reopen its airport and seaport](https://www.gov.uk/foreign-travel-advice/dominica/entry-requirements) for nationals and residents on July 15, 2020, and for non-nationals on August 7, 2020.'
     sources:
       domestic:
       inbound:
