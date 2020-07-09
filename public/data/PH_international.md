@@ -15,5 +15,5 @@ The following restrictions apply:
 
 #### Outbound Travel: Who can travel out of the Philippines?
 
-- As of July 7, 2020, [all outbound travel restrictions have been lifted](https://www.garda.com/crisis24/news-alerts/357626/philippines-authorities-lift-ban-on-non-essential-travel-abroad-july-7-update-25). Non-essential travel abroad may resume, subject to safety conditions.
+- As of **July 7, 2020**, [all outbound travel restrictions have been lifted](https://www.garda.com/crisis24/news-alerts/357626/philippines-authorities-lift-ban-on-non-essential-travel-abroad-july-7-update-25). Non-essential travel abroad may resume, subject to safety conditions.
 - Should outbound travelers wish to return to the Philippines, they must undergo a COVID-19 test and mandatory quarantine upon their re-entry.
