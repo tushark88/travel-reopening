@@ -12,8 +12,18 @@ const toSlug = (name) => {
     .join('_');
 };
 
+const countryNameOverrides = {
+  BA: 'Bosnia and Herzegovina',
+  CD: 'Democratic Republic of the Congo',
+  CG: 'Congo',
+  CZ: 'Czech Republic',
+  UK: 'United Kingdom',
+  US: 'United States of America',
+};
+
 const countries = countriesJson.map((c) => {
-  const name = c['CLDR display name'];
+  const code = c['ISO3166-1-Alpha-2'];
+  const name = countryNameOverrides[code] || c['CLDR display name'];
   const searchKey = [
     name,
     c['ISO3166-1-Alpha-3'],
@@ -22,7 +32,7 @@ const countries = countriesJson.map((c) => {
 
   return {
     id: c['ISO3166-1-numeric'],
-    code: c['ISO3166-1-Alpha-2'],
+    code,
     name,
     alpha3: c['ISO3166-1-Alpha-3'],
     slug: toSlug(name),
