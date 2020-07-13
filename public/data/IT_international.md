@@ -10,6 +10,8 @@ There are no travel restrictions from the following countries:
 - Andorra, Principality of Monaco;
 - Republic of San Marino and Vatican City State.
 
+As of July 10, 2020, Italy has [banned foreign nationals](https://www.thejakartapost.com/travel/2020/07/10/italy-bans-entry-from-13-countries-due-to-coronavirus-fears.html) arriving from Armenia, Bahrain, Bangladesh, Brazil, Bosnia and Herzegovina, Chile, Kuwait, North Macedonia, Moldova, Oman, Panama, Peru, and Dominican Republic.
+
 As of July 7, 2020, flights arriving from Bangladesh have been [suspended](https://www.garda.com/crisis24/news-alerts/357501/italy-flights-from-bangladesh-suspended-following-imported-covid-19-cases-july-7-update-34).
 
 For visa and quarantine requirements, please refer below.

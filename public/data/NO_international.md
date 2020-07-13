@@ -6,6 +6,8 @@ Only citizens and residents of Norway, as well as [EU/EEA citizens](https://www.
 
 - Austria, Bulgaria, Belgium, Czechia, Croatia, Cyprus, Denmark, Estonia, France, Finland, Germany, Greece, Hungary, Ireland, Iceland, Italy, Liechtenstein, Latvia, Lithuania, Luxembourg, Malta, the Netherlands, Portugal, Poland, Romania, Slovakia, Spain, Slovenia, Sweden, Switzerland, and the United Kingdom.
 
+Those who live in a country with a low risk of infection [do not need to be quarantined upon entry](https://www.udi.no/en/important-messages/endring-i-innreiseregler-fra-15.-juli/) to Norway. Those who live in a country with a high risk of infection must be quarantined upon entry to Norway.
+
 Some exceptions apply. Refer to the [Norwegian Directorate of Immigration](https://www.udi.no/en/about-the-corona-situation/) for more information.
 
 #### Outbound Travel: Who can travel out of Norway?
