@@ -948,7 +948,7 @@ countries:
       domestic:
         - '[Suspended domestic flights as of 22 March, 2020.](https://dz.usembassy.gov/covid-19-information/)'
         - 'Public transportation including buses and taxi services have partially resumed, with capacity limits for the number of passengers. Other businesses such as clothing shops, car rentals, and hair salons have also been [permitted to reopen.](https://dz.usembassy.gov/covid-19-information/)'
-        '[Authorities in Algeria imposed lockdown measures in 18 communes](https://dz.usembassy.gov/covid-19-information/) in the wilaya of Sétif, will see a curfew between the hours of 12:00 and 04:00 (local time) for fifteen days.'
+        - '[Authorities in Algeria imposed lockdown measures in 18 communes](https://dz.usembassy.gov/covid-19-information/) in the wilaya of Sétif, will see a curfew between the hours of 12:00 and 04:00 (local time) for fifteen days.'
       inbound:
         - 'Non-cargo international air and maritime travel, as well as domestic flights, are [suspended](https://www.garda.com/crisis24/news-alerts/355311/algeria-president-announces-borders-to-remain-closed-until-end-of-covid-19-pandemic-update-20).'
       outbound:
