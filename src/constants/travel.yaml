@@ -27,7 +27,7 @@ countries:
       outbound:
         - 'Officials in Abu Dhabi eased travel restrictions for residents on Saturday, July 4, 2020 [permitting short trips outside of the emirate, provided they take a coronavirus disease (COVID-19) test](https://www.garda.com/crisis24/news-alerts/358091/uae-travel-restrictions-eased-for-residents-of-abu-dhabi-july-4-update-49).'
       visa_quarantine:
-        - 'On Saturday, July 11, authorities in the UAE [canceled a visa extension granted to expatriates](https://www.garda.com/crisis24/news-alerts/358546/uae-authorities-cancel-visa-extension-for-expatriates-july-11-update-50).'
+        - 'On July 11, authorities in the UAE [canceled a visa extension granted to expatriates](https://www.garda.com/crisis24/news-alerts/358546/uae-authorities-cancel-visa-extension-for-expatriates-july-11-update-50).'
     travel:
       domestic: partial
       inbound: 'yes'
@@ -535,7 +535,7 @@ countries:
       inbound:
         - 'Current ban on most international travelers entering the country has been [extended until July 31, 2020](https://www.garda.com/crisis24/news-alerts/355886/canada-authorities-extend-ban-on-most-foreign-travelers-until-july-31-update-18).'
       outbound:
-        - '[Avoid all essential travel](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#_Travellers_departing_Canada).'
+        - '[Avoid all non-essential travel](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#_Travellers_departing_Canada).'
       visa_quarantine:
         - 'If you have symptoms, [you must isolate for 14 days](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).'
         - 'If you have recently returned to Canada and you have no symptoms, [you must quarantine (self-isolate) for 14 days](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html?topic=tilelink#domestic).'
@@ -1585,7 +1585,7 @@ countries:
       inbound:
         - '[Gambian airspace and land borders remain closed, as of 23 March, 2020.](https://gm.usembassy.gov/u-s-citizen-services/covid-19-information/)'
       visa_quarantine:
-        - 'Individuals entering Gambia will be [subject to a 14-day quarantine period upon entry](https://www.garda.com/crisis24/news-alerts/358461/gambia-state-of-emergency-extended-until-july-15-update-4).'
+        - 'Individuals entering Gambia will be [subjected to a 14-day quarantine period upon entry](https://www.garda.com/crisis24/news-alerts/358461/gambia-state-of-emergency-extended-until-july-15-update-4).'
     travel:
       domestic: 'partial'
       inbound: 'no'
@@ -1776,7 +1776,7 @@ countries:
     sources:
       domestic:
         - '[Some exceptions made for inter-city travelers.](https://www.channelnewsasia.com/news/asia/covid-19-indonesia-mudik-ban-idul-fitri-exceptions-12707348)'
-        - '[Tourism spots differ in openings](https://www.indonesia.travel/gb/en/news/list-of-closed-tourism-spots-in-regards-to-covid-19-outbreak).'
+        - '[List of closed tourism spots](https://www.indonesia.travel/gb/en/news/list-of-closed-tourism-spots-in-regards-to-covid-19-outbreak).'
         - '[The government has implemented green, yellow, orange, and red zones, depending on the level of infection, with varying levels of restrictions](https://www.garda.com/crisis24/news-alerts/357971/indonesia-record-daily-high-in-new-covid-19-cases-july-8-update-29).'
       inbound:
         - '[All foreign visitors are restricted to enter and transit through the Indonesian territory.](https://www.imigrasi.go.id/berita/detail/informasi-terkini-kebijakan-imigrasi-terkait-covid-19)'
@@ -2893,13 +2893,12 @@ countries:
         - 'Authorities will be permitted to [enforce lockdowns on a region-by-region basis](https://www.garda.com/crisis24/news-alerts/358186/morocco-emergency-decree-extended-until-august-10-update-20) until August 10, 2020.'
         - 'Domestic travel has resumed and borders are [scheduled to reopen on Tuesday, July 14, 2020](https://www.garda.com/crisis24/news-alerts/358186/morocco-emergency-decree-extended-until-august-10-update-20).'
       inbound:
-        - '[All commercial flights to or from Morocco have now been suspended](https://www.gov.uk/foreign-travel-advice/morocco/entry-requirements). Passenger ferry links between Morocco and Spain and Gibraltar have also been suspended.'
-        - 'The Kingdom of Morocco has decided to suspend, until further notice, [all international passenger flights to and from its territory](https://www.diplomatie.ma/en/morocco-suspends-all-international-passenger-flights-its-territory)'
+        - 'Domestic travel has resumed and [borders are scheduled to reopen on Tuesday, July 14, 2020](https://www.garda.com/crisis24/news-alerts/358186/morocco-emergency-decree-extended-until-august-10-update-20).'
       outbound:
         - '[All commercial flights to or from Morocco have now been suspended.](https://www.gov.uk/foreign-travel-advice/morocco/entry-requirements)'
     travel:
       domestic: 'partial'
-      inbound: 'no'
+      inbound: 'yes'
       outbound: 'no'
     updated_on: 2020-07-13
   MD:
@@ -4300,7 +4299,7 @@ countries:
       '2020-08-31': 'The Swedish Government has decided to stop non-essential travel to Sweden from countries outside the EU, which will be [in effect until August 31, 2020](https://www.krisinformation.se/en/hazards-and-risks/disasters-and-incidents/2020/official-information-on-the-new-coronavirus/travel-restrictions#:~:text=Temporary%20entry%20ban%20to%20Sweden,the%20spread%20of%20Covid%2D19).'
     sources:
       domestic:
-        - 'Business as usual, with some [crowd and distancing regulations implemented](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/covid-19-new-legislation-for-restaurants-bars-etc/).'
+        - 'Restaurants and bars resume business as usual, with some [crowd and distancing regulations implemented](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/communicable-disease-control/covid-19-new-legislation-for-restaurants-bars-etc/).'
       inbound:
         - 'The Swedish Government has decided to stop non-essential travel to Sweden from countries outside the EU, which will be [in effect until August 31, 2020](https://www.krisinformation.se/en/hazards-and-risks/disasters-and-incidents/2020/official-information-on-the-new-coronavirus/travel-restrictions#:~:text=Temporary%20entry%20ban%20to%20Sweden,the%20spread%20of%20Covid%2D19).'
       outbound:
