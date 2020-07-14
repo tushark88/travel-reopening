@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import * as Sentry from '@sentry/browser';
 import { Vue as VueIntegration } from '@sentry/integrations';
+import VueSocialSharing from 'vue-social-sharing';
 import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
@@ -9,6 +10,7 @@ import './assets/styles/index.css';
 
 
 Vue.config.productionTip = false;
+Vue.use(VueSocialSharing);
 
 new Vue({
   router,
