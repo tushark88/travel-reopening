@@ -10,7 +10,7 @@
     "covid:get": "curl -s https://covid.ourworldindata.org/data/owid-covid-data.csv -o public/data/covid-data.csv"
   },
   "dependencies": {
-    "@sentry/browser": "^5.19.1",
+    "@sentry/browser": "^5.19.2",
     "@sentry/integrations": "^5.19.1",
     "@types/d3": "^5.7.2",
     "@types/d3-geo": "^1.11.1",
