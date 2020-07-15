@@ -27,6 +27,7 @@ const countries = countriesJson.map((c) => {
   const searchKey = [
     name,
     c['ISO3166-1-Alpha-3'],
+    c['CLDR display name'],
     c['UNTERM English Formal'],
   ].join(',');
 
@@ -35,7 +36,7 @@ const countries = countriesJson.map((c) => {
     code,
     name,
     alpha3: c['ISO3166-1-Alpha-3'],
-    slug: toSlug(name),
+    slug: toSlug(c['CLDR display name']),
     searchKey: removeDiacritics(searchKey),
   };
 }).filter(({ name }) => !!name);
